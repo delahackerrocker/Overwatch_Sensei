@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 130786889}
   - component: {fileID: 130786888}
   - component: {fileID: 130786890}
+  - component: {fileID: 130786891}
   m_Layer: 5
   m_Name: HeroVersusHero
   m_TagString: Untagged
@@ -212,6 +213,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2259281fd46208c46b2a4264dbbd4c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &130786891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130786886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd93248a6efc4f4b86adad5ec4760d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  above: {fileID: 247261230}
+  below: {fileID: 0}
+  left: {fileID: 0}
+  right: {fileID: 0}
 --- !u!1 &228225837
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +308,7 @@ GameObject:
   - component: {fileID: 247261228}
   - component: {fileID: 247261227}
   - component: {fileID: 247261229}
+  - component: {fileID: 247261230}
   m_Layer: 5
   m_Name: HeroTasks
   m_TagString: Untagged
@@ -368,6 +386,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597bfc935931fd446ba89a8b0952382e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &247261230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247261225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd93248a6efc4f4b86adad5ec4760d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  above: {fileID: 1411356211}
+  below: {fileID: 130786891}
+  left: {fileID: 1949169065}
+  right: {fileID: 1034483829}
 --- !u!1 &388806033
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   percentThreshold: 0
+  currentlySelected: {fileID: 1411356211}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +761,7 @@ GameObject:
   - component: {fileID: 1034483827}
   - component: {fileID: 1034483826}
   - component: {fileID: 1034483828}
+  - component: {fileID: 1034483829}
   m_Layer: 5
   m_Name: HeroCounterPicks
   m_TagString: Untagged
@@ -803,6 +839,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dde6965be317644e920031c05caf421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1034483829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034483824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd93248a6efc4f4b86adad5ec4760d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  above: {fileID: 0}
+  below: {fileID: 0}
+  left: {fileID: 247261230}
+  right: {fileID: 0}
 --- !u!1 &1411356206
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,6 +867,7 @@ GameObject:
   - component: {fileID: 1411356209}
   - component: {fileID: 1411356208}
   - component: {fileID: 1411356210}
+  - component: {fileID: 1411356211}
   m_Layer: 5
   m_Name: PickHero
   m_TagString: Untagged
@@ -892,6 +945,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2f2848b9ab0d81438b5dee645f5457d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1411356211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411356206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd93248a6efc4f4b86adad5ec4760d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  above: {fileID: 0}
+  below: {fileID: 247261230}
+  left: {fileID: 0}
+  right: {fileID: 0}
 --- !u!1 &1503051401
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +973,7 @@ GameObject:
   - component: {fileID: 1503051404}
   - component: {fileID: 1503051403}
   - component: {fileID: 1503051405}
+  - component: {fileID: 1503051406}
   m_Layer: 5
   m_Name: HeroAbilityDetails
   m_TagString: Untagged
@@ -981,6 +1051,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072d958ae6c30284886bfa2bb08dca9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1503051406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503051401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd93248a6efc4f4b86adad5ec4760d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  above: {fileID: 0}
+  below: {fileID: 0}
+  left: {fileID: 0}
+  right: {fileID: 1949169065}
 --- !u!1 &1508317304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,6 +1214,7 @@ GameObject:
   - component: {fileID: 1949169063}
   - component: {fileID: 1949169062}
   - component: {fileID: 1949169064}
+  - component: {fileID: 1949169065}
   m_Layer: 5
   m_Name: HeroKit
   m_TagString: Untagged
@@ -1205,3 +1292,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395378aa6ce2ad5498c363d307279034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1949169065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949169060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd93248a6efc4f4b86adad5ec4760d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  above: {fileID: 0}
+  below: {fileID: 0}
+  left: {fileID: 1503051406}
+  right: {fileID: 247261230}
