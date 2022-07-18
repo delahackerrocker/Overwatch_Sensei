@@ -4,13 +4,28 @@ using UnityEngine;
 
 public class Main : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static Main Instance { get; private set; }
+
+    public Heroes selectedHero = Heroes.Ana;
+    public Heroes counterPick = Heroes.Ana;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
