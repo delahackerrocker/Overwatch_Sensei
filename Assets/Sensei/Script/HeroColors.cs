@@ -6,38 +6,39 @@ public class HeroColors : MonoBehaviour
 {
     public static HeroColors Instance { get; private set; }
 
-    public Color32 AnaColor;
-    public Color32 AsheColor;
-    public Color32 BaptisteColor;
-    public Color32 BastionColor;
-    public Color32 BrigittaColor;
-    public Color32 CassidyColor;
-    public Color32 DVaColor;
-    public Color32 DoomfistColor;
-    public Color32 EchoColor;
-    public Color32 GenjiColor;
-    public Color32 HanzoColor;
-    public Color32 JunkratColor;
-    public Color32 LucioColor;
-    public Color32 MeiColor;
-    public Color32 MercyColor;
-    public Color32 MoiraColor;
-    public Color32 OrisaColor;
-    public Color32 PharahColor;
-    public Color32 ReaperColor;
-    public Color32 ReinhardtColor;
-    public Color32 RoadhogColor;
-    public Color32 SigmaColor;
-    public Color32 Soldier76Color;
-    public Color32 SombraColor;
-    public Color32 SymmetraColor;
-    public Color32 TorbjornColor;
-    public Color32 TracerColor;
-    public Color32 WidowmakerColor;
-    public Color32 WinstonColor;
-    public Color32 WreckingBallColor;
-    public Color32 ZaryaColor;
-    public Color32 ZenyattaColor;
+    public Color AnaColor;
+    public Color AsheColor;
+    public Color BaptisteColor;
+    public Color BastionColor;
+    public Color BrigittaColor;
+    public Color CassidyColor;
+    public Color DVaColor;
+    public Color DoomfistColor;
+    public Color EchoColor;
+    public Color GenjiColor;
+    public Color HanzoColor;
+    public Color JunkratColor;
+    public Color LucioColor;
+    public Color MeiColor;
+    public Color MercyColor;
+    public Color MoiraColor;
+    public Color OrisaColor;
+    public Color PharahColor;
+    public Color ReaperColor;
+    public Color ReinhardtColor;
+    public Color RoadhogColor;
+    public Color SigmaColor;
+    public Color Soldier76Color;
+    public Color SombraColor;
+    public Color SymmetraColor;
+    public Color TorbjornColor;
+    public Color TracerColor;
+    public Color WidowmakerColor;
+    public Color WinstonColor;
+    public Color WreckingBallColor;
+    public Color ZaryaColor;
+    public Color ZenyattaColor;
+    public Color None;
 
 
     private void Awake()
@@ -52,11 +53,10 @@ public class HeroColors : MonoBehaviour
         }
     }
 
-    public Color32 GetHeroColor(Heroes hero)
+    public Color GetHeroColor(Heroes hero)
     {
         DebugOverlay.Output("Hero GetHeroColor: " + hero);
-        Main.Instance.selectedHero = hero;
-        Color32 returnColor = AnaColor;
+        Color returnColor = None;
         switch (hero)
         {
             case Heroes.Ana:
@@ -147,7 +147,7 @@ public class HeroColors : MonoBehaviour
                 returnColor = SigmaColor;
                 break;
 
-            case Heroes.Soldier:
+            case Heroes.Soldier76:
                 returnColor = Soldier76Color;
                 break;
 
@@ -187,39 +187,39 @@ public class HeroColors : MonoBehaviour
                 returnColor = ZenyattaColor;
                 break;
         }
-        return AnaColor;
+        return returnColor;
     }
 
-    public Color32 Ana() { return GetHeroColor(Heroes.Ana); }
-    public Color32 Ashe() { return GetHeroColor(Heroes.Ashe); }
-    public Color32 Baptiste() { return GetHeroColor(Heroes.Baptiste); }
-    public Color32 Bastion() { return GetHeroColor(Heroes.Bastion); }
-    public Color32 Brigitte() { return GetHeroColor(Heroes.Brigitte); }
-    public Color32 Cassidy() { return GetHeroColor(Heroes.Cassidy); }
-    public Color32 Doomfist() { return GetHeroColor(Heroes.Doomfist); }
-    public Color32 DVa() { return GetHeroColor(Heroes.DVa); }
-    public Color32 Echo() { return GetHeroColor(Heroes.Echo); }
-    public Color32 Genji() { return GetHeroColor(Heroes.Genji); }
-    public Color32 Hanzo() { return GetHeroColor(Heroes.Hanzo); }
-    public Color32 Junkrat() { return GetHeroColor(Heroes.Junkrat); }
-    public Color32 Lucio() { return GetHeroColor(Heroes.Lucio); }
-    public Color32 Mei() { return GetHeroColor(Heroes.Mei); }
-    public Color32 Mercy() { return GetHeroColor(Heroes.Mercy); }
-    public Color32 Moira() { return GetHeroColor(Heroes.Moira); }
-    public Color32 Orisa() { return GetHeroColor(Heroes.Orisa); }
-    public Color32 Pharah() { return GetHeroColor(Heroes.Pharah); }
-    public Color32 Reaper() { return GetHeroColor(Heroes.Reaper); }
-    public Color32 Reinhardt() { return GetHeroColor(Heroes.Reinhardt); }
-    public Color32 Roadhog() { return GetHeroColor(Heroes.Roadhog); }
-    public Color32 Sigma() { return GetHeroColor(Heroes.Sigma); }
-    public Color32 Soldier76() { return GetHeroColor(Heroes.Soldier); }
-    public Color32 Sombra() { return GetHeroColor(Heroes.Sombra); }
-    public Color32 Symmetra() { return GetHeroColor(Heroes.Symmetra); }
-    public Color32 Torbjorn() { return GetHeroColor(Heroes.Torbjorn); }
-    public Color32 Tracer() { return GetHeroColor(Heroes.Tracer); }
-    public Color32 Widowmaker() { return GetHeroColor(Heroes.Widowmaker); }
-    public Color32 Winston() { return GetHeroColor(Heroes.Winston); }
-    public Color32 WreckingBall() { return GetHeroColor(Heroes.WreckingBall); }
-    public Color32 Zarya() { return GetHeroColor(Heroes.Zarya); }
-    public Color32 Zenyatta() { return GetHeroColor(Heroes.Zenyatta); }
+    public Color Ana() { return GetHeroColor(Heroes.Ana); }
+    public Color Ashe() { return GetHeroColor(Heroes.Ashe); }
+    public Color Baptiste() { return GetHeroColor(Heroes.Baptiste); }
+    public Color Bastion() { return GetHeroColor(Heroes.Bastion); }
+    public Color Brigitte() { return GetHeroColor(Heroes.Brigitte); }
+    public Color Cassidy() { return GetHeroColor(Heroes.Cassidy); }
+    public Color Doomfist() { return GetHeroColor(Heroes.Doomfist); }
+    public Color DVa() { return GetHeroColor(Heroes.DVa); }
+    public Color Echo() { return GetHeroColor(Heroes.Echo); }
+    public Color Genji() { return GetHeroColor(Heroes.Genji); }
+    public Color Hanzo() { return GetHeroColor(Heroes.Hanzo); }
+    public Color Junkrat() { return GetHeroColor(Heroes.Junkrat); }
+    public Color Lucio() { return GetHeroColor(Heroes.Lucio); }
+    public Color Mei() { return GetHeroColor(Heroes.Mei); }
+    public Color Mercy() { return GetHeroColor(Heroes.Mercy); }
+    public Color Moira() { return GetHeroColor(Heroes.Moira); }
+    public Color Orisa() { return GetHeroColor(Heroes.Orisa); }
+    public Color Pharah() { return GetHeroColor(Heroes.Pharah); }
+    public Color Reaper() { return GetHeroColor(Heroes.Reaper); }
+    public Color Reinhardt() { return GetHeroColor(Heroes.Reinhardt); }
+    public Color Roadhog() { return GetHeroColor(Heroes.Roadhog); }
+    public Color Sigma() { return GetHeroColor(Heroes.Sigma); }
+    public Color Soldier76() { return GetHeroColor(Heroes.Soldier76); }
+    public Color Sombra() { return GetHeroColor(Heroes.Sombra); }
+    public Color Symmetra() { return GetHeroColor(Heroes.Symmetra); }
+    public Color Torbjorn() { return GetHeroColor(Heroes.Torbjorn); }
+    public Color Tracer() { return GetHeroColor(Heroes.Tracer); }
+    public Color Widowmaker() { return GetHeroColor(Heroes.Widowmaker); }
+    public Color Winston() { return GetHeroColor(Heroes.Winston); }
+    public Color WreckingBall() { return GetHeroColor(Heroes.WreckingBall); }
+    public Color Zarya() { return GetHeroColor(Heroes.Zarya); }
+    public Color Zenyatta() { return GetHeroColor(Heroes.Zenyatta); }
 }

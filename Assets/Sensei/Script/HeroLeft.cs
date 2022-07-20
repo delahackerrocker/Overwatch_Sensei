@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class HeroLeft : MonoBehaviour
 {
     public Image image;
-    public Heroes nowShowing = Heroes.Ashe;
+    public Heroes nowShowing = Heroes.None;
     void Start()
     {
         image = this.GetComponent<Image>();
@@ -19,7 +19,7 @@ public class HeroLeft : MonoBehaviour
         if (nowShowing != Main.Instance.selectedHero)
         {
             nowShowing = Main.Instance.selectedHero;
-            this.GetComponent<Image>().sprite = Resources.Load<Sprite>("Heroes/CareerPortrait/LeftAligned/"+ nowShowing);
+            image.sprite = Resources.Load<Sprite>("Heroes/CareerPortrait/LeftAligned/"+ nowShowing);
 
             DebugOverlay.Output("Heroes/CareerPortrait/LeftAligned/" + nowShowing);
         }

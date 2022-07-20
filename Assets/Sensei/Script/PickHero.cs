@@ -26,7 +26,7 @@ public enum Heroes
     Reinhardt,
     Roadhog,
     Sigma,
-    Soldier,
+    Soldier76,
     Sombra,
     Symmetra,
     Torbjorn,
@@ -35,7 +35,8 @@ public enum Heroes
     Winston,
     WreckingBall,
     Zarya,
-    Zenyatta
+    Zenyatta,
+    None
 }
 
 public class PickHero : MonoBehaviour
@@ -80,7 +81,7 @@ public class PickHero : MonoBehaviour
     public void Reinhardt() { Picked(Heroes.Reinhardt); }
     public void Roadhog() { Picked(Heroes.Roadhog); }
     public void Sigma() { Picked(Heroes.Sigma); }
-    public void Soldier76() { Picked(Heroes.Soldier); }
+    public void Soldier76() { Picked(Heroes.Soldier76); }
     public void Sombra() { Picked(Heroes.Sombra); }
     public void Symmetra() { Picked(Heroes.Symmetra); }
     public void Torbjorn() { Picked(Heroes.Torbjorn); }

@@ -6,8 +6,8 @@ public class Main : MonoBehaviour
 {
     public static Main Instance { get; private set; }
 
-    public Heroes selectedHero = Heroes.Ana;
-    public Heroes counterPick = Heroes.Ana;
+    public Heroes selectedHero = Heroes.None;
+    public Heroes counterPick = Heroes.None;
 
     private void Awake()
     {

@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HomeBG : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Image image;
+    public Heroes nowShowing = Heroes.None;
     void Start()
     {
-        
+        image = this.GetComponent<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (nowShowing != Main.Instance.selectedHero)
+        {
+            nowShowing = Main.Instance.selectedHero;
+            image.color = HeroColors.Instance.GetHeroColor(nowShowing);
+        }
+        if (Main.Instance.counterPick == Heroes.None)
+        {
+            image.gameObject.SetActive(true);
+        }
+        else
+        {
+            image.gameObject.SetActive(false);
+        }
     }
 }
