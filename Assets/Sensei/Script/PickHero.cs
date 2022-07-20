@@ -41,22 +41,11 @@ public enum Heroes
 
 public class PickHero : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void Picked(Heroes hero)
     {
         DebugOverlay.Output("Hero Picked: "+ hero);
         Main.Instance.selectedHero = hero;
+        PanelNavigation.Instance.GOTO_HeroTasks();
     }
 
     public void Ana() { Picked(Heroes.Ana); }

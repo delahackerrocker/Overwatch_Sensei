@@ -5,23 +5,89 @@ using UnityEngine.EventSystems;
 
 public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
 {
-    private Vector3 panelLocation;
+    // Singleton
+    public static PanelNavigation Instance { get; private set; }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+    // ----
+    private PointerEventData _lastPointerData;
+
+    public Vector3 panelLocation;
     public float percentThreshold = 0.35f;
 
     Vector3 panelSize = new Vector3(2340f, 1080f, 0f);
 
     public PanelNode currentlySelected = null;
 
+    public PanelNode PickHero;
+    public PanelNode HeroTasks;
+    public PanelNode HeroKit;
+    public PanelNode HeroAbilityDetails;
+    public PanelNode HeroVersusHero;
+    public PanelNode HeroCounterPicks;
+
     void Start()
     {
         panelLocation = transform.position;
     }
 
-    void Update()
+    public void GOTO_PickHero()
     {
-        
+        CancelDrag();
+        currentlySelected = HeroTasks;
+        gameObject.transform.position = panelLocation = new Vector3(1170, 0, 0);
     }
 
+    public void GOTO_HeroTasks()
+    {
+        CancelDrag();
+        currentlySelected = HeroTasks;
+        gameObject.transform.position = panelLocation = new Vector3(1170, 1620, 0);
+    }
+    public void GOTO_HeroKit()
+    {
+        CancelDrag();
+        currentlySelected = HeroTasks;
+        gameObject.transform.position = panelLocation = new Vector3(3510, 1620, 0);
+    }
+    public void GOTO_HeroAbilityDetails()
+    {
+        CancelDrag();
+        currentlySelected = HeroTasks;
+        gameObject.transform.position = panelLocation = new Vector3(5850, 1620, 0);
+    }
+    public void GOTO_HeroVersusHero()
+    {
+        CancelDrag();
+        currentlySelected = HeroTasks;
+        gameObject.transform.position = panelLocation = new Vector3(1170, 2700, 0);
+    }
+    public void GOTO_HeroCounterPicks()
+    {
+        CancelDrag();
+        currentlySelected = HeroTasks;
+        gameObject.transform.position = panelLocation = new Vector3(-1170, 1620, 0);
+    }
+
+    public void CancelDrag()
+    {
+        if (_lastPointerData != null)
+        {
+            _lastPointerData.pointerDrag = null;
+
+            // Reset position here
+        }
+    }
+    
     public void OnDrag(PointerEventData data)
     {
         Debug.Log(data.pressPosition - data.position);

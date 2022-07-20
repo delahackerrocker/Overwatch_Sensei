@@ -4,7 +4,20 @@ using UnityEngine;
 
 public class HeroColors : MonoBehaviour
 {
+    // Singleton
     public static HeroColors Instance { get; private set; }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+    // ----
 
     public Color AnaColor;
     public Color AsheColor;
@@ -39,19 +52,6 @@ public class HeroColors : MonoBehaviour
     public Color ZaryaColor;
     public Color ZenyattaColor;
     public Color None;
-
-
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
-    }
 
     public Color GetHeroColor(Heroes hero)
     {
