@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class HomeBG : MonoBehaviour
 {
     public Image image;
-    public Heroes nowShowing = Heroes.None;
+    public HERO_ID nowShowing = HERO_ID.None;
     void Start()
     {
         image = this.GetComponent<Image>();
@@ -20,7 +20,7 @@ public class HomeBG : MonoBehaviour
             nowShowing = Main.Instance.selectedHero;
             image.color = HeroColors.Instance.GetHeroColor(nowShowing);
         }
-        if (Main.Instance.counterPick == Heroes.None)
+        if (Main.Instance.counterPick == HERO_ID.None)
         {
             image.enabled = true;
         }

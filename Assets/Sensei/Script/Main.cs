@@ -19,8 +19,8 @@ public class Main : MonoBehaviour
     }
     // ----
 
-    public Heroes selectedHero = Heroes.None;
-    public Heroes counterPick = Heroes.None;
+    public HERO_ID selectedHero = HERO_ID.None;
+    public HERO_ID counterPick = HERO_ID.None;
 
     void Update()
     {

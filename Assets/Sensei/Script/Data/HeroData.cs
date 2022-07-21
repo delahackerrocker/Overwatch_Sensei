@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HeroData : MonoBehaviour
 {
-    public Heroes hero;
+    public HERO_ID hero;
     public string fullName;
     public int health;
     public int shields;

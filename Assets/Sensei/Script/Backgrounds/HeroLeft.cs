@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class HeroLeft : MonoBehaviour
 {
     public Image image;
-    public Heroes nowShowing = Heroes.None;
+    public HERO_ID nowShowing = HERO_ID.None;
     void Start()
     {
         image = this.GetComponent<Image>();

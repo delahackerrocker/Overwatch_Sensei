@@ -13,43 +13,43 @@ public class HeroCounterPicks : MonoBehaviour
         title.text = Main.Instance.selectedHero+": Counter Picks";
     }
 
-    public void Picked(Heroes hero)
+    public void Picked(HERO_ID hero)
     {
         DebugOverlay.Output("Counter Picked: " + hero);
         Main.Instance.counterPick = hero;
         PanelNavigation.Instance.GOTO_HeroVersusHero();
     }
 
-    public void Ana() { Picked(Heroes.Ana); }
-    public void Ashe() { Picked(Heroes.Ashe); }
-    public void Baptiste() { Picked(Heroes.Baptiste); }
-    public void Bastion() { Picked(Heroes.Bastion); }
-    public void Brigitte() { Picked(Heroes.Brigitte); }
-    public void Cassidy() { Picked(Heroes.Cassidy); }
-    public void Doomfist() { Picked(Heroes.Doomfist); }
-    public void DVa() { Picked(Heroes.DVa); }
-    public void Echo() { Picked(Heroes.Echo); }
-    public void Genji() { Picked(Heroes.Genji); }
-    public void Hanzo() { Picked(Heroes.Hanzo); }
-    public void Junkrat() { Picked(Heroes.Junkrat); }
-    public void Lucio() { Picked(Heroes.Lucio); }
-    public void Mei() { Picked(Heroes.Mei); }
-    public void Mercy() { Picked(Heroes.Mercy); }
-    public void Moira() { Picked(Heroes.Moira); }
-    public void Orisa() { Picked(Heroes.Orisa); }
-    public void Pharah() { Picked(Heroes.Pharah); }
-    public void Reaper() { Picked(Heroes.Reaper); }
-    public void Reinhardt() { Picked(Heroes.Reinhardt); }
-    public void Roadhog() { Picked(Heroes.Roadhog); }
-    public void Sigma() { Picked(Heroes.Sigma); }
-    public void Soldier76() { Picked(Heroes.Soldier76); }
-    public void Sombra() { Picked(Heroes.Sombra); }
-    public void Symmetra() { Picked(Heroes.Symmetra); }
-    public void Torbjorn() { Picked(Heroes.Torbjorn); }
-    public void Tracer() { Picked(Heroes.Tracer); }
-    public void Widowmaker() { Picked(Heroes.Widowmaker); }
-    public void Winston() { Picked(Heroes.Winston); }
-    public void WreckingBall() { Picked(Heroes.WreckingBall); }
-    public void Zarya() { Picked(Heroes.Zarya); }
-    public void Zenyatta() { Picked(Heroes.Zenyatta); }
+    public void Ana() { Picked(HERO_ID.Ana); }
+    public void Ashe() { Picked(HERO_ID.Ashe); }
+    public void Baptiste() { Picked(HERO_ID.Baptiste); }
+    public void Bastion() { Picked(HERO_ID.Bastion); }
+    public void Brigitte() { Picked(HERO_ID.Brigitte); }
+    public void Cassidy() { Picked(HERO_ID.Cassidy); }
+    public void Doomfist() { Picked(HERO_ID.Doomfist); }
+    public void DVa() { Picked(HERO_ID.DVa); }
+    public void Echo() { Picked(HERO_ID.Echo); }
+    public void Genji() { Picked(HERO_ID.Genji); }
+    public void Hanzo() { Picked(HERO_ID.Hanzo); }
+    public void Junkrat() { Picked(HERO_ID.Junkrat); }
+    public void Lucio() { Picked(HERO_ID.Lucio); }
+    public void Mei() { Picked(HERO_ID.Mei); }
+    public void Mercy() { Picked(HERO_ID.Mercy); }
+    public void Moira() { Picked(HERO_ID.Moira); }
+    public void Orisa() { Picked(HERO_ID.Orisa); }
+    public void Pharah() { Picked(HERO_ID.Pharah); }
+    public void Reaper() { Picked(HERO_ID.Reaper); }
+    public void Reinhardt() { Picked(HERO_ID.Reinhardt); }
+    public void Roadhog() { Picked(HERO_ID.Roadhog); }
+    public void Sigma() { Picked(HERO_ID.Sigma); }
+    public void Soldier76() { Picked(HERO_ID.Soldier76); }
+    public void Sombra() { Picked(HERO_ID.Sombra); }
+    public void Symmetra() { Picked(HERO_ID.Symmetra); }
+    public void Torbjorn() { Picked(HERO_ID.Torbjorn); }
+    public void Tracer() { Picked(HERO_ID.Tracer); }
+    public void Widowmaker() { Picked(HERO_ID.Widowmaker); }
+    public void Winston() { Picked(HERO_ID.Winston); }
+    public void WreckingBall() { Picked(HERO_ID.WreckingBall); }
+    public void Zarya() { Picked(HERO_ID.Zarya); }
+    public void Zenyatta() { Picked(HERO_ID.Zenyatta); }
 }
