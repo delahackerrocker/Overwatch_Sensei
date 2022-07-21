@@ -22,11 +22,11 @@ public class HomeBG : MonoBehaviour
         }
         if (Main.Instance.counterPick == Heroes.None)
         {
-            image.gameObject.SetActive(true);
+            image.enabled = true;
         }
         else
         {
-            image.gameObject.SetActive(false);
+            image.enabled = false;
         }
     }
 }

@@ -43,7 +43,7 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     public void GOTO_PickHero()
     {
         CancelDrag();
-        currentlySelected = HeroTasks;
+        currentlySelected = PickHero;
         gameObject.transform.position = panelLocation = new Vector3(1170, 0, 0);
     }
 
@@ -56,25 +56,25 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     public void GOTO_HeroKit()
     {
         CancelDrag();
-        currentlySelected = HeroTasks;
+        currentlySelected = HeroKit;
         gameObject.transform.position = panelLocation = new Vector3(3510, 1620, 0);
     }
     public void GOTO_HeroAbilityDetails()
     {
         CancelDrag();
-        currentlySelected = HeroTasks;
+        currentlySelected = HeroAbilityDetails;
         gameObject.transform.position = panelLocation = new Vector3(5850, 1620, 0);
     }
     public void GOTO_HeroVersusHero()
     {
         CancelDrag();
-        currentlySelected = HeroTasks;
+        currentlySelected = HeroVersusHero;
         gameObject.transform.position = panelLocation = new Vector3(1170, 2700, 0);
     }
     public void GOTO_HeroCounterPicks()
     {
         CancelDrag();
-        currentlySelected = HeroTasks;
+        currentlySelected = HeroCounterPicks;
         gameObject.transform.position = panelLocation = new Vector3(-1170, 1620, 0);
     }
 

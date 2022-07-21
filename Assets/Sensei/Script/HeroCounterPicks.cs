@@ -2,9 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HeroCounterPicks : MonoBehaviour
 {
+    public TextMeshProUGUI title;
+
+    private void Update()
+    {
+        title.text = Main.Instance.selectedHero+": Counter Picks";
+    }
+
     public void Picked(Heroes hero)
     {
         DebugOverlay.Output("Counter Picked: " + hero);

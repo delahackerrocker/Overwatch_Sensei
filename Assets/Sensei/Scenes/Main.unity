@@ -717,6 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2259281fd46208c46b2a4264dbbd4c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 1223503574}
 --- !u!114 &130786891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1492,6 +1493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597bfc935931fd446ba89a8b0952382e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 356015796}
 --- !u!114 &247261230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1915,7 +1917,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4522,7 +4524,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4911,7 +4913,7 @@ GameObject:
   - component: {fileID: 906773718}
   - component: {fileID: 906773717}
   m_Layer: 5
-  m_Name: Title (1)
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4990,7 +4992,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5770,6 +5772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dde6965be317644e920031c05caf421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 1439866304}
 --- !u!1 &1035530070
 GameObject:
   m_ObjectHideFlags: 0
@@ -7115,7 +7118,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -9178,7 +9181,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411356206}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -9370,7 +9373,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -9736,6 +9739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072d958ae6c30284886bfa2bb08dca9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 1975675390}
 --- !u!114 &1503051406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12278,6 +12282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395378aa6ce2ad5498c363d307279034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 906773717}
 --- !u!114 &1949169065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12385,7 +12390,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
