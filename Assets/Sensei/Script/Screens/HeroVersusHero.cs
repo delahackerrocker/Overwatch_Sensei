@@ -8,6 +8,11 @@ public class HeroVersusHero : MonoBehaviour
 {
     public TextMeshProUGUI title;
 
+    private void Start()
+    {
+        //
+    }
+
     private void Update()
     {
         title.text = Main.Instance.selectedHero + " VS "+Main.Instance.counterPick;

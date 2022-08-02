@@ -18,14 +18,18 @@ public enum ControllerButton
     DPadRight,
     L3,
     R3,
+    Passive,
     None
 }
 
 public class AbilityData : MonoBehaviour
 {
-    public string abilityName;
-    public string abilityDetail;
-    public ControllerButton controllerButton;
+    public bool isUltimate = false;
+
+    public string abilityName = "";
+    public string abilityDetail = "";
+
+    public ControllerButton controllerButton = ControllerButton.Passive;
 
     void Start()
     {
