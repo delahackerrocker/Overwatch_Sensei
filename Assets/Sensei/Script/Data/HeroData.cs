@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Role
+{
+    Tank,
+    Damage,
+    Support,
+    None
+}
+
 public class HeroData : MonoBehaviour
 {
     public HERO_ID hero;
@@ -10,6 +18,12 @@ public class HeroData : MonoBehaviour
     public int armor;
 
     public string fullName;
+    public string description;
+    public Role role = Role.Damage;
+    public int stars = 1;
+
+    public string trainingCode = "";
+
     public AbilityData[] abilities;
     public MatchupData[] matchups;
 
