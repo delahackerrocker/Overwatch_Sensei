@@ -53,6 +53,10 @@ public class HeroColors : MonoBehaviour
     public Color ZenyattaColor;
     public Color None;
 
+    public Color healthColor = Color.white;
+    public Color shieldColor;
+    public Color armorColor;
+
     public Color GetHeroColor(HERO_ID hero)
     {
         DebugOverlay.Output("Hero GetHeroColor: " + hero);

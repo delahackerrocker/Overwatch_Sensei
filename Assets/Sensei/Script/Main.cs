@@ -235,44 +235,8 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Face off against your enemies. Press Q to lock on, then Q or ABILITY 3 to fire.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
-        // Doomfist
-        heroes[hCount = 6] = new HeroData(HERO_ID.Doomfist, 250, 0, 0);
-        heroes[hCount].description = "Doomfist’s cybernetics make him a highly-mobile, powerful frontline fighter. In addition to dealing ranged damage with his Hand Cannon, Doomfist can slam the ground, knock enemies into the air and off balance, or charge into the fray with his Rocket Punch. When facing a tightly packed group, Doomfist leaps out of view, then crashes down to earth with a spectacular Meteor Strike.";
-        heroes[hCount].stars = 3;
-
-        heroes[hCount].abilities = new AbilityData[6];
-        heroes[hCount].abilities[aCount = 0] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "HAND CANNON";
-        heroes[hCount].abilities[aCount].abilityDetail = "Short-range weapon with spread. Reloads automatically.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
-
-        heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "SEISMIC SLAM";
-        heroes[hCount].abilities[aCount].abilityDetail = "Leap forward and smash the ground.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
-
-        heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "RISING UPPERCUT";
-        heroes[hCount].abilities[aCount].abilityDetail = "Knock an enemy into the air.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
-
-        heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "ROCKET PUNCH";
-        heroes[hCount].abilities[aCount].abilityDetail = "Hold to charge then release to launch forward and knock an enemy back. Damage increases if the enemy hits a wall.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
-
-        heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "METEOR STRIKE";
-        heroes[hCount].abilities[aCount].abilityDetail = "Press Q to leap up into the air. Move the targeting circle, then press ABILITY 3 to strike the targeted area.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
-
-        heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "THE BEST DEFENSE...";
-        heroes[hCount].abilities[aCount].abilityDetail = "Dealing damage with abilities creates temporary personal shields.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
-
         // DVa
-        heroes[hCount = 7] = new HeroData(HERO_ID.DVa, 300, 300, 0);
+        heroes[hCount = 6] = new HeroData(HERO_ID.DVa, 300, 300, 0);
         heroes[hCount].description = "D.Va’s mech is nimble and powerful—its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.";
         heroes[hCount].stars = 2;
 
@@ -305,6 +269,42 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "EJECT!";
         heroes[hCount].abilities[aCount].abilityDetail = "Eject out of your mech when it is destroyed.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
+
+        // Doomfist
+        heroes[hCount = 7] = new HeroData(HERO_ID.Doomfist, 250, 0, 0);
+        heroes[hCount].description = "Doomfist’s cybernetics make him a highly-mobile, powerful frontline fighter. In addition to dealing ranged damage with his Hand Cannon, Doomfist can slam the ground, knock enemies into the air and off balance, or charge into the fray with his Rocket Punch. When facing a tightly packed group, Doomfist leaps out of view, then crashes down to earth with a spectacular Meteor Strike.";
+        heroes[hCount].stars = 3;
+
+        heroes[hCount].abilities = new AbilityData[6];
+        heroes[hCount].abilities[aCount = 0] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "HAND CANNON";
+        heroes[hCount].abilities[aCount].abilityDetail = "Short-range weapon with spread. Reloads automatically.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
+
+        heroes[hCount].abilities[++aCount] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "SEISMIC SLAM";
+        heroes[hCount].abilities[aCount].abilityDetail = "Leap forward and smash the ground.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
+
+        heroes[hCount].abilities[++aCount] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "RISING UPPERCUT";
+        heroes[hCount].abilities[aCount].abilityDetail = "Knock an enemy into the air.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
+
+        heroes[hCount].abilities[++aCount] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "ROCKET PUNCH";
+        heroes[hCount].abilities[aCount].abilityDetail = "Hold to charge then release to launch forward and knock an enemy back. Damage increases if the enemy hits a wall.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
+
+        heroes[hCount].abilities[++aCount] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "METEOR STRIKE";
+        heroes[hCount].abilities[aCount].abilityDetail = "Press Q to leap up into the air. Move the targeting circle, then press ABILITY 3 to strike the targeted area.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
+
+        heroes[hCount].abilities[++aCount] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "THE BEST DEFENSE...";
+        heroes[hCount].abilities[aCount].abilityDetail = "Dealing damage with abilities creates temporary personal shields.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         // Echo
