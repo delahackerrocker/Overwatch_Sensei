@@ -22,7 +22,7 @@ public enum ControllerButton
     None
 }
 
-public class AbilityData : MonoBehaviour
+public class AbilityData
 {
     public bool isUltimate = false;
 
@@ -31,12 +31,7 @@ public class AbilityData : MonoBehaviour
 
     public ControllerButton controllerButton = ControllerButton.Passive;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
+    public AbilityData()
     {
         
     }

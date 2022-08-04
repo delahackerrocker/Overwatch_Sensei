@@ -10,7 +10,7 @@ public enum Role
     None
 }
 
-public class HeroData : MonoBehaviour
+public class HeroData
 {
     public HERO_ID hero;
     public int health;
