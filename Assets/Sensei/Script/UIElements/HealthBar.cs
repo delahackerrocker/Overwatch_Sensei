@@ -9,24 +9,14 @@ public class HealthBar : MonoBehaviour
     public TextMeshProUGUI healthTotal;
     public GameObject[] pips;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void SetValue(int health, int armor, int shield)
     {
         int healthPips = health / 25;
-        Debug.Log("healthPips: " + healthPips);
+        // Debug.Log("healthPips: " + healthPips);
         int armorPips = armor / 25;
-        Debug.Log("armorPips: " + armorPips);
+        // Debug.Log("armorPips: " + armorPips);
         int shieldPips = shield / 25;
-        Debug.Log("shieldPips: " + shieldPips);
+        // Debug.Log("shieldPips: " + shieldPips);
 
         for (int count = 0; count < pips.Length; count++)
         {

@@ -39,6 +39,25 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         panelLocation = transform.position;
     }
+    void Update()
+    {
+        if (currentlySelected == PickHero)
+        {
+            Main.Instance.selectedHero = HERO_ID.None;
+            Main.Instance.counterPick = HERO_ID.None;
+        }
+        if (currentlySelected == HeroTasks)
+        {
+            Main.Instance.counterPick = HERO_ID.None;
+        }
+        if (currentlySelected == HeroVersusHero)
+        {
+            if (Main.Instance.counterPick == HERO_ID.None)
+            {
+                Main.Instance.counterPick = HERO_ID.Ana;
+            }
+        }
+    }
 
     public void GOTO_PickHero()
     {
@@ -90,7 +109,7 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     
     public void OnDrag(PointerEventData data)
     {
-        Debug.Log(data.pressPosition - data.position);
+        // Debug.Log(data.pressPosition - data.position);
 
         float xDifference = data.pressPosition.x - data.position.x;
         float yDifference = data.pressPosition.y - data.position.y;

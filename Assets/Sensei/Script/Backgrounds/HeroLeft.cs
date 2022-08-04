@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using UnityEngine.UIElements;
 
 public class HeroLeft : MonoBehaviour
 {
@@ -11,9 +10,23 @@ public class HeroLeft : MonoBehaviour
 
     public HealthBar healthBar;
 
+    public CanvasGroup canvasGroup;
+
+    public void Hide()
+    {
+        canvasGroup.alpha = 0f;
+        canvasGroup.blocksRaycasts = false;
+    }
+    public void Show()
+    {
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+    }
+
     void Start()
     {
         image = this.GetComponent<Image>();
+        Hide();
     }
 
     // Update is called once per frame
@@ -26,10 +39,16 @@ public class HeroLeft : MonoBehaviour
 
             DebugOverlay.Output("Heroes/CareerPortrait/LeftAligned/" + nowShowing);
 
-            int health = Main.Instance.heroes[(int)Main.Instance.selectedHero].health;
-            int armor = Main.Instance.heroes[(int)Main.Instance.selectedHero].armor;
-            int shields = Main.Instance.heroes[(int)Main.Instance.selectedHero].shields;
-            healthBar.SetValue(health, armor, shields);
+            if (Main.Instance.selectedHero != HERO_ID.None)
+            {
+                Show();
+                int health = Main.Instance.heroes[(int)Main.Instance.selectedHero].health;
+                int armor = Main.Instance.heroes[(int)Main.Instance.selectedHero].armor;
+                int shields = Main.Instance.heroes[(int)Main.Instance.selectedHero].shields;
+                healthBar.SetValue(health, armor, shields);
+            } else {
+                Hide();
+            }
         }
     }
 }

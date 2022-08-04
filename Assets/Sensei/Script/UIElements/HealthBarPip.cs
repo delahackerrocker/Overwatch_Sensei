@@ -7,11 +7,6 @@ public class HealthBarPip : MonoBehaviour
 {
     public Image image;
 
-    void Start()
-    {
-        //image = this.GetComponent<Image>();
-    }
-
     public void SetToHealth()
     {
         image.color = HeroColors.Instance.healthColor;

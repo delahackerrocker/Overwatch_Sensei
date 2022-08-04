@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5449576551505784625}
   - component: {fileID: 5449576551505784624}
   - component: {fileID: 5449576551505784638}
+  - component: {fileID: 5376955352017289615}
   m_Layer: 5
   m_Name: HeroLeft
   m_TagString: Untagged
@@ -93,6 +94,19 @@ MonoBehaviour:
   image: {fileID: 0}
   nowShowing: 32
   healthBar: {fileID: 3207479202564917584}
+  canvasGroup: {fileID: 5376955352017289615}
+--- !u!225 &5376955352017289615
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5449576551505784626}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1481342561388716558
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -20,6 +20,10 @@ public class HomeBG : MonoBehaviour
             nowShowing = Main.Instance.selectedHero;
             image.color = HeroColors.Instance.GetHeroColor(nowShowing);
         }
+        if (nowShowing == HERO_ID.None)
+        {
+            image.color = HeroColors.Instance.GetHeroColor(HERO_ID.None);
+        }
         if (Main.Instance.counterPick == HERO_ID.None)
         {
             image.enabled = true;
