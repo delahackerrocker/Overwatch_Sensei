@@ -12,7 +12,6 @@ public class LeftBG : MonoBehaviour
         image = this.GetComponent<Image>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (nowShowing != Main.Instance.selectedHero)
