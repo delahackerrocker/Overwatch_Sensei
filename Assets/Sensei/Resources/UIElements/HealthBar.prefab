@@ -111,7 +111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -374, y: -112}
+  m_AnchoredPosition: {x: -372, y: -112}
   m_SizeDelta: {x: 415, y: 75.2589}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626631653520036010
@@ -313,6 +313,8 @@ MonoBehaviour:
   - {fileID: 2888806490529370481}
   - {fileID: 8519351305770257110}
   - {fileID: 2740366004530703055}
+  shieldColor: {r: 1, g: 0.86274517, b: 0.19215688, a: 1}
+  armorColor: {r: 0.44705886, g: 0.7411765, b: 0.9176471, a: 1}
 --- !u!1 &7205261944240516594
 GameObject:
   m_ObjectHideFlags: 0

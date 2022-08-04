@@ -9,6 +9,9 @@ public class HealthBar : MonoBehaviour
     public TextMeshProUGUI healthTotal;
     public GameObject[] pips;
 
+    public Color shieldColor;
+    public Color armorColor;
+
     void Start()
     {
         
