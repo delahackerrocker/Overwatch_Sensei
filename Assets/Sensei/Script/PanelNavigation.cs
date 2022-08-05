@@ -32,8 +32,10 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     public PanelNode HeroTasks;
     public PanelNode HeroKit;
     public PanelNode HeroAbilityDetails;
-    public PanelNode HeroVersusHero;
     public PanelNode HeroCounterPicks;
+    public PanelNode HeroVersusHero;
+    public PanelNode HeroVersusHero_Previous;
+    public PanelNode HeroVersusHero_Next;
 
     void Start()
     {
@@ -199,6 +201,13 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
                 }
                 transform.position = newLocation;
                 panelLocation = newLocation;
+                if (currentlySelected == HeroVersusHero_Next)
+                {
+                    currentlySelected.GetComponent<HeroVersusHero>().GoToHero();
+                } else if (currentlySelected == HeroVersusHero_Previous)
+                {
+                    currentlySelected.GetComponent<HeroVersusHero>().GoToHero();
+                }
             }
             else
             {

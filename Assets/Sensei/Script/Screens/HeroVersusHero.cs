@@ -4,13 +4,44 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+public enum Opponent
+{
+    Previous,
+    Selected,
+    Next
+}
+
 public class HeroVersusHero : MonoBehaviour
 {
+    public Opponent opponent;
     public TextMeshProUGUI title;
 
-    private void Start()
+    public void GoToHero()
     {
-        //
+        if (opponent == Opponent.Previous)
+        {
+            if (Main.Instance.counterPick == HERO_ID.Ana)
+            {
+                Main.Instance.counterPick = HERO_ID.Zenyatta;
+            } 
+            else 
+            {
+                Main.Instance.counterPick = Main.Instance.counterPick - 1;
+            }
+            PanelNavigation.Instance.GOTO_HeroVersusHero();
+
+        } else if (opponent == Opponent.Next)
+        {
+            if (Main.Instance.counterPick == HERO_ID.Zenyatta)
+            {
+                Main.Instance.counterPick = HERO_ID.Ana;
+            }
+            else
+            {
+                Main.Instance.counterPick = Main.Instance.counterPick + 1;
+            }
+            PanelNavigation.Instance.GOTO_HeroVersusHero();
+        }
     }
 
     private void Update()
