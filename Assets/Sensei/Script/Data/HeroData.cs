@@ -26,13 +26,16 @@ public class HeroData
 
     public AbilityData[] abilities;
     public MatchupData[] matchups;
+    public HERO_ID[] strongAgainst;
+    public HERO_ID[] weakAgainst;
 
-    public HeroData(HERO_ID hero, int health, int shields, int armor)
+    public HeroData(HERO_ID hero, int health, int shields, int armor, Role role)
     {
         this.hero = hero;
         this.health = health;
         this.shields = shields;
         this.armor = armor;
+        this.role = role;
     }
 
     void Start()

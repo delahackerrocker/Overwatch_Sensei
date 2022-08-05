@@ -35,7 +35,7 @@ public class Main : MonoBehaviour
         int aCount = 0;
 
         // Ana
-        heroes[hCount = 0] = new HeroData(HERO_ID.Ana, 200, 0, 0);
+        heroes[hCount = 0] = new HeroData(HERO_ID.Ana, 200, 0, 0, Role.Support);
         heroes[hCount].description = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.";
         heroes[hCount].stars = 3;
 
@@ -65,8 +65,29 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Increases an ally's damage, while reducing damage taken.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
+
         // Ashe
-        heroes[hCount = 1] = new HeroData(HERO_ID.Ashe, 200, 0, 0);
+        heroes[hCount = 1] = new HeroData(HERO_ID.Ashe, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Ashe quickly fires her rifle from the hip or uses her weapon’s aim-down sights to line up a high damage shot. She blasts enemies by throwing dynamite, and her coach gun packs enough punch to put some distance between her and her foes. And Ashe is not alone, as she can call on her omnic ally Bob, to join the fray when the need arises.";
         heroes[hCount].stars = 2;
 
@@ -96,8 +117,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy Bob. He charges forward and knocks enemies into the air, then attacks with his arm cannons.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Baptiste
-        heroes[hCount = 2] = new HeroData(HERO_ID.Baptiste, 200, 0, 0);
+        heroes[hCount = 2] = new HeroData(HERO_ID.Baptiste, 200, 0, 0, Role.Support);
         heroes[hCount].description = "Baptiste wields an assortment of experimental devices and weaponry to keep allies alive and eliminate threats under fierce conditions. A battle-hardened combat medic, he is just as capable of saving lives as he is taking out the enemy.";
         heroes[hCount].stars = 3;
 
@@ -132,8 +173,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Hold crouch to jump higher.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Bastion
-        heroes[hCount = 3] = new HeroData(HERO_ID.Bastion, 200, 0, 100);
+        heroes[hCount = 3] = new HeroData(HERO_ID.Bastion, 200, 0, 100, Role.Damage);
         heroes[hCount].description = "Repair protocols and the ability to transform between stationary Assault, mobile Recon and devastating Tank configurations provide Bastion with a high probability of victory.";
         heroes[hCount].stars = 1;
 
@@ -168,8 +229,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Reduces damage taken while transformed.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Brigitte
-        heroes[hCount = 4] = new HeroData(HERO_ID.Brigitte, 200, 0, 50);
+        heroes[hCount = 4] = new HeroData(HERO_ID.Brigitte, 200, 0, 50, Role.Support);
         heroes[hCount].description = "Brigitte specializes in armor. She can throw Repair Packs to heal teammates, or automatically heal nearby allies when she damages foes with her Flail. Her Flail is capable of a wide swing to strike multiple targets, or a Whip Shot that stuns an enemy at range. When entering the fray, Barrier Shield provides personal defense while she attacks enemies with Shield Bash. Brigitte’s ultimate ability, Rally, gives her a substantial short-term boost of speed and provides long-lasting armor to all her nearby allies.";
         heroes[hCount].stars = 1;
 
@@ -204,8 +285,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Striking enemies with your flail heals nearby allies.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Cassidy
-        heroes[hCount = 5] = new HeroData(HERO_ID.Cassidy, 225, 0, 0);
+        heroes[hCount = 5] = new HeroData(HERO_ID.Cassidy, 225, 0, 0, Role.Damage);
         heroes[hCount].description = "Armed with his Peacekeeper revolver, Cassidy takes out targets with deadeye precision and dives out of danger with eagle-like speed.";
         heroes[hCount].stars = 2;
 
@@ -235,8 +336,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Face off against your enemies. Press Q to lock on, then Q or ABILITY 3 to fire.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // DVa
-        heroes[hCount = 6] = new HeroData(HERO_ID.DVa, 300, 300, 0);
+        heroes[hCount = 6] = new HeroData(HERO_ID.DVa, 300, 300, 0, Role.Tank);
         heroes[hCount].description = "D.Va’s mech is nimble and powerful—its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.";
         heroes[hCount].stars = 2;
 
@@ -271,8 +392,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Eject out of your mech when it is destroyed.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Doomfist
-        heroes[hCount = 7] = new HeroData(HERO_ID.Doomfist, 250, 0, 0);
+        heroes[hCount = 7] = new HeroData(HERO_ID.Doomfist, 250, 0, 0, Role.Damage);
         heroes[hCount].description = "Doomfist’s cybernetics make him a highly-mobile, powerful frontline fighter. In addition to dealing ranged damage with his Hand Cannon, Doomfist can slam the ground, knock enemies into the air and off balance, or charge into the fray with his Rocket Punch. When facing a tightly packed group, Doomfist leaps out of view, then crashes down to earth with a spectacular Meteor Strike.";
         heroes[hCount].stars = 3;
 
@@ -307,8 +448,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Dealing damage with abilities creates temporary personal shields.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Echo
-        heroes[hCount = 8] = new HeroData(HERO_ID.Echo, 200, 0, 0);
+        heroes[hCount = 8] = new HeroData(HERO_ID.Echo, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Echo is an evolutionary robot programmed with a rapidly adapting artificial intelligence, versatile enough to fill multiple battlefield combat roles.";
         heroes[hCount].stars = 2;
 
@@ -343,8 +504,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Hold jump to glide while falling.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Genji
-        heroes[hCount = 9] = new HeroData(HERO_ID.Genji, 200, 0, 0);
+        heroes[hCount = 9] = new HeroData(HERO_ID.Genji, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Genji flings precise and deadly Shuriken at his targets, and uses his technologically-advanced katana to deflect projectiles or deliver a Swift Strike that cuts down enemies.";
         heroes[hCount].stars = 3;
 
@@ -379,8 +560,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Unsheathe a deadly melee weapon.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Hanzo
-        heroes[hCount = 10] = new HeroData(HERO_ID.Hanzo, 200, 0, 0);
+        heroes[hCount = 10] = new HeroData(HERO_ID.Hanzo, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Hanzo’s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.";
         heroes[hCount].stars = 3;
 
@@ -415,8 +616,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Jump at walls to climb up them.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Junkrat
-        heroes[hCount = 11] = new HeroData(HERO_ID.Junkrat, 200, 0, 0);
+        heroes[hCount = 11] = new HeroData(HERO_ID.Junkrat, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Junkrat’s area-denying armaments include a Frag Launcher that lobs bouncing grenades, Concussion Mines that send enemies flying, and Steel Traps that stop foes dead in their tracks.";
         heroes[hCount].stars = 2;
 
@@ -446,8 +667,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Deals no damage to self with explosives. Drop bombs on death.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Lucio
-        heroes[hCount = 12] = new HeroData(HERO_ID.Lucio, 200, 0, 0);
+        heroes[hCount = 12] = new HeroData(HERO_ID.Lucio, 200, 0, 0, Role.Support);
         heroes[hCount].description = "On the battlefield, Lúcio’s cutting-edge Sonic Amplifier buffets enemies with projectiles and knocks foes back with blasts of sound. His songs can both heal his team or boost their movement speed, and he can switch between tracks on the fly.";
         heroes[hCount].stars = 2;
 
@@ -482,8 +723,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Jump onto a wall to ride along it.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Mei
-        heroes[hCount = 13] = new HeroData(HERO_ID.Mei, 250, 0, 0);
+        heroes[hCount = 13] = new HeroData(HERO_ID.Mei, 250, 0, 0, Role.Damage);
         heroes[hCount].description = "Mei’s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall.";
         heroes[hCount].stars = 3;
 
@@ -513,8 +774,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a weather control drone that freezes enemies in a wide area.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Mercy
-        heroes[hCount = 14] = new HeroData(HERO_ID.Mercy, 200, 0, 0);
+        heroes[hCount = 14] = new HeroData(HERO_ID.Mercy, 200, 0, 0, Role.Support);
         heroes[hCount].description = "";
         heroes[hCount].stars = 1;
 
@@ -554,8 +835,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Automatically heal over time.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Moira
-        heroes[hCount = 15] = new HeroData(HERO_ID.Moira, 200, 0, 0);
+        heroes[hCount = 15] = new HeroData(HERO_ID.Moira, 200, 0, 0, Role.Support);
         heroes[hCount].description = "Moira’s biotic abilities enable her to contribute healing or damage in any crisis. While Biotic Grasp gives Moira short-range options, her Biotic Orbs contribute longer-range, hands-off damage and healing; she can also Fade to escape groups or remain close to allies in need of support. Once she’s charged Coalescence, Moira can save multiple allies from elimination at once or finish off weakened enemies.";
         heroes[hCount].stars = 2;
 
@@ -585,8 +886,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Fire a beam that heals allies and damages enemies.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Orisa
-        heroes[hCount = 16] = new HeroData(HERO_ID.Orisa, 200, 0, 250);
+        heroes[hCount = 16] = new HeroData(HERO_ID.Orisa, 200, 0, 250, Role.Tank);
         heroes[hCount].description = "";
         heroes[hCount].stars = 2;
 
@@ -616,8 +937,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a device that increases damage inflicted by your allies.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Pharah
-        heroes[hCount = 17] = new HeroData(HERO_ID.Pharah, 200, 0, 0);
+        heroes[hCount = 17] = new HeroData(HERO_ID.Pharah, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Soaring through the air in her combat armor, and armed with a launcher that lays down high-explosive rockets, Pharah is a force to be reckoned with.";
         heroes[hCount].stars = 1;
 
@@ -647,8 +988,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a continuous volley of mini-rockets.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Reaper
-        heroes[hCount = 18] = new HeroData(HERO_ID.Reaper, 250, 0, 0);
+        heroes[hCount = 18] = new HeroData(HERO_ID.Reaper, 250, 0, 0, Role.Damage);
         heroes[hCount].description = "Hellfire Shotguns, the ghostly ability to become immune to damage, and the power to step between shadows make Reaper one of the deadliest beings on Earth.";
         heroes[hCount].stars = 1;
 
@@ -678,8 +1039,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Damage all nearby enemies.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Reinhardt
-        heroes[hCount = 19] = new HeroData(HERO_ID.Reinhardt, 300, 200, 0);
+        heroes[hCount = 19] = new HeroData(HERO_ID.Reinhardt, 300, 200, 0, Role.Tank);
         heroes[hCount].description = "Clad in powered armor and swinging his hammer, Reinhardt leads a rocket-propelled charge across the battleground and defends his squadmates with a massive energy barrier.";
         heroes[hCount].stars = 1;
 
@@ -714,8 +1095,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Resistant to knock back effects.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Roadhog
-        heroes[hCount = 20] = new HeroData(HERO_ID.Roadhog, 600, 0, 0);
+        heroes[hCount = 20] = new HeroData(HERO_ID.Roadhog, 600, 0, 0, Role.Tank);
         heroes[hCount].description = "Roadhog uses his signature Chain Hook to pull his enemies close before shredding them with blasts from his Scrap Gun. He’s hardy enough to withstand tremendous damage, and can recover his health with a short breather.";
         heroes[hCount].stars = 1;
 
@@ -745,8 +1146,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Damage and knock back enemies in front of you.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Sigma
-        heroes[hCount = 21] = new HeroData(HERO_ID.Sigma, 300, 100, 0);
+        heroes[hCount = 21] = new HeroData(HERO_ID.Sigma, 300, 100, 0, Role.Tank);
         heroes[hCount].description = "Sigma is an eccentric astrophysicist and volatile tank who gained the power to control gravity in an orbital experiment gone wrong. Manipulated by Talon and deployed as a living weapon, Sigma’s presence on the battlefield cannot be ignored.";
         heroes[hCount].stars = 3;
 
@@ -776,8 +1197,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Manipulate gravity to lift enemies into the air and slam them back down.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Soldier76
-        heroes[hCount = 22] = new HeroData(HERO_ID.Soldier76, 200, 0, 0);
+        heroes[hCount = 22] = new HeroData(HERO_ID.Soldier76, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Armed with cutting-edge weaponry, including an experimental pulse rifle that’s capable of firing spirals of high-powered Helix Rockets, Soldier: 76 has the speed and support know-how of a highly trained warrior.";
         heroes[hCount].stars = 1;
 
@@ -807,8 +1248,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Automatically aims your weapon at targets in view.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Sombra
-        heroes[hCount = 23] = new HeroData(HERO_ID.Sombra, 200, 0, 0);
+        heroes[hCount = 23] = new HeroData(HERO_ID.Sombra, 200, 0, 0, Role.Damage);
         heroes[hCount].description = "Stealth and debilitating attacks make Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra’s ability to Translocate and camouflage herself makes her a hard target to pin down.";
         heroes[hCount].stars = 3;
 
@@ -843,8 +1304,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "You detect critically injured enemies through walls.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Symmetra
-        heroes[hCount = 24] = new HeroData(HERO_ID.Symmetra, 100, 125, 0);
+        heroes[hCount = 24] = new HeroData(HERO_ID.Symmetra, 100, 125, 0, Role.Damage);
         heroes[hCount].description = "Symmetra utilizes her Photon Projector to dispatch adversaries, shield her associates, construct teleportation pads and deploy particle-blasting Sentry Turrets.";
         heroes[hCount].stars = 2;
 
@@ -874,8 +1355,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a massive energy barrier.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Torbjorn
-        heroes[hCount = 25] = new HeroData(HERO_ID.Torbjorn, 200, 0, 50);
+        heroes[hCount = 25] = new HeroData(HERO_ID.Torbjorn, 200, 0, 50, Role.Damage);
         heroes[hCount].description = "";
         heroes[hCount].stars = 2;
 
@@ -910,8 +1411,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Create pools of molten slag that damage enemies. Deals additional damage to armor.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Tracer
-        heroes[hCount = 26] = new HeroData(HERO_ID.Tracer, 150, 0, 0);
+        heroes[hCount = 26] = new HeroData(HERO_ID.Tracer, 150, 0, 0, Role.Damage);
         heroes[hCount].description = "Toting twin pulse pistols, energy-based time bombs, and rapid-fire banter, Tracer is able to 'blink' through space and rewind her personal timeline as she battles to right wrongs the world over.";
         heroes[hCount].stars = 2;
 
@@ -941,8 +1462,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Throw out a powerful sticky explosive.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Widowmaker
-        heroes[hCount = 27] = new HeroData(HERO_ID.Widowmaker, 175, 0, 0);
+        heroes[hCount = 27] = new HeroData(HERO_ID.Widowmaker, 175, 0, 0, Role.Damage);
         heroes[hCount].description = "Widowmaker equips herself with whatever it takes to eliminate her targets, including mines that dispense poisonous gas, a visor that grants her squad infra-sight, and a powerful sniper rifle that can fire in fully-automatic mode.";
         heroes[hCount].stars = 2;
 
@@ -972,8 +1513,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Provide your team with a view of the enemy's location.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Winston
-        heroes[hCount = 28] = new HeroData(HERO_ID.Winston, 400, 0, 150);
+        heroes[hCount = 28] = new HeroData(HERO_ID.Winston, 400, 0, 150, Role.Tank);
         heroes[hCount].description = "Winston wields impressive inventions—a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more—with literal gorilla strength.";
         heroes[hCount].stars = 2;
 
@@ -998,8 +1559,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Gain immense health, but you can only leap and punch enemies.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // WreckingBall
-        heroes[hCount = 29] = new HeroData(HERO_ID.WreckingBall, 500, 0, 100);
+        heroes[hCount = 29] = new HeroData(HERO_ID.WreckingBall, 500, 0, 100, Role.Tank);
         heroes[hCount].description = "Wrecking Ball rolls across the battlefield, using his arsenal of weapons and his mech’s powerful body to crush his enemies.";
         heroes[hCount].stars = 3;
 
@@ -1029,8 +1610,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a massive field of proximity mines.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Zarya
-        heroes[hCount = 30] = new HeroData(HERO_ID.Zarya, 200, 200, 0);
+        heroes[hCount = 30] = new HeroData(HERO_ID.Zarya, 200, 200, 0, Role.Tank);
         heroes[hCount].description = "Deploying powerful personal barriers that convert incoming damage into energy for her massive Particle Cannon, Zarya is an invaluable asset on the front lines of any battle.";
         heroes[hCount].stars = 3;
 
@@ -1065,8 +1666,28 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityDetail = "Damage blocked by barriers increases Particle Cannon damage.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
+
         // Zenyatta
-        heroes[hCount = 31] = new HeroData(HERO_ID.Zenyatta, 50, 150, 0);
+        heroes[hCount = 31] = new HeroData(HERO_ID.Zenyatta, 50, 150, 0, Role.Support);
         heroes[hCount].description = "Zenyatta calls upon orbs of harmony and discord to heal his teammates and weaken his opponents, all while pursuing a transcendent state of immunity to damage.";
         heroes[hCount].stars = 3;
 
@@ -1095,5 +1716,25 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].abilityName = "TRANSCENDENCE";
         heroes[hCount].abilities[aCount].abilityDetail = "Become invulnerable, move faster, and heal nearby allies.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
+
+        heroes[hCount].strongAgainst = new HERO_ID[8];
+        heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
+        heroes[hCount].strongAgainst[1] = HERO_ID.Ashe;
+        heroes[hCount].strongAgainst[2] = HERO_ID.Baptiste;
+        heroes[hCount].strongAgainst[3] = HERO_ID.Bastion;
+        heroes[hCount].strongAgainst[4] = HERO_ID.Brigitte;
+        heroes[hCount].strongAgainst[5] = HERO_ID.Cassidy;
+        heroes[hCount].strongAgainst[6] = HERO_ID.Doomfist;
+        heroes[hCount].strongAgainst[7] = HERO_ID.DVa;
+
+        heroes[hCount].weakAgainst = new HERO_ID[8];
+        heroes[hCount].weakAgainst[0] = HERO_ID.Echo;
+        heroes[hCount].weakAgainst[1] = HERO_ID.Genji;
+        heroes[hCount].weakAgainst[2] = HERO_ID.Hanzo;
+        heroes[hCount].weakAgainst[3] = HERO_ID.Junkrat;
+        heroes[hCount].weakAgainst[4] = HERO_ID.Lucio;
+        heroes[hCount].weakAgainst[5] = HERO_ID.Mei;
+        heroes[hCount].weakAgainst[6] = HERO_ID.Mercy;
+        heroes[hCount].weakAgainst[7] = HERO_ID.Moira;
     }
 }
