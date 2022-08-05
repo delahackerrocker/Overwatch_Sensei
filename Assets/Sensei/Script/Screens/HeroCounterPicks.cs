@@ -6,7 +6,25 @@ using TMPro;
 
 public class HeroCounterPicks : MonoBehaviour
 {
+    // Singleton
+    public static HeroCounterPicks Instance { get; private set; }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+    // ----
+
     public TextMeshProUGUI title;
+
+    public PickHeroButton[] strongAgainst = new PickHeroButton[8];
+    public PickHeroButton[] weakAgainst = new PickHeroButton[8];
 
     private void Update()
     {

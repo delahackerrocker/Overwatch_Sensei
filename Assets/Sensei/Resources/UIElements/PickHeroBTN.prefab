@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6562621872816501401}
   - component: {fileID: 8380435512058774185}
   - component: {fileID: 5460395411379333929}
+  - component: {fileID: 6305779748921729856}
   m_Layer: 5
   m_Name: PickHeroBTN
   m_TagString: Untagged
@@ -93,6 +94,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6305779748921729856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4242188165341009636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d8f870703c07f4da0fb4d4b31c41dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroID: 0
+  image: {fileID: 8470263283809097960}
+  title: {fileID: 478533552012570399}
 --- !u!1 &6354748643915057098
 GameObject:
   m_ObjectHideFlags: 0

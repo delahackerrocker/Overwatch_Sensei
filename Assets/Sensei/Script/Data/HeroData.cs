@@ -26,6 +26,7 @@ public class HeroData
 
     public AbilityData[] abilities;
     public MatchupData[] matchups;
+
     public HERO_ID[] strongAgainst;
     public HERO_ID[] weakAgainst;
 
