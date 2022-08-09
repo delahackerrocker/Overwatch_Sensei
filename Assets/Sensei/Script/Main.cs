@@ -22,7 +22,7 @@ public class Main : MonoBehaviour
     public HERO_ID selectedHero = HERO_ID.None;
     public HERO_ID counterPick = HERO_ID.None;
 
-    public AbilityData selectedAbility;
+    public AbilityData selectedAbility = null;
 
     public HeroData[] heroes = new HeroData[32];
 
@@ -558,12 +558,12 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "DRAGONBLADE";
+        heroes[hCount].abilities[aCount].abilityName = "DRAGON BLADE";
         heroes[hCount].abilities[aCount].abilityDetail = "Unsheathe a deadly melee weapon.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "CYBER-AGILITY";
+        heroes[hCount].abilities[aCount].abilityName = "CYBER AGILITY";
         heroes[hCount].abilities[aCount].abilityDetail = "Unsheathe a deadly melee weapon.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
@@ -614,7 +614,7 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "DRAGONSTRIKE";
+        heroes[hCount].abilities[aCount].abilityName = "DRAGON STRIKE";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a deadly Dragon Spirit that devastates enemies it passes through.";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
