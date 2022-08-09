@@ -22,6 +22,8 @@ public class Main : MonoBehaviour
     public HERO_ID selectedHero = HERO_ID.None;
     public HERO_ID counterPick = HERO_ID.None;
 
+    public AbilityData selectedAbility;
+
     public HeroData[] heroes = new HeroData[32];
 
     private void Start()
@@ -142,7 +144,7 @@ public class Main : MonoBehaviour
         heroes[hCount].description = "Baptiste wields an assortment of experimental devices and weaponry to keep allies alive and eliminate threats under fierce conditions. A battle-hardened combat medic, he is just as capable of saving lives as he is taking out the enemy.";
         heroes[hCount].stars = 3;
 
-        heroes[hCount].abilities = new AbilityData[6];
+        heroes[hCount].abilities = new AbilityData[7];
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BIOTIC LAUNCHER";
         heroes[hCount].abilities[aCount].abilityDetail = "Three-round burst gun.";
@@ -169,9 +171,14 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "EXO BOOTS";
-        heroes[hCount].abilities[aCount].abilityDetail = "Hold crouch to jump higher.";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
+        heroes[hCount].abilities[aCount].abilityName = "EXO BOOTS: CHARGE";
+        heroes[hCount].abilities[aCount].abilityDetail = "Hold crouch to charge your Exo Boots.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.B;
+
+        heroes[hCount].abilities[++aCount] = new AbilityData();
+        heroes[hCount].abilities[aCount].abilityName = "EXO BOOTS: JUMP";
+        heroes[hCount].abilities[aCount].abilityDetail = "Release the charge in your Exo Boots to increase the height of your jump. If there is no charge you will jump normally.";
+        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
         heroes[hCount].strongAgainst[0] = HERO_ID.Ana;
