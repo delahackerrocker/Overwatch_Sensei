@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using DG.Tweening;
 
 public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
 {
@@ -65,38 +66,46 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         CancelDrag();
         currentlySelected = PickHero;
-        gameObject.transform.position = panelLocation = new Vector3(1170, 0, 0);
+        Transition(new Vector3(1170, 0, 0));
     }
 
     public void GOTO_HeroTasks()
     {
         CancelDrag();
         currentlySelected = HeroTasks;
-        gameObject.transform.position = panelLocation = new Vector3(1170, 1620, 0);
+        Transition(new Vector3(1170, 1620, 0));
     }
     public void GOTO_HeroKit()
     {
         CancelDrag();
         currentlySelected = HeroKit;
-        gameObject.transform.position = panelLocation = new Vector3(3510, 1620, 0);
+        Transition(new Vector3(3510, 1620, 0));
     }
     public void GOTO_HeroAbilityDetails()
     {
         CancelDrag();
         currentlySelected = HeroAbilityDetails;
-        gameObject.transform.position = panelLocation = new Vector3(5850, 1620, 0);
+        Transition(new Vector3(5850, 1620, 0));
     }
     public void GOTO_HeroVersusHero()
     {
         CancelDrag();
         currentlySelected = HeroVersusHero;
-        gameObject.transform.position = panelLocation = new Vector3(1170, 2700, 0);
+        Transition(new Vector3(1170, 2700, 0));
     }
     public void GOTO_HeroCounterPicks()
     {
         CancelDrag();
         currentlySelected = HeroCounterPicks;
-        gameObject.transform.position = panelLocation = new Vector3(-1170, 1620, 0);
+        Transition(new Vector3(-1170, 1620, 0));
+    }
+
+    protected void Transition(Vector3 newLocation)
+    {
+        panelLocation = newLocation;
+        transform.DOMove(new Vector3(newLocation.x, newLocation.y, newLocation.z), 0.5f)
+                  .SetOptions(true)
+                  .SetEase(Ease.OutQuint);
     }
 
     public void CancelDrag()
@@ -167,8 +176,9 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
                     // not a valid move reset position
                     newLocation = panelLocation;
                 }
-                transform.position = newLocation;
-                panelLocation = newLocation;
+
+                Transition(newLocation);
+
             }
             else
             {
@@ -208,8 +218,9 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
                         newLocation = panelLocation;
                     }
                 }
-                transform.position = newLocation;
-                panelLocation = newLocation;
+
+                Transition(newLocation);
+
                 if (currentlySelected == HeroVersusHero_Next)
                 {
                     currentlySelected.GetComponent<HeroVersusHero>().GoToHero();
