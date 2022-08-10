@@ -113,8 +113,17 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         // Debug.Log(data.pressPosition - data.position);
 
-        float xDifference = data.pressPosition.x - data.position.x;
-        float yDifference = data.pressPosition.y - data.position.y;
+        float xDifference = 0;
+        if (currentlySelected.HasLeft() || currentlySelected.HasRight()) 
+        {
+            xDifference = data.pressPosition.x - data.position.x;
+        }
+        float yDifference = 0;
+        if (currentlySelected.HasAbove() || currentlySelected.HasBelow())
+        {
+            yDifference = data.pressPosition.y - data.position.y;
+        }
+        
         transform.position = panelLocation - new Vector3(xDifference, yDifference, 0);
 
         DebugOverlay.Output("xDifference: " + xDifference+ ", yDifference: " + yDifference);
