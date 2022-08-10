@@ -26,7 +26,8 @@ public class AbilityButton : MonoBehaviour
         this.abilityData = abilityData;
 
         abilityName.text = abilityData.abilityName;
-        icon.gameObject.SetActive(true);
+        this.icon.gameObject.SetActive(true);
+        this.icon.sprite = Resources.Load<Sprite>(abilityData.abilityIcon);
         button.interactable = true;
     }
 

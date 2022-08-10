@@ -28,6 +28,8 @@ public class AbilityData
 
     public string abilityName = "";
     public string abilityDetail = "";
+    public string abilityVideo = "";
+    public string abilityIcon = "";
 
     public ControllerButton controllerButton = ControllerButton.Passive;
 
