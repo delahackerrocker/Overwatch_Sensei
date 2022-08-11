@@ -12873,7 +12873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   above: {fileID: 0}
   below: {fileID: 0}
-  left: {fileID: 1503051406}
+  left: {fileID: 0}
   right: {fileID: 247261230}
 --- !u!114 &1950582426 stripped
 MonoBehaviour:
