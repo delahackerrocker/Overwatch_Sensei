@@ -23,7 +23,7 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     private PointerEventData _lastPointerData;
 
     public Vector3 panelLocation;
-    public float percentThreshold = 0.45f;
+    public float percentThreshold = 25f;
 
     Vector3 panelSize = new Vector3(2340f, 1080f, 0f);
 

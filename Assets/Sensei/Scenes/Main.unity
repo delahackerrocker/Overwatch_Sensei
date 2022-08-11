@@ -8212,35 +8212,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7448358121258670091, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448358121258670091, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1335932092}
-    - target: {fileID: 7448358121258670091, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Select
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448358121258670091, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: AbilityButton, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448358121258670091, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 7448358121258670093, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
       propertyPath: m_Name
       value: LeftBumperBTN
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448358121889058158, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}
-      propertyPath: m_text
-      value: 'LEFT
-
-        BUMPER'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32849badf95d2c44e9b7987b7dd41378, type: 3}

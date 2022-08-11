@@ -241,45 +241,45 @@ public class Main : MonoBehaviour
 
         heroes[hCount].abilities = new AbilityData[6];
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "CONFIGURATION: RECON";
+        heroes[hCount].abilities[aCount].abilityName = "CONFIGURATION:\nRECON";
         heroes[hCount].abilities[aCount].abilityDetail = "Mobile with a light automatic weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ConfigurationSentry";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-configuration-recon";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SELF-REPAIR";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to heal yourself.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SelfRepair";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-self-repair";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RECONFIGURE";
         heroes[hCount].abilities[aCount].abilityDetail = "Switch between weapon configurations.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Reconfigure";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-reconfigure";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "";
+        heroes[hCount].abilities[aCount].abilityName = "CONFIGURATION:\nSentry";
         heroes[hCount].abilities[aCount].abilityDetail = "";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ConfigurationSentry";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-configuration-sentry";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "CONFIGURATION: TANK";
+        heroes[hCount].abilities[aCount].abilityName = "CONFIGURATION:\nTANK";
         heroes[hCount].abilities[aCount].abilityDetail = "Mobile with a powerful cannon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ConfigurationTank";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-configuration-tank";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "IRONCLAD";
         heroes[hCount].abilities[aCount].abilityDetail = "Reduces damage taken while transformed.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/IronClad";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -311,43 +311,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ROCKET FLAIL";
         heroes[hCount].abilities[aCount].abilityDetail = "Melee weapon with extended range.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RocketFlail";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rocket-flail";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BARRIER SHIELD";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold Secondary Fire to deploy a frontal energy barrier.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BarrierShield";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-barrier-shield";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "REPAIR PACK";
         heroes[hCount].abilities[aCount].abilityDetail = "Heals an ally for a short duration.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RepairPack";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-repair-pack";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "WHIP SHOT";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch your flail forward to knock an enemy away from you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WhipShot";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-whip-shot";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RALLY";
         heroes[hCount].abilities[aCount].abilityDetail = "Move faster and provide armor to nearby allies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Rally";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rally";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "INSPIRE";
         heroes[hCount].abilities[aCount].abilityDetail = "Striking enemies with your flail heals nearby allies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Inspire";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -379,36 +379,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PEACEKEEPER";
         heroes[hCount].abilities[aCount].abilityDetail = "Accurate, powerful revolver.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PeaceKeeper";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-peacekeeper";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FAN THE HAMMER";
         heroes[hCount].abilities[aCount].abilityDetail = "Wildly fire remaining rounds.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PeaceKeeper";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-peacekeeper";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "COMBAT ROLL";
         heroes[hCount].abilities[aCount].abilityDetail = "Roll in the direction you're moving and reload.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CombatRoll";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-combat-roll";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FLASHBANG";
         heroes[hCount].abilities[aCount].abilityDetail = "Stun enemies in front of you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/FlashBang";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-flashbang";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DEADEYE";
         heroes[hCount].abilities[aCount].abilityDetail = "Face off against your enemies. Press Q to lock on, then Q or ABILITY 3 to fire.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/DeadEye";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-deadeye";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -440,43 +440,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FUSION CANNONS";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatic short-range spread weapons.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/FusionCannons";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-fusion-cannons";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DEFENSE MATRIX";
         heroes[hCount].abilities[aCount].abilityDetail = "Block projectiles in an area in front of you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/DefenseMatrix";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-defense-matrix";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BOOSTERS";
         heroes[hCount].abilities[aCount].abilityDetail = "Fly in the direction you are facing.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Boosters";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-boosters";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "MICRO MISSILES";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a volley of explosive rockets.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/MicroMissiles";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-micro-missiles";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SELF - DESTRUCT";
         heroes[hCount].abilities[aCount].abilityDetail = "Eject and overload your mech, causing it to explode after a short time.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SelfDestruct";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-self-destruct";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "EJECT!";
         heroes[hCount].abilities[aCount].abilityDetail = "Eject out of your mech when it is destroyed.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Eject";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -508,43 +508,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HAND CANNON";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range weapon with spread. Reloads automatically.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/HandCannon";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-hand-cannon";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SEISMIC SLAM";
         heroes[hCount].abilities[aCount].abilityDetail = "Leap forward and smash the ground.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SeismicSlam";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-seismic-slam";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RISING UPPERCUT";
         heroes[hCount].abilities[aCount].abilityDetail = "Knock an enemy into the air.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RisingUppercut";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rising-uppercut";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ROCKET PUNCH";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to charge then release to launch forward and knock an enemy back. Damage increases if the enemy hits a wall.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RocketPunch";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rocket-punch";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "METEOR STRIKE";
         heroes[hCount].abilities[aCount].abilityDetail = "Press Q to leap up into the air. Move the targeting circle, then press ABILITY 3 to strike the targeted area.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/MeteorStrike";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-meteor-strike";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "THE BEST DEFENSE...";
         heroes[hCount].abilities[aCount].abilityDetail = "Dealing damage with abilities creates temporary personal shields.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TheBestDefense";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -576,43 +576,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TRI-SHOT";
         heroes[hCount].abilities[aCount].abilityDetail = "Fires 3 shots at once, in a triangle pattern.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TriShot";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-tri-shot";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "STICKY BOMBS";
         heroes[hCount].abilities[aCount].abilityDetail = "Fire a volley of sticky bombs that detonate after a delay.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/StickyBombs";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-sticky-bombs";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FOCUSING BEAM";
         heroes[hCount].abilities[aCount].abilityDetail = "Channel a beam for a few seconds. Deals very high damage to targets under half health.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/FocusingBeam";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-focusing-beam";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FLIGHT";
         heroes[hCount].abilities[aCount].abilityDetail = "Fly forward quickly and then free-fly briefly.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Flight";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-flight";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DUPLICATE";
         heroes[hCount].abilities[aCount].abilityDetail = "Become a copy of the targeted enemy hero. They cannot swap heroes for the duration.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Duplicate";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-duplicate";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "GLIDE";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold jump to glide while falling.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Glide";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -644,43 +644,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SHURIKEN";
         heroes[hCount].abilities[aCount].abilityDetail = "Throw an accurate burst of 3 projectiles.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Shuriken";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-shuriken";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FAN OF BLADES";
         heroes[hCount].abilities[aCount].abilityDetail = "Throw a fan of 3 projectiles in an arc.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Shuriken";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-shuriken";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DEFLECT";
         heroes[hCount].abilities[aCount].abilityDetail = "Deflect incoming projectiles towards the direction you are aiming and block melee attacks.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Deflect";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-deflect";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SWIFT STRIKE";
         heroes[hCount].abilities[aCount].abilityDetail = "Rapidly dash forward and inflict damage on enemies. Eliminations reset the cooldown.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SwiftStrike";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-swift-strike";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DRAGON BLADE";
         heroes[hCount].abilities[aCount].abilityDetail = "Unsheathe a deadly melee weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/DragonBlade";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-dragonblade";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CYBER AGILITY";
         heroes[hCount].abilities[aCount].abilityDetail = "Unsheathe a deadly melee weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CyberAgility";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -712,43 +712,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "STORM BOW";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to charge then release to launch arrows further.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/StormBow";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-storm-bow";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "STORM ARROWS";
         heroes[hCount].abilities[aCount].abilityDetail = "The next 5 arrows fire instantly at reduced damage.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/StormArrows";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-storm-arrows";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SONIC ARROW";
         heroes[hCount].abilities[aCount].abilityDetail = "Reveals enemies for a short time upon impact.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SonicArrow";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-sonic-arrow";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "LUNGE";
         heroes[hCount].abilities[aCount].abilityDetail = "Double Jump.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Lunge";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-lunge";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DRAGON STRIKE";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a deadly Dragon Spirit that devastates enemies it passes through.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/DragonStrike";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-dragonstrike";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "WALL CLIMB";
         heroes[hCount].abilities[aCount].abilityDetail = "Jump at walls to climb up them.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WallClimb";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -780,36 +780,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FRAG LAUNCHER";
         heroes[hCount].abilities[aCount].abilityDetail = "Bouncing explosive projectile weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/FragLauncher";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-frag-launcher";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CONCUSSION MINE";
         heroes[hCount].abilities[aCount].abilityDetail = "Throw a knockback mine with LSHIFT then detonate it with ABILITY 1.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ConcussionMine";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-concussion-mine";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "STEEL TRAP";
         heroes[hCount].abilities[aCount].abilityDetail = "Place an immobilizing trap.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SteelTrap";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-steel-trap";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RIP-TIRE";
         heroes[hCount].abilities[aCount].abilityDetail = "Drive and detonate an exploding tire.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RipTire";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rip-tire";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TOTAL MAYHEM";
         heroes[hCount].abilities[aCount].abilityDetail = "Deals no damage to self with explosives. Drop bombs on death.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TotalMayhem";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -841,43 +841,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SONIC AMPLIFIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Sonic projectile launcher.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SonicAmplifier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-sonic-amplifier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SOUNDWAVE";
         heroes[hCount].abilities[aCount].abilityDetail = "Create a short-range blast wave to knock enemies away from you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SoundWave";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-soundwave";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "AMP IT UP";
         heroes[hCount].abilities[aCount].abilityDetail = "Increase the effectiveness of your current song.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/AmpItUp";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-amp-it-up";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CROSSFADE";
         heroes[hCount].abilities[aCount].abilityDetail = "Switches between two songs: Healing Boost heals nearby allies, and Speed Boost makes nearby allies move faster.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CrossFade";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-crossfade";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SOUND BARRIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Create temporary shields for nearby allies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SoundBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-sound-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "WALL RIDE";
         heroes[hCount].abilities[aCount].abilityDetail = "Jump onto a wall to ride along it.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WallRide";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -909,36 +909,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ENDOTHERMIC BLASTER";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range spray weapon that freezes.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/EndothermicBlaster";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-endothermic-blaster";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ICICLE";
         heroes[hCount].abilities[aCount].abilityDetail = "Long-range icicle launcher.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/EndothermicBlaster";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-endothermic-blaster";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CRYO-FREEZE";
         heroes[hCount].abilities[aCount].abilityDetail = "Become invulnerable and heal yourself.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CryoFreeze";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-cryo-freeze";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ICE WALL";
         heroes[hCount].abilities[aCount].abilityDetail = "Create a wall in front of you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/IceWall";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-ice-wall";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BLIZZARD";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a weather control drone that freezes enemies in a wide area.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Blizzard";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-blizzard";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -970,50 +970,50 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CADUCEUS STAFF";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to heal an ally.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CaduceusStaff";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-caduceus-staff";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CADUCEUS BLASTER";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatic weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CaduceusBlaster";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-caduceus-blaster";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.DPadRight;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CADUCEUS STAFF";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to increase an ally's damage inflicted.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/CaduceusStaff";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-caduceus-staff";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RESURRECT";
         heroes[hCount].abilities[aCount].abilityDetail = "Revive a dead teammate.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Resurrect";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-resurrect";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ANGELIC DESCENT";
         heroes[hCount].abilities[aCount].abilityDetail = "Fall very slowly.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/AngelicDescent";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-angelic-descent";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "VALKYRIE";
         heroes[hCount].abilities[aCount].abilityDetail = "Gain the ability to fly. Abilities are enhanced.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Valkyrie";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-valkyrie";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "REGENERATION";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatically heal over time.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Regeneration";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1045,36 +1045,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BIOTIC GRASP";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to heal all allies in front of you. Consumes biotic energy.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BioticGrasp";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-biotic-grasp";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BIOTIC GRASP - ALT FIRE";
         heroes[hCount].abilities[aCount].abilityDetail = "Long range beam weapon. Damage dealt heals you and replenishes your biotic energy.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BioticGrasp";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-biotic-grasp";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FADE";
         heroes[hCount].abilities[aCount].abilityDetail = "Disappear, move faster, and become invulnerable, but you cannot shoot.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Fade";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-fade";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BIOTIC ORB";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a bouncing sphere that either heals nearby allies or damages nearby enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BioticOrb";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-biotic-orb";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "COALESCENCE";
         heroes[hCount].abilities[aCount].abilityDetail = "Fire a beam that heals allies and damages enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Coalescence";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-coalescence";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1106,36 +1106,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FUSION DRIVER";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatic projectile weapon. Slows Orisa while firing.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/FusionDriver";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-fusion-driver";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PROTECTIVE BARRIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Throw a device that creates a barrier.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ProtectiveBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-protective-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FORTIFY";
         heroes[hCount].abilities[aCount].abilityDetail = "Reduce damage taken and you cannot be stopped.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Fortify";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-fortify";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HALT!";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a graviton charge with Secondary Fire then detonate it with SECONDARY FIRE. The sphere slows and pulls nearby enemies to it.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Halt";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-halt";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SUPERCHARGER";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a device that increases damage inflicted by your allies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SuperCharger";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-supercharger";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1167,36 +1167,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ROCKET LAUNCHER";
         heroes[hCount].abilities[aCount].abilityDetail = "Long-range explosive projectile weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RocketLauncher";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rocket-launcher";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HOVER JETS";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to hover.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/HoverJets";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.A;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CONCUSSIVE BLAST";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch an explosive blast to knock back enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ConcussiveBlast";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-concussive-blast";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "JUMP JET";
         heroes[hCount].abilities[aCount].abilityDetail = "Fly rapidly upwards.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/JumpJet";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-jump-jet";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BARRAGE";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a continuous volley of mini-rockets.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Barrage";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-barrage";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1228,36 +1228,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HELLFIRE SHOTGUNS";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range spread weapons.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/HellfireShotguns";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-hellfire-shotguns";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "WRAITH FORM";
         heroes[hCount].abilities[aCount].abilityDetail = "Move faster and become invulnerable, but you cannot shoot.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WraithForm";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-wraith-form";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SHADOW STEP";
         heroes[hCount].abilities[aCount].abilityDetail = "Teleport to a targeted location.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ShadowStep";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-shadow-step";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "THE REAPING";
         heroes[hCount].abilities[aCount].abilityDetail = "Dealing damage heals you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TheReaping";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DEATH BLOSSOM";
         heroes[hCount].abilities[aCount].abilityDetail = "Damage all nearby enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/DeathBlossom";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-death-blossom";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1289,43 +1289,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ROCKET HAMMER";
         heroes[hCount].abilities[aCount].abilityDetail = "Devastating melee weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RocketHammer";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rocket-hammer";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BARRIER FIELD";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold Secondary Fire to deploy a frontal energy barrier.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BarrierField";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-barrier-field";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CHARGE";
         heroes[hCount].abilities[aCount].abilityDetail = "Charge forward and smash an enemy against a wall.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Charge";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-charge";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FIRE STRIKE";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a fiery projectile.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/FireStrike";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-fire-strike";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "EARTHSHATTER";
         heroes[hCount].abilities[aCount].abilityDetail = "Knock down all enemies in front of you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/EarthShatter";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-earthshatter";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "STEADFAST";
         heroes[hCount].abilities[aCount].abilityDetail = "Resistant to knock back effects.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Steadfast";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1357,36 +1357,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SCRAP GUN";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range spread weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ScrapGun";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-scrap-gun";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SCRAP GUN";
         heroes[hCount].abilities[aCount].abilityDetail = "Medium-range spread weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ScrapGun";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-scrap-gun";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "CHAIN HOOK";
         heroes[hCount].abilities[aCount].abilityDetail = "Drag a targeted enemy to you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ChainHook";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-chain-hook";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TAKE A BREATHER";
         heroes[hCount].abilities[aCount].abilityDetail = "Heal yourself and reduce damage taken over a short time.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TakeBreather";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-take-a-breather";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "WHOLE HOG";
         heroes[hCount].abilities[aCount].abilityDetail = "Damage and knock back enemies in front of you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WholeHog";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-whole-hog";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1418,36 +1418,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HYPERSPHERES";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch two charges which implode after a short duration, dealing damage in an area.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/HyperSpheres";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-hyperspheres";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "EXPERIMENTAL BARRIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to propel a floating barrier; release to stop. Press again to recall the barrier to you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ExperimentalBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-experimental-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ACCRETION";
         heroes[hCount].abilities[aCount].abilityDetail = "Gather a mass of debris and throw it at an enemy to knock them down.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Accretion";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-accretion";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "KINETIC GRASP";
         heroes[hCount].abilities[aCount].abilityDetail = "Absorb projectiles in front of you and convert them into shields.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/KineticGrasp";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-kinetic-grasp";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "GRAVITIC FLUX";
         heroes[hCount].abilities[aCount].abilityDetail = "Manipulate gravity to lift enemies into the air and slam them back down.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/GraviticFlux";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-gravitic-flux";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1479,36 +1479,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HEAVY PULSE RIFLE";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatic assault weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/HeavyPulseRifle";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-heavy-pulse-rifle";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HELIX ROCKETS";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a volley of explosive rockets.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/HelixRockets";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-helix-rockets";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BIOTIC FIELD";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a field that heals you and your allies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BioticField";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-biotic-field";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SPRINT";
         heroes[hCount].abilities[aCount].abilityDetail = "Run faster while moving forward.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Sprint";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-sprint";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TACTICAL VISOR";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatically aims your weapon at targets in view.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TacticalVisor";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-tactical-visor";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1540,43 +1540,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "MACHINE PISTOL";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range automatic weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/MachinePistol";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-machine-pistol";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "STEALTH";
         heroes[hCount].abilities[aCount].abilityDetail = "Become invisible and move quickly.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Stealth";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-stealth";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TRANSLOCATOR";
         heroes[hCount].abilities[aCount].abilityDetail = "Throw a beacon, then press E again to teleport to it. Press ABILITY 2 to remove it.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Translocator";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-translocator";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "HACK";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to hack. Hacked enemies cannot use abilities. Hacked health packs spawn faster but can't be used by enemies. Taking damage interrupts the hack attempt.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Hack";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-hack";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "EMP";
         heroes[hCount].abilities[aCount].abilityDetail = "Hack enemies and destroy enemy shields and barriers around you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/EMP";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-emp";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "OPPORTUNIST";
         heroes[hCount].abilities[aCount].abilityDetail = "You detect critically injured enemies through walls.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Opportunist";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1608,36 +1608,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PHOTON PROJECTOR";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range beam weapon with increasing damage. Damaging Barriers does not consume ammunition.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PhotonBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-photon-projector";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PHOTON PROJECTOR";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold to charge, release to fire explosive orb.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PhotonBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-photon-projector";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TELEPORTER";
         heroes[hCount].abilities[aCount].abilityDetail = "Create two teleporters that enable instant travel between them.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Teleporter";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-teleporter";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SENTRY TURRET";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a small turret that damages and slows enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/SentryTurret";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-sentry-turret";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PHOTON BARRIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a massive energy barrier.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PhotonBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-photon-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1669,43 +1669,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RIVET GUN";
         heroes[hCount].abilities[aCount].abilityDetail = "Slow firing, long-ranged weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RivetGun";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rivet-gun";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RIVET GUN - ALT FIRE";
         heroes[hCount].abilities[aCount].abilityDetail = "Inaccurate but powerful short-range weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/RivetGun";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-rivet-gun";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "FORGE HAMMER";
         heroes[hCount].abilities[aCount].abilityDetail = "Swing to repair your turret or damage an enemy.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ForgeHammer";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-forge-hammer";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.DPadLeft;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "OVERLOAD";
         heroes[hCount].abilities[aCount].abilityDetail = "Gain additional armor as well as improved attack, movement, and reload speed.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Overload";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-overload";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "DEPLOY TURRET";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a self-building turret.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/DeployTurret";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-deploy-turret";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "MOLTEN CORE";
         heroes[hCount].abilities[aCount].abilityDetail = "Create pools of molten slag that damage enemies. Deals additional damage to armor.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/MoltenCore";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-molten-core";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1733,40 +1733,33 @@ public class Main : MonoBehaviour
         heroes[hCount].description = "Toting twin pulse pistols, energy-based time bombs, and rapid-fire banter, Tracer is able to 'blink' through space and rewind her personal timeline as she battles to right wrongs the world over.";
         heroes[hCount].stars = 2;
 
-        heroes[hCount].abilities = new AbilityData[5];
+        heroes[hCount].abilities = new AbilityData[4];
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PULSE PISTOLS";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range automatic weapons.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PulsePistols";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-pulse-pistols";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BLINK";
         heroes[hCount].abilities[aCount].abilityDetail = "Teleport in the direction you are moving.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Blink";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-blink";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "RECALL";
         heroes[hCount].abilities[aCount].abilityDetail = "Travel back in time to your previous location and health.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Recall";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-recall";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
-
-        heroes[hCount].abilities[++aCount] = new AbilityData();
-        heroes[hCount].abilities[aCount].abilityName = "RECALL";
-        heroes[hCount].abilities[aCount].abilityDetail = "Travel back in time to your previous location and health.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PULSE BOMB";
         heroes[hCount].abilities[aCount].abilityDetail = "Throw out a powerful sticky explosive.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PulseBomb";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-pulse-bomb";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1798,36 +1791,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "WIDOW'S KISS";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatic assault weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WidowsKiss";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-widows-kiss";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "SNIPER MODE";
         heroes[hCount].abilities[aCount].abilityDetail = "Hold for long-ranged sniper weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/WidowsKiss";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "VENOM MINE";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a poison trap.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/VenomMine";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-venom-mine";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "GRAPPLING HOOK";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a hook that pulls you towards a ledge.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/GrapplingHook";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-grappling-hook";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "INFRA-SIGHT";
         heroes[hCount].abilities[aCount].abilityDetail = "Provide your team with a view of the enemy's location.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/InfraSight";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-infra-sight";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1859,29 +1852,29 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TESLA CANNON";
         heroes[hCount].abilities[aCount].abilityDetail = "Electric frontal-cone weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/TeslaCannon";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-tesla-cannon";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "BARRIER PROJECTOR";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a protective energy dome.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/BarrierProjector";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-barrier-projector";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "JUMP PACK";
         heroes[hCount].abilities[aCount].abilityDetail = "Leap forward into the air. Landing on an enemy damages them.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/JumpPack";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-jump-pack";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PRIMAL RAGE";
         heroes[hCount].abilities[aCount].abilityDetail = "Gain immense health, but you can only leap and punch enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/PrimalRage";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-primal-rage";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1913,36 +1906,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "QUAD CANNONS";
         heroes[hCount].abilities[aCount].abilityDetail = "Automatic assault weapons.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/QuadCannons";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-quad-cannons";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ROLL";
         heroes[hCount].abilities[aCount].abilityDetail = "Transform into a ball and increase maximum movement speed.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Roll";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-roll";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ADAPTIVE SHIELD";
         heroes[hCount].abilities[aCount].abilityDetail = "Create temporary personal shields. Amount increases with more enemies nearby.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/AdaptiveShield";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-adaptive-shield";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "GRAPPLING CLAW";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a grappling claw to rapidly swing around the area. Enables high speed collisions to damage and knockback enemies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/GrapplingClaw";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-grappling-claw";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "MINEFIELD";
         heroes[hCount].abilities[aCount].abilityDetail = "Deploy a massive field of proximity mines.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Minefield";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-minefield";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -1974,43 +1967,43 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PARTICLE CANNON";
         heroes[hCount].abilities[aCount].abilityDetail = "Short-range linear beam weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ParticleCannon";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-particle-cannon";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PARTICLE CANNON";
         heroes[hCount].abilities[aCount].abilityDetail = "Energy grenade launcher.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ParticleCannon";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-particle-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PROJECTED BARRIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Create a damage barrier around an ally.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ProjectedBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-projected-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "PARTICLE BARRIER";
         heroes[hCount].abilities[aCount].abilityDetail = "Create a damage barrier around you.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ParticleBarrier";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-particle-barrier";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "GRAVITON SURGE";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch a gravity well that pulls enemies to it.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/GravitonSurge";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-graviton-surge";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ENERGY";
         heroes[hCount].abilities[aCount].abilityDetail = "Damage blocked by barriers increases Particle Cannon damage.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Energy";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/intro-video";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Passive;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
@@ -2042,36 +2035,36 @@ public class Main : MonoBehaviour
         heroes[hCount].abilities[aCount = 0] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ORB OF DESTRUCTION";
         heroes[hCount].abilities[aCount].abilityDetail = "Energy projectile weapon.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/OrbOfDestruction";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-orb-of-destruction";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ORB OF DESTRUCTION";
         heroes[hCount].abilities[aCount].abilityDetail = "Charge to release more projectiles.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/OrbOfDestruction";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-orb-of-destruction";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ORB OF HARMONY";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch this orb at an ally to heal them.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/OrbOfHarmony";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-orb-of-harmony";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.RightBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "ORB OF DISCORD";
         heroes[hCount].abilities[aCount].abilityDetail = "Launch this orb at an enemy to increase the damage they take.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/OrbOfDiscord";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-orb-of-discord";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.LeftBumper;
 
         heroes[hCount].abilities[++aCount] = new AbilityData();
         heroes[hCount].abilities[aCount].abilityName = "TRANSCENDENCE";
         heroes[hCount].abilities[aCount].abilityDetail = "Become invulnerable, move faster, and heal nearby allies.";
-        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/ability";
-        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability";
+        heroes[hCount].abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + heroes[hCount].hero + "/Transcendence";
+        heroes[hCount].abilities[aCount].abilityVideo = heroes[hCount].hero + "/ability-transcendence";
         heroes[hCount].abilities[aCount].controllerButton = ControllerButton.Y;
 
         heroes[hCount].strongAgainst = new HERO_ID[8];
