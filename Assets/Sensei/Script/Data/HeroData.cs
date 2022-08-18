@@ -30,6 +30,11 @@ public class HeroData
     public HERO_ID[] strongAgainst;
     public HERO_ID[] weakAgainst;
 
+    public HeroData()
+    {
+
+    }
+
     public HeroData(HERO_ID hero, int health, int shields, int armor, Role role)
     {
         this.hero = hero;
