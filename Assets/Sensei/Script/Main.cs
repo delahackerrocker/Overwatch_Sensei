@@ -33,40 +33,41 @@ public class Main : MonoBehaviour
 
     void InitializeAllHeroData()
     {
-        int hCount = 0;
-        int aCount = 0;
-
-        heroes[hCount = 0] = new AnaHD();
-        heroes[hCount = 1] = new AsheHD();
-        heroes[hCount = 2] = new BaptisteHD();
-        heroes[hCount = 3] = new BastionHD();
-        heroes[hCount = 4] = new BrigitteHD();
-        heroes[hCount = 5] = new CassidyHD();
-        heroes[hCount = 6] = new DVaHD();
-        heroes[hCount = 7] = new DoomfistHD();
-        heroes[hCount = 8] = new EchoHD();
-        heroes[hCount = 9] = new GenjiHD();
-        heroes[hCount = 10] = new HanzoHD();
-        heroes[hCount = 11] = new JunkratHD();
-        heroes[hCount = 12] = new LucioHD();
-        heroes[hCount = 13] = new MeiHD();
-        heroes[hCount = 14] = new MercyHD();
-        heroes[hCount = 15] = new MoiraHD();
-        heroes[hCount = 16] = new OrisaHD();
-        heroes[hCount = 17] = new PharahHD();
-        heroes[hCount = 18] = new ReaperHD();
-        heroes[hCount = 19] = new ReinhardtHD();
-        heroes[hCount = 20] = new RoadhogHD();
-        heroes[hCount = 21] = new SigmaHD();
-        heroes[hCount = 22] = new Soldier76HD();
-        heroes[hCount = 23] = new SombraHD();
-        heroes[hCount = 24] = new SymmetraHD();
-        heroes[hCount = 25] = new TorbjornHD();
-        heroes[hCount = 26] = new TracerHD();
-        heroes[hCount = 27] = new WidowmakerHD();
-        heroes[hCount = 28] = new WinstonHD();
-        heroes[hCount = 29] = new WreckingBallHD();
-        heroes[hCount = 30] = new ZaryaHD();
-        heroes[hCount = 31] = new ZenyattaHD();
+        heroes[0] = new AnaHD();
+        heroes[1] = new AsheHD();
+        heroes[2] = new BaptisteHD();
+        heroes[3] = new BastionHD();
+        heroes[4] = new BrigitteHD();
+        heroes[5] = new CassidyHD();
+        heroes[6] = new DVaHD();
+        heroes[7] = new DoomfistHD();
+        heroes[8] = new EchoHD();
+        heroes[9] = new GenjiHD();
+        /*
+        heroes[10] = new HanzoHD();
+        heroes[11] = new JunkratHD();
+        heroes[12] = new LucioHD();
+        heroes[13] = new MeiHD();
+        heroes[14] = new MercyHD();
+        heroes[15] = new MoiraHD();
+        heroes[16] = new OrisaHD();
+        heroes[17] = new PharahHD();
+        heroes[18] = new ReaperHD();
+        heroes[19] = new ReinhardtHD();
+        heroes[20] = new RoadhogHD();
+        heroes[21] = new SigmaHD();
+        heroes[22] = new Soldier76HD();
+        heroes[23] = new SombraHD();
+        */
+        heroes[24] = new SymmetraHD();
+        /*
+        heroes[25] = new TorbjornHD();
+        heroes[26] = new TracerHD();
+        heroes[27] = new WidowmakerHD();
+        heroes[28] = new WinstonHD();
+        heroes[29] = new WreckingBallHD();
+        heroes[30] = new ZaryaHD();
+        heroes[31] = new ZenyattaHD();
+        */
     }
 }

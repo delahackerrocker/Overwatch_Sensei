@@ -13,6 +13,7 @@ public class WinstonHD : HeroData
         this.role = Role.Tank;
 
         int aCount = 0;
+        int bCount = 0;
 
         description = "Winston wields impressive inventions—a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more—with literal gorilla strength.";
         stars = 2;
@@ -20,63 +21,43 @@ public class WinstonHD : HeroData
         abilities = new AbilityData[4];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "TESLA CANNON";
-        abilities[aCount].abilityDetail = "Electric frontal-cone weapon.";
+        abilities[aCount].abilityDescription = "Electric frontal-cone weapon.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/TeslaCannon";
         abilities[aCount].abilityVideo = hero + "/ability-tesla-cannon";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
-        abilities[aCount].damage = 0;
-        abilities[aCount].healing = 0;
-        abilities[aCount].burst = 1;
-        abilities[aCount].pellets = 1;
-        abilities[aCount].ammo = 1;
-        abilities[aCount].range = 10;
-        abilities[aCount].reloadTime = 0.01f;
-        abilities[aCount].recoverTime = 0.01f;
+        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "BARRIER PROJECTOR";
-        abilities[aCount].abilityDetail = "Deploy a protective energy dome.";
+        abilities[aCount].abilityDescription = "Deploy a protective energy dome.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/BarrierProjector";
         abilities[aCount].abilityVideo = hero + "/ability-barrier-projector";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
-        abilities[aCount].damage = 0;
-        abilities[aCount].healing = 0;
-        abilities[aCount].burst = 1;
-        abilities[aCount].pellets = 1;
-        abilities[aCount].ammo = 1;
-        abilities[aCount].range = 10;
-        abilities[aCount].reloadTime = 0.01f;
-        abilities[aCount].recoverTime = 0.01f;
+        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "JUMP PACK";
-        abilities[aCount].abilityDetail = "Leap forward into the air. Landing on an enemy damages them.";
+        abilities[aCount].abilityDescription = "Leap forward into the air. Landing on an enemy damages them.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/JumpPack";
         abilities[aCount].abilityVideo = hero + "/ability-jump-pack";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
-        abilities[aCount].damage = 0;
-        abilities[aCount].healing = 0;
-        abilities[aCount].burst = 1;
-        abilities[aCount].pellets = 1;
-        abilities[aCount].ammo = 1;
-        abilities[aCount].range = 10;
-        abilities[aCount].reloadTime = 0.01f;
-        abilities[aCount].recoverTime = 0.01f;
+        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "PRIMAL RAGE";
-        abilities[aCount].abilityDetail = "Gain immense health, but you can only leap and punch enemies.";
+        abilities[aCount].abilityDescription = "Gain immense health, but you can only leap and punch enemies.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/PrimalRage";
         abilities[aCount].abilityVideo = hero + "/ability-primal-rage";
         abilities[aCount].controllerButton = ControllerButton.Y;
-        abilities[aCount].damage = 0;
-        abilities[aCount].healing = 0;
-        abilities[aCount].burst = 1;
-        abilities[aCount].pellets = 1;
-        abilities[aCount].ammo = 1;
-        abilities[aCount].range = 10;
-        abilities[aCount].reloadTime = 0.01f;
-        abilities[aCount].recoverTime = 0.01f;
+        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;

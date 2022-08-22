@@ -66,7 +66,7 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         CancelDrag();
         currentlySelected = PickHero;
-        Transition(new Vector3(1170, 0, 0));
+        Transition(new Vector3(1170, 540, 0));
     }
 
     public void GOTO_HeroTasks()
@@ -177,8 +177,15 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
                     newLocation = panelLocation;
                 }
 
-                Transition(newLocation);
-
+                if (currentlySelected == PickHero)
+                {
+                    // go straight to PickHero
+                    GOTO_PickHero();
+                } else
+                {
+                    // go to calculated position
+                    Transition(newLocation);
+                }
             }
             else
             {

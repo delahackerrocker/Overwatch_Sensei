@@ -9,12 +9,10 @@ public class HeroAbilityDetails : MonoBehaviour
 {
     public TextMeshProUGUI title;
     public TextMeshProUGUI buttonName;
-    public TextMeshProUGUI abilityDetail;
+    public TextMeshProUGUI abilityDescription;
     public Image icon;
 
-    public TextMeshProUGUI damage;
-    public TextMeshProUGUI healing;
-    public TextMeshProUGUI range;
+    public TextMeshProUGUI abilityDetails;
 
     public VideoPlayer videoPlayer;
 
@@ -26,34 +24,17 @@ public class HeroAbilityDetails : MonoBehaviour
         {
             title.text = Main.Instance.selectedHero + ": "+ Main.Instance.selectedAbility.abilityName;
             buttonName.text = ""+Main.Instance.selectedAbility.controllerButton;
-            abilityDetail.text = "" + Main.Instance.selectedAbility.abilityDetail;
+            abilityDescription.text = "" + Main.Instance.selectedAbility.abilityDescription;
 
             this.icon.sprite = Resources.Load<Sprite>(Main.Instance.selectedAbility.abilityIcon);
 
-            if (Main.Instance.selectedAbility.damage == 0)
+            abilityDetails.text = "";
+            if (Main.Instance.selectedAbility.abilityDetails != null)
             {
-                damage.text = "";
-            } else
-            {
-                damage.text = "Damage: " + Main.Instance.selectedAbility.damage;
-            }
-
-            if (Main.Instance.selectedAbility.healing == 0)
-            {
-                healing.text = "";
-            }
-            else
-            {
-                healing.text = "Healing: " + Main.Instance.selectedAbility.healing;
-            }
-
-            if (Main.Instance.selectedAbility.range == 0)
-            {
-                range.text = "";
-            }
-            else
-            {
-                range.text = "Range: " + Main.Instance.selectedAbility.range;
+                for(int count = 0; count < Main.Instance.selectedAbility.abilityDetails.Length; count++)
+                {
+                    abilityDetails.text += Main.Instance.selectedAbility.abilityDetails[count]+ "\n";
+                }
             }
 
             videoPlayer.Stop();
