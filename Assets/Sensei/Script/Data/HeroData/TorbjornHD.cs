@@ -25,8 +25,16 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/RivetGun";
         abilities[aCount].abilityVideo = hero + "/ability-rivet-gun";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -35,8 +43,16 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/RivetGun";
         abilities[aCount].abilityVideo = hero + "/ability-rivet-gun";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -45,8 +61,16 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/ForgeHammer";
         abilities[aCount].abilityVideo = hero + "/ability-forge-hammer";
         abilities[aCount].controllerButton = ControllerButton.DPadLeft;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -55,8 +79,16 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Overload";
         abilities[aCount].abilityVideo = hero + "/ability-overload";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -65,8 +97,16 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/DeployTurret";
         abilities[aCount].abilityVideo = hero + "/ability-deploy-turret";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -75,8 +115,16 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/MoltenCore";
         abilities[aCount].abilityVideo = hero + "/ability-molten-core";
         abilities[aCount].controllerButton = ControllerButton.Y;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         strongAgainst = new HERO_ID[8];

@@ -25,8 +25,16 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/QuadCannons";
         abilities[aCount].abilityVideo = hero + "/ability-quad-cannons";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -35,8 +43,16 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Roll";
         abilities[aCount].abilityVideo = hero + "/ability-roll";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -45,8 +61,16 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/AdaptiveShield";
         abilities[aCount].abilityVideo = hero + "/ability-adaptive-shield";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -55,8 +79,16 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/GrapplingClaw";
         abilities[aCount].abilityVideo = hero + "/ability-grappling-claw";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -65,8 +97,16 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Minefield";
         abilities[aCount].abilityVideo = hero + "/ability-minefield";
         abilities[aCount].controllerButton = ControllerButton.Y;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         strongAgainst = new HERO_ID[8];

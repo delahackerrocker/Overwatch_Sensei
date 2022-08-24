@@ -25,8 +25,16 @@ public class TracerHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/PulsePistols";
         abilities[aCount].abilityVideo = hero + "/ability-pulse-pistols";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -35,8 +43,16 @@ public class TracerHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Blink";
         abilities[aCount].abilityVideo = hero + "/ability-blink";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -45,8 +61,16 @@ public class TracerHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Recall";
         abilities[aCount].abilityVideo = hero + "/ability-recall";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         abilities[++aCount] = new AbilityData();
@@ -55,8 +79,16 @@ public class TracerHD : HeroData
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/PulseBomb";
         abilities[aCount].abilityVideo = hero + "/ability-pulse-bomb";
         abilities[aCount].controllerButton = ControllerButton.Y;
-        abilities[aCount].abilityDetails = new string[2];
+        abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
+        abilities[aCount].abilityDetails[++bCount] = "";
         abilities[aCount].abilityDetails[++bCount] = "";
 
         strongAgainst = new HERO_ID[8];

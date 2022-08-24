@@ -33,6 +33,10 @@ public class HeroKit : MonoBehaviour
             // check to see if there is a left trigger ability
             for (index = 0; index < abilityCount; index++)
             {
+                Debug.Log("Main.Instance.selectedHero: " + Main.Instance.selectedHero);
+                Debug.Log("HERO_ID.Pharah: " + HERO_ID.Pharah);
+                Debug.Log("index: " + index);
+                Debug.Log("Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities[index]: " + Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities[index]);
                 if (Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities[index].controllerButton == ControllerButton.LeftTrigger)
                 {
                     leftTriggerBTN.UpdateButton(Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities[index].controllerButton, Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities[index]);
