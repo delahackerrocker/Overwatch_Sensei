@@ -51,8 +51,6 @@ public class PharahHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "The red portion of Pharah's fuel bar signifies the area that will not be refueled by the time Pharah reaches the peak of her Jump Jet.";
         abilities[aCount].abilityDetails[++bCount] = "Allows Pharah to hover indefinitely when paired with Jump Jet.";
 
-
-
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "CONCUSSIVE BLAST";
         abilities[aCount].abilityDescription = "Pharah looses a wrist rocket that knocks back any enemies it strikes.";

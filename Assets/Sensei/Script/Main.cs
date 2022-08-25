@@ -51,15 +51,13 @@ public class Main : MonoBehaviour
         heroes[(int)HERO_ID.Moira] = new MoiraHD();
         heroes[(int)HERO_ID.Orisa] = new OrisaHD();
         heroes[(int)HERO_ID.Pharah] = new PharahHD();
-        /*
-        heroes[(int)18] = new ReaperHD();
-        heroes[(int)19] = new ReinhardtHD();
-        heroes[(int)20] = new RoadhogHD();
-        heroes[(int)21] = new SigmaHD();
-        heroes[(int)22] = new Soldier76HD();
-        heroes[(int)23] = new SombraHD();
-        */
-        heroes[(int)24] = new SymmetraHD();
+        heroes[(int)HERO_ID.Reaper] = new ReaperHD();
+        heroes[(int)HERO_ID.Reinhardt] = new ReinhardtHD();
+        heroes[(int)HERO_ID.Roadhog] = new RoadhogHD();
+        heroes[(int)HERO_ID.Sigma] = new SigmaHD();
+        heroes[(int)HERO_ID.Soldier76] = new Soldier76HD();
+        heroes[(int)HERO_ID.Sombra] = new SombraHD();
+        heroes[(int)HERO_ID.Symmetra] = new SymmetraHD();
         /*
         heroes[(int)25] = new TorbjornHD();
         heroes[(int)26] = new TracerHD();
