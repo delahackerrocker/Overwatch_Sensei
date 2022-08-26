@@ -63,9 +63,7 @@ public class Main : MonoBehaviour
         heroes[(int)HERO_ID.Widowmaker] = new WidowmakerHD();
         heroes[(int)HERO_ID.Winston] = new WinstonHD();
         heroes[(int)HERO_ID.WreckingBall] = new WreckingBallHD();
-        /*
-        heroes[(int)30] = new ZaryaHD();
-        heroes[(int)31] = new ZenyattaHD();
-        */
+        heroes[(int)HERO_ID.Zarya] = new ZaryaHD();
+        heroes[(int)HERO_ID.Zenyatta] = new ZenyattaHD();
     }
 }
