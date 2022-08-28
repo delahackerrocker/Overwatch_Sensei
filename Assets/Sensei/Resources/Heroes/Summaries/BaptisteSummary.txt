@@ -1,0 +1,19 @@
+You can fire his primary fire and his secondary fire together at the same time.
+
+The secondary fire can be shot perfectly upwards so that they land on the same spot later.
+
+While engaging the enemy, try to attack them while crouching (charging Exo Boots). When the enemy gets too close, you can simply jump out of the way.
+
+Use Exo Boots to get out of danger, to confuse the enemy, or to attack the enemy from a high location.
+
+Other than Health Packs, Regenerative Burst is Baptiste's only means of healing himself. Try not to get too near your enemies while the ability is on cooldown.
+
+Using Regenerative Burst at the start of an engagement can help your teammates tank sustained damage long enough to win the fight.
+
+The trajectory of the Immortality Field generator is the same as the secondary fire, so you can shoot a Biotic Grenade first to ensure you throw the Immortality Field where you want. However, Immortality Field interacts with the sky hitbox, and so it may hit that and fail to reach its intended location if thrown too high.
+
+You can use the Immortality Field to body block a door or a spawn room door. Throw the generator in a corner where it cannot be destroyed, then use Baptiste's body to prevent the enemy from coming through. This is helpful in preventing an overtime contest or to buy some time to stall for your team to finish off the last players on the point or payload. Only do this if you are confident that you can prevent a contest.
+
+As Immortality Field is unable to be hacked before it hits the ground, it is possible to throw it out as an enemy Sombra is using EMP, and have it land after the ultimate's cast is over. Doing so will leave Immortality Field unaffected, so it will still function.
+
+Along with his amplification matrix, you can easily penetrate Zenyatta's Transcendence, which heals 300 health per second, to an enemy if you manage to deal perfect headshots.

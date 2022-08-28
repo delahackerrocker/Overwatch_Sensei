@@ -1,0 +1,5 @@
+<b>STRENGTH</b>
+Ana is a mid to long-range Support sniper, capable of healing at any range while also maintaining a fair level of damage output. Her Biotic Grenade lets her amplify healing effects from not only her own healing darts, but also from other Supports and environmental healing, such as Payloads and Health packs. She has a sidearm which will fire a Sleep Dart, which can render the enemy who's hit with it temporarily useless unless someone wakes them up. Nano Boost is a supportive ultimate that is used to provide strong buffs to an ally, allowing them to deal more damage while taking less damage from the enemy. She can also be an anti-healer, as her Biotic Grenade will prevent enemies hit by the blast from getting healed in any way, making her an outstanding support.
+
+<b>WEAKNESS</b>
+Ana lacks any means of advanced mobility and only has her sidearm to protect herself, making it easy for her to be outflanked by flankers as well as other mobile heroes.

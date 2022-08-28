@@ -21,11 +21,11 @@ public class HeroKit : MonoBehaviour
 
     private void Update()
     {
-        title.text = Main.Instance.selectedHero + "'S KIT";
-
         if ((nowShowing != Main.Instance.selectedHero) && (Main.Instance.selectedHero != HERO_ID.None))
         {
             nowShowing = Main.Instance.selectedHero;
+
+            title.text = Main.Instance.selectedHero + "'S KIT";
 
             int abilityCount = Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities.Length;
 

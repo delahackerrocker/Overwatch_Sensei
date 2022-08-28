@@ -30,6 +30,8 @@ public class HeroData
     public HERO_ID[] strongAgainst;
     public HERO_ID[] weakAgainst;
 
+    public string fullSummaryFile;
+
     public HeroData()
     {
 

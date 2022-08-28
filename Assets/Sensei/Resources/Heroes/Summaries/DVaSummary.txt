@@ -1,0 +1,5 @@
+<b>STRENGTH</b>
+D.Va’s mech is nimble and powerful — with very high health and Boosters, she can close a gap to the enemy with ease. She has high damage output at close-range, making her a strong fighter in a 1-on-1 match. Her Defense Matrix is useful against all incoming projectiles, protecting her teammates from enemy fire. The Micro Missiles deal high amount of damage when used in close range. She is a dangerous flanker in the Tank class, dealing consistent damage to the enemy. Self-Destruct will wipe all opponents within the blast area. 
+
+<b>WEAKNESS</b>
+However, she doesn't have an extended barrier to properly protect her team like Reinhardt. She is also slow while firing, allowing the enemy to outrun her to disengage or move around her to distract her aiming. Both Fusion Cannons and Micro Missiles are ineffective against anything further than medium-range, meaning she can be outranged by the enemy before she even has a chance to close a gap with Boosters.

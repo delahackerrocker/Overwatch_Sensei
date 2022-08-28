@@ -1,0 +1,5 @@
+<b>STRENGTH</b>
+Mercy is the most healing-oriented for the Support heroes. While not as powerful a team healer as other Support heroes (such as Ana and Baptiste), Mercy excels at single-target or "pocket" support. Her ability to boost the damage of her team makes her crucial for barrier-breaking and focused damage. Resurrect allows Mercy to compensate for an occasional mistake by her team, bringing an important member back into the fight. 
+
+<b>WEAKNESS</b>
+Mercy is easily the most team-dependent of the Support, as her personal damage is quite weak, her only mobility relies on her teammates, and the powerful effect of Resurrect makes her a priority for the enemy team.

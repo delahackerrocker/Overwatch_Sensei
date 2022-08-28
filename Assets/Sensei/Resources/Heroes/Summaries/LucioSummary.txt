@@ -1,0 +1,5 @@
+<b>STRENGTH</b>
+Lúcio is a versatile Support who requires good situational awareness to master. His aura allow him to contribute damage in fights while passively buffing his allies, and he can protect against enemy ultimates and enable his team to make aggressive pushes using his Sound Barrier. He can escape dangerous situations using his Amped Up speed aura and his Soundwave's knockback effect, giving him a relatively high survivability for a support hero. 
+
+<b>WEAKNESS</b>
+While his damage output is lower than many other Supports and he doesn't have high single-target healing like Ana or Mercy, his multiple-target healing and speed buffs make him a valuable member of any team.
