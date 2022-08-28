@@ -1,0 +1,5 @@
+<b>STRENGTH</b>
+Torbjörn is the damage-dealer that has most abilities which are useful for protecting (zoning) an area. His Rivet Gun is a very dangerous weapon due to its high damage, but its main weakness is arcing in mid- to -long range. His turret is his main tool for zoning an area, as he can deploy it anywhere and let it automatically build itself to help him in a fight. Forge Hammer can be used to deal damage at close-range or repair his damaged turret. Overload is a power-up to himself, giving more maximum health with armor and enhancing offensive powers. Molten Core is a great area-denial ultimate that can force the enemies to walk back before being burnt to death on a high-damage magma floor. 
+
+<b>WEAKNESS</b>
+Given all these, he still has major weaknesses. Other than Overload, he lacks any means of increasing his mobility. When unable to deploy his Turret to help him in a fight, his full power will be greatly reduced. Despite having the shortest model of all heroes, he possess one of the largest hitboxes of his class, making him vulnerable to a weapon with a large spread. He is best at zoning, but weaker at flanking and fighting aggressively.
