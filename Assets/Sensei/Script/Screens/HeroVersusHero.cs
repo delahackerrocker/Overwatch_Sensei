@@ -15,6 +15,7 @@ public class HeroVersusHero : MonoBehaviour
 {
     public Opponent opponent;
     public TextMeshProUGUI title;
+    public TextMeshProUGUI matchup;
 
     public void GoToHero()
     {
@@ -46,6 +47,10 @@ public class HeroVersusHero : MonoBehaviour
 
     private void Update()
     {
-        title.text = Main.Instance.selectedHero + " VS "+Main.Instance.counterPick;
+        if (Main.Instance.counterPick != HERO_ID.None)
+        {
+            title.text = Main.Instance.selectedHero + " VS " + Main.Instance.counterPick;
+            matchup.text = HeroMatchups.Instance.anaMatchups[(int)Main.Instance.counterPick].text;
+        }
     }
 }

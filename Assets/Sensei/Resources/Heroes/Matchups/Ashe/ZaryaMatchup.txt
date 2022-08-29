@@ -1,5 +1,2 @@
-<b>STRENGTH</b>
-Zarya is a challenging Tank to play, though one of the most rewarding when played well. She gains Energy by absorbing damage with her barrier abilities, increasing her own damage substantially. At maximum Energy, she is a monstrous threat to the enemy team, tearing them apart in seconds with her Particle Cannon. Her Ultimate has some of the highest play-making potential in the game, with the ability to trap entire teams in a single spot for her allies to fire upon.
-
-<b>WEAKNESS</b>
-All of this comes with a severe weakness: she is the softest of the Tanks, with the lowest base Health out of them (save for Orisa), no movement abilities, and only an infrequent, short-duration barrier to protect her and her team. She is heavily reliant on her teammates to charge up her Energy, provide cover/healing when she is out of position, and coordinate with her ultimate.
+<b>MATCH-UP</b>
+There's not much to the Zarya matchup: as long as you stay out of her beam range she's not a threat as you can easily dodge the secondary fires at range. The main tip is to use Dynamite after you see her use her bubbles for maximum value. It's also critically important to keep high energy Zaryas away from your team by just poking from a distance and forcing her to retreat. If she gets 3 or more allies in a Graviton Surge you can summon B.O.B. to help your team after you die.

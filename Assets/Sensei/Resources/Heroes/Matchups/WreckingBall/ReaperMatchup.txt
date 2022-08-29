@@ -1,5 +1,4 @@
-<b>STRENGTH</b>
-Reaper is a short-ranged flanker and one of the deadliest heroes in the game up close, with even Tanks like Reinhardt and Roadhog melting under the power of his Hellfire Shotguns. Wraith Form is one of the greatest invulnerability tools in the game; Reaper can use it to escape or chase his enemies thanks to his increased speed and immediate reload. Shadow Step is another flanking ability; provided enough time to set it up, he can use it to move to any location within his line-of-sight. When the main fight begins, Death Blossom can turn the tide of battle when using it in the middle of the fight. Its high constant damage can tear most heroes to shreds if they are not prepared. Reaper's relative simplicity makes him a good hero for new players, while still remaining deadly in experienced hands.
+<b>MATCH-UP</b>
 
-<b>WEAKNESS</b>
-Reaper lacks in-combat mobility, as his Wraith Form is mainly used to save his life and escape from near-death situations, and Shadow Step is very loud and makes Reaper unable to move for a while, so he becomes easy prey if spotted. Reaper works best in close-combat and is nearly useless in fighting at mid- to- long range due to quick damage falloff and the large spread of his weapon. Death Blossom is easy to shut down by stunning Reaper or blocking it with a friendly barrier. Reaper is most effective in a team composition or a map that keeps the fight in close-quarters.
+
+<b>TEAM SYNERGY</b>
