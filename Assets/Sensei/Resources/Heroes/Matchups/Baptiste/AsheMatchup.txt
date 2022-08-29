@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can deny the Dynamite+Body shot kill combo with Regenerative Burst, but it will not work with a headshot. Also, Ashe has higher range and more damage than Baptiste. Her Dynamite can set you aflame and possibly destroy the Immortality Field drone. Nullify B.O.B with your ultimate to kill him in seconds. B.O.B. can be deployed to destroy your drone while Ashe focuses on you (or vice versa).
 
 <b>TEAM SYNERGY</b>
+Place your Amplification Matrix in front of B.O.B to make him an absoloute killing machine. Ashe’s dynamite will deal a minimum of 260 damage if amplified by your ultimate. Amplification Matrix will not increase Coach Gun's knockback.

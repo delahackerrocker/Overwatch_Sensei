@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+In a one-on-one scenario, try to place Immortality Field after the enemy Baptiste does, and you may win the duel.
 
 <b>TEAM SYNERGY</b>
+Baptiste cannot heal himself with Biotic Grenade, but two Baptistes can heal each other, allowing quick recovery for the both of you.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+An all-headshot primary fire can easy kill Tracer in one burst, however her fast movement and small hitbox make this difficult to achieve, and even landing a few shots will often force her to use Recall. If you are being attacked by Tracer, you can use your Exo Boots to take any high ground where she will be unable to contest you. If you or any of your allies gets stuck by her Pulse Bomb, a quick Immortality Field will prevent it from instantly killing allies in the field. With Amplifcation Matrix, you are able to kill Tracer with one burst of bodyshots.
 
 <b>TEAM SYNERGY</b>
+Tracer will often be on the flank and away from your healing, but you can try and lob Biotic Grenades at her when she is in your line of sight. Pulse Pistols and Pulse Bomb can be amplified by Amplification Matrix.

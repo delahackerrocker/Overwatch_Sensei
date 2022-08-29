@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Avoid using your Exo Boots to jump too high when in Ana's line of sight, as your predictable movement path can make you an easy target for her Biotic Rifle or her Sleep Dart. If a large portion of your team gets hit by her Biotic Grenade, you can use Immortality Field to keep them alive, then use Regenerative Burst in combination with your Biotic Launcher's secondary fire to quickly heal them. Keep in mind that Immortality Field does not cleanse the anti-healing debuff, it will only prevent allies from dying.
 
 <b>TEAM SYNERGY</b>
+Amplification Matrix pairs greatly with Ana. The healing and damage of her weapon increases to 140 each, and Biotic Grenade can heal 200 HP and deal 120 damage. At one point, an ally could receive 130 healing from both her healing darts and his Biotic Grenades.

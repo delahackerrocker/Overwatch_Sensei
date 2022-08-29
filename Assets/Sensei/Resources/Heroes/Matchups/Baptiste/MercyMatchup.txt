@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If you notice Mercy is resurrecting an enemy, try to kill her quickly. She will be unable to fight back.
 
 <b>TEAM SYNERGY</b>
+When Mercy is resurrecting an ally in a fight, use Immortality Field so she can get them up without dying.

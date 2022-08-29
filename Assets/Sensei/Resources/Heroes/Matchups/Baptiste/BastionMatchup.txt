@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Bastion's high damage can kill your team if you are unprepared, so it is best to attack Bastion with your Immortality Field outside of Bastion's view, but still in range for your allies.
 
 <b>TEAM SYNERGY</b>
+Bastion's damage with Amplification Matrix can kill tanks in seconds. It is best to place it in front of Bastion when you know where the enemy team is going, otherwise you may place it incorrectly.

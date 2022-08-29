@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You and Soldier: 76 have similar effective ranges, however, your burst-fire weapon may lose against his fully automatic one. Soldier: 76 also possesses burst damage in the form of his Helix Rockets, whereas you have none. Always try to take the high ground with Exo Boots when fighting Soldier: 76 one-on-one, and use Regenerative Burst to keep yourself in the fight longer. Tactical Visor can target your drone, so try to keep it out of his line of sight.
 
 <b>TEAM SYNERGY</b>
+Place your Amplification Matrix in front of Soldier: 76, especially when he activates Tactical Visor, as it is very likely to secure a kill.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Doomfist can push allies out of Immortality Field and possibly kill them. He is too fast to stop with your drone, especially when using Rocket Punch. However, Doomfist cannot fight you effectively at long range. Since Doomfist's ultimate can be nullified with your Immortality Field, make sure to place it as Doomfist is coming down to reduce the possibility of it being destroyed.
 
 <b>TEAM SYNERGY</b>
+Baptiste does not synergize well with Doomfist due to Baptiste's lack of horizontal mobility. This makes landing your arcing Biotic Grenades even harder.

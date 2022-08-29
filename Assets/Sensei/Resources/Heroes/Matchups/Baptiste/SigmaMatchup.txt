@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Sigma's Kinetic Grasp will gain double the shields if he absorbs attacks that have been amplified by your ultimate. Try to keep out of range of his Hyperspheres. When he triggers Gravitic Flux, use Regenerative Burst to heal the initial damage and poke, then place Immortality Field as late as possible to save your team from the fall damage.
 
 <b>TEAM SYNERGY</b>
+Sigma can deal up to 220 damage if his attack is amplified by your ultimate, but requires it to be placed relatively near the enemy due to his short attack range. Accretion can also be amplified by your ultimate. Baptiste synergizes well when playing bunker-style.

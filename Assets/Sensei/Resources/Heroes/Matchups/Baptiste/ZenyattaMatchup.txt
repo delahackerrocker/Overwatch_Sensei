@@ -2,3 +2,4 @@
 
 
 <b>TEAM SYNERGY</b>
+Zenyatta's Orbs of Destruction deal 96 damage to the body and a fully charged volley will deal 480 damage, should they all land. Also, enemies with Orb of Discord will take even more damage when hit by Amplified attacks.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Genji can use Swift Strike to dodge your bullets, close the distance, or attack you. Deflect can send your bullets back to you or block your Biotic Grenades. You should also be cautious if he deflects anything amplified by your Amplification Matrix (such as Firestrike) because it could result in your allies getting killed. Try to keep a distance from Genji. Dragonstrike's swinging can kill you and your drone at the same time, but the "grace" period after your generator goes down means it takes three swings instead of two.
 
 <b>TEAM SYNERGY</b>
+This is highly unlikely, but if you and an enemy Baptiste place Amplification Matrices near each other, it is possible to double the amplification by having Genji deflect projectiles through it. Besides that, Genji is too mobile for your healing grenades but your ultimate ability can amplify his Shurikens.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You may have some even footing with Hanzo. Naturally, a single arrow headshot will kill you. However, Immortality Field can counter this, and you can then recover your health with Regenerative Burst. This way Hanzo will have to prioritize destroying your generator, leaving him open for you to kill him. Remember, your gun has falloff damage and his arrows do not. Storm Arrows can be a problem because of their quick discharge. Immortality Field can counter Dragonstrike.
 
 <b>TEAM SYNERGY</b>
+Hanzo's arrows benefit from your Amplification Matrix. They can do high amount damage to tanks, with a single headshot capable of 500 damage. However, it does not amplify the damage of Draongstrike.

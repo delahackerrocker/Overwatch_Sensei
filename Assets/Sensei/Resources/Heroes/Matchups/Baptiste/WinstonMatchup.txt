@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+His shield can block your Biotic Grenades. You should activate your Regenerative Burst before he lands and places it. This helps you survive a dive, and charge your Ultimate from his cleave damage. His ultimate does not deal much damage but causes a lot of disruption, making Immortality Field a poor counter to it.
 
 <b>TEAM SYNERGY</b>
+Baptiste does not synergize as well with Winston due to his lack of horizontal mobility and the slow projectile speed of his Biotic Grenades. Proactively using Immortality Field can allow your team to stay on a dive target for longer.

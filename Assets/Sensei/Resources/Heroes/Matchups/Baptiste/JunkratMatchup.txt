@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Immortality Field is one of the best counters to RIP-Tire, however Junkrat may wait until the Field expires before detonating the Tire.
 
 <b>TEAM SYNERGY</b>
+Amplification Matrix has no effect on RIP-Tire, but it amplifies the damage of his normal abilities. Both his Frag Launcher and Concussion Mines can kill a target with one direct hit.

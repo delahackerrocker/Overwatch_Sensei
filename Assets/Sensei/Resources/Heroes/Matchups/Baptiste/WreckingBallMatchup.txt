@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Wrecking Ball's crowd control can be used to move people out of Immortality Field, and his tendency to disrupt team positions makes your job harder as a support hero. However, his large hitbox makes him an easier target for your primary fire, especially if someone holds him in place. Use Immortality Field to save allies from a Piledriver/Minefield combo.
 
 <b>TEAM SYNERGY</b>
+Wrecking Ball's speed makes him difficult to land Biotic Grenades on. Aggressively follow up on enemies left out of position by his displacement effect.

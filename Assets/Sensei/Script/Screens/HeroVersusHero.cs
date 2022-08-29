@@ -14,8 +14,11 @@ public enum Opponent
 public class HeroVersusHero : MonoBehaviour
 {
     public Opponent opponent;
+
     public TextMeshProUGUI title;
     public TextMeshProUGUI matchup;
+
+    public HERO_ID nowShowing = HERO_ID.None;
 
     public void GoToHero()
     {
@@ -47,10 +50,17 @@ public class HeroVersusHero : MonoBehaviour
 
     private void Update()
     {
-        if (Main.Instance.counterPick != HERO_ID.None)
+
+        title.text = Main.Instance.selectedHero + " VS " + Main.Instance.counterPick;
+        if (opponent == Opponent.Selected)
         {
-            title.text = Main.Instance.selectedHero + " VS " + Main.Instance.counterPick;
-            matchup.text = HeroMatchups.Instance.anaMatchups[(int)Main.Instance.counterPick].text;
+            if ((Main.Instance.selectedHero != HERO_ID.None) && (Main.Instance.counterPick != HERO_ID.None))
+            {
+                nowShowing = Main.Instance.selectedHero;
+
+                matchup.text = (string)HeroMatchups.Instance.GetHero(Main.Instance.selectedHero)[(int)Main.Instance.counterPick].text;
+                //Debug.Log(HeroMatchups.Instance.GetHero(Main.Instance.selectedHero)[(int)Main.Instance.counterPick].text);
+            }
         }
     }
 }

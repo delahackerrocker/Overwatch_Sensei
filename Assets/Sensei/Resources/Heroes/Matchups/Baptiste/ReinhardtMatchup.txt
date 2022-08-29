@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Reinhardt's Charge can drag people out of Immortality Field's area of effect. If you see a Charge connect, throw the drone at the destination to save the pinned ally. If you think Reinhardt's Earthshatter is ready, consider either playing on high ground or have Exo-Boots charged to dodge it. In general, it is a good idea to take high ground against Reinhardt/Zarya, since they have little vertical mobility and long-range damage.
 
 <b>TEAM SYNERGY</b>
+Baptiste works well in Deathball/Brawl, where AoE healing quickly charges his Ultimate. Reinhardt can quickly kill 200 health heroes with Firestrike as long as it passes through the Matrix. Consider combining with a crowd-control ability to pull this combo off.

@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Immortality Field cannot be hacked or disrupted by EMP until it is fully deployed. If you see Sombra going in for an EMP, preemptively throw your Immortality Field straight up in the air, or bounce it off a wall, and it will still work once deployed. You can also preemptively activate Regenerative Burst to give your team a small burst of heals after the EMP, which is especially important if any of your allies have shields, such as Zarya or Zenyatta, who will be left extremely vulnerable after an EMP. Beware that EMP can completely destroy your Amplifcation Matrix, so do not place it if you suspect a Sombra has EMP ready. In a one-on-one scenario, your damage can usually force Sombra to teleport away, if not outright kill her if she is too slow to react. If you are being hacked from behind, and you do not think you can react fast enough to cancel Hack by attacking, you can activate Regenerative Burst before being hacked to keep yourself alive and win the fight.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Use your primary fire to destroy Turrets. Despite Immortality Field hovering over the ground, it can still be destroyed by Molten Core if it is placed directly over it.
 
 <b>TEAM SYNERGY</b>
+Place Amplification Matrix in front of Torbjörn's turret for a potential 100 damage-per-second.

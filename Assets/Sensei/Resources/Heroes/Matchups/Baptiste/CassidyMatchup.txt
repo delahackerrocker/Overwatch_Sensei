@@ -2,3 +2,4 @@
 
 
 <b>TEAM SYNERGY</b>
+Cassidy's Deadeye can be affected by Amplification Matrix, but it does not lock on faster. However, Cassidy can shoot while locked on half-way and still kill enemies.

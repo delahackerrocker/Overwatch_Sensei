@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Widowmaker will be playing outside of your effective range, and it is unwise to try and challenge her at long-range directly. If she is on high ground nearby, you can attempt to jump up to her perch and fire upon her, but your predictable jump path can make you easy to snipe. You can use Immortality Field to challenge her in desperate scenarios. Place the Field behind a corner so she cannot prematurely destroy it, and move away from her line of sight before the Generator expires. Amplification Matrix can be used to put more pressure on her at longer ranges, but the threat of her oneshot still persists.
 
 <b>TEAM SYNERGY</b>
+Amplification Matrix can allow Widowmaker to kill targets below 240 HP instantly with a bodyshot, and targets below 600 HP instantly with a headshot. You also use Immortality Field to give an allied Widowmaker an edge over an enemy Widowmaker attempting to counter-snipe her.

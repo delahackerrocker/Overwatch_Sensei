@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Immortality Field is a great counter to Bomb. For the best effect, tell your team that Immortality Field is ready, then try to use it as late as possible to reduce the chance of it being destroyed by Self-Destruct. D.Va's large critical hitbox makes her a great target for your primary fire to quickly charge your ultimate ability. Beware that if you play a more isolated/backline position, D.va can hunt you down to force Immortality Field out. Have an escape route, or use Exo-Boots to help dodge some of the damage.
 
 <b>TEAM SYNERGY</b>
+Baptiste does not synergize as well with D.Va due to his lack of horizontal mobility and the slow projectile speed of his Biotic Grenades.
