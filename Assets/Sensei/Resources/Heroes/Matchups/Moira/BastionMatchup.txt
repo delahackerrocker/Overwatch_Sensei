@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Moira's damage is pitifully weak against a Bastion in Configuration: Sentry, and even in Recon. Bastion should be avoided as much as possible, however you can try to support your allies in defeating a Bastion with a Biotic Orb because it is mostly a team effort to defeat a Bastion set-up. You can also use Coalescence to damage the Bastion and heal any attacking allies if he is protected by a barrier as the beam will be unaffected by the barrier.

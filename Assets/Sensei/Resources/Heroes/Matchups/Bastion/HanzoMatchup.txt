@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hanzo can repeatedly peek around a corner and try to hit you with arrows without exposing himself, so either stay behind cover or get away if he's heckling you. While you can use Self Repair to patch up between shots, a burst of Storm Arrows could finish you off when at lower health. You're not as easy of a target while in Recon Configuration, but your damage output is also severely hampered. If Hanzo hits your location with a Scatter Arrow, it would be wise to transform and move, since enemies knowing exactly where you're situated will make you an even easier target than you already are. Should you weaken a Hanzo enough for him to flee, don't chase him down, as his mobility far exceeds yours; let your teammates handle him, or simply hold your position and wait for him to return.
 
 <b>TEAM SYNERGY</b>
+Long-ranged hassle is an Achilles’ Heel of yours, so Hanzo’s mighty arrows are a blessing when it comes to surviving. Additionally, a well-placed Sonic Arrow of a friendly Hanzo can alert you of incoming prey for you to do away with, and Dragonstrike can easily clear the way for you to wreak havoc in Configuration: Tank. Since Hanzo relies on mobility to be effective, make sure you can cover him as he moves toward favorable locations.

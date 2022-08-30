@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hanzo's Storm Arrows can prove to be a threat to you at close range, but a quick Deflect can protect you while either killing Hanzo or causing the duration of his Storm Arrows to wear off. Thanks to your Cyber-Agility, you can close the distance on Hanzo with little time and fight him at your preferred closer range. Hanzo will attempt potshots with his arrows at close range, but by staying mobile with Cyber-Agility and landing Swift Strikes, you can make quick work of him. If you don't know where Hanzo is yet, though, take caution; Hanzo is deadly at long range, and he can snipe you before you get close enough to fight him. It's possible to Deflect Dragonstrike, but the timing is extremely precise. When Hanzo activates his Ultimate, he first fires an arrow, which then transforms into Dragonstrike; you must Deflect the arrow immediately upon the Ultimate's activation. If you time it right, you'll send Dragonstrike right back at your brother, but if not you'll find yourself on its receiving end.
 
 <b>TEAM SYNERGY</b>
+Hanzo's Sonic Arrow is helpful for keeping an eye on enemies' locations. If you see enemies alone, you can hunt them down and retreat before their allies show up to help them.

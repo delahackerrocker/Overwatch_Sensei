@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hacking Zenyatta will remove his ability to send out his Harmony or Discord orbs, though if they're already on a target they will remain so until they are returned automatically. This will reduce Zenyatta's viability, but it won't make him harmless. Even without his Discord Orb, a Zenyatta with good aim is still an even match for you. He has more advantage at a range, so try to keep the fight in close quarters, running around him and disorienting him. Zenyatta should be one of your top priority target to eliminate after activating EMP because he only left with a measly 50 Health if caught inside your Ultimate. Also, if your team is preparing a team-killing ultimate such as Graviton Flux or Graviton Surge, it's crucial to hack Zenyatta or use EMP near him so he won't be able to protect his team with Transcendence.
 
 <b>TEAM SYNERGY</b>
+With your ability to see enemies with low health, you can call out targets for a friendly Zenyatta to hit with a Discord Orb, which will help you and your team quickly finish weakened enemies off.

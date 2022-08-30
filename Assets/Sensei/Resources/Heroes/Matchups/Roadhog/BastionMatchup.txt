@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+The damage and range of Bastion's primary fire while in Configuration: Sentry can outrange you while still tearing you to shreds. If you can catch Bastion unaware, or if you're protected by a teammate's barrier while you approach Bastion, Chain Hook will force Bastion out of Sentry Configuration and make him an easy target. Overall, Bastion should be engaged with a Chain Hook ambush or not at all.
 
-
-<b>TEAM SYNERGY</b>

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hyperspheres have a bit more range than Particle Cannon. Even if you lob your explosives, he can use his shield to block them or use Kinetic Grapes to absorb them and gain shields. However, your beam cannot be negated by Kinetic Grasp so if his shield goes down, he's low on defenses. He'll have to use Accretion to stun you, but if your Particle Barrier is off cooldown, you can block his attack, and gain Energy. That can be said when facing his Hyperspheres or Gravitic Flux.
 
 <b>TEAM SYNERGY</b>
+Sigma can move forward with a Projected Barrier to absorb damage, giving you Energy. His Experimental Barrier and Kinetic Grasp is also a great asset to your defenses. Enemies caught in a Graviton Surge can be weakened further with Gravitic Flux and become easy pickings. However, your composition has very low mobility.

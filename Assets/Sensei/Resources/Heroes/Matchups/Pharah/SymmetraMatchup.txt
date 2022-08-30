@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Symmetra's primary and secondary fire are not likely to hit you while you're airborne. Her Sentry Turrets are often set up on walls and ceilings, mostly avoidable places thanks to your Jump Jet. Your rocket launcher can destroy a turret with one shot, allowing your teammates to push forward. There may be some turrets that Symmetra tried to set up as high as possible to target you, but you can just destroy those as well. Symmetra may use her Teleporter to get her team to higher ground to fight you; if you see a Teleporter out in the open, a few direct hits should be able to destroy it. Be wary about using Barrage while Symmetra is nearby, as a Photon Barrier can block all of its damage (or, if placed directly in front of you, can cause you to kill yourself instantly).
 
-
-<b>TEAM SYNERGY</b>

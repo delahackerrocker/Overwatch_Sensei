@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Ana doesn't have sustained fire like many other heroes, which means that even if you don't catch her by surprise, it's still pretty easy to avoid her fire to land a hack on her. Without her Sleep Dart or Biotic Grenade, all Ana has is her primary fire, which while potent even at close range, is still not enough to overpower you if you land your shots right. However, if she catches you with a Sleep Dart before you can hack her, you're as good as dead, so be cautious. Likewise, if she hits you with Biotic Grenade, it's better to escape since it will only take a shot or two from her rifle to finish you off.
 
 <b>TEAM SYNERGY</b>
+While a Nano-Boosted Sombra is rarely a good idea, using EMP to weaken the enemy team can help a Nano-Boosted ally more efficiently wipe them out.

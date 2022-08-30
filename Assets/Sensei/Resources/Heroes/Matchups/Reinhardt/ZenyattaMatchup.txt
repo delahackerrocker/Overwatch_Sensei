@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+While an enemy Zenyatta cannot cast his Orb of Discord through your barrier, anyone already afflicted with the Orb will still suffer its effects. This includes Reinhardt himself, who will find the Discord Orb to be a great hindrance. When your barrier is down, Zenyatta can also use long range attacks and Discord Orb to deal heavy damage to you, though at close range he is defeated easily. If you catch him alone, either keep your barrier up and back off or close the distance to quickly take him out.
 
 <b>TEAM SYNERGY</b>
+While Zenyatta is generally best suited to fight on the back lines, your barrier can keep him safe while he heals and hurts from behind it. Just be careful not to Charge off without him if he's depending on you for protection. Enemies marked by Zenyatta's Orb of Discord are also prime targets for your Fire Strike, as it already does a large amount of damage by itself.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Ana's low damage won't provide very much Energy charge, and at lower Energy it will be difficult for you to kill opponents that are being healed by Ana. Ana's extreme attack range will allow her to stay outside of your effective range. However, Ana needs 5 shots to kill you at full health. You are both rather slow Heroes with no mobility abilities, so it can be difficult for either of you to disengage from a fight should you run into one another. You're an easy target for Sleep Dart and Biotic Grenade, but if you can either dodge these attacks or block them with a Particle Barrier, you'll generally have the upper hand in a close-range brawl. Projected Barrier can protect under the effect of Ana's Sleep Dart; while the barrier won't wake your ally up, it will stop your enemies from ambushing your teammate and will provide you with Energy if they choose to attack. Bear in mind that if Ana's teammates get caught in Graviton Surge, she can hit them (or herself if she's in there too) with a Biotic Grenade to quickly heal a large amount of damage. Keep in mind that your barrier will cleanse the effects of Biotic Grenade, so use it wisely.
 
 <b>TEAM SYNERGY</b>
+Nano-boosting a high-charged Zarya will assure that she can shred through enemies easier. The healing boost from Biotic Grenade can help sustain her in the fight with increase healing.

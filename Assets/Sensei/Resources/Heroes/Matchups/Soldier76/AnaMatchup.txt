@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Ana will tend to hide behind her teammates, making her difficult to focus on. If you catch her out in the open unprotected by teammates or cover, try to make her a priority; otherwise, try to stay out of her field of view and let a teammate more suited to flanking take her out. If Ana hits you or any of your allies with her Biotic Grenade, it will render your Biotic Field useless. Sleep Dart can completely disrupt Tactical Visor, so be aware of her location before activating it.
 
 <b>TEAM SYNERGY</b>
+You're an excellent target for a friendly Ana's Nano-Boost; once boosted, you can use Tactical Visor ("Nano-Visor", as it's sometimes called) so that your locked-on attacks now hit much harder than they normally would.

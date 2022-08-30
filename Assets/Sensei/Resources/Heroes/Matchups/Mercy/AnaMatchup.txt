@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Ana's Ability-ana3.png biotic grenade will completely shut down your healing, and her Ability-ana2.png Sleep Dart can knock you out in a crucial moment, or knock out one of your allies, leaving you vulnerable to attack. Ana can also quickly dispatch you with a few shots from her extremely long range, highly-accurate rifle. Avoid leaving cover or the safety of barriers while facing Ana to avoid being sniped to death.
 
 <b>TEAM SYNERGY</b>
+Though Ana's Ability-ana3.png Biotic Grenade shuts you down as an enemy, it powerfully boosts you as a teammate. Pay attention to who Ana hits with it, helping your team focus them down or keeping them topped off as appropriate. Remember that damage boosts stack up to a 50% damage increase, so Mercy's damage tethers will not make a Ability-ana4.png Nano Boost target any more powerful.

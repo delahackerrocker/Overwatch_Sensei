@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Zarya's Particle Barrier will completely blocks the freezing effect and damage of Endothermic blaster while increasing her own damage output. A fully charged Zarya can chase you down and kill you very quickly, especially if you are alone, as the cooldown for Particle Barrier is shorter than that of Cryo-Freeze. Use smart Ice Wall deployments to keep Zarya at a distance while retreating or waiting for backup to arrive. When Zarya's barrier is on cooldown, you can frustrate and weaken her by freezing her; you should still be using this opportunity to retreat, though, as it will be difficult to kill her before she thaws out.

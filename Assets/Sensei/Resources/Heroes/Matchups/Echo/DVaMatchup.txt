@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Out of all the tanks, D.Va poses the greatest threat to you. Her large critical zone makes headshots easy with your primary-fire, so hang back, pester her from the safety of your team, and charge your ultimate off her.
+Boosters: D.Va can easily chase you down, whether you're airborne or retreating, thanks to the swift cooldown on her boosters. Avoid flying too far away from your team or cover so that she can't easily corner you.
+Defense Matrix: D.Va can absorb your Sticky Bombs before they land, so only use them if D.Va is distracted or if she recently used her matrix. She has no defense against your Focusing Beam, though, except to run away.
+Self Destruct: Your Flight is your doom or savior against D.Va's ult. If you have it up, the boost and movement speed should be enough to get you to cover. But if you're already in Flight, cancel it and try to drop to the nearest cover. Your best bet is to predict when D.Va will ult and have your Flight at the ready.
 
 <b>TEAM SYNERGY</b>
+D.Va is a very complimentary tank for Echo. You're both capable of large amounts of burst damage, so you should have no trouble securing a kill or two when you go diving. Follow her call and keep close to her so she can shield you with Defense Matrix.
+
+<b>DUPLICATING</b>
+A phenomenal pick for Duplicating. Her kit will feel similar to Echo's: high omnidirectional mobility via Boosters and excellent burst potential with Micro Missles. Defense Matrix is a great defense skill that can save your teammates from high damage abilities, enable aggressive diving, and negate some ultimates entirely. Self Destruct charges fast and is fantastic for laning or forcing the enemy off of the point/payload during Overtime.

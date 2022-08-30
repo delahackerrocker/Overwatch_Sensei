@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hanzo can't shoot you down with one headshot, but he can still badly wound you with one shot. Hanzo excels in attacking at mid- to long-range, and when combined with his ability to climb walls and air dodge, he can maneuver to safe positions out of your range. Your Barriers can be used to help you and your team approach Hanzo without getting shot down. Your secondary fire can hit Hanzo with some adjustment on minor arcing. If you can spot him, try to time your Barrier right when he attacks to save yourself and gain some charge. A grounded Hanzo is less of a threat; if there are no walls to climb, you can approach him without fear and run him down.
 
 <b>TEAM SYNERGY</b>
+While many Ultimates work well with Graviton Surge, Hanzo's Dragonstrike is one of the best matches. If you can pin a group of enemies together, even if they have barriers up, they won't be able to protect themselves from a Dragonstrike running through them. Your only concern will be a Zenyatta or Lúcio using their Ultimates, so be wary of them.

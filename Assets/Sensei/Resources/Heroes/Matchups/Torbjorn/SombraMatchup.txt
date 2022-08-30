@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Sombra can easily shut down your Turret using Hack, but only if the Turret is distracted as she'll be unable to complete a Hack while being attacked by it. This can be difficult if her team isn't nearby providing the Turret with another target; if Sombra is attempting to attack you alone, she won't be able to properly complete the Hack, and you should be able to handle her just fine. Be wary of EMP though, as it will temporarily shut your Turret down.
 
-
-<b>TEAM SYNERGY</b>

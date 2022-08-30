@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Doomfist can't do much about you unless he catches you unaware. His primary fire's spread is much too wide to pose any real threat to you while airborne. Listen carefully when fighting against Doomfist as his abilities all come with loud audio cues. Flight will easily take you of his ability range, so make sure to have it available if you're anywhere near him.
+Rocket Punch: You can linger at an off-angle to where Doomfist is likely to push your team from and wait for him to begin charging his punch, which leaves him vulnerable to your Sticky Bombs.
+Rising Uppercut: The arc of this ability leaves him vulnerable to your Sticky Bombs.
+Meteor Strike: If Doomfist uses his ultimate aggressively, use Flight to get out of its area-of-effect and then lob Sticky Bombs at him while he's locked into the landing animation.
 
 <b>TEAM SYNERGY</b>
+Echo has no notable team synergy with Doomfist.
+
+<b>DUPLICATING</b>
+Doomfist is a great choice for Duplicate. He has a lot of one-shot potential and mobility, and you can play much more aggressively than a standard Doomfist. Meteor Strike will charge quickly, as fast as one use of Rocket Punch. Using Flight before duplicating him will set you up for a powerful Seismic Slam.

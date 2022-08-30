@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Winston's Tesla Cannon damage cannot be blocked by either Experimental Barrier or Kinetic Grasp, so save both for more important sources of damage. You have a longer effective range than Winston does, and his large hitbox makes your Hyperspheres easy to hit, but his Barrier Projector can make doing damage to him difficult if he engages with it. If Winston attempts to dive directly into your team, his predictable path can make hitting him with Accretion easy, however Winston can counter it with his Barrier Projector. Instead, focus on attempting to stun Winston as he moves to disengage with Jump Pack. If you can hit him, his momentum will be cancelled, and he will be left vulnerable. Your low mobility and large hitbox makes you easy to juggle around for a Winston in Primal Rage, and his high health and lowered Jump Pack cooldown will make stunning him with Accretion largely ineffective unless your entire team is focusing him at the moment you stun, so focus on drawing an ulting Winston's attention away from your squishier teammates by shooting at him.
 
 <b>TEAM SYNERGY</b>
+Sigma has no notable team synergy with Winston.

@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
-
+General: As a hitscan, Soldier: 76 can be considered one of your counters. Be careful when using Flight and Glide in his sight lines or you'll be an easy target.
 
 <b>TEAM SYNERGY</b>
+Soldier: 76 provides reliable range damage, an area Echo isn't very strong in. He can also cover for Echo by focusing other hitscan.
+
+<b>DUPLICATING</b>

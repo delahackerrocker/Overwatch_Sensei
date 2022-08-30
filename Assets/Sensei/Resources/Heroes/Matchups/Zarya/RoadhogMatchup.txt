@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+A well-time Barrier will disrupt Roadhog's Chain Hook, whether you use it to save yourself or shield an ally snatched by his Hook. The Chain Hook is dangerous while your Barriers are on cooldown, so try to stay behind cover until you're ready to use them again. At low Energy you'll find it difficult to out-damage Roadhog, especially when he's using Take a Breather to restore health. At high Energy, though, you should be able to kill him while Take a Breather isn't active due to his large frame and lack of self-protection. Keep in mind that your health is lower than most Tank heroes, and that Roadhog's Scrap Gun will tear through most of your health if you aren't careful.
 
 <b>TEAM SYNERGY</b>
+Roadhog has a large hitbox and is often a damage sponge, use this to your advantage by having him take damage while your barrier is on him. Though, if paired with a Roadhog your team lacks protection and proper shielding.

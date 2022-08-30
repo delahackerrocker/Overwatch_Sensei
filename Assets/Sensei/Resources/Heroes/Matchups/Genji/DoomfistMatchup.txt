@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Deflect cannot block Doomfist's abilities, which will give him bonus shields. Rocket Punch can stun you, effectively cancelling Deflect and possibly Swift Strike.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hacking Zarya strips her of her shielding abilities. Not only does this nullify her defense, but by removing her ability to charge her gun, it also indirectly weakens her offense as well. Once she's been hacked, she's still more of a formidable foe than the likes of Reinhardt or D.Va, but she's still generally rather easy to handle. EMP not only destroys her active barriers, but it also also eliminates her shields, making her much easier to kill, although she does gain 40 energy per barrier destroyed by EMP. Keep in mind that Zarya can't be targeted by Hack while she has a barrier up, so just back off and wait until the barrier dissipates before performing the hack.
 
 <b>TEAM SYNERGY</b>
+A cluster of enemies gathered by Graviton Surge are easy prey for a massive EMP. Be wary of enemy Zenyattas, though, who will instinctively activate Transcendence once his team is grabbed by a Graviton Surge. If the enemy team has a Zenyatta, it's often better to hack him or use EMP before your Zarya activates Graviton Surge, which will keep him from activating Transcendence and secure a team wipe for your allies.

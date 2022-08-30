@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hacking Junkrat will cause him to lose his Concussion Mine and Steel Trap, but it will only take a few of his grenades to quickly kill you. If you keep your distance when attacking, though, you should be alright. If you manage to hack him while activating Rip-Tire, it will cancel Rip-Tire while consuming his Ultimate charge; however, the timing on this is extremely precise, so it's not likely you'll catch him in the act. Instead, if you hear him activating his Ultimate, your stealth and speed should make it easy to find his vulnerable body, allowing you to quickly shoot him down.
 
 <b>TEAM SYNERGY</b>
+Removing barriers with EMP or hacking enemies such as Reinhardt can give Junkrat clearer shots with his grenades, as well as helping him hit more enemies with RIP-Tire.

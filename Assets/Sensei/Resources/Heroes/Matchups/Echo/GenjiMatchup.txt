@@ -2,3 +2,7 @@
 
 
 <b>TEAM SYNERGY</b>
+Echo has no notable team synergy with Genji.
+
+<b>DUPLICATING</b>
+A subpar choice for Duplicate in most situations. While Dragon Blade has the potential to be quite powerful, this is usually a result of other teammates enabling it with abilities like Ana's Nano Boost, a Mercy pocketing with damage boost, or a bubble from Zarya. There are often much more consistent options for Duplicate on the enemy team.

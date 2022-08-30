@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
+You are able to counter Doomfist reletively well if you are paying attention to him. His abilities don't do enough damage to kill you instantly and you can negate most of it with your barriers. Be careful though, you can still be knocked back by his Rocket Punch and other abilities even while your barrier is active.
 
+If he uses his ultimate, stand right where he is going to land and use your barrier. This will cause all the damage to go to your barrier and will protect everyone in the area.
 
 <b>TEAM SYNERGY</b>
+Enemies trapped in a Graviton Surge are ideal targets for Meteor Strike. Once all targets are lined up in the center ring, he can inflict 300 HP of damage, killing all squishy targets.

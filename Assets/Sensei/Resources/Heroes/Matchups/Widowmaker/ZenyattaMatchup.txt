@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Zenyatta has decent power at range that he can augment with his Orb of Discord, but he's required to stand in the open when attacking, making him incredibly easy to snipe. Should he hit you with his Orb of Discord, you can duck behind cover to wait for its influence to expire, or you can snipe him down before he can pelt you with orbs. Either way, you'll generally maintain superiority over Zenyatta should he show himself.
 
 <b>TEAM SYNERGY</b>
+Zenyatta can pocket heal you with Harmony orb or you can pick off enemies he uses Discord orb on.

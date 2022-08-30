@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Brigitte should try to use Shield Bash to route between natural cover close to the objective. If the Torbjörn is a counter pick against an allied Tracer or Genji, give the ally an Repair Pack so that they have a bit more damage to sustain when they fight Torbjörn.
 
 <b>TEAM SYNERGY</b>
+If Torbjörn happens to leave his Turret alone and it's being assaulted by the enemy team, you can protect it with your Barrier Shield. Just keep in mind that due to your barrier's low health, you'll only be able to protect it so much, so only do this if protecting the Turret is needed to secure the fight.

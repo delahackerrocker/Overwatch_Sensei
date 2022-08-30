@@ -1,4 +1,9 @@
 <b>MATCH-UP</b>
-
+General: Tracer will have a hard time dealing with you if you're airborne, but if you get in range of her, your hitbox is easy for her to hit. On the other hand, Tracer's small hitbox and mobility will also make it difficult for you to land hits with your primary fire and Sticky Bombs. You're probably best leaving Tracer to your teammates, but with your high mobility you can quickly reposition to teammates being flanked by Tracer and help peel for them, so be on guard. Note that her smaller health pool means you can activate Focusing Beam earlier than you normally would on other heroes.
+Recall: Ideally, you want to avoid using your Sticky Bombs or Focusing Beam while Tracer has Recall ready, as she can use this to waste either cooldown. Once she recalls, you are free to commit either cooldown. If you're prediction is good enough, you can even Sticky Bomb her when she reappears.
 
 <b>TEAM SYNERGY</b>
+
+
+<b>DUPLICATING</b>
+Tracer is a fantastic choice for Duplicating, but she's very much "high risk, high reward" - her low HP makes it easy for you to get KO'd and lose your ult, but if you're skilled with her kit and supported by your team, Duplicated Tracer can unleash hell. Her ultimate is already the fastest charging ultimate in the game and you're able to start charging another pulse bomb as soon as the previous one is no longer in the air.

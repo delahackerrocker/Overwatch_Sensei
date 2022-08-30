@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Torbjörn match-ups are rare since both will usually be decently far behind enemy lines in a stable defensive position. It's difficult to set up a Turret in an area that another Torbjörn has locked down, since the previous Torbjörn's Turret will begin firing upon the new Turret as soon as it goes up. In situations where both Torbjörns have Turrets suddenly appear in range of one another (such as a Payload carrying a Turret turning a corner to another Torbjörn's defensive setup), focus on keeping your Turret alive and let your team try to take out the opposing Turret. If you see a Torbjörn walking around with no Turret, try to attack with your Rivet Gun alongside your Turret's fire to quickly eliminate him before he can set up a new Turret (or before he can fall back on a Turret he has up elsewhere).
 
-
-<b>TEAM SYNERGY</b>

@@ -1,4 +1,9 @@
 <b>MATCH-UP</b>
-
+General: While Ana is scoped, her primary-fire is hitscan. Be cautious with your Flight and Glide unless Ana is under heavy pressure from your team, or you'll find yourself her target. She possess exclusively burst healing, and is very well suited to dealing with your bursty kit. She has one of the smallest hitboxes in the game, so your best bet to hit her is to either dive incredibly close to her and hit her with Sticky Bombs, or lob them at her while she's scoped in and distracted.
+Sleep Dart: It'll cancel your Focusing Beam in Echo form and getting hit with this nearly always results in your death. Thankfully, it's hard for her to aim at aerial targets. Avoid diving her if she has it available. Sleep Dart is also great counter to you during Duplicate, especially if you transform in mid-air or without a shield.
 
 <b>TEAM SYNERGY</b>
+Ana can be a great healer for Echo, if your team is running dual "main healers". Since Ana is dividing her attention by healing you, another healer with high healing output is necessary to make sure the bulk of the team stays alive. With the right coordination, you can make for an excellent nano boost target. Echo herself can do some serious damage with the boost, but her ability to Duplicate other heroes is what really opens up synergy between you. Note: If Ana Nano Boosts you and you Duplicate, it immediately ends the Nano Boost and wastes it. This is why coordination is key!
+
+<b>DUPLICATING</b>
+Ana is a great pick for Duplicate. She has the highest healing output in the game, so if you're down a healer, swapping to Ana to fill the gap can be a viable strategy. Sleep Dart is a fantastic utility skill that can deny many ultimates or take key players out of the fight for a while. A well placed Biotic Grenade can single-handled turn the tides of battle in your favor. Nano Boost charges quickly and has a lot of flexibility - the healing effect can bring an ally back from the brink of death, the damage reduction can make one of your tanks very difficult to kill, and the damage boost can combo with an ult to transform it from simply damaging to devastating.

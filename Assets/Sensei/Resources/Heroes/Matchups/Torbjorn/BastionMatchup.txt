@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+If you have a Turret already set up, it can deal minor damage to Bastion if it's walking past its view. However, if an enemy Bastion is receiving Turret fire, it can either turn a corner and heal or, if no other enemies are around, transform into Sentry Configuration and mow down your Turret with its superior firepower. This can be especially troublesome if you're defending an Escort mission, since the Bastion can simply ride atop the payload and fire away. In situations where an enemy Bastion is already set up in position, it can be difficult to place a Turret without the Bastion noticing it and shredding it while it's still setting up. All in all, Bastion is essentially a superior Turret who can aim, so either simultaneously attack him to take him down or regroup with your team.
 
-
-<b>TEAM SYNERGY</b>

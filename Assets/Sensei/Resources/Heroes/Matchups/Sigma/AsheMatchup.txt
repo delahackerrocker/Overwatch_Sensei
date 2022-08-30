@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can use your Experimental Barrier to block Ashe's line of sight, but this will only momentarily faze her while she repositions. Instead, focus on using Experimental Barrier to block Dynamite, as the burn damage is a major part of Ashe's ultimate charge gain. Do not bother using Kinetic Grasp against B.O.B, as you will not gain a lot of shields, so use Experimental Barrier to block off B.O.B from doing damage.
 
 <b>TEAM SYNERGY</b>
+If you and a friendly Ashe time the activation of B.O.B. and Gravitic Flux just right, you can have B.O.B. crash into a team to stun them long enough to be stuck in place and grabbed by Gravitic Flux, at which point B.O.B. will have free range to gun them all down in the air.

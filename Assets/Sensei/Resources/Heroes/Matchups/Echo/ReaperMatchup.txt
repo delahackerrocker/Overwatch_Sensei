@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: As a shotgun hero, Reaper will struggle against you. Be careful, though: if you get in range, your hitbox is easy for him to hit. Pester him from a distance and be ready to assist whoever he targets. Since you have burst damage, Reaper won't be able to out heal your abilities with his passive.
+Wraith Form: His Wraith Form will prevent you from Duplicating him and drop your Sticky Bombs to the ground. However, it can be dangerous for him to use his Wraith Form, too: if he uses it before you've used your Sticky Bombs, you should have an easy kill if you watch him closely. Once he raises his arms, Wraith Form is ending and you can Sticky Bomb him shortly after. If Reaper wraiths behind you it will be an easy kill for him unless he is at low health.
+Shadow Step: If Reaper is in line-of-sight, you can easily Sticky Bomb him while he's teleporting. Look for the reticle indicating his destination and deploy your Sticky Bombs.
+Death Blossom: The boost from Flight should get you out of Death Blossom's effective range. Once you're safe, hit him with Sticky Bombs and follow-up with Focusing Beam if necessary.
 
 <b>TEAM SYNERGY</b>
+You can make up for Reaper's lack of ranged damage, somewhat. Both of you have high burst damage potential and pose incredible risk to enemy Tanks. Reaper is hardier than you, so let him approach first and assist whoever he targets.
+
+<b>DUPLICATING</b>
+Reaper is a great choice for Duplicate. He has higher DPS than Echo, strong survivability via Wraith Form and his passive, The Reaping, and a deadly ultimate. While you can be more aggressive than a normal Reaper, especially when it comes to your ult, watch out for the common threats to Death Blossom: Ana, Brigitte, Cassidy, Roadhog, Sigma, and Sombra all possess ways to interrupt your ult.

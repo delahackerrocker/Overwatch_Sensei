@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hacking Orisa unfortunately doesn't have quite the same impact as Hacking other Tanks does. All you remove is her ability to activate Fortify, Halt! and Protective Barrier, but her high health and Fusion Driver primary attack can help her fend for herself even once hacked. EMP will shatter her barrier, though, which can help your team push forward or utilize a team-wiping Ultimate in conjunction with yours. A Hack or EMP will temporarily shut down her Supercharger, but in most situations it would be simpler to sneak up to it and shoot it down.
 
 <b>TEAM SYNERGY</b>
+While Sombra typically shouldn't be fighting on the front lines, a full team boosted by Supercharger can help finish off weakened targets who Sombra can see and call out with her Opportunist ability.

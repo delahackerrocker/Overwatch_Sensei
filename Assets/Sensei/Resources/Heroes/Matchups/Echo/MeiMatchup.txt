@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Your Flight ability makes you a difficult opponent for Mei. The boost alone will typically get you out of Mei's primary fire range and it is hard for Mei to hit aerial targets with her secondary-fire.
+Cryo-Freeze: Mei can use Cryo-Freeze to protect herself from your Sticky Bombs. However, if Mei uses her Cryo-freeze first, you can use your Sticky Bombs right before it ends. If timed properly, the bombs will detonate before she can move out of their range.
+Ice Wall: Your Sticky Bombs can do 200 damage to an Ice Wall segment, and you can follow up with Focusing Beam to quickly break through. In most cases, if Mei tries to isolate you, your Flight should be able to get you to safety.
+Blizzard: The boost from Flight should be more than enough to get you out of Blizzard's range.
 
 <b>TEAM SYNERGY</b>
+Your damage output will off-set Mei's intermittent damage, but be aware that this combo lacks reliable ranged damage. The slowing effect from Mei's primary-fire is a fantastic aid for you, making it easy to hit with your own primary-fire and land Sticky Bombs. With your Focus Beam, even the healthiest of heroes that Mei has isolated with Ice Wall will be unlikely to escape. During Blizzard, consider using Sticky Bombs on 200-hp target and then using a combination of Focusing Beam and your primary fire on a high-hp target, such as a tank. The Sticky Bombs alone will guarantee the death of the 200-hp target.
+
+<b>DUPLICATING</b>
+Mei is a solid choice for Duplicate. Ice Wall is a great ability for denying sight lines for hitscan heroes and healers, Cryo-freeze can be used to avoid high-damage abilities and will quickly charge her ultimate, which can easily turn the tides of battle in your favor. Additionally, Blizzard lingers even after you return to Echo form.

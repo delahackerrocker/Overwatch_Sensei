@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You have the advantage at close range against a Sigma, as your high mobility makes you difficult for him to hit you with his slow-firing Hyperspheres. However, you should avoid moving predictably against him, as that can make you an easy target to hit with his Accretion, which can leave you vulnerable. Sound Barrier is one of the best counters to his Gravitic Flux, so consider saving it if you suspect that an enemy Sigma has his ultimate available.
 
 <b>TEAM SYNERGY</b>
+Sigma is usually part of a double barrier strategy, so speed boost will be largely ineffective. If he is being played as a solo shield tank however, your speed can help him maneuver faster.

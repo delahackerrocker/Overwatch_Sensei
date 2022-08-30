@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Tracer's erratic movement and small hitbox will make it difficult for you to hit her. You can try and stun her with Accretion, but its relatively slow cast speed will make it easy for Tracer to reactively dodge it. However, hitting one or two Hyperspheres on her will usually force a Recall out of her. You also can use Kinetic Grasp to absorb Pulse Bomb.
 
 <b>TEAM SYNERGY</b>
+Sigma has no notable team synergy with Tracer.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+It's easy enough to close the gap with Hanzo with Translocator and Thermoptic Camo; the problem is fighting him once you've done so. Even if you hack him, that only removes his trick arrows, and his primary fire is still powerful enough to handle himself in a fight. Try to jump around frequently to avoid his fire, and you should be alright. Be wary of Hanzo's Sonic Arrow while camouflaged; you will receive a notice that you're being detected, so watch out for stray arrows flying your way. A quick hack can disrupt Dragonstrike, but the timing has to be precise, making this a very difficult maneuver.
 
 <b>TEAM SYNERGY</b>
+Hacks or an EMP can immobilize quick heroes such as Tracer or Winston, which can make them easier shots for Hanzo's standard fire as well as his Dragonstrike.

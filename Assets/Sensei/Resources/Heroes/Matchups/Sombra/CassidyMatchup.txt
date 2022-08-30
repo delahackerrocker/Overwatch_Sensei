@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If you wish to hack Cassidy, you'll need to catch him by surprise; otherwise, he'll be able to quickly land a shot on you to cancel the hack, if not outright kill you. Should you hack him, though, just stay close range and you should be able to take him out, as without Flashbang or Fan the Hammer, he's not as potent at close range. If the Cassidy hits you with Flashbang by surprise, you will most likely be finished off by Fan the Hammer; however, if you have a Translocator already planted elsewhere, you have a slight chance of one of his shots missing. In this scenario, mash the ability button as quickly as you can, and you may just manage to Translocate to safety. Hacking Cassidy negates Deadeye, so if you hear him activate it nearby, try to sneak up on him and hack him before he can fire.
 
 <b>TEAM SYNERGY</b>
+Sombra's hacks can stop tanks like Reinhardt from keeping their barriers up, allowing a friendly Cassidy to make better unblocked shots. Using EMP on a crowd of enemies hiding behind a barrier can help Cassidy wipe them all out with Deadeye.

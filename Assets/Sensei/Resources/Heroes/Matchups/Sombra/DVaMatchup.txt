@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+A battle against D.Va all comes down to whether or not you land a hack. If you hack the D.Va, she's rendered useless, a slow brick with pitiful gunfire that can't fly or negate attacks. Even in a one-on-one fight, a hacked D.Va is easy prey. Should the D.Va catch you before you land the hack, though, you will have more difficulty fighting her. However, if you hang back behind your team, you can usually hack D.Va while she's distracted, as she'll often be using her Defense Matrix before being able to react to your hack. Just be wary that D.Va has much higher health than you, and if you fail to hack her in a one-on-one fight, a skilled D.Va can easily track you down and take you out, regardless of whether you Translocate (since she can just follow your trail of light).
 
 <b>TEAM SYNERGY</b>
+Shattering enemy barriers with your EMP can pave the way for a full team wipe with D.Va's Self-Destruct. In general, it's better to have the D.Va use her ability before yours; this way, the enemy team will more likely huddle around a barrier for you to break with EMP and not be able to react in time, whereas if you activate EMP first, they'll be more likely to split apart and flee.

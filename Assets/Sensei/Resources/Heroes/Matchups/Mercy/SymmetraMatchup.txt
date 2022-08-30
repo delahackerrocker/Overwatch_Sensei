@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Symmetra's Ability-symmetra2.png Sentry Turrets will lock onto you and slow you to a crawl before killing you, so be careful not to get caught in them. Ability-mercy3.png Guardian Angel can save you from the Ability-symmetra2.png Turrets, but often at the cost of abandoning whoever you're healing at the moment. Symmetra herself is extremely dangerous in close quarters, and the ramp-up on Symmetra's Ability-symmetra1.png Photon Projector will makes it impossible for you to heal a teammate through it very long. Unless your teammate is on the verge of death, switch to damage boosting so they can quickly kill her before she can become a worse threat.
 
 <b>TEAM SYNERGY</b>
+An eclectic pick, Symmetra's weapon is quite powerful on its own, moreso when damage boosted. Symmetra can be a powerful flanker and barrier-breaker if used correctly, but it requires a lot of team coordination to be effective.

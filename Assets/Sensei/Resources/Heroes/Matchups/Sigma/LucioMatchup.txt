@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+While Lúcio's speed and small size can make him obnoxious to hit, your Hyperspheres have a mild gravity effect, meaning they can slow him down just enough for you to land more shots or for your team to gun him down. An accurate Accretion hit can also grind him to a halt, letting you or your team easily finish him off. Be careful about using Gravitic Flux around Lúcio; his Sound Barrier will easily block off the damage from your Ultimate, rendering it moot. Instead, wait until he's dead, too far away to save his team, just after he uses up his Ultimate, or if you have a friendly Sombra ready with EMP to cancel his Sound Barrier.
 
 <b>TEAM SYNERGY</b>
+Lúcio's speed boost can help you keep up with your team. His area-of-effect healing generally means he'll want a large number of teammates to rally around, so try to focus on keeping him and your team safe so he can keep them healed.

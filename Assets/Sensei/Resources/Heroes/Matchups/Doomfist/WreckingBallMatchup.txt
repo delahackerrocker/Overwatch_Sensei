@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+The Doomfist/Wrecking Ball match-up is slightly in favour of Doomfist. Any of your abilities cancel a Wrecking Ball spinning in fireball. This is useful for stopping a Wrecking Ball stalling the objective and gives your team an opportunity to eliminate him. Rocket Punch can also cancel Wrecking Ball trying to engage with a Piledriver, although this is difficult.
 
 <b>TEAM SYNERGY</b>
+A friendly Wrecking Ball can setup your Meteor Strike with his Piledriver, which stops enemies for a moment.

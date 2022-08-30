@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
-
+Even when hacked, you can hold your own against Sombra due to the low damage of her Machine Pistol. Barrier will put a stop to Sombra's Hack, so if you notice one in progress on yourself or an ally, a quick Barrier deployment can cut her off. Sombra's superior mobility and escape tools can make her difficult to kill off, so stick with your team and be alert. EMP will not only nullify your abilities, but will eliminate any active Barriers while also depleting your 200 Shields to drop your health down to 200. Losing your active barriers(s) can be used to your advantage, though, as their destruction will provide you a massive Energy burst to your Particle Cannon. Don't get overly confident, though, as this while you'll be able to fend off attackers, your lowered health combined with your low mobility will make you easy prey.
 
 <b>TEAM SYNERGY</b>
+Sombra is usually off in the enemy's backline or flanking, so you won't usually see eye-to-eye that often, also make sure not to put a barrier on her while in stealth, for it can reveal her presence.
+
+Her EMP is one of the best ultimates and combo ultimates in the game. Using her EMP in your Graviton Surge can prevent anybody inside from fighting back and rendering them useless.

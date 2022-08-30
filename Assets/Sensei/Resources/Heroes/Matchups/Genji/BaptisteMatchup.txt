@@ -1,4 +1,4 @@
 <b>MATCH-UP</b>
+If Immortality Field is active, you are not killing anyone within its range. Baptiste will have free reign to land shots on you. Also, he use Regenerative Burst to heal from your damage.
 
-
-<b>TEAM SYNERGY</b>
+With Amplification Matrix, there's a strange interaction. Genji can deflect any bullets or projectiles that pass through Amplification Matrix. Since the damage has a %100 increase, it means that Genji can return abilities with highly destructive (and possibly) one-shot potential. This can further compounded if an amplified abilities gets deflected and passes through an ally matrix. Now, the damage has a 200% increase.

@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+While Zenyatta cannot place an Orb of Discord on your Turret, he can place it on you, which can greatly assist his team in destroying your setup. While alone, Zenyatta can charge up Orb Volleys to deal quick burst damage to your Turret; however, if your team is on the front lines keeping you safe, you should be able to repair your Turret between volleys. If Zenyatta attempts to fire standard orbs at your Turret, he'll be leaving himself exposed and will most likely be shot down by the Turret before he can eliminate it.
 
-
-<b>TEAM SYNERGY</b>

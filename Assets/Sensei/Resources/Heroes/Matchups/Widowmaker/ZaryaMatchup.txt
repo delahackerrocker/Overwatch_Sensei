@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Zarya's Barrier allows her to protect herself and teammates from your sniper fire while simultaneously building large charge for her Particle Cannon. If she closes the distance while her Barrier is up, she can attack you with a charged up laser or with bursts of long-range secondary fire. However, you can use your Grappling Hook to gain some vertical distance, whereas Zarya will have to follow you on foot. Zarya's lower health compared to other tanks also means she'll be easier to handle than most; one headshot will bring a healthy Zarya down to 100 health, putting her at risk if she doesn't have a Barrier ready. Keep your distance as wide as possible when fighting Zarya, and be sure to only strike when her Barrier is down.
 
-
-<b>TEAM SYNERGY</b>

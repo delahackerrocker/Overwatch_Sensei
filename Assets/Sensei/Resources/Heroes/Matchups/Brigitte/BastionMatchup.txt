@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Bastion is arguably one of Brigitte's toughest enemies, and it's difficult to take out a bastion from long range. Whip Shot cannot knock the Bastion back while it's in it's Sentry configuration, and a Shield Bash can leave you open to other attacks. Your best bet is to stay out of the Bastion's line of sight; a Shield Bash is good for movement to get out of the way.
 
 <b>TEAM SYNERGY</b>
+While your shield won't do much to protect Bastion, you can help fend off hecklers like Tracer or Genji who attempt to flank his blind spots. While you won't be able to heal him much if you're keeping your distance from the enemy team, Bastion's self-healing will render this a non-issue.

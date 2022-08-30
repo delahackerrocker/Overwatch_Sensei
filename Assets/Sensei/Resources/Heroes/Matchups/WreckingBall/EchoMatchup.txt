@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+As long as Echo's airborne, all you can do is shoot her with your Quad Cannons. Since your primary fire suffers from damage falloff, it might not be enough to kill her. Unlike you, her primary fire and Sticky Bombs have no damage falloff. Be careful about your health pool. If Echo knows you're half health, She can finish you off with Focusing Beam. You're a good target for her Duplicate and she can get Minefield quicker than you do.
 
 <b>TEAM SYNERGY</b>
+Two Wrecking Balls can be a nightmare for the enemy team. placing two Minefields around team means that they will have no way to advance without taking damage (or dying).

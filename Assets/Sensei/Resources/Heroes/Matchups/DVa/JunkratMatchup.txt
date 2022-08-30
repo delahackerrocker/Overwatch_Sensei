@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Defense Matrix can negate Junkrat's primary fire and Concussion Mine, but not his Steel Trap. If you get trapped, just face Junkrat and activate Defense Matrix to protect yourself, then either engage if you're healthy enough or fly out if you're not. If you hear Junkrat's RIP-Tire nearby, it should be easy for you to fly up to his defenseless body and gun him down while he's unaware. Conversely, you can try to quickly gun the RIP-Tire down with a burst of Micro Missiles.
 
 <b>TEAM SYNERGY</b>
+D.Va is able to combo her Defense Matrix well with Junkrat's Ultimate ability. In a combo known as "Walk The Dog", D.Va can guard an allied Junkrat's RIP-Tire on its path to the enemy by flying behind it using Boosters while absorbing damage directed at the RIP-Tire with Defense Matrix as well as by bodyblocking.

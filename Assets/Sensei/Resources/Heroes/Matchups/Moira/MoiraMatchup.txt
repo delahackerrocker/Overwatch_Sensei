@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Always use Coalescence AFTER the enemy Moira, this will ensure you have more heals and a better chance at winning, though this may not be possible for every situation if a teammate is in trouble (e.g. in a Graviton Surge).
+For 1v1, you will want to stay in an area where you can reliably bounce your Orb while moving randomly to reduce damage dealt to you & the enemy Moira's healing. Healing orb is favoured over Damage Orb, but this can make the 1v1 last a long time. Once the enemy Moira casts Coalescence, use your Damage Orb & Coalescence to quickly burn her down.

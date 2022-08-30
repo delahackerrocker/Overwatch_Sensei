@@ -1,4 +1,12 @@
 <b>MATCH-UP</b>
-
+General: While he has a large hitbox, his mobility will make him a difficult target for you to hit with your primary fire and Sticky Bombs. Your best bet is to wait for him to be distracted or committed to a predictable movement pattern (e.g: while Piledriving). On the other hand, thanks to Flight you're a slippery target for Wrecking Ball. Be at the ready to help your allies when he dives your team.
+Adaptive Shields: Adaptive Shields will easily put Wrecking Ball out of the bonus damage threshold for your Focusing Beam AND ALLOW HIM A EASY KILL IF YOU GET CLOSE.
+Grappling Claw: Even with Flight, Wrecking Ball is a difficult foe to catch thanks to this skill. You can use the boost from Flight to easily avoid the impact damage dealt by a speeding Wrecking Ball, making it difficult for him to utilize his combo on you.
+Piledriver: With the boost from Flight, you can escape the area-of-effect, avoiding the considerable damage and CC effect.
+Minefield: When Wrecking Ball deploys his Minefield, you can easily escape the radius with Flight before they even finish arming.
 
 <b>TEAM SYNERGY</b>
+Echo can dive along with Wrecking Ball and ensure his disruption results in kills. Enemies knocked into the air by his Piledriver can easily be stuck with Sticky Bombs, but in most cases the combined damage of his Grappling Claw and the Piledriver will put non-tanks into the bonus damage range of Focusing Beam. Wrecking Ball lacks any way to protect you, so make sure the enemy is distracted with him first before engaging.
+
+<b>DUPLICATING</b>
+A niche, but decent choice for Duplicate, assuming you are well acquainted with his playstyle and mechanics. You can cause a lot of chaos quickly with Wrecking Ball's kit, and in some cases you can knock enemies into environmental kills with his Grappling Claw. Minefield is great at denying a large swathe of the battlefield, and short of investing an ult of their own, there isn't much the enemy can do about it but clear away. Your ult will start charging as soon as your mines are activated. Note, however, that deploying more mines while the others are still active will replace the original mines.

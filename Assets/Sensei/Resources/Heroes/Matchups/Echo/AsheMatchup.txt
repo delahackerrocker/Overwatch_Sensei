@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: As a hitscan, Ashe can be considered one of your counters. Be careful when using Flight and Glide in her sight lines or you'll be an easy target. You should generally leave her to your teammates, but she is a relatively stationary hero, so you can lob Sticky Bombs to pressure her. If Ashe is out of position or doesn't have support, approach from an unexpected angle until you're close, then use the boost from Flight to dive her. You should be able to land some Sticky Bombs and burst her down.
+Dynamite: You should be able to avoid the Dynamite as long as you know it's coming. Once Ashe throws it, quickly boost in a direction with Flight, as most Ashe players will trigger the dynamite while it's still airborne.
+Coach Gun: You can easily chase down Ashe with Flight if she's positioned too aggressively or unsupported. Coach Gun does a fair amount of damage up close, so if you plan on diving Ashe with Flight, it may be worthwhile to wait for it to be on cooldown.
+B.O.B: You should be able to avoid B.O.B's charge if you know he's coming, but if you're in Flight, B.O.B will make short work of you should he decide to target you.
 
 <b>TEAM SYNERGY</b>
+Ashe provides reliable range damage, an area Echo isn't very strong in. Ashe can also cover for Echo by focusing other hitscan. With your mobility, you can quickly reposition to Ashe if she needs help with an enemy flanker. Focusing Beam is a great follow-up for a well placed Dynamite.
+
+<b>DUPLICATING</b>
+Ashe is a great choice for Duplicate. With Dynamite, you can quickly charge B.O.B, whose as tanky as a raging Winston and whose damage output rivals Soldier: 76. Ashe can charge her ult while B.O.B is still deployed, meaning you can summon B.O.B again when he dies, gets low on health, or simply because you want to reposition him. B.O.B also lingers for a time even after Duplicate ends.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+D.Va's Defense Matrix does nothing to stop your primary attack, making her an easy target. Barrier will either force D.Va to stop firing or provide you a large Energy surge, all while still letting you continue attacking. Your only concern against D.Va is her high mobility with Boosters; if you whittle her down to low health, either try to lob a few secondary fire shots at her, have a teammate chase her down and finish her off, or fall back and regroup with your team. Once out of her Mech, while D.Va is of little threat at close range, she can be extremely difficult to deal with at a distance. Her Light Gun has very little damage falloff and is extremely accurate, meaning if you aren't behind cover or protected by your Barrier she can land successive headshots on you while you have few means of attacking back. Hide behind corners and either try to flank her or have a more mobile ally deal with her. Protecting yourself and an ally with Barrier will negate D.Va's Self-Destruct, providing you a massive amount of Energy in return. Keep in mind that D.Va's Defense Matrix can negate your Graviton Surge, so try not to fire it when she's in front of you.
 
 <b>TEAM SYNERGY</b>
+A team clustered together with Graviton Surge is a prime target for a friendly D.Va's Self-Destruct, provided your enemies aren't being protected by a Barrier.

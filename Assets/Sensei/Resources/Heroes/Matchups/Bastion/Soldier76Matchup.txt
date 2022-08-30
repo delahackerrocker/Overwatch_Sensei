@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Your biggest concerns against Soldier: 76 are his burst damage with his Helix Rockets and his impressive range. If you aren't behind the protection of a barrier, Soldier: 76 can be capable of catching you by surprise and shooting you down before you can retaliate and kill him. If he's peeking back and forth behind a wall, you should heal between attacks. If he's coming at you with full force, though, don't attempt to heal, as your healing won't outdo his damage; attack back and hope you can shred through him before he shreds through you. If he runs away with Sprint, don't chase after him; you'll be much more vulnerable while in your Recon Configuration, and he'll have most likely either healed up or regrouped with his team.
 
 <b>TEAM SYNERGY</b>
+His decent firepower and Biotic Field make Soldier: 76 a defining frontline presence. A friendly Soldier: 76 may attempt to drop his Biotic Field next to your team’s tank in order to supply them its steady healing. If the tank has a barrier of any sort up, consider advancing over to the Biotic Field and provide covering fire in Configuration: Sentry. Not only will the barrier actively soak up enemy fire, but the extra insurance the Biotic Field dispenses will keep you alive to mow down threats.

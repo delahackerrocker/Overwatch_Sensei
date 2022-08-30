@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If you manage to hack an unaware Bastion, he's forced into Recon Mode, making him an easier target to fight. With your stealth abilities and Bastion's tendency to focus on what's in front of him, it shouldn't be difficult to hack him before he notices you. Don't bother fighting him in Sentry Mode; simply sneak around him and hack him to quickly take him down. Keep in mind that even in Recon configuration, Bastion can put up a decent fight. If he is in Tank Mode, hacking him will not disrupt his transformation, so if he activates his Ultimate it's best to flee until it cools down or fight back if he's weak enough to kill.
 
 <b>TEAM SYNERGY</b>
+Hacking or using EMP on enemies can help Bastion run them through quicker, and can help him make easier shots while in Tank Configuration.

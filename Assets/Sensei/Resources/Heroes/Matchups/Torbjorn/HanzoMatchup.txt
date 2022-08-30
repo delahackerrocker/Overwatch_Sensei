@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Hanzo's Sonic Arrow doesn't affect buildings, and as such he cannot warn his teammates of the exact location of your Turret. However, it can still mark you, and if you're babysitting your Turret, it will be easy enough for the enemy team to intuit its position as well. With his extreme range, Hanzo can easily peek his head around corners and fire potshots at your Turret to take it out without letting it retaliate. Conversely, with Storm Arrows he can hit your stationary Turret with a burst of damage before it can gun him down. If facing a Hanzo, try to keep your Turret behind a barrier or another form of cover if possible.
 
-
-<b>TEAM SYNERGY</b>

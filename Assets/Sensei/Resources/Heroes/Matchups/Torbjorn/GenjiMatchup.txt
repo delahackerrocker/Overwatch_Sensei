@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+At a distance, Genji can heckle your Turret with his Shurikens, which suffer no damage falloff. However, this damage is minor enough that you can keep hammering your Turret without worrying about its destruction. While Genji can grab the attention of the Turret and reflect its damage back at it, he cannot reflect enough of its own fire to destroy it. If he's not reflecting, Genji is easy enough for your Turret to take out if he's not careful. In a direct fight, Genji has the upper hand, so try to keep your Turret up before he gets the chance to close the distance. If he does approach you without a Turret up, it's a good idea to throw down a Turret; even if the Turret takes some time to set up, the Genji will have difficulty killing you while taking gradual damage from the Turret.
 
-
-<b>TEAM SYNERGY</b>

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Sigma can absorb your Quad Cannons bullets with Kinetic Grasp, giving him bonus shield health. Accretion can stop you in your tracks. This can put your Grapple Claw on cooldown and force you out of Roll. Also, you can roll your way out of Gravitic Flux if you're caught in it. Kinetic Grasp can't absorb your mines, but Sigma can throw his Experimental Barrier to clear a path through them.
 
 <b>TEAM SYNERGY</b>
+When a friendly Sigma lifts an enemy team with Gravitic Flux, you can use Minefield so the enemy team will drop onto your mines. This will not only ensure that they can't avoid your mines, but the explosions will almost certainly kill your weakened opponents.

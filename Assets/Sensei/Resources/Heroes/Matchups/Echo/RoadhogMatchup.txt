@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: As a shotgun hero, Roadhog will struggle against you. Be careful, though: if you get in range, your hitbox is easy for him to hit. He has a very large hitbox, making your primary-fire and Sticky Bomb easy to land. Hang back, pester him at a range, and charge your ultimate off him.
+Chain Hook: Keep out of hook's 20m range and have Flight at the ready to either leap out of his attempt to hook you should he close in, or to escape being tossed into an environmental kill.
+Take a Breather: Roadhog will often wait until he's fairly low on HP before using breather. Try to immediately hit him with Focusing Beam once he reaches 50% or less.
+Whole Hog: Hog's ultimate only really poses a threat to you if you're inside tight quarters with him, or if your Flight is on cooldown. Use the boost from Flight to put distance between you or save yourself from an environmental kill.
 
 <b>TEAM SYNERGY</b>
+Echo has no notable team synergy with Roadhog - be sure to assist Hog if he Chain Hooks a high-hp target.
+
+<b>DUPLICATING</b>
+Roadhog is a fantastic choice for Duplicating. You become very difficult to kill and get two forms of "one-shot" potential via his Chain Hook: either through the standard "hook > step forward > shoot > melee" combo, or by hooking and dropping someone off of the map. Since Roadhog is a common pick on maps with environmental hazards, his quick charging ult can also be used to throw enemies off the map. Outside of that, Roadhog's ultimate is a fantastic way to clear a point during overtime and it does no small amount of damage.

@@ -2,3 +2,4 @@
 
 
 <b>TEAM SYNERGY</b>
+Mercy can damage boost his primary fire and abilities, giving them an additional 30% boost. Unfortunately, this doesn't apply to Minefield.

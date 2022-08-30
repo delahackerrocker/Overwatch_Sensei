@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If the enemy team has a Sombra, then you'll both be competing for hacked health packs. Try to claim as many as you can; not only will this stop the enemy Sombra from hacking them, this will also refuse the enemy team of a good deal of healing while providing more healing for your team. Unless you catch the other Sombra by surprise, don't attempt to hack her, because she may be attempting to hack you too, and it's not worth the gamble to see who started the hack a split second sooner. It's better to engage with gunfire, which will stop her hack if she's attempting one on you.
 
 <b>TEAM SYNERGY</b>
+In a No Limits game with multiple Sombras, you can cover more ground, hack more health kits, and land more hacks on enemies. That being said, running two Sombras means having a smaller damage output than usual, which will make it difficult for your team to eliminate Hacked enemies.

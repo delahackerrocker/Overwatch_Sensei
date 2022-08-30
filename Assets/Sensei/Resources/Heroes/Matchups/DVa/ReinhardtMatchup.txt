@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Your quick mobility, ramming potential, and burst-fire capabilities may allow you to chase down a lone Reinhardt and quickly finish him off. Conversely, if Reinhardt is chasing after you, fly away and he will be incapable of catching up. Using Boosters to fly into Reinhardt can also distract him just enough for your team to advance and attack his teammates, whom he is no longer protecting. However, be wary that Reinhardt can block your Self-Destruct with his barrier. It is therefore best to save Self-Destruct until the opposing Reinhardt is dead, his barrier is shattered, or an ally is able to disrupt him and force him to drop his barrier.
 
 <b>TEAM SYNERGY</b>
+As D.Va lacks any capability to produce shields, a friendly Reinhardt can cover your role as a primary Tank while you block large-impact attacks and chase after enemies Reinhardt is incapable of pursuing. The stun of Earthshatter is an excellent setup to safely perform a team-wipe with Self-Destruct.

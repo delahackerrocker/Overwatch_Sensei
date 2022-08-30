@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+When hacked, Genji can do very little against Sombra; at the loss of his Swift Strike, Cyber Agility and Deflect, all he has are his Shuriken, which are far less effective than your Machine Pistol at close to mid range. Hacking after a Swift Strike or during Deflect is incredibly easy, as Genji is unable to attack back during the duration of the hack. You can also use your stealth abilities to get around Genji and hack him before he can notice you. When unhacked, Genji is more difficult to deal with. It's wise to have a Translocator ready at a safe location if he gets you to low health so you can warp away. If he attempts to Deflect your fire, that's a perfect time to perform a hack and seal his fate. Hacking during Dragonblade doesn't cancel his Ultimate, but it does stop him from performing Swift Strike, making the Ultimate much less potent.
 
 <b>TEAM SYNERGY</b>
+Hacking or using EMP on enemies can help make them easier targets for a friendly Genji, especially when he's using his Dragonblade.

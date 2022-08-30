@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Lúcio's mobility can make him a difficult target to track with your Particle Cannon, while his damage will provide very little Energy. Your Barriers will prevent his Soundwave knockback, though, which can save you when you're near a ledge. His healing will negate your damage if you're at low Energy, and his speed boost will make it difficult for you to chase him and his teammates. In general, rather than actively pursuing Lúcio, it's best to stick to your team and make him come to you; at high Energy and surrounded by your teammates, Lúcio poses very little threat. If Lúcio is caught in your Graviton Surge alongside his teammates, his Sound Barrier can shield his team from your team's efforts to kill your trapped opponents, so try to kill Lúcio before using Graviton Surge, or if you have a friendly Sombra, wait until she has EMP ready so she can use it to negate Sound Barrier.
 
 <b>TEAM SYNERGY</b>
+With your low mobility, Lúcio's speed boost can be a huge help towards helping you chase down an enemy or flee from an oncoming attack. Keep an eye on your Lúcio and be ready to shield him with a Projected Barrier should he be in danger.

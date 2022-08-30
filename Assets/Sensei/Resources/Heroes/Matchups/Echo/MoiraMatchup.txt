@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Moira's secondary-fire has a long range on it, enabling her to pester you even while airborne. Make sure not to overextend into territory covered by Moira with Flight. She has a slender hitbox, making her a difficult target for your primary fire and Sticky Bombs.
+Biotic Orb: With a healing orb and her primary-fire, Moira can out heal your Sticky Bombs and easily heal up any splash damage it causes. If Moira catches you after you use your Flight, she can deploy a damage orb and latch onto you with her secondary-fire, possibly killing you before you can escape her range. Be mindful of her orb's cooldown.
+Fade: This skill will drop your Sticky Bombs to the ground, so if you're planning on ambushing Moira, wait for her to use Fade first.
+Coalesence: While Moira will typically opt to use her ultimate on her own team, it has a long enough range to hit you while you're airborne, so be ready to head for cover.
 
 <b>TEAM SYNERGY</b>
+Moira's damage Biotic Orb can leave squishier targets within the threat range of your Focus Beam, but be aware that it's nigh impossible for her to heal you while you're airborne, so she'll likely leave your upkeep to her fellow healer. Be considerate and reposition to her location for healing if you need it.
+
+<b>DUPLICATING</b>
+Moira is a great choice for Duplicate. Her ultimate comes up incredibly quick and enables you to push aggressively into the enemy team or through an obnoxious choke.

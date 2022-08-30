@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
-
+In Sentry configuration, Bastion can tear through your barriers instantly and kill your before you can get up to full charge. If you catch Bastion by surprise at full-charge, you are more than capable of killing him, but this is extremely difficult if Bastion is set up in a good spot. Graviton Surge merely pulls Bastion into the vortex; it doesn't take him out of Sentry Configuration, which can cause more harm than good for your team.
 
 <b>TEAM SYNERGY</b>
+A friendly Bastion in Sentry configuration can be a perfect target for Projected Barrier, especially in a "pirate ship" team composition on a payload map. You can also stand in front of Bastion with your personal barrier in order to soak up damage for him, be careful though, you block his line of sight in the process. 
+
+In Sentry and Tank forms, Bastion can easily wipe out enemies caught in a Graviton Surge. This is because Bastion's Configuration: Tank does a precise 205 damage, this will pierce Zenyatta's Transendence.

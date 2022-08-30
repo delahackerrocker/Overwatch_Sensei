@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Due to the tendency of your Sentry Turrets to continue attacking the first target they see, an enemy Zarya can easily activate a Barrier to soak up damage and power up her Particle Cannon prior to destroying the Turret. This also provides a quandary on whether or not you should pressure her with your Photon Projector, increasing both your and her offensive output, or if you should wait until the barrier is down, entering a fight with a weaker Photon Projector. As a rule of thumb, whichever of you has a more charged-up weapon at the start of the fight will most likely win it. If you and your team are grabbed by Graviton Surge, you can quickly throw donw a Teleporter for you and your team to escape through. However, this not only requires instant reaction time from you, but also communication with your teammates so they realize what you're doing and to use your Teleporter.
 
-
-<b>TEAM SYNERGY</b>

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Reinhardt's Barrier Field can block most of your attacks. Should he try to attack you or a teammate with Fire Strike or Charge, be ready to absorb it with your Barrier. You'll survive a Charge even if you don't have a Barrier active, but you'll be left with minimal health, meaning you'll be quickly picked off if you don't quickly deploy a Barrier or get healed by an ally. When you're at high Energy, you can pressure his Barrier Field and try to shatter it. A quick Barrier will protect you and a teammate from Earthshatter, which can prove life-saving for a fight. Interestingly, anyone who stands behind a teammates with an active Barrier will likewise not be stunned by Earthshatter; with this in mind, if you anticipate an Earthshatter coming, you can position yourself in front of your teammates to shield them.
 
 <b>TEAM SYNERGY</b>
+With Projected Barrier, Zarya can allow Reinhardt to lower his shield and go on the offensive. That way, he stays safe while he's attacking enemies and provides Zarya with Energy. When your bubbles expire, you can hide behind his shield. Since both of their ults immobilize targets, it makes it easier for them to attack enemies, especially highly mobile ones.

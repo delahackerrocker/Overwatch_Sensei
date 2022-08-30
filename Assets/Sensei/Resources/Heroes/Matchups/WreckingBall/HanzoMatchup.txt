@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
+You shouldn't have much trouble against Hanzo. As long as you're in Roll form, he can't land critical hits on you. You can also pursue him, no matter where he goes, with enough damage to kill him. Adaptive Shield can also be used to soak up some of his arrows. At close range, you can shred through his health with Quad Cannon and a Quick Melee.
 
+However, Hanzo can expose your location with Sonic Arrow. If you are directly hit with it, you could also reveal nearby teammates to Hanzo's team. Storm Arrows can be used to chip away 350 HP of your health (if all arrows connect). Also, Dragonstrike can deal heavy damage to you.
 
 <b>TEAM SYNERGY</b>
+There's no known synergy with Hanzo.

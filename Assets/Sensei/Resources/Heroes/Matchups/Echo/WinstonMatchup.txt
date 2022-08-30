@@ -1,4 +1,10 @@
 <b>MATCH-UP</b>
-
+General: Winston won't reliably be able to hit you with his primary-fire, and will likely prefer to leave you to his teammates. Don't get over confident, though, as he also possesses considerable mobility and can easily corner you if you put yourself in a bad position. He can also opt to leap towards you while you're airborne to briefly get in range and deal some damage to you.
+Barrier Projector: Winston will often deploy this as he dives one of your teammates. This allows him to dodge in and out of his shield to reduce damage taken and it also blocks line of sight for your supports. You can quickly burst Winston's bubble, opening sight lines for your healers and putting Winston at great risk from the rest of your team.
+Jump Pack: Though not quite as powerful as your Flight, Winston's Jump Pack still provides him with generous mobility. If you're going to position away from your team or take a highground position, try to make sure that Winston is committed elsewhere or wait for him to use his his Jump Pack first so he can't easily dive you.
 
 <b>TEAM SYNERGY</b>
+Winston is a very complimentary tank for Echo. Since he relies on sustained damage, your bursty kit is a welcome addition when he goes for a dive. Follow him in and help him secure kills.
+
+<b>DUPLICATING</b>
+A mediocre choice for Duplicate in general, though there are circumstances that can warrant it. You trade a ton of DPS for some survivability and a decent barrier. His ultimate will come up incredibly quickly thanks to his primary fire being area-of-effect. Situations where you might want to Duplicate Winston are when there is an environmental hazard that you can toss them into, you need to push a few enemies clear of the point/payload, or you're trying to stall for as long as you can.

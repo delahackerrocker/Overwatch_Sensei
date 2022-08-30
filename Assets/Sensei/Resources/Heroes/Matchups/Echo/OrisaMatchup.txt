@@ -1,4 +1,12 @@
 <b>MATCH-UP</b>
-
+General: Though Orisa has no damage falloff, her weapon is a projectile and hard to aim against swift and aerial targets such as yourself. Orisa has a large hitbox and generous critical-hit zone, so once her barrier is down it should be easy pickings for your primary-fire and Sticky Bombs.
+Protective Barrier: The shape of Orisa's barrier is better at protecting from aerial attacks compared to Reinhardt's, so instead of trying to circumvent it: bust it. You're well suited to breaking through barriers, and you should prioritize doing so.
+Halt!: Orisa is more likely to target clusters of Heroes with her Halt! ability, but you may find yourself being pulled back while retreating or if you're flanking. Orisa can use Halt! to drop you into environmental hazards, so have Flight at the ready.
+Fortify: Orisa will often save Fortify until her shield is busted and on cooldown. Reserve your abilities while she's fortifying; focus on dodging and landing critical-hits with your primary fire.
+Supercharger: It's typically best to retreat and wait out Supercharger where possible, but when you can't, try and bust it quickly. If you can get an angle on it, a full volley of Sticky Bombs and a shot from your primary-fire will destroy it.
 
 <b>TEAM SYNERGY</b>
+As a hero with a lot of mobility at her disposal, Echo prefers less anchored tanks than Orisa -- still, there is some synergy between the two. Orisa's Halt! combos very well with your Sticky Bombs, so coordinate with her pulls.
+
+<b>DUPLICATING</b>
+Orisa is a fantastic choice for Duplicating. Protective Barrier will boost your team's survivability and Supercharger will come up quickly, more than making up for the loss of Echo's personal DPS. Orisa is a common pick on maps with environmental hazards, so you might even be able to secure some instant kills with her Halt!.

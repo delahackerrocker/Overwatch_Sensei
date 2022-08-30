@@ -1,4 +1,13 @@
 <b>MATCH-UP</b>
-
+General: Sombra is a difficult opponent for you. Though she's not a true hitscan, her Machine Pistol has a decent spread and falloff that enables her to contest you even while airborne.
+Opportunist: Avoid remaining at low HP with Sombra around - her passive will help her track you down.
+Hack: Since you rely on abilities, Hack poses incredible threat to you. Avoid getting within 15m of Sombra, and if you hear her Hacking you, quickly boost away with Flight. You might not get out of hack's range before it lands, but the boost will put some welcome distance between you.
+Stealth: It's very difficult for you to find a Sombra in Stealth without seeing her enter it. Your best bet is sweeping with your Focusing Beam, but it's better to leave the job to your teammates.
+Translocator: An aggressive Sombra can use her Translocator to chase you, or toss it up to target you with Hack while you're airborne. If you see Sombra translocate away, however, you can watch the light trail to determine which direction she retreated to and consider taking the fight to her.
+EMP: Do your best to track and predict EMPs so that you can position away from your team and avoid being caught in the hack.
 
 <b>TEAM SYNERGY</b>
+Sombra lacks any additional sources of damage and relies on sustained DPS, so your bursty kit is a welcome addition to a team running Sombra. Stay by your team and be ready to focus down whatever hero she disables with Hack. Her passive, Opportunist, makes for a great combo with Focusing Beam. Sombra can call out enemies below 50% health and hack them to help Echo get picks.
+
+<b>DUPLICATING</b>
+A niche choice for Duplicate and generally inconsistent. If the conditions are right--you can duplicate her in a good position, such as an off-angle not easily blocked by cover/shields, there aren't any heroes who can immediately punish you/they used their mobility cooldowns--she can be phenomenal since EMP is the 2nd fastest charging ultimate and quite powerful. But it's important to note that while the ultimate of the hero is a primary factor in Duplicating, their basic abilities are still important and Sombra only really possesses ONE skill usable in combat: Hack. Careful planning is therefore required before you Duplicate her. You need to be able to land hack and farm a target for quick EMP.

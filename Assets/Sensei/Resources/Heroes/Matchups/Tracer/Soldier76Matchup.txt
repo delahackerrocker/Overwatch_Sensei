@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Soldier: 76's movement while using Sprint is slower than your Blink. Since Blink can be stacked up to 3 times, it's sometimes smart to save them up so you can chase down Soldier: 76 should he attempt to flee from a fight. Your Pulse Pistols have high enough to out-damage the healing rate of Soldier: 76's Biotic Field, byt his Heavy Pulse Rifle deals higher damage per shot, so several headshots can bring your health down quickly. The large spread of your guns will make it hard to land full shots on Soldier: 76, especially if he's being evasive and fighting defensively. Try to catch him by surprise and fight up close where you can quickly run him down, but don't hesitate to flee if you need to. His Tactical Visor can easily track your movement, so try not to expose yourself when Tactical Visor is active./small>
 
-
-<b>TEAM SYNERGY</b>

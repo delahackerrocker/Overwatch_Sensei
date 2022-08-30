@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Junkrat's Concussion Mine and Steel Trap can be easily destroyed by your Tesla Cannon, so long as you fire with your weapon before accidentally stepping on a trap. Jump Pack allows you to quickly approach Junkrat; without hus Steel Trap to defend himself, Junkrat is forced to fight in close-range. Your Barrier Projector will allow you to deal consistent damage to Junkrat in relative safety; if your barrier is on cooldown, though, his grenades will easily hit you due to your large hitbox. A few direct hits will melt your health away quickly, so try to only fight Junkrat if your Barrier Projector is ready; if you're caught by surprise by him, don't hesitate to use Jump Pack to retreat to your team, as Junkrat's ability to chase after you is limited. If a wounded Junkrat is retreating, weigh whether or not you believe he'll have regrouped with his team before jumping after him to finish him off.
 
-
-<b>TEAM SYNERGY</b>

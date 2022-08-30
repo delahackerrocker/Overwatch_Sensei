@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Bastion's extremely high damage output is more than capable of ripping your barrier to shreds, or at least leaving it in a critical condition. However, while immobile in Configuration: Sentry, Bastion is a prime target for a Fire Strike, which will cut off all of its armor. It is also much less of a threat in Configuration: Recon too. If you can catch Bastion unaware with Charge, this will force him out of Sentry Configuration, even if you can't smash him against a wall.
 
 <b>TEAM SYNERGY</b>
+Guarding a friendly Bastion will be mutually beneficial; you'll be protecting him from oncoming fire, and he'll be able to mow down oncoming opponents. Just keep in mind that you are only able to guard what's in front of you; be wary of enemies trying to flank you from the rear. While you are able to walk off with ease, your Bastion will need a second to convert to Recon Configuration. While you should try to protect your Bastion, you also need to be in a mutual agreement of when you need to hold your ground and when you need to retreat, because if you run off and the Bastion didn't get the memo, he'll be torn apart, and you will be next.

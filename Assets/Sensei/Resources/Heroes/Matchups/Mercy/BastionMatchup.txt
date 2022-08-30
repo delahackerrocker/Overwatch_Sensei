@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Don't let yourself be caught in the open around Bastion, as he can shoot you down within a second. Even in Ability-bastion1.png Recon Configuration, you won't stand a chance as his submachine gun will outdamage your Ability-mercy2.png Caduceus Blaster, and if neither of you has teammates nearby, he won't hesitate to shift into Ability-bastion2.png Sentry Configuration and mow you down.
 
 <b>TEAM SYNERGY</b>
+A classic for "bunker" strategies, there's few things that can withstand a damage-boosted Bastion. That said, staying with your Bastion makes you a huge target by association.

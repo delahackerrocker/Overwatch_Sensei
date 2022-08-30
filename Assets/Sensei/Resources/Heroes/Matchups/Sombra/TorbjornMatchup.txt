@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can hack Torbjorn's turrets, but they must be focused on an enemy to do so (or you must hack from around a corner so it can't hit you), which is often easier said that done in a firefight. As for Torbjorn himself, all hacking will do is negate his ability to deploy a new Turret or activate Overload or Molten Core. That being said, if Torbjorn is without his turret and doesn't have Overload active, you can generally handle him in a one-on-one bout. If you're having difficulty with his Turret, EMP will completely shut it down for a brief period of time for your team to move in.
 
 <b>TEAM SYNERGY</b>
+Using EMP to annihilate enemy barriers can help Torbjorn's turret land more shots, as well as allow Torbjorn himself to land direct hits with his Molten Core.

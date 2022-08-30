@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You should never try to take on a Bastion in Sentry Mode as Doomfist; your Rocket Punch won't bring him out of it, and your big hitbox means he can quickly melt you down, and then recover any damage you may have dealt with his self-heal. If you see him in Recon mode, get the jump on him by landing a fully charged Rocket Punch and working with your team to finish him. Even if he gets into Sentry mode at this point, he'll be weak enough that you can use your other abilities to finish him off.
 
 <b>TEAM SYNERGY</b>
+There is no known synergy between Bastion and Doomfist.

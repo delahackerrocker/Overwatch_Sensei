@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Your healing won't do much to save weaker characters from Reaper's damage, and will only modestly slow him down even when he's attacking a tank. He can dispatch you with two shots from close range, and he can use Ability-reaper3.png Shadow Step and Ability-reaper2.png Wraith Form to ambush you from unusual angles. Your only saving grace is that Reaper's range is quite poor; if a teammate is close by, you can flee from the encounter with Ability-mercy3.png Guardian Angel, forcing Reaper to either retreat or riskily engage more targets. If Reaper is using Ability-reaper4.png Death Blossom and you're at a safe distance, it may be worth it to whip out your blaster and try to shoot him dead while he's exposed.
 
 <b>TEAM SYNERGY</b>
+Reaper's self-healing is based on the amount of damage he deals to a target, so damage boosting him can help him survive a fight much longer while also allowing him to quickly dispatch targets with a single shot. Essentially, healing a Reaper is rarely necessary.

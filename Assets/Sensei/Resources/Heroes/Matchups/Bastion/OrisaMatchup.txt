@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Orisa is generally one of the easier targets to take down if her team is not continously backing her up. While her shield has a relatively short cooldown, you can tear through it so fast she has no other option then to use fortify and try to stand her ground or retreat. Whatever she does in that case, you'll tear through her due to her large shape. Her halt can't move you due to you being unable to be moved in sentry configuration. If she decides to place her ultimate behind her shield, your first move should be to destroy the supercharger after tearing through the shield. If she decides to try and bodyblock it, just keep the trigger down. If she hides it however, try to seek cover and reposition so you're able to destroy the supercharger in sentry configuration.
 
 <b>TEAM SYNERGY</b>
+A Orisa on your team generally is your best friend. Her shield can block damage for you and partially protects you from attacks from above while in sentry configuration. Her ultimate greatly enhances your damage and makes you even more of a threat to tanks and shields.

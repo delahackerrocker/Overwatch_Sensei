@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Sigma is generally a favourable match-up for Doomfist. The only exception is Sigma's Accretion which can Doomfist vulnerable. Wait for Sigma to use Accretion on another target, then engage. Otherwise, Rocket Punch can cancel Sigma's Kinetic Grasp and Gravitic Flux if you're lucky. Rocket Punch also bypasses Experimental Barrier and can let you escape from Gravitic Flux. (before Sigma lifts your team)
 
 <b>TEAM SYNERGY</b>
+Gravitic Flux and Meteor Strike can pair together after the slam for picks to compensate for Meteor Strike's outer ring damage. Otherwise, an ally Sigma landing an Accretion is a good reason to engage on an enemy.

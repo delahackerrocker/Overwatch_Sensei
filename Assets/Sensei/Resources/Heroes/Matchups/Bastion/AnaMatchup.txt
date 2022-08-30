@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Your low mobility makes you an easy target for Ana's Sleep Dart and Biotic Grenade, both of which will significantly cripple you. A Sleep Dart will force you back into Recon Configuration, rendering you an easy target, while Biotic Grenade will strip you of your Self-Repair healing. Try to hide behind a barrier or behind cover to make it more difficult for Ana to hit you.
 
 <b>TEAM SYNERGY</b>
+While Nano-Boosted, your shells from Configuration: Tank will be even more powerful, and you'll be more capable of withstanding enemy attacks during your Ultimate. Try to have your Ana use Nano-Boost on you during your transformation rather than before, as the time it takes to transform will waste time that you would normally have available for Nano-Boost.

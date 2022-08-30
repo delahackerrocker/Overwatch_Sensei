@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Like Hanzo, you can use your stealth abilities to bypass Widowmaker with little difficulty. Unlike Hanzo, however, Widowmaker is much less dangerous at close range. Even with her automatic fire, you'll generally outdamage her. If you hack her prior to the engagement, you'll remove her ability to use her Grappling Hook to escape. If you're in danger of dying, you'll always be able to Translocate to a safe location if you set up your Translocator prior to fighting the Widowmaker. Infra-Sight will allow Widowmaker's team to notice you while you're invisible; don't try to wade too far into enemy territory during its duration and stay under cover, and you should be safe.
 
 <b>TEAM SYNERGY</b>
+When a friendly Widowmaker's Infra-Sight is active, your team will be able to see the locations of every opponent. Since you have the ability to detect which enemies are at low health, you can call out weakened targets to eliminate one after the other.

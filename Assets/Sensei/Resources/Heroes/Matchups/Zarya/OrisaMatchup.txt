@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Fusion Driver is a projectile weapon that doesn't suffer from damage falloff, can inflict headshots, and has no range limit. In short, Orisa outclasses you in ranged duels and can fight far from the effective range of Particle Cannon. Be careful before using a Graviton Surge on Orisa, who can use Fortify to escape and body block incoming damage for allies clustered behind her. To circumvent this, use Graviton Surge when Fortify is on cooldown.
 
 <b>TEAM SYNERGY</b>
+The damage-boosting effects of Supercharger can help Zarya shred through enemies at high charge.

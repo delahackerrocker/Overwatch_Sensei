@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
-
+The damage from Torbjörn's Turret is minimal, meaning blocking it with Barrier won't provide much Energy. Should you power up from other sources, you can tear through Torbjörn's Turret within seconds. However, your shorter attack range can mean that safely approaching Torbjörn and his Turret can be difficult. Try to safe your Barrier for when an ally is approaching the Turret to destroy it. Remember that your Barriers only last for 2 seconds; if you and your teammates can't get closer to Torbjörn, try to find cover to avoid taking fire from his Turret. Torbjörn himself can be dangerous, especially with Overload active, but you can handle him in a close-quarters fight if you have sufficient Energy.
 
 <b>TEAM SYNERGY</b>
+With his large hitbox and aggresive nature, your barriers can get some good charge if you put it on him.
+
+Using Molten Core in a Graviton Surge is the easiest way to secure a team wipe. This is because it burns through most defensive ultimates (except from Transendence).

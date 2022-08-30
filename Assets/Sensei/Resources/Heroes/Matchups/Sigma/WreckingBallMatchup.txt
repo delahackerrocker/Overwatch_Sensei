@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Wrecking Ball's high mobility and knockback-based attacks can make him difficult to deal with on your own. Kinetic Grasp can block his Quad Cannons, but its damage output does not give a lot of bonus shields. Focus on attempting to hit Wrecking Ball with Accretion to stop him from plowing through your team, especially if he uses Piledriver in the middle of your group. Accretion is also a valuable tool to halt Wrecking Balls attempting to stall the point by spinning. You can use Experimental Barrier to block the damage from Piledriver to anyone behind it, as well as being able to clear a path through his Minefield, although this will probably destroy your shield.
 
 <b>TEAM SYNERGY</b>
+Sigma's almost non-existent mobility can make synergising with a friendly Wrecking Ball difficult. The best thing you can do to help him is to provide your Experimental Barrier to protect him, however this will leave your team short of a shield. You can also stun enemies knocked up with Piledriver with Accretion, which should be easy to hit as enemies hit by Piledriver have a locked trajectory. In addition, Gravitic Flux can be used in combination with Minefield to quickly eliminate a group of enemies.

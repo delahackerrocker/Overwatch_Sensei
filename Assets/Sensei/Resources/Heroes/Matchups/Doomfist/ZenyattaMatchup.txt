@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+The Zenyatta/Doomfist match-up is in favour of Doomfist. Zenyatta must rely on his team to keep him alive from you. Meteor Strike is also capable of killing through Transcendence. If an enemy is close enough to a wall, a fully charged Rocket Punch can eliminate them though this is rare. Be wary of a Zenyatta charging an Orb Volley. Although you may eliminate him, he will leave you at extremely low health for his teammates to compensate.
 
 <b>TEAM SYNERGY</b>
+Zenyatta's Orb of Discord is a very good reason to engage an enemy. He can also keep you alive when you engage with Transcendence, though like Moira's Coalescence, it cannot protect you from burst damage.

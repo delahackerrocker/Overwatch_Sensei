@@ -1,4 +1,12 @@
 <b>MATCH-UP</b>
-
+General: Sigma's primary fire has decent range, so he can contest you if you get too close even while airborne.
+Experimental Barrier: Echo is a great barrier-breaker, and you should make busting Sigma's Experimental Barrier a priority.
+Accretion: Accretion is a very dangerous skill which will interrupt your Focusing Beam and make you an easy kill. Thankfully, your mobility will typically make it hard for Sigma to hit you with it. If you're on the ground and you see him targeting you with it, use Flight to boost away.
+Kinetic Grasp: Your Sticky Bombs are susceptible to Kinetic Grasp, so try to only use them when Sigma is distracted or they are already on cooldown.
+Gravitic Flux: If you're within the target reticle, the boost from Flight should be able to get you out of the area of effect. Sigma is unable to absorb your Sticky Bombs and primary fire while he's casting, so you can easily land hits on him.
 
 <b>TEAM SYNERGY</b>
+Your Focusing Beam is a great ability to pair with Sigma's ultimate, Gravitic Flux. Use your Sticky Bombs and primary fire to pick off heroes caught in the lift, then use your Focusing Beam to finish off any targets that survive the slam.
+
+<b>DUPLICATING</b>
+Sigma is a great choice for Duplicate. You lose a lot of DPS, but the utility and survivabilty brought by his kit, combined with his powerful ultimate, make up for it. Between Accretion and Kinetic Grasp, Sigma is capable of denying a lot of ults.

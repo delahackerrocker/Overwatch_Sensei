@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Bastion can be considered one of your counters. Regardless of whether or not it's in recon or sentry mode, it poses a great threat to you even while you're airborne. Its primary-fire in recon mode is an accurate hitscan weapon and with damage rivaling Soldier: 76. While in sentry mode, Bastion is an even greater threat, as it gains accuracy as it fires. On the other hand, Bastion is a very large target in recon mode, and completely stationary while in sentry mode, making it an easy target for your primary-fire and Sticky Bombs. Your burst damage is very useful in taking Bastion out if you can get the drop on it.
+Since you'll rarely find Bastion unshielded, it's worth talking about what to do against the compositions that commonly feature it: Bunker and Pirate Ship. First, an important note: Barriers prevent you from using Duplicate, so you have to bust or by-pass the bunker's barriers to even use your ultimate.
+If your team is opting to dive Bastion, follow your tanks closely and dive in with them. If the enemy is running Baptiste, keep your Sticky Bombs handy so you can immediately lob them at his Immortality Field.
+If your team isn't running a composition capable of quickly closing the distance with Bastion, look for opportunities to flank behind their shield. If you can get within 16m behind the enemy shield, lob your Sticky Bombs at Bastion and immediately follow-up with Focusing Beam. Bastion's supports won't be able to out-heal the damage unless Bastion is using self repair at the same time.
 
 <b>TEAM SYNERGY</b>
+Not the best pair. If you're with a Bastion, you're probably in a Bunker-style composition. If the enemy dives your Bastion with a D.Va, get to an angle where her Matrix won't absorb your Sticky Bombs and destroy her Mech quickly. Focus down Barriers to free line of sight for your Bastion. You can also play as a flanker, picking or distracting their supports.
+
+<b>DUPLICATING</b>
+A situational pick for Duplicate. On paper, trading Echo for the highest DPS hero in the game is great idea. In reality, getting a Duplicate on Bastion is difficult since it will have Barriers protecting it. If you Duplicate a Bastion while in it's line of sight, it can knock you out of your ult before you can even act. To get value out of a Bastion Duplicate, you'll need to clone Bastion either from behind your own barriers, or utilize your mobility to take unexpected angles. Its ultimate is not worth using, unless you need burst damage (e.g: vs Zenyatta's ultimate) or you've depleted it's ammo.

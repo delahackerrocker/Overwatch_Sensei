@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Zenyatta is a dire threat at range with his highly accurate Orbs of Destruction and his damage-amplifying Orb of Discord. However, his low mobility means that he won't be able to escape if you catch him off guard. You also lack mobility, though, so you'll need to take creative routes to flank him and will be incapable of chasing him if he flees. You shouldn't be flanking unless you're with your team, though, so better to leave Zenyatta for teammates who can handle him better. Your Barriers will remove Orb of Discord from yourself or an ally, but once your Barrier wears off, he can immediately reapply his Orb. While Zenyatta can't escape Graviton Surge with Transcendence, he can use it to protect all of his allies trapped in it from enemy attacks or Ultimates such as Dragonstrike or Death Blossom; try to kill Zenyatta before attempting a big play with Graviton Surge, or if you have a friendly Sombra, have her hack him prior to using your Ultimate.
 
 <b>TEAM SYNERGY</b>
+If you find yourself trapped in a Graviton Surge, a friendly Transcendence will keep you alive (most of the time) with its high healing out. Also, discorded targets are easier to melt down with your attacks.

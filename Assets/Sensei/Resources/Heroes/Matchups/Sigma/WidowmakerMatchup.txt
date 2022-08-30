@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If you spot an enemy Widowmaker trying to snipe your team, you can deploy your Experimental Barrier to block off her shots by covering her sniping location, which can prove to be very annoying. Just be aware that this is a temporary solution, as the Widowmaker can eventually relocate and this act is depriving your team of a shield. Only use this tactic until a friendly flanker can approach Widowmaker and take her out, or at least disrupt her long enough that you can focus on your team again. Kinetic Grasp can absorb her shots, but she's unlikely to fire more than once, instead waiting until your ability has worn off, so be sure to be behind cover as soon as you're on cooldown.
 
 <b>TEAM SYNERGY</b>
+Sigma’s ultimate can allow a friendly Widowmaker to get a few headshots while enemies are in the air.

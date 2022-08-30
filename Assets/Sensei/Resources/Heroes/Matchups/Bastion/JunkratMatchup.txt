@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Junkrat is unlikely to hit you at great distances, and in close combat you can usually gun him down before he can hit you. However, because you are stationary, this can allow him to make tricky shots, sneak up behind you or throw a Concussion Mine behind a barrier you're hiding in. Because you won't be moving around a lot, though, you're also less likely to step in Junkrat's Steel Trap. If a Junkrat is trying to spam grenades at you, your best bet is to obviously kill him, but if he's peeking behind corners, consider relocating to avoid his high-damage bombs. If you hear him activate RIP-Tire, it's better to stand your ground than attempt to flee; a quick hailstorm of bullets can destroy RIP-Tire before it has the chance to detonate, whereas if you run it can easily catch up to you and kill you.
 
 <b>TEAM SYNERGY</b>
+Aside from delivering dastardly bombardment from further distances, Junkrat can also set up his Steel Trap and mines to take out an overconfident foe from the fight. Naturally, these traps would be in areas you would normally be surveying in Configuration: Sentry, such as chokepoints and blind corners. Keep a close eye on Steel Traps, for if a foe were to stumble upon them, they would be incapacitated long enough for you to shred them with gunfire.

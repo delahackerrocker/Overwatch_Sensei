@@ -1,4 +1,12 @@
 <b>MATCH-UP</b>
-
+General: Brigitte has very little she can do about you. Stay out of her effective range and pelt her from a distance. She is an over-time healer, so she'll struggle to keep up with your burst damage.
+Barrier Shield: Brigitte's shield has barely any HP, so you can quickly destroy it to make her vulnerable and deny her the ability to use her Shield Bash.
+Repair Pack: If Brigitte sees you hit one of her allies with your Sticky Bombs, she can toss them packs to heal them out of critical health, preventing any follow up with your Focus Beam.
+Shield Bash: Brigitte can interrupt your Focusing Beam with this skill, and getting hit by it can easily mean your death. Keep away from her to avoid getting caught by it.
+Whip Shot: If Brig whip shots you into an environmental hazard, you can escape with Flight.
 
 <b>TEAM SYNERGY</b>
+Brigitte's Armor Packs have a long range, so be mindful of your line of sight and distance with her, and in turn she can toss you packs while you're airborne, diving or flanking.
+
+<b>DUPLICATING</b>
+Brigitte is a solid choice for Duplicate. Armor Pack has a very long range limit, Rally is fairly strong and it will come up quickly. Make sure to position carefully and plan when you're looking to duplicate her. You want to be positioned in your team when you swap, and you need to do it when your team is capable of pushing with you, as Brig is effectively useless in poke-fights.

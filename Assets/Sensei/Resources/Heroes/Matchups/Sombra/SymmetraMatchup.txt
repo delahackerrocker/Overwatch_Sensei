@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+While you can move past Symmetra's turrets while cloaked, you're incredibly vulnerable to them if you get caught due to your low health. If you encounter Symmetra head to head, unless she's already wounded, your best chance is to fling your Translocator far away and escape. Even if you somehow manage to hack her, all you're removing is her capacity to build turrets or project a teleporter, which won't matter that much in a direct battle. If Symmetra has a teleporter active, you're an excellent candidate to sneak behind enemy lines and hunt it down. EMP will completely eradicate Photon Barrier, making your Ultimate an effective counter to hers.
 
 <b>TEAM SYNERGY</b>
+Sombra has no notable team synergy with Symmetra.

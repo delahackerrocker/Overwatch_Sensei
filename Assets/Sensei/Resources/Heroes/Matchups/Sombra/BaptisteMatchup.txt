@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+EMP completely destroys an active Amplification Matrix, but Hack does not. Hacking the Immortality Field's generator will temporarily disable it; in a pinch, you can use EMP to disable it and anyone nearby. As teams tend to huddle around an Immortality Field, though, this could be an easy way to Hack a good number of opponents at once, opening up a window for a powerful follow-up ultimate.
 
 <b>TEAM SYNERGY</b>
+Sombra has no notable team synergy with Baptiste.

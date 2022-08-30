@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+By hacking Mei, you deny her of her two greatest defensive stalling assets, her Ice Walls and Cryo-Freeze. While a Mei will normally try to stall an objective while her team regroups, hacking her makes her incredibly easy to pick off by you or your team. It helps that you can keep your distance while hacking and avoid her primary fire, and you should be able to avoid her icicle shots until she's hacked. Once she's hacked, you can quickly mow her down without breaking a sweat. Just be careful not to get too cocky; even if she's hacked, she can still freeze you solid and follow up with a headshot, so keep your fight at a distance so you won't get frozen. Have a Translocator planted nearby in case she starts freezing you.
 
 <b>TEAM SYNERGY</b>
+EMP can keep heroes with mobility abilities from fleeing Mei's Blizzard, and it can also disable D.Va's Defense Matrix and Sigma's Kinetic Grasp, preventing them from absorbing the projectile.

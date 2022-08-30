@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+At high energy, Zarya is capable of shredding your Experimental Barrier in seconds, and its beam cannot be blocked by Kinetic Grasp, however you can absorb her secondary fire projectiles. Avoid shooting into her bubbles to reduce her damage output, and wait for her to use her bubbles before casting Gravitic Flux, as they are capable of nullifying the slam damage for both her and any of her teammates that she protects, in addition to giving her a massive amount of energy. Kinetic Grasp is capable of absorbing Graviton Surge, however its short range and fairly long cooldown can make this tricky.
 
 <b>TEAM SYNERGY</b>
+Zarya can work with Sigma in a similar way to Reinhardt, however your smaller and weaker barrier in addition to your lower health pool makes it a less optimal duo.

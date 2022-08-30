@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Without scoping, Ana's weapon shoots a very fast projectile which isn't easy to hit Pharah with. Once scoped, however, Ana fires a deadly hitscan shot. Ana's rifle can't deal headshots, but 80 damage per shot is enough to scare Pharah off. Her Sleep Dart is capable of shutting down Pharah's Ultimate as she is immobile while using it. If Ana has no cover cover, you can fly to Ana's position and engage with her directly. As she doesn't have a mobility tool like Widowmaker's Grappling Hook, she won't be able to escape from the situation outside of an accurate Sleep Dart shot. Any splash damage from your rockets can disrupt Ana's position as well. Be wary that Ana's Biotic Grenade can hit you while you're grounded, disabling any healing you may be getting from a Mercy or Zenyatta.
 
-
-<b>TEAM SYNERGY</b>

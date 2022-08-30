@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+The splash damage from Particle Cannon's secondary fire is useful for indirectly attacking Symmetra's Sentry Turrets. Conversely, you can charge into an area with Turrets set up and use Particle Barrier to soak up damage and convert it to Energy while destroying the Turrets. Likewise, if any of your teammates are caught by a Sentry Turret, be ready to give them a quick Projected Barrier to protect them and negate the slowdown effect. Only engage Zarya if you're at high Energy or if your Barrier is ready; while you'll win against her if protected by your Barrier, if you try to fight a prolonged battle with her, her Photon Projector's damage ramp-up will eventually run through you.
 
 <b>TEAM SYNERGY</b>
+Symmetra is in the same boat as you when it comes to offensive capabilities. So stick close to her. Her teleporter can also get you to the frontlines faster.

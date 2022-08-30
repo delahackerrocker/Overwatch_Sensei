@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Zarya will struggle against you when you fight her at a distance. However, she can gain massive amounts of charge if you times your shots poorly, especially if you hit her with Fan the Hammer while her Barrier is active. Even if her Barrier is on cooldown, she also has enough health to withstand a full Fan the Hammer clip, so only attempt to hit her with it if she comes to you. In general, you should try to keep your distance and fight where you're most comfortable. Watch for Barriers on your enemies when you activate Deadeye; if you shoot an enemy with a Barrier active, you'll end up providing Zarya a massive charge, so if possible try to wait until the Barrier wears off after 2 seconds.

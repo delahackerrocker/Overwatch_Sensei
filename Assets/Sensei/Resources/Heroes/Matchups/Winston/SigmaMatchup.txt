@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+While Winston is not the best character to confront tanks, you have a few advantages over sigma, Despite his high health, your Tesla cannon will ignore his Experimental barrier and his kinetic grasp, allowing you to do damage to him freely, your barrier can provide protection against his primary fire if you keep “dancing” around it, and since he lacks mobility, you can finish him off or retreat without much worries, still, be wary of accretion or gravitic flux, since accretion can cut off your momentum if you’re using jump pack and if you’re caught in gravitic flux, you’ll lose a significant amount of health.
 
-
-<b>TEAM SYNERGY</b>

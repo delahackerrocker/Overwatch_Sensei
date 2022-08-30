@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Lucio will have a hard time doing anything to you, and likewise, you'll have a hard time doing anything to him. Fast and small, he's a hard target to nail with Sticky Bombs or your primary-fire, and since his own primary-fire is a projectile, he will have an equally hard time hitting you. Lucio relies on heal-over-time, so he'll struggle against your burst damage.
+Wall Ride: You can lead Lucio while he's Wall Riding and hit him with some Sticky Bombs.
+Sound Wave: If he tries to push you into an environmental kill, you can escape with Flight.
+Sound Barrier: Wait it out or assist your team in focusing down a target.
 
 <b>TEAM SYNERGY</b>
+Echo and Lucio have low synergy. You have generous mobility on your own, so you don't need his Speed Boost like some other DPS. You can keep tabs on his positioning and pick on targets that he displaces with his Sound Wave. It's nigh impossible for him to heal you while you're airborne, so he'll likely leave your upkeep to his fellow healer. Be considerate and reposition to his location for healing if you need it.
+
+<b>DUPLICATING</b>
+Lucio can be either a great or mediocre pick for Duplicate, depending on your composition. If you have a relatively stationary composition (For example: Orisa+Hog or your 2nd DPS is a Hitscan/Sniper/Bastion), it's probably best to Duplicate someone else. But if you have a composition that can benefit from his Speed Boost (For example: Rein+Zarya, Reaper), it's well worth it. Sound Barrier is a very powerful ult, capable of countering a number of ults and enabling aggressive plays by your team.

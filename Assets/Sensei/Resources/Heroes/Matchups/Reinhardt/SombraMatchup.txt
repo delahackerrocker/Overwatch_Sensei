@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+If an enemy team has a Sombra, you're going to be one of her top targets. Sombra's Hack will force you to drop your Barrier Field and leave your team open, as well as strip you of your Fire Strike and Charge. Thankfully, Sombra cannot hack through Barrier Field itself. If you know a Sombra is about, always be ready to turn your barrier in her direction to avoid a hack. In addition to protecting yourself, this should be able to protect nearby teammates from being Hacked as well. If you catch a Sombra still on cooldown from using Hack, a quick Charge can finish her off instantly.

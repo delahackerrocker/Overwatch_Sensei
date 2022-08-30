@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Baptiste's damage can provide you with Energy. Baptiste has vertical mobility, so he can disengage from a fight by leaping to higher ground. Baptiste needs up to 6 whole bursts to kill you, but it could be less since his weapon inflicts headshots. Baptiste's weapon has damage falloff, but it's also hitscan so he can fight you at mid-range. One issue with fighting Baptiste is his Immortality Field because that will shut down any Graviton Surge combo you have. You'll have no choice but to prioritize destroying the drone leaving yourself open to Baptiste (if your barriers are on cooldown). With Amplification Matrix, Baptiste has somewhat of a chance, given you stand in its line-of-sight. You can hide behind a corner and wait out the duration.
 
 <b>TEAM SYNERGY</b>
+Immortality Field is useful when Zarya lacks a barrier to protect herself. Amplification Matrix will only amplify her secondary fire and Graviton Surge. Amplification Matrix will also double the healing for his secondary fire, which can sustain Zarya in a fight (given he can land his shots).

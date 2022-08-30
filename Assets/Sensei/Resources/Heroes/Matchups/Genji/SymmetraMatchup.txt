@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can't Deflect Symmetra's Photon Projector's primary fire since it is a channeled weapon, which can make her a difficult opponent to fight. Her Sentry Turrets not only deal substantial damage, but also slow you down, making you a much easier target for Symmetra and the rest of her team. Your Shuriken aren't suitable for destroying Turrets as they have low spread and rate of fire. If the enemy team has a Symmetra, be careful when roaming and make sure you aren't caught by Sentry Turrets. If you are, try to quickly kill it, and if Symmetra or her team arrive to finish you off, use Swift Strike to disengage immediately so she can't easily kill you. Unless you're heckling her from a distance, only move in for the kill if she's at low health and you're certain you can finish her off.
 
 <b>TEAM SYNERGY</b>
+Using her teleporter will let you conserve your Swift Strike.

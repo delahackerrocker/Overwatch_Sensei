@@ -1,4 +1,12 @@
 <b>MATCH-UP</b>
-
+Reinhardt has very little he can do about you. You'll typically be out of his Rocket Hammer and Charge range and Fire Strikes will be difficult for him to land while you're airborne. His large hitbox makes Sticky Bombs and your primary-fire easy to land.
+Barrier Field: Echo is a great shield buster - help your team focus his shield, and as soon as you see cracks form, immediately follow-up with Focusing Beam to quickly break it.
+Fire Strike: Rein probably won't target you with Fire Strike, but if you're on the ground and notice him winding up for it, you can launch some Sticky Bombs at him while the shield is down and use the boost from Flight to get out of the way.
+Charge: You'll most likely not be in a position for Rein to charge you, but if you notice him beginning his charge, you can use the boost from Flight to get out of the way and begin to pelt him from the air.
+Earthshatter: Similarly to Charge, you probably won't be in a position for him to shatter you. Track his ultimate and make sure you aren't in his range. He'll have his shield down while following-up on his ultimate, so take advantage of this and focus him or pressure his teammates.
 
 <b>TEAM SYNERGY</b>
+Echo has no notable team synergy with Reinhardt. When he uses Earthshatter, use your Sticky Bombs on one target and then focus on a another. Your Focusing Beam can be useful here, but don't hesitate to pick and kill a high priority target that isn't being focused by your team to make sure they don't make it out alive.
+
+<b>DUPLICATING</b>
+A phenomenal pick for Duplicating. You greatly increase your team's survivabilty with his Barrier Field, he does no small amount of damage with his hammer and Firestrike, his charge can potentially one-shot enemies and the stun can be used to interrupt ults. His Earthshatter charges incredibly quickly and can easily turn the tides of battle in your favor.

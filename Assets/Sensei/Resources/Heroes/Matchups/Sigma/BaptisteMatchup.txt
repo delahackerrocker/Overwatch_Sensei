@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+While you are planning on using your ultimate ability, be very wary of Baptiste's signature ability, immortality field, as it is a very hard counter to your ultimate. Baptiste's Amplification Matrix will amplify the damage ouput of any projectiles that pass through, so absorbing the damage with Kinetic Grasp is a good idea, as you will be able to gain a massive amount of bonus shields.
 
 <b>TEAM SYNERGY</b>
+Sigma has no notable team synergy with Baptiste.

@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Moira's Biotic Grasp and Biotic Orbs do not lock onto a Sombra using Stealth unless she is already detected, so you can't really do much to help your team deal with her, however if she does try to take you on, you will have a decent advantage. You can quickly spin round and cancel her Hack attempt with Biotic Grasp and you can negate most of her damage with the use of a healing orb. However, Hack and EMP will cancel Coalescence, so be careful of using it in a massive teamfight where she can easily unstealth and catch you off guard.

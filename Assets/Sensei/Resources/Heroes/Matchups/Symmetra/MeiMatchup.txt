@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+You and Mei both have abilities that are more effective the longer you're in combat. Mei's Endothermic Blaster will freeze you if she hits you with it long enough, and your Photon Projector will get more and more powerful the longer you're targeting her with it. However, if Mei is close to death, she can enter Cryo-Freeze to restore health. During this time, your Shields will regenerate, albeit not at the same rate of her self-healing. Mei can't do much against your Sentry Turrets, so rather than following her into a fight, try to goad her your way so you can lure her into a trap.
 
-
-<b>TEAM SYNERGY</b>

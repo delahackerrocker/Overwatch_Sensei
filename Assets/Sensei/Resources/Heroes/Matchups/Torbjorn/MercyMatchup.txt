@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Mercy can damage boost allies attacking your Turret, and she can keep her patient healed to withstand its low damage output. In an emergency situation if she's alone, she may attempt to directly attack you and your Turret using her Caduceus Blaster, but this would result in her taking significant damage in the process. If she's alone, your Turret can deal with her pretty easily even if she uses Guardian Angel to hover between dead comrades. More often than not, though, she'll be hiding behind her team, where it's too dangerous for you to venture out to.
 
-
-<b>TEAM SYNERGY</b>

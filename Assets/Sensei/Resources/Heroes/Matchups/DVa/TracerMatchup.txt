@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Like Reaper, you and Tracer both excel when fighting at close range. Also like Reaper, Tracer will outdamage you in most circumstances. While Reaper has Ability-reaper5.png The Reaping to help him outlast your damage, Tracer's Ability-tracer2.png Blink and Ability-tracer3.png Recall will make it extremely difficult to finish her off before she strips you of your mech, at which point you're easy pickings for her. Fleeing Tracer is difficult due to her ability to catch up with you with Ability-tracer2.png Blink, but if you escape to a higher altitude, it will be harder for her to catch up.
 
 <b>TEAM SYNERGY</b>
+Tracer is absolutely essential to the classic "dive" composition that includes D.Va and Winston. Your team's lack of a shield tank (such as Reinhardt, Orisa, or Sigma) can potentially be made up for if an accurate Tracer dances around your enemies with well-used Ability-tracer2.png Blinks and Ability-tracer3.png Recalls.

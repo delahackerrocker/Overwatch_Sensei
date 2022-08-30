@@ -1,4 +1,10 @@
 <b>MATCH-UP</b>
-
+General: As a hitscan, Cassidy can be considered one of your counters. Be careful when using Flight and Glide in his sight lines or you'll be an easy target.
+Flashbang: Always keep your distance while he has his flashbang. If you plan on diving him, make sure he doesn't have it available first or he'll make short work of you.
+Deadeye: Be extra cautious with your Flight and Glide while Cassidy has his ult. It doesn't take long for him to charge Deadeye on a 200hp hero, and if you're out in the open he'll probably be able to pull it on you before you can fall back to cover. He is practically stationary while his ult is primed, so you can peek to launch Sticky Bombs at him.
 
 <b>TEAM SYNERGY</b>
+Cassidy provides reliable range damage, an area Echo isn't very strong in. He can also cover for Echo by focusing other hitscan. Help him secure kills on targets he has Flashbanged and use your Focusing Beam to finish off any enemy his Peacekeaper has brought to half-health.
+
+<b>DUPLICATING</b>
+Cassidy is a great choice for Duplicate. You should be able to use a handful of Deadeyes before your ult ends. Positioning ahead of time with Flight can get you to some interesting spots Cassidy isn't normally capable of getting to.

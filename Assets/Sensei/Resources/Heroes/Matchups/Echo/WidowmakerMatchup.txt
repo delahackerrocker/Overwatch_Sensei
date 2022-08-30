@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: As a hitscan, Widowmaker can be considered one of your counters. Be careful when using Flight and Glide in her sight lines or you'll be an easy target. If Widowmaker is out of position or doesn't have support, approach from an unexpected angle until you're close, then use the boost from Flight and dive her. You should be able to land some Sticky Bombs and burst her down.
+Grappling Hook: Even with her Grappling Hook, you should be able to keep up with Widowmaker thanks to Flight. If the Widowmaker grapples and cancels the hook to fling herself, begin to dodge so that you don't get headshot.
+Venom Mine: These are usually planted along flanker routes leading to Widowmaker's position. Since you will likely be approaching Widowmaker more directly, you won't encounter as many mines. You should never engage Widowmaker after triggering her mine - retreat and heal before trying again.
+Infra-Sight: As with any hero; stay behind cover/shields until the ultimate ends.
 
 <b>TEAM SYNERGY</b>
+There isn't as much synergy with Widowmaker as there is with other hitscan. Widowmaker provides reliable ranged damage, an area Echo isn't very strong in. Widowmaker can cover for Echo by focusing other hitscan, while with your mobility, you can quickly reposition to Widowmaker if she needs help with an enemy flanker. Though it's less common than with other hitscan, be sure to hunt down targets Widowmaker has left at critical health with your Focusing Beam.
+
+<b>DUPLICATING</b>
+There is certainly better Duplicate targets on the enemy team. Widowmaker is, arguably, the worst possible hero to Duplicate. Her ultimate, Infra-Sight, is not particularly useful especially since you're spending your ult to get it. Besides, if you can see a Widowmaker to duplicate, a battle is probably already underway and you don't need the scouting from her ult.

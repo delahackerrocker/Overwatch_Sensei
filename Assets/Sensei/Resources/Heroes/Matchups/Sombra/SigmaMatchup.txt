@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hacking Sigma leaves him unable to reposition Experimental Barrier, but even when hacked his Hyperspheres deal massive damage, so be wary around him. When he is activating Kinetic Grasp, though, he's prone to a quick and easy Hack. Gravitic Flux can be cancelled with Hack or EMP within the cast animation, before he places the ultimate.
 
 <b>TEAM SYNERGY</b>
+Hacking or using EMP on enemies can reduce their ability to flee or deploy barriers, which can help a friendly Sigma grab them all with his Gravitic Flux. Also, flankers will see Sigma as a prime target to harass, so if you stay by him and hack any flankers that come his way, you should both be able to quickly eliminate them.

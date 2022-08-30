@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Due to Winston's constant mobility, it will be more difficult for you to go unnoticed than it would be with other Tanks. His Barrier Projector blocks hacking just like Reinhardt's shield, but unlike Reinhardt, Winston's shield covers him in a 360 degree radius, making it more difficult to sneak behind him and hack him. If you manage to begin a hack on Winston, it's very simple for him to jump away to avoid the hack, and if his jump is on cooldown, he'll usually be close enough during your hack to retaliate with his Tesla Cannon, nullifying the hack. Even if you hack him, his Tesla Cannon will track your movements, making combat with him very difficult. Hacking during Primal Rage won't negate it, but it will stop him from using his Jump Pack, rendering him much less volatile. If you hack an overextending Winston nearer the end of his ultimate, he will be unable to escape or redeploy his barrier, and will usually be easy pickings for your team. On the plus side, EMP will immediately destroy a projected barrier. Still, overall you should keep away from Winston if you can and let your more well-equipped teammates handle him.
 
 <b>TEAM SYNERGY</b>
+Hacking mobile heroes or heroes with barrier abilities can help a friendly Winston keep a bead on them and finish them off.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Your large health pool and close-range fire are both great assets in quickly taking out Symmetra's turrets as well as Symmetra herself. Since your Boosters deal damage to any enemy you impact, it is recommended that you use them to take out turrets. If you are out of your mech and the enemy team has a Symmetra, be extremely cautious; even one turret can finish you off in your fragile state before you can react.
 
 <b>TEAM SYNERGY</b>
+Symmetra can create a teleporter through which D.Va can send her mech during Self-Destruct. When done right, this can catch an enemy team completely off guard and potentially wipe them out.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+The outcome of a battle with Tracer all comes down to who gets the drop on whom. If you manage to Hack Tracer while she's unaware, then she's child's play; without Blink or Recall, she can be gunned down in seconds. However, if she catches you by surprise, you'll be in for a much tougher fight. Her continuous fire will grant you little opportunity to perform a hack, and with Blink she has the upper hand in disorienting you. Don't forget, you have your own Recall-like ability in the form of your Translocation; if your Translocator is planted on a health kit, you can retreat from the fight at any time and heal. Otherwise, if the fight isn't going well, you can throw the Translocator to high ground where she will have difficulty chasing you down.
 
 <b>TEAM SYNERGY</b>
+Hacking or using EMP on enemies will make them more stationary targets for an allied Tracer to attack. If you see wounded enemies with Opportunist, inform your Tracer; she may be able to slip into the enemy's back line, eliminate them, and retreat before she can be attacked.

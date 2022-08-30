@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Roadhog mirror matches are decided by two factors: who can land their shots better, and how they decide to utilize their Chain Hook and Take A Breather. Hooks should be used when the other Roadhog is weak enough that one blast from Scrap Gun is enough to finish him or. Hooks can also be used to interrupt another Roadhog's Take A Breather. If you're certain the enemy Roadhog has no Chain Hook, you can Take a Breather to gain the upper hand in health. In a one-on-one, the Roadhog who hooks the other Roadhog first will generally die - both Roadhogs will fire their scrap guns after the hook, dealing massive damage in the process, then the pulled Roadhog can use their Hook immediately after firing, pulling the first one in close and killing him outright without giving them a chance to fire back due to the stun. However, if you are with your allies who will concentrate their fire on the enemy Roadhog, sometimes it is advantageous to hook the enemy Roadhog. Note also that at 10 meters range, the right click -> hook -> left click -> melee combo can kill an enemy Roadhog if executed properly.
 
-
-<b>TEAM SYNERGY</b>

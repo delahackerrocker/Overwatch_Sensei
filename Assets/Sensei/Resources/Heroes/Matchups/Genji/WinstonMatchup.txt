@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Winston's Tesla Cannon can't be Deflected and it has a wide range that tracks its target, meaning your mobility and Deflect are useless against him. You can try to pelt him with Shuriken, but his damage output is about the same as yours while he has much higher health. His Projected Barrier will be very difficult for you to penetrate, and if you try to move through it to attack at close range, you put yourself at risk of Winston's Tesla Cannon. Even if you try to flee with Swift Strike or Cyber Agility, Winston can use his Jump Pack to chase after you and finish you off, making it very difficult to disengage. Try to let your teammates battle Winston, or if you must, hit him with Shuriken at a safe distance.
 
 <b>TEAM SYNERGY</b>
+Both you and Winston are mobile, so it can serve in both of your interests to travel together and dive on the same opponents.

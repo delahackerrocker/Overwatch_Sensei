@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You and Zenyatta heavily lack in mobility, but a fight between you will come down to your proximity. At a distance, Zenyatta easily has the upper hand; if Zenyatta spots you from far away, put up your Experimental Barrier or block his shots with Kinetic Grasp, otherwise he can easily pick you off. He can't deploy his Orb of Discord through your barrier, so try to keep it up at all times when he's in the vicinity to deny him his Orb. Should you catch Zenyatta up-close, the fight is yours; his low mobility means it will be nearly impossible for him to avoid Accretion, and it only takes a few Hyperspheres to kill him. While it's good to dance around your Experimental Barrier to block his shots, he might take this opportunity to back off and create distance between the two of you, so be wary and don't let him back away.
 
 <b>TEAM SYNERGY</b>
+Sigma has no notable team synergy with Zenyatta.

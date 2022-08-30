@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Because Widowmaker usual prefers to stay in the back, you can easily sneak up on her and flank her so long as you stay out of her line of sight. Even at a distance, you can Deflect her scoped shots, occasionally managing to kill her via a Deflected headshot. Widowmaker will usually plant a Venom Mine nearby her position or a choke point; if hit by it you'll not only take considerable damage but your position will become known to her, making it much harder for you to sneak up on her and much easier for her to kill you. Try to keep your eyes peeled and take Venom Mines out if you spot them. If Widowmaker catches you in the open without Deflect active, she can shoot you down with a single well-aimed shot, so be cautious about moving out in the open.
 
 <b>TEAM SYNERGY</b>
+Widowmaker's Infra-Sights will grant you full vision of the enemy team behind walls. This can make it easy for you to find lone susceptible targets to pick off. If your friendly Widowmaker lopped off most of an opponent's health with a headshot but failed to kill them, a Swift Strike can help her finish the job before your enemy heals back up.

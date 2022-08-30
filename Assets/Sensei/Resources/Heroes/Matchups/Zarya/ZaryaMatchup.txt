@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+It's difficult to gain Energy from an enemy Zarya, as each of you can simply stop firing once the other puts up a Particle Barrier. Instead, focus on gaining Energy from your other enemies, then use that power to attack the enemy Zarya.
 
 <b>TEAM SYNERGY</b>
+You won't often find another Zarya on your team outside of custom games or No Limits. But when you do, make sure you spread your barriers out evenly in order to maximise your charge aquirement.

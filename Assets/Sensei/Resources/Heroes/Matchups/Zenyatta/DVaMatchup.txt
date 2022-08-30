@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Of all of the Support heroes, you're one of the most well-equipped to handle D.Va. Her Defense Matrix and Boosters allow her to quickly close the gap on you, but even so, your Orb of Discord and her massive frame make it a somewhat even fight. You'll need to be very jumpy and use smart Orb Volleys to remove her Mech before she kills you. If she's at a distance, she's even easier to hit with your Orb of Discord, which she has no way of blocking with her Defense Matrix. She's even more vulnerable when out of her Mech, but be cautious as her Light Gun's high firepower can still finish you off before you can eliminate her. Transcendence won't counter Self-Destruct, but in an emergency it can be used to survive or escape its blast radius.
 
 <b>TEAM SYNERGY</b>
+Running a D.Va along with Zenyatta is a great idea. Her Defense Matrix is especially useful for your survival, as your large hit box and lack of movement abilities leave you as the enemy's first target. Orb of Discord helps D.Va do more damage, which is just as well for her burst damage engages.

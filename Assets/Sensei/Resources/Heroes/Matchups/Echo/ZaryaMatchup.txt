@@ -1,4 +1,9 @@
 <b>MATCH-UP</b>
-
+General: The boost from Flight will easily get you out of Zarya's primary-fire range, and you'll generally be a hard target for her secondary-fire as well. Though she's the smallest tank (barring Pilot D.va), she should still be easy for you to hit with Sticky Bombs and your primary-fire.
+Particle Barrier & Projected Barrier: Zarya's barriers can absorb all of your Sticky Bomb damage. Additionally, low health targets bubbled by Zarya are no longer considered to be low health for Focusing Beam, so if she barriers your target either turn your beam on another low HP hero or turn it off. Be more methodical with your Sticky Bombs while Zarya has her barriers ready, to avoid feeding her unnecessary charge.
 
 <b>TEAM SYNERGY</b>
+Zarya is a great tank to combo with Echo. Not only can she enable you to be more aggressive with her Projected Barrier while in Echo form, her bubble is a great asset while you're Duplicating since the enemy team will focus you to end your ult as soon as possible. Your Sticky Bombs and Focus Beam benefit greatly from her ultimate and are great follow-ups on their own. Zenyatta and Lucio's ultimates are still able to counter you though, so plan ahead.
+
+<b>DUPLICATING</b>
+A phenomenal pick for Duplicating, but one that carries its share of risk. While she has one of the strongest ultimates in the game, you need to be able to build up energy from your first uses of her bubbles to stand a chance at charging it. Be mindful of opposing shields, or ensure your team is capable of pushing you past them before duplicating her. Graviton Surge doesn't end immediately upon exiting Duplicate, and you can even follow-up on your own grav by using Sticky Bombs and Focus Beam.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Symmetra's Photon Projector beam will charge up and gain ammo from your Experimental Barrier, and can shred it in seconds if you do not manage it carefully. The beam cannot be blocked by Kinetic Grasp, which can kill you quickly at high charge, and her small frame can make her difficult to hit with your Hyperspheres, so avoid directly confronting a Symmetra if possible. You do have a slight range advantage however, so try to engage her beyond the range of her beam if possible. Kinetic Grasp can absorb her secondary fire orbs, however their low fire rate will make absorbing more than one unlikely, so only try to absorb them if they are part of additional spam. You can use Experimental Barrier to block the damage of her Sentry Turrets while you or your team destroy them, and you can ricochet Hyperspheres off surfaces to destroy hidden ones.
 
 <b>TEAM SYNERGY</b>
+Symmetra's teleporter can help improve your low mobility, getting you to high ground or other locations that would normally be difficult for you to reach. When she activates Photon Barrier, you'll typically want to retract your Experimental Barrier so that you can save its energy while the massive health of her barrier absorbs the brunt of enemy attacks.

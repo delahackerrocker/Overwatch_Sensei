@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can heckle Torbjörn's Turret from a distance with your secondary fire; this will deal a decent amount of damage, but not so great that the Torbjörn can't repair it. This also requires you to peek in and out of corners, and unless you're being protected by a shield, the Turret can chip away at your health at a distance. If you manage to close the gap on Torbjörn, you'll have a better shot at fighting him up close than at a distance. Just try not to fight him and his Turret at the same time; wait until his Turret is down, or wait until you have teammates to help you take him down.
 
 <b>TEAM SYNERGY</b>
+A Turret deployed by Torbjörn through your Teleporter will come out on the other end; this can be handy if you wish to deploy his Turret at a far away location, or even at a higher altitude where he normally wouldn't be able to reach.

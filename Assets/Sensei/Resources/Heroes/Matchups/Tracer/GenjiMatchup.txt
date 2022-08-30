@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+While you and Genji are both mobile, Genji has the advantage in vertical mobility while you have the advantage in horizontal mobility. Genji's Shuriken will quickly whittle through your health if you're not careful, but well-timed Blinks can keep you safe. Your firepower is strong, but Deflect will send your fast attacks back to yourself if timed poorly. Should you navigate around Deflect, though, you can quickly run through Genji's health if you attack him at point blank range. Genji's Swift Strike has longer cooldown than your Blink, so if you need to disengage, you can easily use Blink to escape. If Genji is perched on the high ground, either find an alternate route to get up to him or focus on other targets.
 
-
-<b>TEAM SYNERGY</b>

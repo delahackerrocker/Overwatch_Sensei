@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If you're hooked by Roadhog, you're easy pickings. However, if you manage to hack him, like all Tanks he becomes much easier to handle. Losing his Hook and Take a Breather makes him a large target with a short range and a low clip size. However, he still has sizable health, which may make it difficult to kill him before your hack wears off or if he has a friendly healer nearby. With your stealth abilities, it should be easy enough to hack him before he can notice you. Even when hacked, his Scrap Gun can still deal heavy damage, so be wary and try to avoid its fire. Your Machine Pistol's large spread means you'll need to fight Roadhog rather close to effectively damage him, which is where he's more comfortable. Try to converge on him with your team when he's hacked, or keep your distance so he can't deal heavy damage to you. Hacking him during Whole Hog will cancel the ability completely, so try to land a quick hack while he's facing away from you.
 
 <b>TEAM SYNERGY</b>
+Using hack or EMP to nullify an enemy barrier can help your Roadhog plow through them with his Whole Hog Ultimate. This will also make it easier for him to hook opponents who may have been protected by barriers.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+If you land a hack on Pharah, she'll lose her Jump Jet and Hover, rendering her a much easier target for you and your team to take out. Hacking also interrupts Barrage, so if you catch her mid-fire, you should attempt to hack her to cancel the ability. If the Pharah sees you and is fighting you off while you try to hack her, disengage and flee, as it will only take a couple of rockets to quickly snuff you out.
 
 <b>TEAM SYNERGY</b>
+Using Hack or EMP to nullify enemy barriers can help Pharah land more direct hits with her standard rockets and with Barrage.

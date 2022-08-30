@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Bastion's Sentry mode fire will demolish your Experimental Barrier extremely quickly. Only use it momentarily to block bursts of damage while your team attempts to cross an area covered by Bastion. Using Kinetic Grasp to close the gap between you and Bastion is the best move, as you will gain a massive amount of shields from Bastion's high damage output. If the Bastion has no barrier protecting him, you can use Accretion to stun him and force him out of Sentry form. Bastions in Tank mode will often play very aggressively out of cover, so you can block his rockets with Experimental Barrier and/or Kinetic Grasp, and stun him with Accretion to slow him down.
 
 <b>TEAM SYNERGY</b>
+If you're helping protect a friendly Bastion, you can use Kinetic Grasp to absorb a burst of attacks from the likes of Soldier: 76 or Pharah, and at all other times you can keep it safe with your Experimental Barrier.

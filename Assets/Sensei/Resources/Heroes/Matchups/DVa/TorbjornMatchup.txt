@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+In addition to blocking an enemy Torbjörn's Ability-torbjorn3.png turret's incoming fire with Defense Matrix, you can also rush towards a turret and quickly take it out at close range, robbing Torbjörn of a large amount of his power. If timed right, you can even block Torbjörn's Ultimate ability, Ability-torbjorn5.png Molten Core, with Defense Matrix.
 
 <b>TEAM SYNERGY</b>
+D.Va's Defense Matrix can help protect Torbjörn's Ability-torbjorn3.png turret from oncoming fire by the likes of Widowmaker, Pharah or Soldier: 76.

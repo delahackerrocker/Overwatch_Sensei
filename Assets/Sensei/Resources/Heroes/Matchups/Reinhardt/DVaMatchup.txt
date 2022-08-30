@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+D.Va can put a lot of continuous pressure onto your barrier. Her mobility allows her to run circles around you if the two of you are alone, ram you out of position, and get behind your barrier to start attacking you point blank. However, her large hitbox makes her a prime target for Charge, and a successful pin will weaken her enough that a hammer swing or two will knock her out of her Mech. D.Va in Pilot form is no match for Reinhardt's Hammer, and she won't be able to outrun you, so be sure to quickly kill her before she can retreat to her team. If D.Va sends her Mech your way on Self-Destruct, make sure you have your barrier up; while it will most likely end up shattered, in the process you'll protect both yourself and any teammates behind you. A wily D.Va may be prepared for this, though, so be wary of her teammates comboing with her to take you or your barrier down before Self-Destruct detonates.
 
 <b>TEAM SYNERGY</b>
+Your sturdy barrier frees D.Va to be a more aggressive Tank while you play a more defensive role. She also helps cover some of your checks, specifically Pharah. A well-timed Earthshatter combined with D.Va's Self-Destruct can take out a large number of opponents in one fell swoop.

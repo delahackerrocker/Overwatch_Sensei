@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hack will force your Experimental Barrier back to you, so make any effort you can to avoid being hacked. With quick reaction times, you can place a shield between you and Sombra to block line of sight for her Hack, and it can also block her bullets to deny her ultimate charge. You can also attempt to stun her with Accretion if your team is focusing her, to prevent her from trying to teleport away. Hack will completly cancel your Gravitic Flux, so wait for her to use it before casting your ultimate. EMP is a massive threat to you, as your Experimental Barrier will be completely destroyed by it, in addition to your shield health, and any additional shields you have gained from Kinetic Grasp. If you suspect that a Sombra has EMP, try and keep your barrier retracted to avoid it being completely obliterated.
 
 <b>TEAM SYNERGY</b>
+Should a friendly Sombra use EMP to neutralize an enemy team, this can render them easier targets to grab with Gravitic Flux and kill in one go.

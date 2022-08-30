@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+With Jump Jet, Pharah can maintain airborne attitude long enough to freely attack you without threat of your Particle Cannon reaching her. It will be difficult for you to contest Pharah in an open area; she will eventually descend when she runs out of fuel, but it will only be a moment before Jump Jet shoots her back into the air. She can also use Concussion Blast to keep you out of your ideal range. Your Barrier can absorb stray shots towards you or an ally, but it's not ample enough to block against Pharah's Barrage. Keep away from Pharah whenever possible, unless you lure her into a corridor where you can fight her at close range where you're more comfortable.
 
 <b>TEAM SYNERGY</b>
+Pharah's Barrage and Zarya's Graviton surge make the two together a beast. The Barrage coming from Pharah with an active Graviton Surge can mean a huge amount of damage for the team, but with an active Sound Barrier or Transcendence from an enemy it could keep them on top of health. Use at your own risk, or reap the rewards.

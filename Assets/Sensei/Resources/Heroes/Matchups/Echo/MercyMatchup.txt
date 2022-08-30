@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Mercy will typically avoid you, but even in situations where she switches to her pistol, it is a projectile and hard to aim against mobile and aerial heroes such as yourself. While a high priority target, Mercy has a very slender hitbox, making her difficult for you to hit, as well.
+Guardian Angel: If Mercy's trajectory with Guardian Angel won't land her behind a barrier, you can lead her and land some Sticky Bombs.
+Resurrect: After your team secures a kill on one of her teammates, you should look to focus down Mercy if she goes in for a rez. She is nearly stationary while casting, so you should be able to land your Sticky Bombs.
+Valkyrie: Though you can chase a Valking Mercy with Flight, she gets boosted movement speed during her ult and it will be difficult to land hits on her, so it's probably best to ignore her unless your team is focusing her. While Mercy will generally use her ult to AoE heal or damage boost her team, she can opt to chase you down with her pistol. In these cases, it's likely best to drop back to your own team if she attacks you. Even if you land some Sticky Bombs on her, Mercy can quickly retreat with Guardian Angel.
 
 <b>TEAM SYNERGY</b>
+Mercy is a great healer for Echo. Thanks to Guardian Angel, she can quickly reposition to you even while you're airborne to support you. Her damage boost makes a full volley of Sticky Bombs capable of one-shotting 200 HP heroes. Having an airborne ally is a great asset for Mercy, too, since she can retreat to you if she's being flanked.
+
+<b>DUPLICATING</b>
+Mercy is a decent, but situational choice for Duplicate. You lose a ton of DPS, but if you Duplicate her early enough in the fight, you can recoup the loss of one of your allies with Rez and potentially swing the battle back in your favor. The area-of-effect damage boost from Valkyrie can lessen the loss of Echo's DPS, but don't be too greedy - the AoE healing is powerful too!

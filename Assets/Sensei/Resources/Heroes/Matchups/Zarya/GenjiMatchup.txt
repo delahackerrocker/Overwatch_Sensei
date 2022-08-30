@@ -1,4 +1,7 @@
 <b>MATCH-UP</b>
-
+Genji's can't deflect your Particle Cannon's primary fire, but he can deflect your secondary fire, so try not to use it around him (or wait until Deflect is on cooldown). With enough Energy, you can tear Genji down in seconds if you aim precisely, but if a Genji is aware of this, he can keep himself in your face and attack you with Shuriken or Fan of Blades. Your Barriers can both protect yourself and your allies from Genji, but his low damage output won't result in high Energy charges. Don't chase him if he performs Swift Strike to flee; you are too slow to keep up with him. Keep in mind that your Graviton Surge can be Deflected, which can prove disastrous for your team. Be careful when using it around Genji, especially if you haven't seen or heard him use Deflect recently.
 
 <b>TEAM SYNERGY</b>
+Genji usually jumps into the enemy team, this can be an oppurtunity for you to bubble him and get ome good charge, all while protecting him in the process. This is especially important during his Dragonblade, where he becomes a key target.
+
+Just be careful not to bubble him while he is using Deflect, because it will block off his Deflect and will prevent him from getting any value from it.

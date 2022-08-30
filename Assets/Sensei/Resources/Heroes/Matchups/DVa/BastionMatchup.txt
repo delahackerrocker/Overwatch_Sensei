@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can negate an enemy Bastion's Configuration: Sentry gunfire with your Defense Matrix, but that's only useful if your teammates are there to help fight him as well. At both close and long range, he has you beat damage-wise. Unless you're protecting your team, try to avoid him if you can, or in the very least try to catch him from behind by surprise. If you're desperate, you can fly around him at point-blank range and confuse him, potentially killing him before he can run you down, and when in Pilot Form you can use your small hitbox to wildly jump and duck to avoid his attacks. If Bastion is in Recon configuration instead of Sentry, he's going to be much easier to finish off. If you catch a Bastion running around, try to eliminate him before he can transform or reach his team. If he does transform, consider his health, and decide whether you think you can kill him quickly enough or if you need to flee.
 
 <b>TEAM SYNERGY</b>
+While D.Va isn't as well-suited to protect a friendly Bastion as Reinhardt or Orisa, her Defense Matrix can save him from a sudden large-impact attack, such as Pharah's Barrage. If Bastion has no one nearby to protect him, it can be helpful to stay by his side to protect him from these attacks.

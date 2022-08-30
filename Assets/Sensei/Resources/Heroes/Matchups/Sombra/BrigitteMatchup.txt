@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Hacking Brigitte will cut off her abilities that can help her fight off enemies. However, it doesn't cut off Inspire; while her self-heal from Inspire is manageable, in a group fight she'll still be more than capable of healing her team through her flail attacks. Only land a Hack on her from a safe distance or from behind a barrier, otherwise you run the risk of her quickly taking you out with a Shield Bash. If she fails to activate Inspire once she's been hacked, her huge hitbox for a support will more often than not lead to a kill.
 
 <b>TEAM SYNERGY</b>
+Sombra has no notable team synergy with Brigitte.

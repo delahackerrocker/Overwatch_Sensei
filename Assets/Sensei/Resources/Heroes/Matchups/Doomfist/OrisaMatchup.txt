@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Orisa’s Fortify ability negates essentially all of Doomfist’s abilities. This is because it prevents knockback, which Rising Uppercut and Rocket Punch rely on for effective use, while also granting Damage Reduction, meaning Doomfist will not be able to kill Orisa even after using every ability and having reasonable accuracy with his Hand Cannon. Orisa also has Halt!, which can severely disrupt Doomfist’s ability to escape and allow for an easy kill.
 
 <b>TEAM SYNERGY</b>
+Not much synergy exists between Doomfist and Orisa. Halt! can be used to keep a Hero in place long enough for Doomfist to easily line up a Seismic Slam or Rocket Punch.

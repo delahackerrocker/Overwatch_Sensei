@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Tracer's slim model and significant mid-combat mobility makes it easy for her to avoid any and all of Zenyatta's fire when at close range. While you have the upper hand at long range, she can use Blink to either escape to cover or close the distance and flank you. Should you get her to low health, her Recall ability not only lets her recover health, but it also removes the Orb of Discord. If the enemy team has a Tracer, try to stick close to your team, as they can help you fend off a Tracer attempting to flank you.
 
 <b>TEAM SYNERGY</b>
+Placing Orb of Discord on an enemy before Tracer plants a Pulse Bomb on them can ensure that the Pulse Bomb finishes them off. Also, because Orb of Discord will remain on opponents at a distance, a friendly Tracer can flank around the enemy and attack those affected by your Orb.

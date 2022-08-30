@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+Blink can help you bypass a Sentry Turret nest, so long as you know in advance where they're placed. However, your poor damage falloff means that you'll have few means to destroy Sentry Turrets other than attacking them up close, which will put you at risk of them quickly killing you. Should you approach Symmetra herself, you'll need to be very careful to avoid her attacks with Blink and fire from her blind spots. The longer the fight goes on, especially in a group fight, the stronger Symmetra will become, and the easier it will be for her to mow you down before you can Blink or Recall. If you attempt to flee, Symmetra may try to chase after you with her Teleporter, but it can only get her so far while you can continue using Blink to keep your distance. Be wary when chasing a wounded Symmetra; she'll often try to lure you into a Sentry Turret nest, so if you feel you must chase her down to finish her off, be ready to Blink back or Recall at the nearest sign of Sentry Turrets.
 
-
-<b>TEAM SYNERGY</b>

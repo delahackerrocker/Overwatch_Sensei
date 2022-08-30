@@ -1,4 +1,4 @@
 <b>MATCH-UP</b>
-
+Soldier: 76 puts up a stronger fight than you at range, but a single headshot from you will put Soldier: 76 at death's door. You have the upper hand in close quarters, but if you fail to kill him, he can Sprint away to disengage while you have few means to chase after him. If your Flashbang is on cooldown and Soldier: 76 has Biotic Field active, you'll be in for a much tougher fight. At a distance, this fight will be decided on who can land their shots better; in close combat, it will depend on whether you can surprise him with Flashbang or not.
 
 <b>TEAM SYNERGY</b>

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Winston low, steady damage output, lack of critical hit capability, large hitbox, and necessity to attack at close ranges makes him an incredibly easy foe for you to kill. The best he can do is Jump Pack away out of your field of view; if he tries to approach you, even with his Barrier Projector up, you can quickly destroy it and then destroy him in turn. Even when he activates Primal Rage, his knockback won't work on you if you're in Sentry Configuration, and if he's brave enough to stay in your field of view, you can rip him apart within a few seconds of continuous fire.
 
 <b>TEAM SYNERGY</b>
+The bubble-shaped barrier that Winston places down is a perfect place to change configurations safely, as it is better off being used as an expendable barrier rather than a frontline bulwark. Inside of the protective bubble, you are fully covered in all directions, allowing you to focus your fire unto the opposition's barriers on the frontline, or at any enemies looking to flank you.

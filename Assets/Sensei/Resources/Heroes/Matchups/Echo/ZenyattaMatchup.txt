@@ -1,4 +1,10 @@
 <b>MATCH-UP</b>
-
+General: Zenyatta's lack of mobility makes him especially vulnerable to heroes like Echo. He should be an easy target for your primary-fire and Sticky Bombs thanks to his wide hitbox. His weapon is a projectile, making it difficult to use against you while you're at a distance or airborne. If you get close, Zenyatta's only hope against you is to end the fight quickly with with Discord + secondary-fire, killing you either before you can hit him with Sticky Bombs or before you could follow-up with Focusing Beam.
+Orb of Harmony: Zenyatta's healing is low, heal-over-time and incredibly weak vs your burst heavy kit.
+Orb of Discord: Zenyatta can prioritize you with his Discord Orb to help his teammates deal with you. If the enemy is running a hitscan, be extra cautious with your Flight and Glide.
 
 <b>TEAM SYNERGY</b>
+Zenyatta is a great healer for Echo. As long as you keep in his line of sight, he's able to support you with his Harmony Orb. Zenyatta can quickly put 200-hp targets into Focus Beam range -- 2 standard hits + one tick of your Focus Beam or 1 headshot on a target under his Orb of Discord and the target will be in the bonus damage range. Make it your top priority to focus targets marked by his Discord, and use your mobility to scout for potential flankers and quickly reposition to help him.
+
+<b>DUPLICATING</b>
+Zenyatta is a strong pick for Duplicating. Discord more than makes up for the minor loss of DPS and Tranquility is one of the best support ults available.

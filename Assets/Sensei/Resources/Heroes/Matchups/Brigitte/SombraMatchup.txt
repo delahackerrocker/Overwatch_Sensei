@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You can swing your Rocket Flail and Whip Shot areas where Sombra might be while she uses Stealth, to attempt to un-cloak Sombra. If you expect an EMP to come soon, make sure to Shield Bash her as soon as she starts saying "Apagando las luces!" to disable the EMP.
 
 <b>TEAM SYNERGY</b>
+If your friendly Sombra hacks mobile enemies like Tracer or Genji, this will leave them open for you to move in and kill them at close range while their mobility abilities are cut off.

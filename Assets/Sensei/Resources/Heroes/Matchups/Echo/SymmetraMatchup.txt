@@ -2,3 +2,7 @@
 
 
 <b>TEAM SYNERGY</b>
+Echo has no notable team synergy with Symmetra.
+
+<b>DUPLICATING</b>
+There is certainly better Duplicate targets on the enemy team. Symmetra doesn't provide enough DPS to be worth it. Teleporter is rarely useful mid-combat, and her turrets - while capable of dealing a lot of damage - are very vulnerable.

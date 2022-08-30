@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You are one of Wrecking Ball's greatest counters, and one of his greatest nightmares. Wrecking Ball's strength comes from his ability to quickly barrel through an enemy, disrupt them, and flee. By Hacking him, you force him out of his ball and strip him of his mobility, making him a big slow target for you and your team to snuff out. Be sure your team quickly kills him once he's hacked, though, because as soon as his Hack wears off he's certain to attempt a quick getaway. In addition to removing his mobility, EMP will also strip him of any shields that he may have active from Adaptive Shield. In a pinch, a Hack or EMP can shut down the mines of his Minefield.
 
 <b>TEAM SYNERGY</b>
+Triggering EMP over a hoard of enemies huddling under a barrier can help ensure that a friendly Wrecking Ball's Minefield hits as many opponents as possible.

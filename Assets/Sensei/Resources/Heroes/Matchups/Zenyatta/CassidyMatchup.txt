@@ -1,4 +1,3 @@
 <b>MATCH-UP</b>
+While Cassidy's Peacekeeper can easily land shots on Zenyatta at mid to long range, his magazine is much smaller than yours, meaning you can harass Cassidy with Orbs for a prolonged period of time. His damage also suffers much more falloff than your Orbs do. Orb of Discord's visual notification can help your team spot Cassidy when he's hiding behind a wall for an ambush, letting you and your team hunt him down and kill him. Cassidy's Combat Roll is only his mobility skill, so he can't chase you down if you're too far away. However, don't get too confident when chasing Cassidy; if he ambushes you with Flashbang, you're done for. Be wary that Transcendence does nothing to protect your allies from Cassidy's Deadeye, as its one-shot burst damage will still kill anyone in its range excluding yourself. Still, if you're in Deadeye's range, activating Transcendence is acceptable as at least it will protect you from being shot down.
 
-
-<b>TEAM SYNERGY</b>

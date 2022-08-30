@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Reinhardt is by far one of Sombra's easiest marks. While you can't hack through his shield, it's simple enough through stealth to get behind or above him to perform a hack, at which point he becomes nearly useless, allowing your previously held back team to move in and steamroll the opposition. At close range he may be dangerous, but it's incredibly simple to toss your Translocator and flee his low range. Even Fire Strike is easy enough to avoid if you see it coming. When activating EMP, Reinhardt should always be one of your top priorities to hit with it. Not only does EMP negate his abilities as usual, but if his shield is active at the time it will be destroyed. Even if he survives the following assault, his shield will have incredibly low health, making him an easy target.
 
 <b>TEAM SYNERGY</b>
+One of the only counters to Reinhardt's powerful Earthshatter Ultimate is an enemy barrier. With that in mind, hacking an enemy Reinhardt or performing an EMP to shatter all barriers in the vicinity can pave the way for your allied Reinhardt to smash the enemy team.

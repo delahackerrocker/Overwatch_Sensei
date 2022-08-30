@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Zarya might have less health than you, but she can use her bubbles to soak up your damage, gain energy, and strengthen her attacks. Also, Graviton Surge can stop you in your tracks, allowing Zarya and her team to lay down focus fire and kill you.
 
 <b>TEAM SYNERGY</b>
+You can combo Graviton Surge with your Minefield. Since enemies can't escape one inside, they'll feel the full wrath of your mines. This is more compounded when done in tight corridors, where the mines also latch to the ceilings and walls. Zarya can use a Projected Barrier to protect you and gain energy as you dive into the enemy,

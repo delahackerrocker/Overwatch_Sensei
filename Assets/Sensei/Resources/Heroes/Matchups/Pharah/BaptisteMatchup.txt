@@ -1,4 +1,2 @@
 <b>MATCH-UP</b>
-
-
-<b>TEAM SYNERGY</b>
+Baptiste's hitscan damage should be respected at medium-range, although at longer ranges its falloff and recoil will make it harder for him to do reliable damage to you. Watch out for his Amplification Matrix, as his increased damage output (as well as the damage output of your other counters) can take you down extremely quickly. Immortality Field can save him from your Rocket Barrage theoretically, however you can quickly destroy the Field, and he will die almost instantly.

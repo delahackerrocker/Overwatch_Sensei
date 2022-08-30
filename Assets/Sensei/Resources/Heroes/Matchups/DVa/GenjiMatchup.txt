@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Due to Genji's constant mobility, he can be extremely difficult to pin down as D.Va, and his Swift Strike ignores your Defense Matrix. You'll need to rely on teammates such as Winston or McCree to get Genji off your back.
 
 <b>TEAM SYNERGY</b>
+At higher skill levels, the classic "dive" composition almost always includes both D.Va and Genji, along with Winston and Tracer.

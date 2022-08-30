@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+While D.Va's boosters give her high mobility and mostly prevent her from environmental deaths, she has trouble dealing much damage to you due to your small hitbox and constant healing/speed. If you manage to survive long enough you can deal enough damage to get her out of mech and potentially kill her altogether. D.Va's Self-Destruct is greatly countered by your speed boost as it can effectively get teammates outside its range, and a well timed Sound Barrier gives all fully healed tanks (and Bastion) enough health to survive a direct blast while also giving decent protection to other teammates with less than 250 health as long as they aren't at a distance too close to the explosion.
 
 <b>TEAM SYNERGY</b>
+D.Va's high mobility makes speeding her up largely unnecessary, however your own high mobility can allow you to keep up with her as she engages, helping her secure elimations and keeping her healed up.

@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Ana is both a Support hero and a sniper, making her one of your highest-priority targets. With Defense Matrix, you can negate her Biotic Grenades, Sleep Darts, and Biotic Rifle shots. Once her abilities are on cooldown, the fight is yours. Just keep in mind that if Ana aims her grenade at the ground and not you, you'll take damage from the grenade's splash. Also be careful not to be caught off guard, as her Sleep Dart is capable of hitting D.Va's sizeable hitbox, taking her out of the fight for a potentially significant amount of time.
 
 <b>TEAM SYNERGY</b>
+You may be a large target for your friendly Ana to heal, but you're also a mobile one. Make sure you're always in your Ana's line of sight to stay at full health. While a Nano Boosted D.Va isn't as threatening as the likes of a Nano Boosted Reinhardt or Genji, with correct maneuvering and close-range hits you can take down a decent chunk of the enemy team during your powered-up state. Do not use Self-Destruct, as you'll immediately lose your Nano Boost in the process.

@@ -1,4 +1,11 @@
 <b>MATCH-UP</b>
-
+General: Baptiste's primary-fire is hitscan, so he can be considered one of your counters. He has burst, area-of-effect healing so he's better suited than most supports to handle your bursty kit. If Baptiste is out of position or doesn't have support, approach from an unexpected angle until you're close, then use the boost from Flight to dive him. You should be able to land some Sticky Bombs and burst him down.
+Immortality Field: You should prioritize taking out Baptiste's Immortality Field -- one volley of Sticky Bombs and a shot from your primary fire will destroy it.
+Regenerative Burst: Though Baptiste can handle your damage well when it's targeting his allies, he isn't so capable if it's targeting him. This is Baptiste's only method of healing himself and it's over-time. If you can get the drop on him, you should be able to burst him down.
+Amplification Matrix: It's best to head for cover while his ult is active. He can easily use the boosted damage to pick you out of the skies, so don't make yourself an easy target.
 
 <b>TEAM SYNERGY</b>
+Synergy between Baptiste and Echo stems primarily from Baptiste's high damage output; one burst of Baptiste's Biotic Launcher, without headshots, will leave a 200-hp target nearly critical. With only one tick of the Beam or your Tri-Shot, the target will be in your Focus Beam bonus range. It's nigh impossible for Baptiste to heal you while you're airborne, so he'll likely leave your upkeep to his fellow healer. Be considerate and reposition to his location for healing if you need it. Your primary-fire and Sticky Bombs can both be boosted by his Amplification Matrix.
+
+<b>DUPLICATING</b>
+Baptiste is a solid choice for Duplicate. He doesn't trade as much DPS as other supports, but more importantly you get his Immortality Field, which is a great support skill that can single-handedly negate some ults. He has strong healing output, and his ultimate can boost it even further. Alternatively, Amplification Matrix can seriously boost your team's damage output if you have Heroes that can utilize it.

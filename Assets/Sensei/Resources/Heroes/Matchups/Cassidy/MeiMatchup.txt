@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+You and Mei have similar playstyles at both long and close distances. At close range, you both will try to stun the other before landing the finishing blow. In Mei's case, she'll be attempting to freeze you over; your best defense is to quickly Flashbang her before she can finish freezing you, as once you're frozen solid, you're as good as dead. Should you miss your Flashbang, you'll have almost no chance of surviving; even Combat Roll won't move you far enough away to escape her Endothermic Blaster. Should you fail to kill Mei with your Flashbang combo and she uses Cryo-Freeze, it's better to run than to wait for her to come out; without your Flashbang, you're easy prey, and should you run you might bait her into leaving Cryo-Freeze early, at which point one or two shots should be able to finish her off. At longer range, both of you have the same damage falloff, but Mei's Icicle is a projectile while your Peacekeeper fires a hitscan bullet, meaning you'll have an easier time landing your shots. Deadeye can be blocked by a well-placed Ice Wall, so take caution around Mei.
 
 <b>TEAM SYNERGY</b>
+Should a friendly Mei freeze the enemy team over with Blizzard, any Tanks caught in the Blizzard will lose their ability to deploy their shields, meaning a quick Deadeye can gun everyone down.

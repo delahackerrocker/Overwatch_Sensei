@@ -1,4 +1,5 @@
 <b>MATCH-UP</b>
-
+Depending on the skill of both parties, Zenyatta can be an even match-up against you. While his mobility is low, he has a significant range advantage as well as the ability to amplify his damage on you with Orb of Discord. While Wraith Form will dispel Orb of Discord, Zenyatta can instantly reapply it when you rematerialize. Even at point blank range, an accurate Zenyatta may be able to land consecutive boosted headshots on you before you can finish him off, and in an emergency Zenyatta can activate Transcendence to save himself and to regroup with his team. Your best bet against Zenyatta is to catch him by surprise and flank him before he has a chance to call allies for support. Zenyatta's Transcendence can completely negate all of the damage from Death Blossom, so try to either bait Transcendence out first or kill Zenyatta before activating Death Blossom.
 
 <b>TEAM SYNERGY</b>
+If you stay within Zenyatta's line of sight, Orb of Harmony can keep you sufficiently healthy to allow you to stand your ground and attack opponents, while Orb of Discord can help you quickly run through enemies one after the other.
