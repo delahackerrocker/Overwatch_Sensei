@@ -9,4 +9,6 @@ EditorBuildSettings:
     path: Assets/Sensei/Scenes/Main.unity
     guid: 852468a8db1d0a2489a936a30bd05ebe
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5eee34a3ca1ccb7499efa69cc509aabd, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: f5151ef1bc789864c8492329c9b7067f, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f166e81615761c04e83734c2b28f4e03, type: 2}

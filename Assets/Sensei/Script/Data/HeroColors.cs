@@ -57,6 +57,8 @@ public class HeroColors : MonoBehaviour
     public Color shieldColor;
     public Color armorColor;
 
+    public Color alphaBlack;
+
     public Color GetHeroColor(HERO_ID hero)
     {
         DebugOverlay.Output("Hero GetHeroColor: " + hero);
