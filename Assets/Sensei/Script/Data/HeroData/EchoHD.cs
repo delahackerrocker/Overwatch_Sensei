@@ -26,15 +26,15 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-tri-shot";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[9];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:17 per pellet";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 17 per pellet";
         abilities[aCount].abilityDetails[++bCount] = "          51 per shot";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:75 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Num. of pellets:3";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:0.3 second recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 75 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 3";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 0.3 second recovery";
         abilities[aCount].abilityDetails[++bCount] = "             (3 shots per second)";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:12";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 12";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "STICKY BOMBS";
@@ -43,16 +43,16 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-sticky-bombs";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:6 bombs";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 6 bombs";
         abilities[aCount].abilityDetails[++bCount] = "          Impact: 5";
         abilities[aCount].abilityDetails[++bCount] = "          Explosion: 25";
         abilities[aCount].abilityDetails[++bCount] = "          Self: 12.5";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:50 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:2 meter explosion radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 bomb per 0.064 seconds + 0.3 s. recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:1 second (after stick)";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:6 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2 meter explosion radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 bomb per 0.064 seconds + 0.3 s. recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 1 second (after stick)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "FOCUSING BEAM";
@@ -61,16 +61,16 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-focusing-beam";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:50 per second";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 50 per second";
         abilities[aCount].abilityDetails[++bCount] = "200 per second (target <50% hp)";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:16 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly + 0.24 s. recovery for shoot after end";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:0.24 seconds min duration";
-        abilities[aCount].abilityDetails[++bCount] = "2 seconds max. duration";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:8 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "Deals 4 times more damage if she is targeting something (including turrets or barriers) whose HP is 50% or lower.";
-        abilities[aCount].abilityDetails[++bCount] = "Can be manually cancelled by pressing the ability key/button again.";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 16 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.24 s. recovery for shoot after end";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.24 seconds min duration";
+        abilities[aCount].abilityDetails[++bCount] = "          2 seconds max. duration";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 8 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "\nDeals 4 times more damage if she is targeting something (including turrets or barriers) whose HP is 50% or lower.";
+        abilities[aCount].abilityDetails[++bCount] = "\nCan be manually cancelled by pressing the ability key/button again.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "FLIGHT";
@@ -79,13 +79,13 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-flight";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "Move. speed:8 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:0.2 seconds min. duration";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 8 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.2 seconds min. duration";
         abilities[aCount].abilityDetails[++bCount] = "         3 seconds max. duration";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:6 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Can be manually cancelled by pressing the button again.";
-        abilities[aCount].abilityDetails[++bCount] = "Holding jump causes Echo to rise, while holding crouch causes her to descend.";
-        abilities[aCount].abilityDetails[++bCount] = "When used, it adds to the speed of ~27 meters per second, after which it begins to sharply reduce the speed until it drops to 8 (~0.5 second).";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "\nCan be manually cancelled by pressing the button again.";
+        abilities[aCount].abilityDetails[++bCount] = "\nHolding jump causes Echo to rise, while holding crouch causes her to descend.";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhen used, it adds to the speed of ~27 meters per second, after which it begins to sharply reduce the speed until it drops to 8 (~0.5 second).";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "DUPLICATE";
@@ -94,15 +94,15 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-duplicate";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[9];
-        abilities[aCount].abilityDetails[bCount = 0] = "Max. range:40 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.35 second activation + 1 second recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:15 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:2254 points";
-        abilities[aCount].abilityDetails[++bCount] = "Echo's HP instantly becomes the full base HP of her target.";
-        abilities[aCount].abilityDetails[++bCount] = "Echo's target cannot switch heroes for the duration of the ability.";
-        abilities[aCount].abilityDetails[++bCount] = "While duplicating, Echo charges her ultimate ability 6.5 times faster.";
-        abilities[aCount].abilityDetails[++bCount] = "When the duration ends, or if Echo's HP is reduced to 1, Echo reverts back to normal. Her HP returns back to what it was before, or 100 if her HP was less than 100.";
-        abilities[aCount].abilityDetails[++bCount] = "Reverting back to Echo interrupts whatever ability she was using.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Max Range:</b> 40 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.35 second activation + 1 second recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 15 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2254 points";
+        abilities[aCount].abilityDetails[++bCount] = "\nEcho's HP instantly becomes the full base HP of her target.";
+        abilities[aCount].abilityDetails[++bCount] = "\nEcho's target cannot switch heroes for the duration of the ability.";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhile duplicating, Echo charges her ultimate ability 6.5 times faster.";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhen the duration ends, or if Echo's HP is reduced to 1, Echo reverts back to normal. Her HP returns back to what it was before, or 100 if her HP was less than 100.";
+        abilities[aCount].abilityDetails[++bCount] = "\nReverting back to Echo interrupts whatever ability she was using.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "GLIDE";
@@ -111,7 +111,7 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.A;
         abilities[aCount].abilityDetails = new string[2];
-        abilities[aCount].abilityDetails[bCount = 0] = "Move. speed:Horizontal: +50% buff";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> Horizontal: +50% buff";
         abilities[aCount].abilityDetails[++bCount] = "                Vertical: 4 m/s (down)";
 
         strongAgainst = new HERO_ID[8];

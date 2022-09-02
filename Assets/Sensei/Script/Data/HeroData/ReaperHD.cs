@@ -26,14 +26,14 @@ public class ReaperHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-hellfire-shotguns";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:1.8 - 6 per pellet\n        36 - 120 per shot";
-        abilities[aCount].abilityDetails[++bCount] = "Falloff range:10 to 20 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:6";
-        abilities[aCount].abilityDetails[++bCount] = "Num. of pellets:20 per shot";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:2 shots per second\n              extra delay while using meleee";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:8";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 1.8 - 6 per pellet\n        36 - 120 per shot";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 10 to 20 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> 6";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 20 per shot";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 2 shots per second\n              extra delay while using meleee";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 8";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "WRAITH FORM";
@@ -42,14 +42,14 @@ public class ReaperHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-wraith-form";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Move. speed:+50% buff";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly + 0.4 s. recovery time after end";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:0.8 seconds min. duration\n          3 seconds max. duration";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:8 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Reaper is cleansed of status effects and becomes immune to enemy damage and abilities.";
-        abilities[aCount].abilityDetails[++bCount] = "Automatically reloads Hellfire Shotguns to full ammo.";
-        abilities[aCount].abilityDetails[++bCount] = "Can be cancelled early.";
-        abilities[aCount].abilityDetails[++bCount] = "Can be used to take Health Packs.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> +50% buff";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.4 s. recovery time after end";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.8 seconds min. duration\n          3 seconds max. duration";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 8 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "\nReaper is cleansed of status effects and becomes immune to enemy damage and abilities.";
+        abilities[aCount].abilityDetails[++bCount] = "\nAutomatically reloads Hellfire Shotguns to full ammo.";
+        abilities[aCount].abilityDetails[++bCount] = "\nCan be cancelled early.";
+        abilities[aCount].abilityDetails[++bCount] = "\nCan be used to take Health Packs.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "SHADOW STEP";
@@ -58,12 +58,12 @@ public class ReaperHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-shadow-step";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[6];
-        abilities[aCount].abilityDetails[bCount = 0] = "Max. range:35 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:1.5 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:10 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Can be used while Reaper is in the air, which will greatly reduce Reaper's fall speed while in use.";
-        abilities[aCount].abilityDetails[++bCount] = "Reaper is invulnerable when exiting.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Max Range:</b> 35 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 1.5 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 2 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 10 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "\nCan be used while Reaper is in the air, which will greatly reduce Reaper's fall speed while in use.";
+        abilities[aCount].abilityDetails[++bCount] = "\nReaper is invulnerable when exiting.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "THE REAPING";
@@ -72,9 +72,9 @@ public class ReaperHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:35% of damage dealt";
-        abilities[aCount].abilityDetails[++bCount] = "Counts all damage from Reaper, even from quick melee or environmental kills.";
-        abilities[aCount].abilityDetails[++bCount] = "Does not generate ultimate charge.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 35% of damage dealt";
+        abilities[aCount].abilityDetails[++bCount] = "\nCounts all damage from Reaper, even from quick melee or environmental kills.";
+        abilities[aCount].abilityDetails[++bCount] = "\nDoes not generate ultimate charge.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "DEATH BLOSSOM";
@@ -83,13 +83,13 @@ public class ReaperHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-death-blossom";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:170 damage per second\n        34 damage per 0.192 sec\n        5 hits per sec, per target\n        510 damage overall";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:-50% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:8 meter radius";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:3 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:2100 points";
-        abilities[aCount].abilityDetails[++bCount] = "Restores Hellfire Shotguns ammo after the ability ends, provided the ability wasn't canceled prematurely.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 170 damage per second\n        34 damage per 0.192 sec\n        5 hits per sec, per target\n        510 damage overall";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -50% penalty";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 8 meter radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 3 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2100 points";
+        abilities[aCount].abilityDetails[++bCount] = "\nRestores Hellfire Shotguns ammo after the ability ends, provided the ability wasn't canceled prematurely.";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;

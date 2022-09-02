@@ -26,14 +26,14 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-orb-of-destruction";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:48";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:90 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.15 meter radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 shot every 0.4 second";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:20";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 48";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.15 meter radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot every 0.4 second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ORB OF DESTRUCTION ALT";
@@ -42,13 +42,13 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-orb-of-destruction";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:48 per orb\n        Max 240 per volley";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:90 meters per second\n           1 orb per 0.524 seconds (charging)\n         0.608 seconds recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:20";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo usage:Up to 5 per volley";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 48 per orb\n        Max 240 per volley";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second\n           1 orb per 0.524 seconds (charging)\n         0.608 seconds recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo Usage:</b> Up to 5 per volley";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ORB OF HARMONY";
@@ -57,13 +57,13 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-orb-of-harmony";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:30 health per second";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:90 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:40 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:One active";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:3 seconds (if out of sight)";
-        abilities[aCount].abilityDetails[++bCount] = "If Zenyatta loses sight of the player being healed, Orb of Harmony will be returned to Zenyatta after 3 seconds.";
-        abilities[aCount].abilityDetails[++bCount] = "Multiple orbs stack additively.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 30 health per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 40 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> One active";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 3 seconds (if out of sight)";
+        abilities[aCount].abilityDetails[++bCount] = "\nIf Zenyatta loses sight of the player being healed, Orb of Harmony will be returned to Zenyatta after 3 seconds.";
+        abilities[aCount].abilityDetails[++bCount] = "\nMultiple orbs stack additively.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ORB OF DISCORD";
@@ -72,12 +72,12 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-orb-of-discord";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[6];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:+25% damage received";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:90 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:40 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:One active";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:3 seconds (if out of sight)";
-        abilities[aCount].abilityDetails[++bCount] = "If Zenyatta loses sight of the player afflicted, Orb of Discord will be returned to Zenyatta after 3 seconds.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> +25% damage received";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 40 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> One active";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 3 seconds (if out of sight)";
+        abilities[aCount].abilityDetails[++bCount] = "\nIf Zenyatta loses sight of the player afflicted, Orb of Discord will be returned to Zenyatta after 3 seconds.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "TRANSCENDENCE";
@@ -86,13 +86,13 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-transcendence";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:300 health per second";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:11 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:10 meters radius";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:6 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:2310 points";
-        abilities[aCount].abilityDetails[++bCount] = "Zenyatta is also immune to certain stuns, such as Hack and Earthshatter.";
-        abilities[aCount].abilityDetails[++bCount] = "Ammunition is restored after completion.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 300 health per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 11 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 10 meters radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 6 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2310 points";
+        abilities[aCount].abilityDetails[++bCount] = "\nZenyatta is also immune to certain stuns, such as Hack and Earthshatter.";
+        abilities[aCount].abilityDetails[++bCount] = "\nAmmunition is restored after completion.";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;

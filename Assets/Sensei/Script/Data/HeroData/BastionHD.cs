@@ -26,13 +26,13 @@ public class BastionHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-configuration-recon";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:6 - 20";
-        abilities[aCount].abilityDetails[++bCount] = "Falloff range:25 to 45 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Max: 1.2";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:8 rounds per second";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:35";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 6 - 20";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 25 to 45 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Max: 1.2";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 8 rounds per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 35";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "SELF-REPAIR";
@@ -41,12 +41,12 @@ public class BastionHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-self-repair";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[6];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:90 per second";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.5 second delay";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:Up to 3.33 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:1 second";
-        abilities[aCount].abilityDetails[++bCount] = "Bastion cannot activate Self-Repair when the resource meter is below 20%.";
-        abilities[aCount].abilityDetails[++bCount] = "Takes 7 seconds to fully recharge.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 90 per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.5 second delay";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 3.33 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 1 second";
+        abilities[aCount].abilityDetails[++bCount] = "\nBastion cannot activate Self-Repair when the resource meter is below 20%.";
+        abilities[aCount].abilityDetails[++bCount] = "\nTakes 7 seconds to fully recharge.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "RECONFIGURE";
@@ -55,9 +55,9 @@ public class BastionHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-reconfigure";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "Casting time:1 second (into Sentry)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Casting Time:</b> 1 second (into Sentry)";
         abilities[aCount].abilityDetails[++bCount] = "                0.5 seconds (into Recon)";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:None";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> None";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "CONFIGURATION:\nSentry";
@@ -66,17 +66,17 @@ public class BastionHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-configuration-sentry";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[11];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:4.5 - 15";
-        abilities[aCount].abilityDetails[++bCount] = "Falloff range:30 to 50 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:1.8 - 2.7 degrees";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:0";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:30 rounds per second";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:300";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.984 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "Makes Bastion immune to knock-back effects and Orisa's Ability Orisa Halt!.png Halt!.";
-        abilities[aCount].abilityDetails[++bCount] = "Bastion has a glowing blue box on its back that can be hit for headshot damage.";
-        abilities[aCount].abilityDetails[++bCount] = "Bastion comes out of Configuration: Sentry if it is Hacked, Slept, Pinned, Hooked, or knocked down.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 4.5 - 15";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 30 to 50 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> 1.8 - 2.7 degrees";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 0";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 30 rounds per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 300";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.984 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "\nMakes Bastion immune to knock-back effects and Orisa's Ability Orisa Halt!.png Halt!.";
+        abilities[aCount].abilityDetails[++bCount] = "\nBastion has a glowing blue box on its back that can be hit for headshot damage.";
+        abilities[aCount].abilityDetails[++bCount] = "\nBastion comes out of Configuration: Sentry if it is Hacked, Slept, Pinned, Hooked, or knocked down.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "CONFIGURATION:\nTANK";
@@ -85,19 +85,19 @@ public class BastionHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-configuration-tank";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[13];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:Direct hit: 205";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 205";
         abilities[aCount].abilityDetails[++bCount] = "         Splash: 42 - 140";
         abilities[aCount].abilityDetails[++bCount] = "         Self: 10.5 - 35 (becomes 8.4 - 28 due to Ironclad)";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:60 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:4 meter radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 shot per second";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:infinite";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:1.5 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:8 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:2310 points";
-        abilities[aCount].abilityDetails[++bCount] = "Bastion cannot receive headshots as both its head and its blue box are covered.";
-        abilities[aCount].abilityDetails[++bCount] = "Ammunition of Configuration: Recon is immediately restored upon activation.";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4 meter radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> infinite";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 1.5 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 8 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2310 points";
+        abilities[aCount].abilityDetails[++bCount] = "\nBastion cannot receive headshots as both its head and its blue box are covered.";
+        abilities[aCount].abilityDetails[++bCount] = "\nAmmunition of Configuration: Recon is immediately restored upon activation.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "IRONCLAD";
@@ -106,9 +106,9 @@ public class BastionHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "Dmg. reduction:20%";
-        abilities[aCount].abilityDetails[++bCount] = "Applies to configurations Sentry and Tank upon their complete transformation.";
-        abilities[aCount].abilityDetails[++bCount] = "Damage reduction is applied before armor.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Dmg. Reduction:</b> 20%";
+        abilities[aCount].abilityDetails[++bCount] = "\nApplies to configurations Sentry and Tank upon their complete transformation.";
+        abilities[aCount].abilityDetails[++bCount] = "\nDamage reduction is applied before armor.";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;

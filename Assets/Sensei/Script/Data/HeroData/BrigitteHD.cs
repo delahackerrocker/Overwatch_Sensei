@@ -26,14 +26,14 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-rocket-flail";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:35";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:6 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 swing per 0.6 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.208 second (initial swing)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 35";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 6 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 swing per 0.6 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.208 second (initial swing)";
         abilities[aCount].abilityDetails[++bCount] = "              0.240 second (dealing damage)";
         abilities[aCount].abilityDetails[++bCount] = "              0.144 second (recovery after dealing damage ends)";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "At 5-6 meters away, Brigitte's flail has a horizontal range of 3 meters on the side she swings toward and 2 meters on the opposite side.";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "\nAt 5-6 meters away, Brigitte's flail has a horizontal range of 3 meters on the side she swings toward and 2 meters on the opposite side.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "BARRIER SHIELD";
@@ -42,11 +42,11 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-barrier-shield";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[5];
-        abilities[aCount].abilityDetails[bCount = 0] = "Health:250";
-        abilities[aCount].abilityDetails[++bCount] = "Healing:Regenerates 85 barrier health per second, after being down for 2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:-30% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:5 seconds if destroyed";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 250";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> Regenerates 85 barrier health per second, after being down for 2 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -30% penalty";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 5 seconds if destroyed";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "SHIELD BASH";
@@ -55,11 +55,11 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-barrier-shield";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[5];
-        abilities[aCount].abilityDetails[bCount = 0] = "Health:250";
-        abilities[aCount].abilityDetails[++bCount] = "Healing:Regenerates 85 barrier health per second, after being down for 2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:-30% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:5 seconds if destroyed";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 250";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> Regenerates 85 barrier health per second, after being down for 2 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -30% penalty";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 5 seconds if destroyed";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "REPAIR PACK";
@@ -68,12 +68,12 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-repair-pack";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[6];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:110 over 2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:45 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:30 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:3";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:6 seconds per charge, 3 charges";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 110 over 2 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 45 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 30 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 3";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 2 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds per charge, 3 charges";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "WHIP SHOT";
@@ -82,16 +82,16 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-whip-shot";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:70";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:-50% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:80 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:20 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.5 meters radius";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.2 seconds startup";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:4 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "Whip Shot creates a strong knockback around 5 - 10 meters on the target.";
-        abilities[aCount].abilityDetails[++bCount] = "At full length, it takes 0.3 seconds for the whip to retract.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -50% penalty";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 20 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.5 meters radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.2 seconds startup";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 4 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhip Shot creates a strong knockback around 5 - 10 meters on the target.";
+        abilities[aCount].abilityDetails[++bCount] = "\nAt full length, it takes 0.3 seconds for the whip to retract.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "RALLY";
@@ -100,12 +100,12 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-rally";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[6];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:15 armor per 0.5 seconds, up to 100 armor on self and allies";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:+30% buff";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:8.5 meter radius";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly + 0.69 s. recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:10 seconds, Armor lasts 30 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:2800 points";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 15 armor per 0.5 seconds, up to 100 armor on self and allies";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> +30% buff";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 8.5 meter radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.69 s. recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 10 seconds, Armor lasts 30 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2800 points";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "INSPIRE";
@@ -114,14 +114,14 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Healing:15 per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:20 meter radius";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:6 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:1 second";
-        abilities[aCount].abilityDetails[++bCount] = "Triggered by Rocket Flail.png Rocket Flail or Whip Shot.png Whip Shot, not Shield Bash.png Shield Bash.";
-        abilities[aCount].abilityDetails[++bCount] = "Does not stack with itself. Instead, the duration resets.";
-        abilities[aCount].abilityDetails[++bCount] = "Does not heal allies behind enemy barriers or surfaces that block line of sight.";
-        abilities[aCount].abilityDetails[++bCount] = "Applies a heal-over-time effect to allies, meaning they do not have to continuously stay in range.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 15 per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 20 meter radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 6 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 1 second";
+        abilities[aCount].abilityDetails[++bCount] = "\nTriggered by Rocket Flail.png Rocket Flail or Whip Shot.png Whip Shot, not Shield Bash.png Shield Bash.";
+        abilities[aCount].abilityDetails[++bCount] = "\nDoes not stack with itself. Instead, the duration resets.";
+        abilities[aCount].abilityDetails[++bCount] = "\nDoes not heal allies behind enemy barriers or surfaces that block line of sight.";
+        abilities[aCount].abilityDetails[++bCount] = "\nApplies a heal-over-time effect to allies, meaning they do not have to continuously stay in range.";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;

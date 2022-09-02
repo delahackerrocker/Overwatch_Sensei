@@ -26,16 +26,16 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-storm-bow";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:27.2 - 125 (depending on charge)";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Move. speed:-30% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:25 - 110 m/s";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.1 meters arrow radius";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:?";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly starts charge + 0.5 s. recovery after shot extra recovery while using melee";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "The max cast time is not limited.";
-        abilities[aCount].abilityDetails[++bCount] = "The minimum power required to kill a full health target (without armor) with a single headshot:\n   150 HP = 0.368 second.\n   200 HP = 0.560 second.\n   225 HP = 0.640 second.\n   250 HP = 0.732 second.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 27.2 - 125 (depending on charge)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -30% penalty";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 - 110 m/s";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.1 meters arrow radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> ?";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly starts charge + 0.5 s. recovery after shot extra recovery while using melee";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "\nThe max cast time is not limited.";
+        abilities[aCount].abilityDetails[++bCount] = "\nThe minimum power required to kill a full health target (without armor) with a single headshot:\n   150 HP = 0.368 second.\n   200 HP = 0.560 second.\n   225 HP = 0.640 second.\n   250 HP = 0.732 second.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "STORM ARROWS";
@@ -44,17 +44,17 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-storm-arrows";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[11];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:70";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:110 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.1 meters arrow radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 shot per 0.24 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:5";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.24 s. recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:Up to 5 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:10 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
-        abilities[aCount].abilityDetails[++bCount] = "Storm Arrows travel at the same speed as fully charged Storm Bow arrows.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 110 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.1 meters arrow radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.24 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 5";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.24 s. recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 5 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 10 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
+        abilities[aCount].abilityDetails[++bCount] = "\nStorm Arrows travel at the same speed as fully charged Storm Bow arrows.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "SONIC ARROW";
@@ -63,11 +63,11 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-sonic-arrow";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[5];
-        abilities[aCount].abilityDetails[bCount = 0] = "Area of effect:9 meter vision radius\n              0.1 meters arrow radius";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:6 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:12 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Pressing the ability key turns the next arrow from Storm Bow or Storm Arrows into a Sonic Arrow. (This does not change the speed or damage.) Pressing the key again before firing changes it back.";
-        abilities[aCount].abilityDetails[++bCount] = "If the arrow becomes stuck on a moving target (e.g. an enemy hero), the effect follows.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Area of Effect:</b> 9 meter vision radius\n              0.1 meters arrow radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 6 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 12 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "\nPressing the ability key turns the next arrow from Storm Bow or Storm Arrows into a Sonic Arrow. (This does not change the speed or damage.) Pressing the key again before firing changes it back.";
+        abilities[aCount].abilityDetails[++bCount] = "\nIf the arrow becomes stuck on a moving target (e.g. an enemy hero), the effect follows.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "LUNGE";
@@ -76,9 +76,9 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-lunge";
         abilities[aCount].controllerButton = ControllerButton.A;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "Move. speed:15 meters per second (horizontal)";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:7.85 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:5 seconds";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 15 meters per second (horizontal)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 7.85 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 5 seconds";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "DRAGON STRIKE";
@@ -87,17 +87,16 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-dragonstrike";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[11];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:Arrow: 125\n             Dragons: 150 damage per second, per dragon\n              Up to 993.6 damage against a stationary target";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:20 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:Infinite travel distance";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:4 meter radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1.5 seconds charging";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.912 seconds (charging)\n            0.6 seconds (arrow fly time)";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:Arrow: ?\n                Dragons: ?";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:1680 points";
-        abilities[aCount].abilityDetails[++bCount] = "Hanzo passively generates 1% Ult Charge every 3.36 seconds.";
-        abilities[aCount].abilityDetails[++bCount] = "Does not affect enemy objects.";
-        abilities[aCount].abilityDetails[++bCount] = "The hitbox is actually both dragons, meaning the ultimate deals less damage at the edges, and combined at the center.";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Arrow: 125\n             Dragons: 150 damage per second, per dragon\n              Up to 993.6 damage against a stationary target";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> Infinite travel distance";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4 meter radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1.5 seconds charging";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.912 seconds (charging)\n            0.6 seconds (arrow fly time)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 1680 points";
+        abilities[aCount].abilityDetails[++bCount] = "\nHanzo passively generates 1% Ult Charge every 3.36 seconds.";
+        abilities[aCount].abilityDetails[++bCount] = "\nDoes not affect enemy objects.";
+        abilities[aCount].abilityDetails[++bCount] = "\nThe hitbox is actually both dragons, meaning the ultimate deals less damage at the edges, and combined at the center.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "WALL CLIMB";
@@ -106,9 +105,9 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "Move. speed:7.8 meters per second (vertical)";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:Up to 4 meter vertical climb";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:Up to 1 second";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 7.8 meters per second (vertical)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> Up to 4 meter vertical climb";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 1 second";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;

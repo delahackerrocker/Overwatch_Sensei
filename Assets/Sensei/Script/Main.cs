@@ -23,6 +23,7 @@ public class Main : MonoBehaviour
     public HERO_ID counterPick = HERO_ID.None;
 
     public AbilityData selectedAbility = null;
+    public int abilityIndex = 0;
 
     public HeroData[] heroes = new HeroData[32];
 

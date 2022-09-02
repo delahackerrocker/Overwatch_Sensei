@@ -25,18 +25,18 @@ public class AnaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-biotic-rifle";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[12];
-        abilities[aCount].abilityDetails[bCount=0] = "Damage:70 over 0.576 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Healing:70 over 0.576 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Move Speed:-65% penalty (scoped)";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:125 meters per second (unscoped)";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.2 meters radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 shot every 0.8 seconds 1.25 shots per second";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:12";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.5 seconds scope/unscope";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:0.576 seconds effect";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount=0] = "<b>Damage:</b> 70 over 0.576 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 70 over 0.576 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move Speed:</b> -65% penalty (scoped)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 125 meters per second (unscoped)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot every 0.8 seconds 1.25 shots per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 12";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.5 seconds scope/unscope";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.576 seconds effect";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ZOOM";
@@ -45,18 +45,18 @@ public class AnaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-biotic-rifle";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[12];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:70 over 0.576 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Healing:70 over 0.576 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Move Speed:-65% penalty (scoped)";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:125 meters per second (unscoped)";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.2 meters radius";
-        abilities[aCount].abilityDetails[++bCount] = "Rate of fire:1 shot every 0.8 seconds 1.25 shots per second";
-        abilities[aCount].abilityDetails[++bCount] = "Ammo:12";
-        abilities[aCount].abilityDetails[++bCount] = "Reload time:1.5 seconds animation";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.5 seconds scope/unscope";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:0.576 seconds effect";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70 over 0.576 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 70 over 0.576 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move Speed:</b> -65% penalty (scoped)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 125 meters per second (unscoped)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot every 0.8 seconds 1.25 shots per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 12";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.5 seconds scope/unscope";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.576 seconds effect";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
 
         abilities[++aCount] = new AbilityData();
@@ -66,14 +66,14 @@ public class AnaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-sleep-dart";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:5";
-        abilities[aCount].abilityDetails[++bCount] = "Spread angle:Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:60 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:0.2 meters radius";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.308 seconds for throw + 0.67 second recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:1.5 - 5 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:12 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 5";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters radius";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.308 seconds for throw + 0.67 second recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 1.5 - 5 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 12 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
 
         abilities[++aCount] = new AbilityData();
@@ -83,14 +83,14 @@ public class AnaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-biotic-grenade";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:60";
-        abilities[aCount].abilityDetails[++bCount] = "Healing:100";
-        abilities[aCount].abilityDetails[++bCount] = "Projectile speed:30 meters per second";
-        abilities[aCount].abilityDetails[++bCount] = "Area of effect:4 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:instantly + 0.67 second recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:4 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Cooldown:10 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Headshot:?";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 60";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 100";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 30 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.67 second recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 4 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 10 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
 
 
         abilities[++aCount] = new AbilityData();
@@ -100,13 +100,13 @@ public class AnaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-nano-boost";
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "Damage:+50% damage buff";
-        abilities[aCount].abilityDetails[++bCount] = "Healing:250 health";
-        abilities[aCount].abilityDetails[++bCount] = "Dmg. reduction:50%";
-        abilities[aCount].abilityDetails[++bCount] = "Max. range:40 meters";
-        abilities[aCount].abilityDetails[++bCount] = "Casting time:0.128 seconds + 0.67 s. recovery";
-        abilities[aCount].abilityDetails[++bCount] = "Duration:8 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "Ultimate cost:2100 points";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> +50% damage buff";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 250 health";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Dmg. Reduction:</b> 50%";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 40 meters";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.128 seconds + 0.67 s. recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 8 seconds";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2100 points";
 
 
 

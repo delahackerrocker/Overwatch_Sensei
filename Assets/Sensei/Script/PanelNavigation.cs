@@ -37,6 +37,7 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     public PanelNode HeroVersusHero;
     public PanelNode HeroVersusHero_Previous;
     public PanelNode HeroVersusHero_Next;
+    public PanelNode NextHeroAbilityDetails;
 
     void Start()
     {
@@ -234,6 +235,10 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
                 } else if (currentlySelected == HeroVersusHero_Previous)
                 {
                     currentlySelected.GetComponent<HeroVersusHero>().GoToHero();
+                }
+                if (currentlySelected == NextHeroAbilityDetails)
+                {
+                    currentlySelected.GetComponent<NextHeroAbility>().GoToNext();
                 }
             }
             else
