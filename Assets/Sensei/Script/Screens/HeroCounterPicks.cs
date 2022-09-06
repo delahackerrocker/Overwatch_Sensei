@@ -35,33 +35,46 @@ public class HeroCounterPicks : MonoBehaviour
         {
             title.text = Main.Instance.selectedHero + ": counter Picks";
 
+            Debug.Log("HeroCounterPicks.Update()");
+
             int countA = 0;
             int countB = 0;
+
+            int strLength = Main.Instance.heroes[(int)Main.Instance.selectedHero].strongAgainst.Length;
+
             // Setup Strong Against Buttons
-            for (countA=0; countA < Main.Instance.heroes[(int)Main.Instance.selectedHero].strongAgainst.Length; countA++)
+            for (countA = 0; countA < strLength; countA++)
             {
-                strongAgainst[countA].heroID = Main.Instance.heroes[(int)Main.Instance.selectedHero].strongAgainst[countA];
-            }
-            for (countB = countA; countB < strongAgainst.Length; countB++)
-            {
-                strongAgainst[countB].heroID = HERO_ID.None;
+                strongAgainst[countA].UpdateImage(Main.Instance.heroes[(int)Main.Instance.selectedHero].strongAgainst[countA]);
             }
 
-            // Setup Weak Against Buttons
-            for (countA = 0; countA < Main.Instance.heroes[(int)Main.Instance.selectedHero].weakAgainst.Length; countA++)
+            // remaining buttons get turned blank
+            for (countB = countA; countB < strongAgainst.Length; countB++)
             {
-                weakAgainst[countA].heroID = Main.Instance.heroes[(int)Main.Instance.selectedHero].weakAgainst[countA];
+                strongAgainst[countB].UpdateImage(HERO_ID.None);
             }
+
+            int weakLength = Main.Instance.heroes[(int)Main.Instance.selectedHero].weakAgainst.Length;
+
+            // Setup Weak Against Buttons
+            for (countA = 0; countA < weakLength; countA++)
+            {
+                weakAgainst[countA].UpdateImage(Main.Instance.heroes[(int)Main.Instance.selectedHero].weakAgainst[countA]);
+            }
+
+            // remaining buttons get turned blank
             for (countB = countA; countB < weakAgainst.Length; countB++)
             {
-                weakAgainst[countB  ].heroID = HERO_ID.None;
+                weakAgainst[countB].UpdateImage(HERO_ID.None);
             }
+
+            nowShowing = Main.Instance.selectedHero;
         }
     }
 
     public void Picked(HERO_ID hero)
     {
-        DebugOverlay.Output("countAer Picked: " + hero);
+        //DebugOverlay.Output("counter Picked: " + hero);
         Main.Instance.counterPick = hero;
         PanelNavigation.Instance.GOTO_HeroVersusHero();
     }

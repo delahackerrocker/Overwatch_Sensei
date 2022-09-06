@@ -115,23 +115,23 @@ public class EchoHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "                Vertical: 4 m/s (down)";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
+        strongAgainst[0] = HERO_ID.DVa;
+        strongAgainst[1] = HERO_ID.Orisa;
+        strongAgainst[2] = HERO_ID.Reinhardt;
+        strongAgainst[3] = HERO_ID.Junkrat;
+        strongAgainst[4] = HERO_ID.Pharah;
+        strongAgainst[5] = HERO_ID.Brigitte;
         strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[7] = HERO_ID.Reaper;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[0] = HERO_ID.Torbjorn;
+        weakAgainst[1] = HERO_ID.Hanzo;
+        weakAgainst[2] = HERO_ID.Cassidy;
+        weakAgainst[3] = HERO_ID.Ashe;
+        weakAgainst[4] = HERO_ID.Widowmaker;
+        weakAgainst[5] = HERO_ID.Soldier76;
+        weakAgainst[6] = HERO_ID.Baptiste;
+        weakAgainst[7] = HERO_ID.Sombra;
     }
 }

@@ -3377,7 +3377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6305779748921729856, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: heroID
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6562621872816501401, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: m_Pivot.x
@@ -6555,6 +6555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dde6965be317644e920031c05caf421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nowShowing: 32
   title: {fileID: 1439866304}
   strongAgainst:
   - {fileID: 1717438264}
@@ -8468,6 +8469,10 @@ PrefabInstance:
       value: PickHeroBTN_01
       objectReference: {fileID: 0}
     - target: {fileID: 5460395411379333929, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460395411379333929, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -8852,7 +8857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6305779748921729856, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: heroID
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6562621872816501401, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: m_Pivot.x
@@ -11308,6 +11313,10 @@ PrefabInstance:
     - target: {fileID: 6305779748921729856, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: heroID
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354748643915057098, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6562621872816501401, guid: f2fdcd10cb8a73b4f8c18681b30518ac, type: 3}
       propertyPath: m_Pivot.x

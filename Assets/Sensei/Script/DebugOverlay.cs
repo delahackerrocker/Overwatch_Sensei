@@ -22,7 +22,6 @@ public class DebugOverlay : MonoBehaviour
 
     public static void Output(string message)
     {
-        //output.text += Evnironment.
         Instance.output.text = message;
     }
 }

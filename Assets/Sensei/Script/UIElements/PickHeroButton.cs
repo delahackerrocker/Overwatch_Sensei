@@ -9,16 +9,31 @@ public class PickHeroButton : MonoBehaviour
     public HERO_ID heroID;
     public Image image;
     public TextMeshProUGUI title;
+    public Button button;
 
     private void Start()
     {
-        UpdateImage(heroID);
+        button = this.gameObject.GetComponent<Button>();
+        //UpdateImage(heroID);
     }
     public void UpdateImage(HERO_ID heroID)
     {
         this.heroID = heroID;
-        image.sprite = Resources.Load<Sprite>("Heroes/Icons/" + heroID);
-        title.text = ""+heroID;
+
+        Debug.Log("PickHeroButton.UpdateImage( "+ heroID + " )");
+
+        if (heroID == HERO_ID.None)
+        {
+            button.enabled = false;
+            image.gameObject.SetActive(false);
+            title.text = "";
+        } else
+        {
+            button.enabled = true;
+            image.gameObject.SetActive(true);
+            image.sprite = Resources.Load<Sprite>("Heroes/Icons/" + heroID);
+            title.text = "" + heroID;
+        }
     }
 
     public void SelectThisHero()

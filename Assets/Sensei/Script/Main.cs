@@ -40,8 +40,8 @@ public class Main : MonoBehaviour
         heroes[(int)HERO_ID.Bastion] = new BastionHD();
         heroes[(int)HERO_ID.Brigitte] = new BrigitteHD();
         heroes[(int)HERO_ID.Cassidy] = new CassidyHD();
-        heroes[(int)HERO_ID.Doomfist] = new DVaHD();
-        heroes[(int)HERO_ID.DVa] = new DoomfistHD();
+        heroes[(int)HERO_ID.Doomfist] = new DoomfistHD();
+        heroes[(int)HERO_ID.DVa] = new DVaHD();
         heroes[(int)HERO_ID.Echo] = new EchoHD();
         heroes[(int)HERO_ID.Genji] = new GenjiHD();
         heroes[(int)HERO_ID.Hanzo] = new HanzoHD();
