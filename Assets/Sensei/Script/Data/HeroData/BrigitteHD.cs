@@ -15,7 +15,7 @@ public class BrigitteHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Brigitte specializes in armor. She can throw Repair Packs to heal teammates, or automatically heal nearby allies when she damages foes with her Flail. Her Flail is capable of a wide swing to strike multiple targets, or a Whip Shot that stuns an enemy at range. When entering the fray, Barrier Shield provides personal defense while she attacks enemies with Shield Bash. Brigitte’s ultimate ability, Rally, gives her a substantial short-term boost of speed and provides long-lasting armor to all her nearby allies.";
+        description = "Brigitte specializes in armor. She can throw Repair Packs to heal teammates, or automatically heal nearby allies when she damages foes with her Flail. Her Flail is capable of a wide swing to strike multiple targets, or a Whip Shot that stuns an enemy at range. When entering the fray, Barrier Shield provides personal defense while she attacks enemies with Shield Bash. Brigitte?s ultimate ability, Rally, gives her a substantial short-term boost of speed and provides long-lasting armor to all her nearby allies.";
         stars = 1;
 
         abilities = new AbilityData[7];
@@ -95,7 +95,7 @@ public class BrigitteHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "RALLY";
-        abilities[aCount].abilityDescription = "Brigitte moves faster and provides all nearby allies with armor that lasts until it’s removed by damage.";
+        abilities[aCount].abilityDescription = "Brigitte moves faster and provides all nearby allies with armor that lasts until it?s removed by damage.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Rally";
         abilities[aCount].abilityVideo = hero + "/ability-rally";
         abilities[aCount].controllerButton = ControllerButton.Y;
@@ -118,29 +118,27 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 20 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 6 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 1 second";
-        abilities[aCount].abilityDetails[++bCount] = "\nTriggered by Rocket Flail.png Rocket Flail or Whip Shot.png Whip Shot, not Shield Bash.png Shield Bash.";
+        abilities[aCount].abilityDetails[++bCount] = "\nTriggered by Rocket Flail or Whip Shot, not Shield Bash.";
         abilities[aCount].abilityDetails[++bCount] = "\nDoes not stack with itself. Instead, the duration resets.";
         abilities[aCount].abilityDetails[++bCount] = "\nDoes not heal allies behind enemy barriers or surfaces that block line of sight.";
         abilities[aCount].abilityDetails[++bCount] = "\nApplies a heal-over-time effect to allies, meaning they do not have to continuously stay in range.";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst = new HERO_ID[6];
+        strongAgainst[0] = HERO_ID.DVa;
+        strongAgainst[1] = HERO_ID.Genji;
+        strongAgainst[2] = HERO_ID.Tracer;
+        strongAgainst[3] = HERO_ID.WreckingBall;
+        strongAgainst[4] = HERO_ID.Doomfist;
+        strongAgainst[5] = HERO_ID.Reinhardt;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
+        weakAgainst[0] = HERO_ID.Ashe;
+        weakAgainst[1] = HERO_ID.Pharah;
+        weakAgainst[2] = HERO_ID.Sombra;
         weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
+        weakAgainst[4] = HERO_ID.Reaper;
+        weakAgainst[5] = HERO_ID.Torbjorn;
+        weakAgainst[6] = HERO_ID.Widowmaker;
         weakAgainst[7] = HERO_ID.Moira;
     }
 }

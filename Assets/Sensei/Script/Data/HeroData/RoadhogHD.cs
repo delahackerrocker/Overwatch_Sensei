@@ -15,7 +15,7 @@ public class RoadhogHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Roadhog uses his signature Chain Hook to pull his enemies close before shredding them with blasts from his Scrap Gun. He’s hardy enough to withstand tremendous damage, and can recover his health with a short breather.";
+        description = "Roadhog uses his signature Chain Hook to pull his enemies close before shredding them with blasts from his Scrap Gun. He?s hardy enough to withstand tremendous damage, and can recover his health with a short breather.";
         stars = 1;
 
         abilities = new AbilityData[5];
@@ -68,7 +68,7 @@ public class RoadhogHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.16 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 8 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
-        abilities[aCount].abilityDetails[++bCount] = "\nHooked targets are released if they leave Roadhog’s line of sight before being pulled.";
+        abilities[aCount].abilityDetails[++bCount] = "\nHooked targets are released if they leave Roadhog?s line of sight before being pulled.";
         abilities[aCount].abilityDetails[++bCount] = "\nApplies a short stun, which can interrupt the target's abilities.";
         abilities[aCount].abilityDetails[++bCount] = "\nThe maximum hook flight time to target is ~0.32 seconds.";
         abilities[aCount].abilityDetails[++bCount] = "\nPulls the target after hit the Hook starts after ~0.3 seconds.";
@@ -111,23 +111,20 @@ public class RoadhogHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nWhole Hog knocks back enemies at a rate of up to 14 meters per second.";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst[0] = HERO_ID.Genji;
+        strongAgainst[1] = HERO_ID.Sigma;
         strongAgainst[2] = HERO_ID.Baptiste;
         strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
+        strongAgainst[4] = HERO_ID.Soldier76;
+        strongAgainst[5] = HERO_ID.Winston;
+        strongAgainst[6] = HERO_ID.WreckingBall;
         strongAgainst[7] = HERO_ID.DVa;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[5];
+        weakAgainst[0] = HERO_ID.Ana;
+        weakAgainst[1] = HERO_ID.Reaper;
+        weakAgainst[2] = HERO_ID.Zarya;
+        weakAgainst[3] = HERO_ID.Zenyatta;
+        weakAgainst[4] = HERO_ID.Mei;
     }
 }

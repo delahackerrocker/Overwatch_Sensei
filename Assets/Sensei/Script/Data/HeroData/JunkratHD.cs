@@ -15,7 +15,7 @@ public class JunkratHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Junkrat’s area-denying armaments include a Frag Launcher that lobs bouncing grenades, Concussion Mines that send enemies flying, and Steel Traps that stop foes dead in their tracks.";
+        description = "Junkrat?s area-denying armaments include a Frag Launcher that lobs bouncing grenades, Concussion Mines that send enemies flying, and Steel Traps that stop foes dead in their tracks.";
         stars = 2;
 
         abilities = new AbilityData[5];
@@ -54,7 +54,7 @@ public class JunkratHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
         abilities[aCount].abilityDetails[++bCount] = "\nIf Junkrat throws another mine while one is already deployed the first mine will instantly and silently disappear.";
         abilities[aCount].abilityDetails[++bCount] = "\nThe mine does not deal self-damage, but still applies the knockback, making it usable as a mobility tool.";
-        abilities[aCount].abilityDetails[++bCount] = "\nJunkrat and enemies caught in the blast are knocked up 45° vertically, regardless of their position relative to the mine.";
+        abilities[aCount].abilityDetails[++bCount] = "\nJunkrat and enemies caught in the blast are knocked up 45? vertically, regardless of their position relative to the mine.";
         abilities[aCount].abilityDetails[++bCount] = "\nHorizontal knockback is away from the center of the mine.";
 
         abilities[++aCount] = new AbilityData();
@@ -109,23 +109,20 @@ public class JunkratHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nAlso causes Junkrat to not take damage from his own explosions.";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
+        strongAgainst[0] = HERO_ID.DVa;
+        strongAgainst[1] = HERO_ID.Orisa;
+        strongAgainst[2] = HERO_ID.Reaper;
         strongAgainst[3] = HERO_ID.Bastion;
         strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[5] = HERO_ID.Reinhardt;
+        strongAgainst[6] = HERO_ID.Sombra;
+        strongAgainst[7] = HERO_ID.Tracer;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
+        weakAgainst = new HERO_ID[5];
+        weakAgainst[0] = HERO_ID.Baptiste;
         weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[2] = HERO_ID.Pharah;
+        weakAgainst[3] = HERO_ID.Widowmaker;
+        weakAgainst[4] = HERO_ID.Zarya;
     }
 }

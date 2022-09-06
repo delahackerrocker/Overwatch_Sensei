@@ -21,7 +21,7 @@ public class ReinhardtHD : HeroData
         abilities = new AbilityData[6];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "ROCKET HAMMER";
-        abilities[aCount].abilityDescription = "Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.";
+        abilities[aCount].abilityDescription = "Reinhardt?s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/RocketHammer";
         abilities[aCount].abilityVideo = hero + "/ability-rocket-hammer";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -50,7 +50,7 @@ public class ReinhardtHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "CHARGE";
-        abilities[aCount].abilityDescription = "Reinhardt charges forth in a straight line, grabbing hold of enemies in his path. If he collides with a wall, foes he’s carrying suffer extreme damage.";
+        abilities[aCount].abilityDescription = "Reinhardt charges forth in a straight line, grabbing hold of enemies in his path. If he collides with a wall, foes he?s carrying suffer extreme damage.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Charge";
         abilities[aCount].abilityVideo = hero + "/ability-charge";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -112,24 +112,21 @@ public class ReinhardtHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nThe distance in which Reinhardt is knocked back is NOT reduced by 30%; it is reduced by more. This is because the velocity has to accelerate back to normal; a higher initial velocity means more time at higher velocities and more time with a velocity in general.";
         abilities[aCount].abilityDetails[++bCount] = "\nDoes not affect Halt!, Chain Hook, Graviton Surge, or Gravitic Flux because they are not knock back effects.";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
+        strongAgainst = new HERO_ID[5];
+        strongAgainst[0] = HERO_ID.Hanzo;
         strongAgainst[1] = HERO_ID.Ashe;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.Soldier76;
+        strongAgainst[4] = HERO_ID.Widowmaker;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
+        weakAgainst[0] = HERO_ID.Bastion;
+        weakAgainst[1] = HERO_ID.Doomfist;
+        weakAgainst[2] = HERO_ID.Moira;
         weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[4] = HERO_ID.Reaper;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[6] = HERO_ID.Pharah;
+        weakAgainst[7] = HERO_ID.Symmetra;
     }
 }

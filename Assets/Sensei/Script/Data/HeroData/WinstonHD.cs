@@ -15,13 +15,13 @@ public class WinstonHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Winston wields impressive inventions—a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more—with literal gorilla strength.";
+        description = "Winston wields impressive inventions?a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more?with literal gorilla strength.";
         stars = 2;
 
         abilities = new AbilityData[4];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "TESLA CANNON";
-        abilities[aCount].abilityDescription = "Winston’s weapon fires a short-range electric barrage for as long as he holds down the trigger.";
+        abilities[aCount].abilityDescription = "Winston?s weapon fires a short-range electric barrage for as long as he holds down the trigger.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/TeslaCannon";
         abilities[aCount].abilityVideo = hero + "/ability-tesla-cannon";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -36,7 +36,7 @@ public class WinstonHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "BARRIER PROJECTOR";
-        abilities[aCount].abilityDescription = "Winston’s barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it.";
+        abilities[aCount].abilityDescription = "Winston?s barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/BarrierProjector";
         abilities[aCount].abilityVideo = hero + "/ability-barrier-projector";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -86,22 +86,19 @@ public class WinstonHD : HeroData
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst[1] = HERO_ID.Genji;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.Hanzo;
+        strongAgainst[4] = HERO_ID.Sigma;
+        strongAgainst[5] = HERO_ID.Symmetra;
+        strongAgainst[6] = HERO_ID.Tracer;
+        strongAgainst[7] = HERO_ID.Widowmaker;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[5];
+        weakAgainst[0] = HERO_ID.Bastion;
+        weakAgainst[1] = HERO_ID.DVa;
+        weakAgainst[2] = HERO_ID.Reaper;
+        weakAgainst[3] = HERO_ID.Roadhog;
+        weakAgainst[4] = HERO_ID.Torbjorn;
     }
 }

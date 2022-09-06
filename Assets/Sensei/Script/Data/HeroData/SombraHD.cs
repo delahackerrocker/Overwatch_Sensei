@@ -15,18 +15,18 @@ public class SombraHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Stealth and debilitating attacks make Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra’s ability to Translocate and camouflage herself makes her a hard target to pin down.";
+        description = "Stealth and debilitating attacks make Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra?s ability to Translocate and camouflage herself makes her a hard target to pin down.";
         stars = 3;
 
         abilities = new AbilityData[6];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "MACHINE PISTOL";
-        abilities[aCount].abilityDescription = "Sombra’s fully-automatic machine pistol fires in a short-range spread.";
+        abilities[aCount].abilityDescription = "Sombra?s fully-automatic machine pistol fires in a short-range spread.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/MachinePistol";
         abilities[aCount].abilityVideo = hero + "/ability-machine-pistol";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 2.4–8";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 2.4?8";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 15 to 35 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Max: 2.4 degrees";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 20 rounds per second";
@@ -51,7 +51,7 @@ public class SombraHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "TRANSLOCATOR";
-        abilities[aCount].abilityDescription = "Sombra tosses out a translocator beacon. She can instantly return to the beacon’s location while it is active (including when it’s in mid-flight).";
+        abilities[aCount].abilityDescription = "Sombra tosses out a translocator beacon. She can instantly return to the beacon?s location while it is active (including when it?s in mid-flight).";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Translocator";
         abilities[aCount].abilityVideo = hero + "/ability-translocator";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -78,10 +78,10 @@ public class SombraHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Enemies & B.O.B.: 5 seconds\n           Health Packs: 60 seconds\n           Other: 10 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 8 seconds\n           4 seconds(Health Pack)\n           2 seconds(broken)";
         abilities[aCount].abilityDetails[++bCount] = "\nTaking damage interrupts Hack and it will go on a 2 second cooldown. If Hack is interrupted without taking any damage, it does not go on cooldown.";
-        abilities[aCount].abilityDetails[++bCount] = "\nHacked enemies cannot activate their abilities. For passive abilities, Hack only disables the ones that require a button to press. For transformations, Hack cancels transformations from normal abilities, but not from ultimate abilities. Hack also turns off Lúcio's song and disables Sigma's barrier. Hack does not affect weapons.";
+        abilities[aCount].abilityDetails[++bCount] = "\nHacked enemies cannot activate their abilities. For passive abilities, Hack only disables the ones that require a button to press. For transformations, Hack cancels transformations from normal abilities, but not from ultimate abilities. Hack also turns off L?cio's song and disables Sigma's barrier. Hack does not affect weapons.";
         abilities[aCount].abilityDetails[++bCount] = "\nHacked enemies have their health bar revealed to Sombra's team for 20 seconds. If their ultimate ability is ready, an icon appears on top to show this.";
-        abilities[aCount].abilityDetails[++bCount] = "\nHacked Health Packs respawn four times faster—2.5 seconds for small Health Packs, 3.75 seconds for mega Health Packs—and can be seen through walls to all allies within 30 meters. Hacked Health Packs cannot be used by the enemy team.";
-        abilities[aCount].abilityDetails[++bCount] = "\nHack can also target the following: Ashe's B.O.B., Baptiste's Immortality Field, Orisa's Supercharger, and Torbjörn's turret. With the exception of B.O.B., they are disabled for 10 seconds. Sombra cannot hack Symmetra's Sentry Turrets or teleporter normally, only with the use of EMP";
+        abilities[aCount].abilityDetails[++bCount] = "\nHacked Health Packs respawn four times faster?2.5 seconds for small Health Packs, 3.75 seconds for mega Health Packs?and can be seen through walls to all allies within 30 meters. Hacked Health Packs cannot be used by the enemy team.";
+        abilities[aCount].abilityDetails[++bCount] = "\nHack can also target the following: Ashe's B.O.B., Baptiste's Immortality Field, Orisa's Supercharger, and Torbj?rn's turret. With the exception of B.O.B., they are disabled for 10 seconds. Sombra cannot hack Symmetra's Sentry Turrets or teleporter normally, only with the use of EMP";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "EMP";
@@ -114,23 +114,22 @@ public class SombraHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nReveals enemy health bars that are below 100% to Sombra only, without requiring Sombra to have dealt any damage to them.";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst[0] = HERO_ID.Doomfist;
+        strongAgainst[1] = HERO_ID.Lucio;
         strongAgainst[2] = HERO_ID.Baptiste;
         strongAgainst[3] = HERO_ID.Bastion;
         strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
+        strongAgainst[5] = HERO_ID.Zenyatta;
+        strongAgainst[6] = HERO_ID.Tracer;
         strongAgainst[7] = HERO_ID.DVa;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
+        weakAgainst = new HERO_ID[7];
+        weakAgainst[0] = HERO_ID.Roadhog;
+        weakAgainst[1] = HERO_ID.Reaper;
         weakAgainst[2] = HERO_ID.Hanzo;
         weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[4] = HERO_ID.Cassidy;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[6] = HERO_ID.Winston;
     }
 }

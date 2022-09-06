@@ -15,13 +15,13 @@ public class MeiHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Mei’s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall.";
+        description = "Mei?s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall.";
         stars = 3;
 
         abilities = new AbilityData[5];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "ENDOTHERMIC BLASTER";
-        abilities[aCount].abilityDescription = "Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.";
+        abilities[aCount].abilityDescription = "Mei?s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/EndothermicBlaster";
         abilities[aCount].abilityVideo = hero + "/ability-endothermic-blaster";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -109,23 +109,19 @@ public class MeiHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nPierces barriers, payloads, and Ice Wall.";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst[0] = HERO_ID.Genji;
+        strongAgainst[1] = HERO_ID.Reinhardt;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
+        strongAgainst[3] = HERO_ID.Roadhog;
+        strongAgainst[4] = HERO_ID.Sigma;
+        strongAgainst[5] = HERO_ID.Sombra;
+        strongAgainst[6] = HERO_ID.Zenyatta;
         strongAgainst[7] = HERO_ID.DVa;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[4];
+        weakAgainst[0] = HERO_ID.Orisa;
+        weakAgainst[1] = HERO_ID.Pharah;
+        weakAgainst[2] = HERO_ID.Widowmaker;
+        weakAgainst[3] = HERO_ID.Zarya;
     }
 }

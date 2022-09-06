@@ -15,7 +15,7 @@ public class SigmaHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Sigma is an eccentric astrophysicist and volatile tank who gained the power to control gravity in an orbital experiment gone wrong. Manipulated by Talon and deployed as a living weapon, Sigma’s presence on the battlefield cannot be ignored.";
+        description = "Sigma is an eccentric astrophysicist and volatile tank who gained the power to control gravity in an orbital experiment gone wrong. Manipulated by Talon and deployed as a living weapon, Sigma?s presence on the battlefield cannot be ignored.";
         stars = 3;
 
         abilities = new AbilityData[5];
@@ -113,24 +113,23 @@ public class SigmaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nThe slam deals 50% of the maximum HP, which is increased by temporary HP gained from abilities such as Rally.";
         abilities[aCount].abilityDetails[++bCount] = "\nThe lift can be damage boosted but not the slam.";
 
-        strongAgainst = new HERO_ID[8];
+        strongAgainst = new HERO_ID[7];
         strongAgainst[0] = HERO_ID.Ana;
         strongAgainst[1] = HERO_ID.Ashe;
         strongAgainst[2] = HERO_ID.Baptiste;
         strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
+        strongAgainst[4] = HERO_ID.Soldier76;
         strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[6] = HERO_ID.Widowmaker;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[0] = HERO_ID.DVa;
+        weakAgainst[1] = HERO_ID.Doomfist;
+        weakAgainst[2] = HERO_ID.Reaper;
+        weakAgainst[3] = HERO_ID.Symmetra;
+        weakAgainst[4] = HERO_ID.Winston;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[6] = HERO_ID.Roadhog;
+        weakAgainst[7] = HERO_ID.Zarya;
     }
 }

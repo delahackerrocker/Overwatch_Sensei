@@ -15,7 +15,7 @@ public class HanzoHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Hanzo’s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.";
+        description = "Hanzo?s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.";
         stars = 3;
 
         abilities = new AbilityData[6];
@@ -39,7 +39,7 @@ public class HanzoHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "STORM ARROWS";
-        abilities[aCount].abilityDescription = "Hanzo’s next several arrows fire instantly, but at reduced damage. These arrows can ricochet once.";
+        abilities[aCount].abilityDescription = "Hanzo?s next several arrows fire instantly, but at reduced damage. These arrows can ricochet once.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/StormArrows";
         abilities[aCount].abilityVideo = hero + "/ability-storm-arrows";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
@@ -109,24 +109,21 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> Up to 4 meter vertical climb";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 1 second";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
+        strongAgainst = new HERO_ID[7];
+        strongAgainst[0] = HERO_ID.Bastion;
         strongAgainst[1] = HERO_ID.Ashe;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.Orisa;
+        strongAgainst[4] = HERO_ID.Reaper;
+        strongAgainst[5] = HERO_ID.Sombra;
+        strongAgainst[6] = HERO_ID.Torbjorn;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
+        weakAgainst = new HERO_ID[6];
+        weakAgainst[0] = HERO_ID.DVa;
         weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[2] = HERO_ID.Tracer;
+        weakAgainst[3] = HERO_ID.Reinhardt;
+        weakAgainst[4] = HERO_ID.Widowmaker;
+        weakAgainst[5] = HERO_ID.Winston;
     }
 }

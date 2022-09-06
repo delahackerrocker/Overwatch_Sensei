@@ -21,7 +21,7 @@ public class SymmetraHD : HeroData
         abilities = new AbilityData[5];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "PHOTON PROJECTOR";
-        abilities[aCount].abilityDescription = "Symmetra’s weapon emits a ranged beam. It deals continuous damage that increases the longer it is connected.";
+        abilities[aCount].abilityDescription = "Symmetra?s weapon emits a ranged beam. It deals continuous damage that increases the longer it is connected.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Symmetra";
         abilities[aCount].abilityVideo = hero + "/ability-photon-projector";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -60,7 +60,7 @@ public class SymmetraHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "TELEPORTER";
-        abilities[aCount].abilityDescription = "Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly.";
+        abilities[aCount].abilityDescription = "Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat?s RIP-Tire) can travel from the entry pad to the exit pad instantly.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Teleporter";
         abilities[aCount].abilityVideo = hero + "/ability-teleporter";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -110,30 +110,23 @@ public class SymmetraHD : HeroData
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 4000";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 25 meters";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> Entire map (~484 m × 50 m)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> Entire map (~484 m ? 50 m)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 12 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 1680 points";
         abilities[aCount].abilityDetails[++bCount] = "\nCan be placed from anywhere (including from the spawn room), since it covers the entire map.";
         abilities[aCount].abilityDetails[++bCount] = "\nOrientation can be changed by pressing the Ultimate key again (like Mei's Ice Wall).";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst = new HERO_ID[4];
+        strongAgainst[0] = HERO_ID.Orisa;
+        strongAgainst[1] = HERO_ID.Reinhardt;
+        strongAgainst[2] = HERO_ID.Sigma;
+        strongAgainst[3] = HERO_ID.Brigitte;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[5];
+        weakAgainst[0] = HERO_ID.Cassidy;
+        weakAgainst[1] = HERO_ID.Pharah;
+        weakAgainst[2] = HERO_ID.Widowmaker;
+        weakAgainst[3] = HERO_ID.Winston;
+        weakAgainst[4] = HERO_ID.Sombra;
     }
 }

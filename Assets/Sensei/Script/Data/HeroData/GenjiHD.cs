@@ -117,21 +117,21 @@ public class GenjiHD : HeroData
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;
         strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
+        strongAgainst[2] = HERO_ID.Hanzo;
         strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[4] = HERO_ID.Junkrat;
+        strongAgainst[5] = HERO_ID.Orisa;
+        strongAgainst[6] = HERO_ID.Torbjorn;
+        strongAgainst[7] = HERO_ID.Zenyatta;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[0] = HERO_ID.Brigitte;
+        weakAgainst[1] = HERO_ID.Pharah;
+        weakAgainst[2] = HERO_ID.Moira;
+        weakAgainst[3] = HERO_ID.Doomfist;
+        weakAgainst[4] = HERO_ID.Winston;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
+        weakAgainst[6] = HERO_ID.Zarya;
         weakAgainst[7] = HERO_ID.Moira;
     }
 }

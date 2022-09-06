@@ -37,7 +37,7 @@ public class CassidyHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "FAN THE HAMMER";
-        abilities[aCount].abilityDescription = "Cassidy can fan the Peacekeeper’s hammer to swiftly unload the entire cylinder.";
+        abilities[aCount].abilityDescription = "Cassidy can fan the Peacekeeper?s hammer to swiftly unload the entire cylinder.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/PeaceKeeper";
         abilities[aCount].abilityVideo = hero + "/ability-peacekeeper";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
@@ -54,7 +54,7 @@ public class CassidyHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "COMBAT ROLL";
-        abilities[aCount].abilityDescription = "Cassidy dives in the direction he’s moving, effortlessly reloading his Peacekeeper in the process.";
+        abilities[aCount].abilityDescription = "Cassidy dives in the direction he?s moving, effortlessly reloading his Peacekeeper in the process.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/CombatRoll";
         abilities[aCount].abilityVideo = hero + "/ability-combat-roll";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -86,7 +86,7 @@ public class CassidyHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "DEADEYE";
-        abilities[aCount].abilityDescription = "Focus. Mark. Draw. Cassidy takes a few precious moments to aim; when he’s ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he’ll line up a killshot.";
+        abilities[aCount].abilityDescription = "Focus. Mark. Draw. Cassidy takes a few precious moments to aim; when he?s ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he?ll line up a killshot.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/DeadEye";
         abilities[aCount].abilityVideo = hero + "/ability-deadeye";
         abilities[aCount].controllerButton = ControllerButton.Y;
@@ -105,23 +105,22 @@ public class CassidyHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nIf the accumulated damage is above an enemy's health, a skull will appear.";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
+        strongAgainst[0] = HERO_ID.Symmetra;
+        strongAgainst[1] = HERO_ID.Sombra;
+        strongAgainst[2] = HERO_ID.Reaper;
+        strongAgainst[3] = HERO_ID.Pharah;
+        strongAgainst[4] = HERO_ID.Moira;
+        strongAgainst[5] = HERO_ID.Mercy;
         strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[7] = HERO_ID.Lucio;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[7];
+        weakAgainst[0] = HERO_ID.DVa;
+        weakAgainst[1] = HERO_ID.Roadhog;
+        weakAgainst[2] = HERO_ID.Widowmaker;
+        weakAgainst[3] = HERO_ID.Ashe;
+        weakAgainst[4] = HERO_ID.Winston;
+        weakAgainst[5] = HERO_ID.Baptiste;
+        weakAgainst[6] = HERO_ID.Ana;
     }
 }

@@ -21,7 +21,7 @@ public class OrisaHD : HeroData
         abilities = new AbilityData[5];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "FUSION DRIVER";
-        abilities[aCount].abilityDescription = "Orisa’s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.";
+        abilities[aCount].abilityDescription = "Orisa?s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/FusionDriver";
         abilities[aCount].abilityVideo = hero + "/ability-fusion-driver";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -109,24 +109,21 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nCan be Ability Sombra Hack.png hacked by Sombra, which disables it for 10 seconds.";
         abilities[aCount].abilityDetails[++bCount] = "\nThe Supercharger projectile experiences 3x normal gravity (60 meters per second squared)";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst = new HERO_ID[6];
+        strongAgainst[0] = HERO_ID.Mei;
+        strongAgainst[1] = HERO_ID.Soldier76;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.Doomfist;
+        strongAgainst[4] = HERO_ID.Torbjorn;
+        strongAgainst[5] = HERO_ID.Widowmaker;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
+        weakAgainst = new HERO_ID[7];
+        weakAgainst[0] = HERO_ID.Moira;
         weakAgainst[1] = HERO_ID.Genji;
         weakAgainst[2] = HERO_ID.Hanzo;
         weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[4] = HERO_ID.Reaper;
+        weakAgainst[5] = HERO_ID.Symmetra;
+        weakAgainst[6] = HERO_ID.Tracer;
     }
 }

@@ -15,13 +15,13 @@ public class Soldier76HD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Armed with cutting-edge weaponry, including an experimental pulse rifle that’s capable of firing spirals of high-powered Helix Rockets, Soldier: 76 has the speed and support know-how of a highly trained warrior.";
+        description = "Armed with cutting-edge weaponry, including an experimental pulse rifle that?s capable of firing spirals of high-powered Helix Rockets, Soldier: 76 has the speed and support know-how of a highly trained warrior.";
         stars = 1;
 
         abilities = new AbilityData[5];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "HEAVY PULSE RIFLE";
-        abilities[aCount].abilityDescription = "Soldier: 76’s rifle remains particularly steady while unloading fully-automatic pulse fire.";
+        abilities[aCount].abilityDescription = "Soldier: 76?s rifle remains particularly steady while unloading fully-automatic pulse fire.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/HeavyPulseRifle";
         abilities[aCount].abilityVideo = hero + "/ability-heavy-pulse-rifle";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -37,7 +37,7 @@ public class Soldier76HD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "HELIX ROCKETS";
-        abilities[aCount].abilityDescription = "Tiny rockets spiral out of Soldier: 76’s Pulse Rifle in a single burst. The rockets’ explosion damages enemies in a small radius.";
+        abilities[aCount].abilityDescription = "Tiny rockets spiral out of Soldier: 76?s Pulse Rifle in a single burst. The rockets? explosion damages enemies in a small radius.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/HelixRockets";
         abilities[aCount].abilityVideo = hero + "/ability-helix-rockets";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
@@ -80,7 +80,7 @@ public class Soldier76HD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "TACTICAL VISOR";
-        abilities[aCount].abilityDescription = "Soldier: 76’s pinpoint targeting visor “locks” his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target.";
+        abilities[aCount].abilityDescription = "Soldier: 76?s pinpoint targeting visor ?locks? his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/TacticalVisor";
         abilities[aCount].abilityVideo = hero + "/ability-tactical-visor";
         abilities[aCount].controllerButton = ControllerButton.Y;
@@ -97,24 +97,17 @@ public class Soldier76HD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nSoldier: 76 will only lock on to a target if their center of mass is visible and not behind an enemy barrier";
         abilities[aCount].abilityDetails[++bCount] = "\nThe aim lock does not apply to Icon-ability.helixrockets.png Helix Rockets.";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst = new HERO_ID[5];
+        strongAgainst[0] = HERO_ID.Pharah;
+        strongAgainst[1] = HERO_ID.Torbjorn;
         strongAgainst[2] = HERO_ID.Baptiste;
         strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[4] = HERO_ID.Mercy;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[4];
+        weakAgainst[0] = HERO_ID.Orisa;
+        weakAgainst[1] = HERO_ID.Reinhardt;
+        weakAgainst[2] = HERO_ID.Roadhog;
+        weakAgainst[3] = HERO_ID.Widowmaker;
     }
 }

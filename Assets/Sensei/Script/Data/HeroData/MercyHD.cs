@@ -26,7 +26,7 @@ public class MercyHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-caduceus-staff";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[9];
-        abilities[aCount].abilityDetails[bCount = 0] = "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally’s health or increase the amount of damage they deal.";
+        abilities[aCount].abilityDetails[bCount = 0] = "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally?s health or increase the amount of damage they deal.";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> +30% damage amplified";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 55 per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 15 meters";
@@ -56,7 +56,7 @@ public class MercyHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "CADUCEUS STAFF";
-        abilities[aCount].abilityDescription = "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally’s health or increase the amount of damage they deal.";
+        abilities[aCount].abilityDescription = "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally?s health or increase the amount of damage they deal.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/CaduceusStaff";
         abilities[aCount].abilityVideo = hero + "/ability-caduceus-staff";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
@@ -93,7 +93,7 @@ public class MercyHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "VALKYRIE";
-        abilities[aCount].abilityDescription = "Gain the ability to fly. Mercy’s abilities are enhanced.";
+        abilities[aCount].abilityDescription = "Gain the ability to fly. Mercy?s abilities are enhanced.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Valkyrie";
         abilities[aCount].abilityVideo = hero + "/ability-valkyrie";
         abilities[aCount].controllerButton = ControllerButton.Y;
@@ -135,24 +135,16 @@ public class MercyHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Until cancelled";
         abilities[aCount].abilityDetails[++bCount] = "\nBy holding the jump key, Mercy glides through the air.";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst = new HERO_ID[0];
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[0] = HERO_ID.Ashe;
+        weakAgainst[1] = HERO_ID.Reaper;
+        weakAgainst[2] = HERO_ID.Tracer;
+        weakAgainst[3] = HERO_ID.Sombra;
+        weakAgainst[4] = HERO_ID.Roadhog;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[6] = HERO_ID.Widowmaker;
+        weakAgainst[7] = HERO_ID.Winston;
     }
 }

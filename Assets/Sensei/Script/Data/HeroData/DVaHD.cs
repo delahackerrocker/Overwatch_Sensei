@@ -15,13 +15,13 @@ public class DVaHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "D.Va’s mech is nimble and powerful—its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.";
+        description = "D.Va?s mech is nimble and powerful?its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.";
         stars = 2;
 
         abilities = new AbilityData[8];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "FUSION CANNONS";
-        abilities[aCount].abilityDescription = "D.Va's mech is equipped with twin short-range rotating cannons. They lay down continuous, high-damage fire without needing to reload, but slow D.Va’s movement while they’re active.";
+        abilities[aCount].abilityDescription = "D.Va's mech is equipped with twin short-range rotating cannons. They lay down continuous, high-damage fire without needing to reload, but slow D.Va?s movement while they?re active.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/FusionCannons";
         abilities[aCount].abilityVideo = hero + "/ability-fusion-cannons";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -67,7 +67,7 @@ public class DVaHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "BOOSTERS";
-        abilities[aCount].abilityDescription = "D.Va’s mech launches into the air, her momentum carrying her forward. She can turn and change directions or barrel through her enemies, knocking them back.";
+        abilities[aCount].abilityDescription = "D.Va?s mech launches into the air, her momentum carrying her forward. She can turn and change directions or barrel through her enemies, knocking them back.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/Boosters";
         abilities[aCount].abilityVideo = hero + "/ability-boosters";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -150,21 +150,21 @@ public class DVaHD : HeroData
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Ana;
         strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
+        strongAgainst[2] = HERO_ID.Hanzo;
         strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[4] = HERO_ID.Mercy;
+        strongAgainst[5] = HERO_ID.Pharah;
+        strongAgainst[6] = HERO_ID.Cassidy;
+        strongAgainst[7] = HERO_ID.Moira;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
+        weakAgainst[0] = HERO_ID.Baptiste;
+        weakAgainst[1] = HERO_ID.Brigitte;
+        weakAgainst[2] = HERO_ID.Doomfist;
         weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[4] = HERO_ID.Reaper;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[6] = HERO_ID.Sombra;
+        weakAgainst[7] = HERO_ID.Zarya;
     }
 }

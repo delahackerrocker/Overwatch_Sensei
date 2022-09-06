@@ -36,7 +36,7 @@ public class WidowmakerHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "SNIPER MODE";
-        abilities[aCount].abilityDescription = "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets.";
+        abilities[aCount].abilityDescription = "Widowmaker?s versatile sniper rifle is ideal for scope-aimed shots at distant targets.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/WidowsKiss";
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
@@ -58,7 +58,7 @@ public class WidowmakerHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "VENOM MINE";
-        abilities[aCount].abilityDescription = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity.";
+        abilities[aCount].abilityDescription = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine?s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/VenomMine";
         abilities[aCount].abilityVideo = hero + "/ability-venom-mine";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -77,7 +77,7 @@ public class WidowmakerHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "GRAPPLING HOOK";
-        abilities[aCount].abilityDescription = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets.";
+        abilities[aCount].abilityDescription = "Widowmaker launches a grappling hook towards the location she?s aiming at ? when the hook connects with a scalable surface, she?s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/GrapplingHook";
         abilities[aCount].abilityVideo = hero + "/ability-grappling-hook";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
@@ -89,7 +89,7 @@ public class WidowmakerHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "INFRA-SIGHT";
-        abilities[aCount].abilityDescription = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies.";
+        abilities[aCount].abilityDescription = "Widowmaker?s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/InfraSight";
         abilities[aCount].abilityVideo = hero + "/ability-infra-sight";
         abilities[aCount].controllerButton = ControllerButton.Y;
@@ -108,17 +108,16 @@ public class WidowmakerHD : HeroData
         strongAgainst[3] = HERO_ID.Bastion;
         strongAgainst[4] = HERO_ID.Brigitte;
         strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[6] = HERO_ID.Reaper;
+        strongAgainst[7] = HERO_ID.Symmetra;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
+        weakAgainst = new HERO_ID[7];
+        weakAgainst[0] = HERO_ID.DVa;
         weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[2] = HERO_ID.Orisa;
+        weakAgainst[3] = HERO_ID.Reinhardt;
+        weakAgainst[4] = HERO_ID.Winston;
+        weakAgainst[5] = HERO_ID.WreckingBall;
+        weakAgainst[6] = HERO_ID.Sombra;
     }
 }

@@ -15,7 +15,7 @@ public class DoomfistHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Doomfist’s cybernetics make him a highly-mobile, powerful frontline fighter. In addition to dealing ranged damage with his Hand Cannon, Doomfist can slam the ground, knock enemies into the air and off balance, or charge into the fray with his Rocket Punch. When facing a tightly packed group, Doomfist leaps out of view, then crashes down to earth with a spectacular Meteor Strike.";
+        description = "Doomfist?s cybernetics make him a highly-mobile, powerful frontline fighter. In addition to dealing ranged damage with his Hand Cannon, Doomfist can slam the ground, knock enemies into the air and off balance, or charge into the fray with his Rocket Punch. When facing a tightly packed group, Doomfist leaps out of view, then crashes down to earth with a spectacular Meteor Strike.";
         stars = 3;
 
         abilities = new AbilityData[6];
@@ -137,20 +137,18 @@ public class DoomfistHD : HeroData
         strongAgainst[0] = HERO_ID.Ana;
         strongAgainst[1] = HERO_ID.Ashe;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.DVa;
+        strongAgainst[4] = HERO_ID.Genji;
+        strongAgainst[5] = HERO_ID.Reinhardt;
+        strongAgainst[6] = HERO_ID.Sigma;
+        strongAgainst[7] = HERO_ID.Zenyatta;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst = new HERO_ID[6];
+        weakAgainst[0] = HERO_ID.Cassidy;
+        weakAgainst[1] = HERO_ID.Orisa;
+        weakAgainst[2] = HERO_ID.Pharah;
+        weakAgainst[3] = HERO_ID.Reaper;
+        weakAgainst[4] = HERO_ID.Sombra;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
     }
 }

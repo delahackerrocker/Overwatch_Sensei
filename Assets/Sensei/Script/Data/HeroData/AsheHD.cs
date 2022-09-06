@@ -12,7 +12,7 @@ public class AsheHD : HeroData
         this.armor = 0;
         this.role = Role.Damage;
 
-        description = "Ashe quickly fires her rifle from the hip or uses her weapon’s aim-down sights to line up a high damage shot. She blasts enemies by throwing dynamite, and her coach gun packs enough punch to put some distance between her and her foes. And Ashe is not alone, as she can call on her omnic ally Bob, to join the fray when the need arises.";
+        description = "Ashe quickly fires her rifle from the hip or uses her weapon?s aim-down sights to line up a high damage shot. She blasts enemies by throwing dynamite, and her coach gun packs enough punch to put some distance between her and her foes. And Ashe is not alone, as she can call on her omnic ally Bob, to join the fray when the need arises.";
         stars = 2;
 
         int aCount = 0;
@@ -109,24 +109,21 @@ public class AsheHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 10 seconds (after collision)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2240 points";
 
-        strongAgainst = new HERO_ID[8];
+        strongAgainst = new HERO_ID[6];
         strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst[1] = HERO_ID.Mercy;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.Pharah;
+        strongAgainst[4] = HERO_ID.Reaper;
+        strongAgainst[5] = HERO_ID.Torbjorn;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
+        weakAgainst = new HERO_ID[7];
+        weakAgainst[0] = HERO_ID.Doomfist;
         weakAgainst[1] = HERO_ID.Genji;
         weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[3] = HERO_ID.DVa;
+        weakAgainst[4] = HERO_ID.Reinhardt;
+        weakAgainst[5] = HERO_ID.Widowmaker;
+        weakAgainst[6] = HERO_ID.WreckingBall;
     }
 }

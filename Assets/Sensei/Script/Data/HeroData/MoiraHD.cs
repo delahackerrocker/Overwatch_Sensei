@@ -15,7 +15,7 @@ public class MoiraHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Moira’s biotic abilities enable her to contribute healing or damage in any crisis. While Biotic Grasp gives Moira short-range options, her Biotic Orbs contribute longer-range, hands-off damage and healing; she can also Fade to escape groups or remain close to allies in need of support. Once she’s charged Coalescence, Moira can save multiple allies from elimination at once or finish off weakened enemies.";
+        description = "Moira?s biotic abilities enable her to contribute healing or damage in any crisis. While Biotic Grasp gives Moira short-range options, her Biotic Orbs contribute longer-range, hands-off damage and healing; she can also Fade to escape groups or remain close to allies in need of support. Once she?s charged Coalescence, Moira can save multiple allies from elimination at once or finish off weakened enemies.";
         stars = 2;
 
         abilities = new AbilityData[5];
@@ -107,24 +107,15 @@ public class MoiraHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nMoira passively recharges her biotic energy three times faster while using Coalescence.";
         abilities[aCount].abilityDetails[++bCount] = "\nPasses through enemy barriers.";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst = new HERO_ID[3];
+        strongAgainst[0] = HERO_ID.Genji;
+        strongAgainst[1] = HERO_ID.Orisa;
+        strongAgainst[2] = HERO_ID.Reinhardt;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[4];
+        weakAgainst[0] = HERO_ID.Baptiste;
+        weakAgainst[1] = HERO_ID.Ana;
+        weakAgainst[2] = HERO_ID.DVa;
+        weakAgainst[3] = HERO_ID.Cassidy;
     }
 }

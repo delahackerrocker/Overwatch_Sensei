@@ -12,7 +12,7 @@ public class AnaHD : HeroData
         this.armor = 0;
         this.role = Role.Support;
 
-        description = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.";
+        description = "Ana?s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.";
         stars = 3;
 
         int aCount;
@@ -111,23 +111,23 @@ public class AnaHD : HeroData
 
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
+        strongAgainst[0] = HERO_ID.Lucio;
+        strongAgainst[1] = HERO_ID.Moira;
         strongAgainst[2] = HERO_ID.Baptiste;
         strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[4] = HERO_ID.Pharah;
+        strongAgainst[5] = HERO_ID.Roadhog;
+        strongAgainst[6] = HERO_ID.WreckingBall;
+        strongAgainst[7] = HERO_ID.Zarya;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[0] = HERO_ID.Doomfist;
+        weakAgainst[1] = HERO_ID.DVa;
+        weakAgainst[2] = HERO_ID.Genji;
+        weakAgainst[3] = HERO_ID.Tracer;
+        weakAgainst[4] = HERO_ID.Winston;
+        weakAgainst[5] = HERO_ID.Widowmaker;
+        weakAgainst[6] = HERO_ID.Ashe;
+        weakAgainst[7] = HERO_ID.Soldier76;
     }
 }

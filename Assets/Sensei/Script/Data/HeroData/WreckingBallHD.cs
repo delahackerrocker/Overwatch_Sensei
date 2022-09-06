@@ -15,13 +15,13 @@ public class WreckingBallHD : HeroData
         int aCount = 0;
         int bCount = 0;
 
-        description = "Wrecking Ball rolls across the battlefield, using his arsenal of weapons and his mech’s powerful body to crush his enemies.";
+        description = "Wrecking Ball rolls across the battlefield, using his arsenal of weapons and his mech?s powerful body to crush his enemies.";
         stars = 3;
 
         abilities = new AbilityData[6];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "QUAD CANNONS";
-        abilities[aCount].abilityDescription = "Wrecking Ball’s automatic assault cannons tear apart threats at medium range.";
+        abilities[aCount].abilityDescription = "Wrecking Ball?s automatic assault cannons tear apart threats at medium range.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/QuadCannons";
         abilities[aCount].abilityVideo = hero + "/ability-quad-cannons";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -54,7 +54,7 @@ public class WreckingBallHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ADAPTIVE SHIELD";
-        abilities[aCount].abilityDescription = "Wrecking Ball’s temporary personal shields absorb damage, providing stronger defenses if more opponents are nearby.";
+        abilities[aCount].abilityDescription = "Wrecking Ball?s temporary personal shields absorb damage, providing stronger defenses if more opponents are nearby.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/AdaptiveShield";
         abilities[aCount].abilityVideo = hero + "/ability-adaptive-shield";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
@@ -68,7 +68,7 @@ public class WreckingBallHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "GRAPPLING CLAW";
-        abilities[aCount].abilityDescription = "Wrecking Ball launches a grappling claw, enabling him to anchor to an area and swing from it. If he strikes an enemy with a powered-up swing, they’re damaged and knocked back.";
+        abilities[aCount].abilityDescription = "Wrecking Ball launches a grappling claw, enabling him to anchor to an area and swing from it. If he strikes an enemy with a powered-up swing, they?re damaged and knocked back.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/GrapplingClaw";
         abilities[aCount].abilityVideo = hero + "/ability-grappling-claw";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
@@ -122,24 +122,20 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nMines emit a high-pitched noise to nearby enemies.";
         abilities[aCount].abilityDetails[++bCount] = "\nWrecking Ball can regain ult charge while Minefield is deployed. However, damage from the mines does not count.";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
+        strongAgainst = new HERO_ID[4];
+        strongAgainst[0] = HERO_ID.Sigma;
         strongAgainst[1] = HERO_ID.Ashe;
         strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[3] = HERO_ID.Widowmaker;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
+        weakAgainst[0] = HERO_ID.Ana;
+        weakAgainst[1] = HERO_ID.Bastion;
+        weakAgainst[2] = HERO_ID.Brigitte;
         weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
+        weakAgainst[4] = HERO_ID.Cassidy;
         weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[6] = HERO_ID.Reaper;
+        weakAgainst[7] = HERO_ID.Sombra;
     }
 }

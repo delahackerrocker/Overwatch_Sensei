@@ -107,23 +107,23 @@ public class PharahHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nA total of 337.5 - 1125 self-damage can be dealt through the ultimate.";
 
         strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
+        strongAgainst[0] = HERO_ID.Genji;
+        strongAgainst[1] = HERO_ID.Symmetra;
+        strongAgainst[2] = HERO_ID.Reaper;
         strongAgainst[3] = HERO_ID.Bastion;
         strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
+        strongAgainst[5] = HERO_ID.Zarya;
         strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst[7] = HERO_ID.Junkrat;
 
         weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
+        weakAgainst[0] = HERO_ID.Ana;
+        weakAgainst[1] = HERO_ID.Ashe;
         weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst[3] = HERO_ID.DVa;
+        weakAgainst[4] = HERO_ID.Cassidy;
+        weakAgainst[5] = HERO_ID.Zenyatta;
+        weakAgainst[6] = HERO_ID.Widowmaker;
+        weakAgainst[7] = HERO_ID.Soldier76;
     }
 }

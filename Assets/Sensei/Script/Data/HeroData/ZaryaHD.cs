@@ -21,7 +21,7 @@ public class ZaryaHD : HeroData
         abilities = new AbilityData[6];
         abilities[aCount = 0] = new AbilityData();
         abilities[aCount].abilityName = "PARTICLE CANNON";
-        abilities[aCount].abilityDescription = "Zarya’s mighty Particle Cannon unleashes a short-range beam of destructive energy.";
+        abilities[aCount].abilityDescription = "Zarya?s mighty Particle Cannon unleashes a short-range beam of destructive energy.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/ParticleCannon";
         abilities[aCount].abilityVideo = hero + "/ability-particle-cannon";
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
@@ -69,7 +69,7 @@ public class ZaryaHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "PARTICLE BARRIER";
-        abilities[aCount].abilityDescription = "The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon’s damage and the width of its beam.";
+        abilities[aCount].abilityDescription = "The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon?s damage and the width of its beam.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/ParticleBarrier";
         abilities[aCount].abilityVideo = hero + "/ability-particle-barrier";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
@@ -86,7 +86,7 @@ public class ZaryaHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "GRAVITON SURGE";
-        abilities[aCount].abilityDescription = "Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they’re trapped.";
+        abilities[aCount].abilityDescription = "Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they?re trapped.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/GravitonSurge";
         abilities[aCount].abilityVideo = hero + "/ability-graviton-surge";
         abilities[aCount].controllerButton = ControllerButton.Y;
@@ -112,24 +112,20 @@ public class ZaryaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nThe more Energy Zarya has, the brighter she glows.";
         abilities[aCount].abilityDetails[++bCount] = "\n50% or higher is considered 'High Energy.'";
 
-        strongAgainst = new HERO_ID[8];
-        strongAgainst[0] = HERO_ID.Ana;
-        strongAgainst[1] = HERO_ID.Ashe;
-        strongAgainst[2] = HERO_ID.Baptiste;
-        strongAgainst[3] = HERO_ID.Bastion;
-        strongAgainst[4] = HERO_ID.Brigitte;
-        strongAgainst[5] = HERO_ID.Cassidy;
-        strongAgainst[6] = HERO_ID.Doomfist;
-        strongAgainst[7] = HERO_ID.DVa;
+        strongAgainst = new HERO_ID[7];
+        strongAgainst[0] = HERO_ID.DVa;
+        strongAgainst[1] = HERO_ID.Genji;
+        strongAgainst[2] = HERO_ID.Junkrat;
+        strongAgainst[3] = HERO_ID.Mei;
+        strongAgainst[4] = HERO_ID.Roadhog;
+        strongAgainst[5] = HERO_ID.Sigma;
+        strongAgainst[6] = HERO_ID.Torbjorn;
 
-        weakAgainst = new HERO_ID[8];
-        weakAgainst[0] = HERO_ID.Echo;
-        weakAgainst[1] = HERO_ID.Genji;
-        weakAgainst[2] = HERO_ID.Hanzo;
-        weakAgainst[3] = HERO_ID.Junkrat;
-        weakAgainst[4] = HERO_ID.Lucio;
-        weakAgainst[5] = HERO_ID.Mei;
-        weakAgainst[6] = HERO_ID.Mercy;
-        weakAgainst[7] = HERO_ID.Moira;
+        weakAgainst = new HERO_ID[5];
+        weakAgainst[0] = HERO_ID.Baptiste;
+        weakAgainst[1] = HERO_ID.Bastion;
+        weakAgainst[2] = HERO_ID.Pharah;
+        weakAgainst[3] = HERO_ID.Reaper;
+        weakAgainst[4] = HERO_ID.Zenyatta;
     }
 }
