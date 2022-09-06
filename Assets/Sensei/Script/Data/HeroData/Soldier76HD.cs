@@ -43,7 +43,7 @@ public class Soldier76HD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[6];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 120\n        Splash: 40 - 80\n        Self: 20 - 40";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 3 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.5 s. recovery for primary";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
@@ -95,7 +95,7 @@ public class Soldier76HD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nTactical Visor targets enemy heroes, RIP-Tire, and Immortality Field.";
         abilities[aCount].abilityDetails[++bCount] = "\nSoldier: 76 cannot headshot while Tactical Visor is active.";
         abilities[aCount].abilityDetails[++bCount] = "\nSoldier: 76 will only lock on to a target if their center of mass is visible and not behind an enemy barrier";
-        abilities[aCount].abilityDetails[++bCount] = "\nThe aim lock does not apply to Icon-ability.helixrockets.png Helix Rockets.";
+        abilities[aCount].abilityDetails[++bCount] = "\nThe aim lock does not apply to Helix Rockets.";
 
         strongAgainst = new HERO_ID[5];
         strongAgainst[0] = HERO_ID.Pharah;

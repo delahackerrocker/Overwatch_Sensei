@@ -14,13 +14,10 @@ public class PickHeroButton : MonoBehaviour
     private void Start()
     {
         button = this.gameObject.GetComponent<Button>();
-        //UpdateImage(heroID);
     }
     public void UpdateImage(HERO_ID heroID)
     {
         this.heroID = heroID;
-
-        Debug.Log("PickHeroButton.UpdateImage( "+ heroID + " )");
 
         if (heroID == HERO_ID.None)
         {
@@ -38,7 +35,7 @@ public class PickHeroButton : MonoBehaviour
 
     public void SelectThisHero()
     {
-        //HeroCounterPicks.Instance.Picked(heroID);
+        //
     }
     public void SelectThisOpponent()
     {

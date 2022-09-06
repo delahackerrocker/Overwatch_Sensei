@@ -65,7 +65,7 @@ public class WidowmakerHD : HeroData
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 1";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 115 per second\n        75 total";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 3 meter interact radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.19 s. for throw + 0.78 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 5 seconds after detonation";
@@ -82,7 +82,7 @@ public class WidowmakerHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-grappling-hook";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[4];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 20 meters per second (pulling speed)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 20 mps (pulling speed)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 20 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 12 seconds";
         abilities[aCount].abilityDetails[++bCount] = "\nGrappling Hook can be cancelled by pressing the jump key.";

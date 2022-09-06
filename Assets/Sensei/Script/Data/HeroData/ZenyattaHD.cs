@@ -28,7 +28,7 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 48";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.15 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot every 0.4 second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
@@ -44,7 +44,7 @@ public class ZenyattaHD : HeroData
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 48 per orb\n        Max 240 per volley";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second\n           1 orb per 0.524 seconds (charging)\n         0.608 seconds recovery";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 mps\n           1 orb per 0.524 seconds (charging)\n         0.608 seconds recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo Usage:</b> Up to 5 per volley";
         abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
@@ -58,7 +58,7 @@ public class ZenyattaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 30 health per second";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 40 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> One active";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 3 seconds (if out of sight)";
@@ -73,7 +73,7 @@ public class ZenyattaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[6];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> +25% damage received";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 90 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 40 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> One active";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 3 seconds (if out of sight)";
@@ -87,7 +87,7 @@ public class ZenyattaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 300 health per second";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 11 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 11 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 10 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 6 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2310 points";

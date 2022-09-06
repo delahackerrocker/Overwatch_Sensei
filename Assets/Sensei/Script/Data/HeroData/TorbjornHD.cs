@@ -27,7 +27,7 @@ public class TorbjornHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70 per shot";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 70 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 70 mps";
         abilities[aCount].abilityDetails[++bCount] = "              0.6 second recovery";
         abilities[aCount].abilityDetails[++bCount] = "              ~1.67 shots per second";
         abilities[aCount].abilityDetails[++bCount] = "              extra delay while using melee";
@@ -47,7 +47,7 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 3.75 - 12.5 per pellet\n        37.5 - 125 per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 10 to 20 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Constant: 4.15 degrees";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 120 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 120 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 10";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 0.8 second recovery\n          1.25 shots per second\n          extra delay while using meleee";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 18";
@@ -98,7 +98,7 @@ public class TorbjornHD : HeroData
         abilities[aCount].abilityDetails = new string[14];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 250";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 14 per 0.256 seconds\n        (56 per second)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 17 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 17 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 15 meters (deploying turret)\n          40 meters(attack range)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 4 rounds per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 3 seconds";
@@ -119,7 +119,7 @@ public class TorbjornHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[13];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Impact: 25\n          Pools: 160 per second, +90 against armor";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 40 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 40 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2.5 meter interact radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> ";
         abilities[aCount].abilityDetails[++bCount] = "  1 ammo per 0.144 (if holding primary)\n  1 ammo per 0.016(if spaming primary enough fast)";

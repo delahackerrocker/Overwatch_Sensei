@@ -29,7 +29,7 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 11";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Constant: 1.2 degree";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -30% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 120 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 120 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 12 rounds per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 150";
         abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 2.5 seconds";
@@ -44,7 +44,7 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "Orisa throws out a stationary barrier that can protect her and her allies from enemy fire.";
         abilities[aCount].abilityDetails[++bCount] = "<b>Health:</b> 600";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 20 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 10 seconds";
         abilities[aCount].abilityDetails[++bCount] = "Cooldown begins immediately.";
@@ -69,7 +69,7 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nOrisa takes no damage from Charge or Chain Hook.";
         abilities[aCount].abilityDetails[++bCount] = "\nOrisa can be hacked by Sombra while using Fortify, but this will not interrupt the ability.";
         abilities[aCount].abilityDetails[++bCount] = "\nAllies behind Orisa are not protected from abilities such as Earthshatter or RIP-Tire.";
-        abilities[aCount].abilityDetails[++bCount] = "\nArmor is applied after damage reduction. Attacks consisting of 16.667... or lower damage (e.g. Sombra's Ability Sombra Machine Pistol.png Machine Pistol) are reduced by 70%. Beams are reduced by 58%.";
+        abilities[aCount].abilityDetails[++bCount] = "\nArmor is applied after damage reduction. Attacks consisting of 16.667... or lower damage (e.g. Sombra's Machine Pistol) are reduced by 70%. Beams are reduced by 58%.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "HALT!";
@@ -78,8 +78,8 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-halt";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[10];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 20 meters per second (pull speed)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 20 mps (pull speed)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 5 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.1 seconds (launch)\n            0.45 seconds(activation)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.65 seconds (snare)";
@@ -98,7 +98,7 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityDetails = new string[12];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 200";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> +50% damage boost";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 7 meters per second (horizontal)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 7 mps (horizontal)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 25 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.4 seconds (spawning Supercharger projectile)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 15 seconds";
@@ -106,8 +106,8 @@ public class OrisaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nOrisa passively generates 1% Ult Charge every 3.36 seconds.";
         abilities[aCount].abilityDetails[++bCount] = "\nEnemy barriers break line of sight.";
         abilities[aCount].abilityDetails[++bCount] = "\nThe effect lingers for 1 second if line of sight is broken or if a player is out of range.";
-        abilities[aCount].abilityDetails[++bCount] = "\nCan be Ability Sombra Hack.png hacked by Sombra, which disables it for 10 seconds.";
-        abilities[aCount].abilityDetails[++bCount] = "\nThe Supercharger projectile experiences 3x normal gravity (60 meters per second squared)";
+        abilities[aCount].abilityDetails[++bCount] = "\nCan be hacked by Sombra, which disables it for 10 seconds.";
+        abilities[aCount].abilityDetails[++bCount] = "\nThe Supercharger projectile experiences 3x normal gravity (60 mps squared)";
 
         strongAgainst = new HERO_ID[6];
         strongAgainst[0] = HERO_ID.Mei;

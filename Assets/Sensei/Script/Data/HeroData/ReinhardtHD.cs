@@ -74,12 +74,12 @@ public class ReinhardtHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 100";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.496 seconds for throw + 0.620 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
         abilities[aCount].abilityDetails[++bCount] = "\nPierces barriers, enemies, and other damageable entities.";
-        abilities[aCount].abilityDetails[++bCount] = "\nThis ability can animation cancel Ability-reinhardt1.png Rocket Hammer, allowing for faster attacks.";
+        abilities[aCount].abilityDetails[++bCount] = "\nThis ability can animation cancel Rocket Hammer, allowing for faster attacks.";
         abilities[aCount].abilityDetails[++bCount] = "\nIf the center of the projectile does not touch the wall, then the projectile will not explode against the wall.";
 
         abilities[++aCount] = new AbilityData();

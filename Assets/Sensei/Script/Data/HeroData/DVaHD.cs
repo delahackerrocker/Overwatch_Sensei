@@ -28,7 +28,7 @@ public class DVaHD : HeroData
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 0.6 - 2";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 10 - 20 m";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Constant: 4.15 degrees";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> 4.15 degrees";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -40% penalty, except when using Boosters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 11 per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 0.16 seconds recovery";
@@ -43,7 +43,7 @@ public class DVaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 14";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 7 rounds per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
         abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.4 seconds";
@@ -59,9 +59,9 @@ public class DVaHD : HeroData
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Max Range:</b> 10 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.5 seconds min. duration";
-        abilities[aCount].abilityDetails[++bCount] = "         2 seconds max. duration";
+        abilities[aCount].abilityDetails[++bCount] = "                  2 seconds max. duration";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 1 second";
-        abilities[aCount].abilityDetails[++bCount] = "\nD.Va cannot use Ability-dva1.png Fusion Cannons while the ability is active.";
+        abilities[aCount].abilityDetails[++bCount] = "\nD.Va cannot use Fusion Cannons while the ability is active.";
         abilities[aCount].abilityDetails[++bCount] = "\nUses a resource meter that, after a 0.75 second delay, recharges at a rate of 16% per second.";
         abilities[aCount].abilityDetails[++bCount] = "\nTakes 7 seconds to fully recharge.";
 
@@ -76,10 +76,10 @@ public class DVaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> +118% buff";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> Up to 23.98 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.4 seconds min. duration";
-        abilities[aCount].abilityDetails[++bCount] = "         2 seconds max duration";
+        abilities[aCount].abilityDetails[++bCount] = "                2 seconds max duration";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 4 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
-        abilities[aCount].abilityDetails[++bCount] = "\nThe cooldown triggers after the Ability-dva2.png Boosters ability ends.";
+        abilities[aCount].abilityDetails[++bCount] = "\nThe cooldown triggers after the Boosters ability ends.";
         abilities[aCount].abilityDetails[++bCount] = "\nCancelled upon using quick melee.";
         abilities[aCount].abilityDetails[++bCount] = "\nDoes not affect Fusion Cannons or Micro Missiles' accuracy.";
 
@@ -91,9 +91,9 @@ public class DVaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[13];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 7 per missile";
-        abilities[aCount].abilityDetails[++bCount] = "         Splash: 1 - 4 per missile";
-        abilities[aCount].abilityDetails[++bCount] = "         Self: 1 - 4 per missile";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 40 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "              Splash: 1 - 4 per missile";
+        abilities[aCount].abilityDetails[++bCount] = "              Self: 1 - 4 per missile";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 40 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 1.5 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 11 missiles per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 18";
@@ -144,7 +144,7 @@ public class DVaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.91 seconds for damage + 0.1 for sit in mech + 2 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 319.2 points";
-        abilities[aCount].abilityDetails[++bCount] = "\nBecomes completely charged after Self-Destruct detonates, or if D.Va is Ability-mercy5.png Resurrected.";
+        abilities[aCount].abilityDetails[++bCount] = "\nBecomes completely charged after Self-Destruct detonates, or if D.Va is Resurrected.";
         abilities[aCount].abilityDetails[++bCount] = "\nAutomatically reloads the Light Gun.";
 
         strongAgainst = new HERO_ID[8];

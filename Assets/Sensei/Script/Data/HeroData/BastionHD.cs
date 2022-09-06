@@ -74,7 +74,7 @@ public class BastionHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 300";
         abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.984 seconds animation";
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
-        abilities[aCount].abilityDetails[++bCount] = "\nMakes Bastion immune to knock-back effects and Orisa's Ability Orisa Halt!.png Halt!.";
+        abilities[aCount].abilityDetails[++bCount] = "\nMakes Bastion immune to knock-back effects and Orisa's Halt!.";
         abilities[aCount].abilityDetails[++bCount] = "\nBastion has a glowing blue box on its back that can be hit for headshot damage.";
         abilities[aCount].abilityDetails[++bCount] = "\nBastion comes out of Configuration: Sentry if it is Hacked, Slept, Pinned, Hooked, or knocked down.";
 
@@ -88,7 +88,7 @@ public class BastionHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 205";
         abilities[aCount].abilityDetails[++bCount] = "         Splash: 42 - 140";
         abilities[aCount].abilityDetails[++bCount] = "         Self: 10.5 - 35 (becomes 8.4 - 28 due to Ironclad)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> infinite";

@@ -1,1 +1,5 @@
-Stealth and debilitating attacks makes Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring that they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra’s ability to Translocate and camouflage herself makes her a hard target to pin down. She lacks alternative means of dealing damage, so using Opportunist and Hack can help even the odds between Sombra and her opponents.
+<b>STRENGTH</b>
+Stealth and debilitating attacks makes Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring that they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra’s ability to Translocate and camouflage herself makes her a hard target to pin down. Her Opportunist passive will let you see injured players through walls, which can be used to great advantage.
+
+<b>WEAKNESS</b>
+She lacks alternative means of dealing damage so you'll need to choose your engagements wisely. Her Translocator can be destroyed by other players leaving her with no means of escape. She can be detected while invisible if you are too close to other enemies. She can still take full damage while invisible and doing so will reveal her.

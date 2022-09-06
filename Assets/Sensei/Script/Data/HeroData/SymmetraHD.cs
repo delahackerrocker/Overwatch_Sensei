@@ -47,7 +47,7 @@ public class SymmetraHD : HeroData
         abilities[aCount].abilityDetails = new string[12];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 120 (full charge)";
         abilities[aCount].abilityDetails[++bCount] = "                       Splash: 15-60 (full charge)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2 meter radius (explosion)";
         abilities[aCount].abilityDetails[++bCount] = "               0.5 meter radius (projectile max charge)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 9 rounds per second while charging (max. 9)";
@@ -89,7 +89,7 @@ public class SymmetraHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 30";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 40 per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> ?20% (slow)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 15 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 15 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 10 meters (turret beam)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 3 stored";
         abilities[aCount].abilityDetails[++bCount] = "     Max 3 on the field";

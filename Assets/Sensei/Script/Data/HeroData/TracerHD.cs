@@ -75,7 +75,7 @@ public class TracerHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Stick: 5\n        Explosion: 70 - 350\n        Self: 70 - 350";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 15 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 15 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 5 meter explosion radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.144 seconds for throw + 0.192 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 1 second after stick";

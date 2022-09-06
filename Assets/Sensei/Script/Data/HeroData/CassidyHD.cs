@@ -59,7 +59,7 @@ public class CassidyHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-combat-roll";
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[6];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 15 meters per second";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 15 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> ~6 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.4 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
@@ -74,7 +74,7 @@ public class CassidyHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 25";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 30 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 30 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 7 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 3 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.35 second recovery";

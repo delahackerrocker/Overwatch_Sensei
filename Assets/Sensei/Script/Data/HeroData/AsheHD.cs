@@ -81,7 +81,7 @@ public class AsheHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Explosion: 20 - 50";
         abilities[aCount].abilityDetails[++bCount] = "              Burn: 100";
         abilities[aCount].abilityDetails[++bCount] = "              Self: 50 % ";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 5 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.16 seconds for throw + 0.4 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "             2 seconds for explode after landing";
@@ -101,7 +101,7 @@ public class AsheHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "   <b>Arm cannon:</b> 112 per second,";
         abilities[aCount].abilityDetails[++bCount] = "               14 per bullet,";
         abilities[aCount].abilityDetails[++bCount] = "               1092 overall";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 15 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 15 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 70 meters (charge)";
         abilities[aCount].abilityDetails[++bCount] = "           40 meters (arm cannons)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 8 bullets per second";

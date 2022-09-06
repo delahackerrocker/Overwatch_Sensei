@@ -57,7 +57,7 @@ public class SombraHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 5";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly for throw + 0.5 s. recovery\n               instantly for teleport + 0.4 s.recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> ?";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";

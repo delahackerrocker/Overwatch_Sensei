@@ -34,7 +34,7 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 2.1 seconds animation";
         abilities[aCount].abilityDetails[++bCount] = "<b>Headshot:</b> Yes";
         abilities[aCount].abilityDetails[++bCount] = "\nFirst two shots have perfect accuracy; bullet spread reaches max at 20 shots.";
-        abilities[aCount].abilityDetails[++bCount] = "\nAutomatically reloads if Wrecking Ball is in his Roll.png Roll mode for <span seconds.";
+        abilities[aCount].abilityDetails[++bCount] = "\nAutomatically reloads if Wrecking Ball is in his Roll mode for <span seconds.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ROLL";
@@ -43,7 +43,7 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-roll";
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 10 meters per second";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 10 mps";
         abilities[aCount].abilityDetails[++bCount] = "\nAfter returning to his normal form, Wrecking Ball can shoot after 0.3 seconds.";
         abilities[aCount].abilityDetails[++bCount] = "\nCan be cast while in midair.";
         abilities[aCount].abilityDetails[++bCount] = "\nWrecking Ball's base speed is the same in all directions (i.e. he is not slower going backwards).";
@@ -93,7 +93,7 @@ public class WreckingBallHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.B;
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 20-100";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 7.07 meters per second (charging)\n            98 meters per second(downwards)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 7.07 mps (charging)\n            98 mps(downwards)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 8 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 1 second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 10 seconds";
@@ -111,7 +111,7 @@ public class WreckingBallHD : HeroData
         abilities[aCount].abilityDetails = new string[12];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 50 per mine";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 130 per mine";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 12 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 12 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 1.5 meter interact radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.1 seconds (deployment) + 0.3 s. recovery\n              1.5 seconds(mines, after landing)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 20 seconds";

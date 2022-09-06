@@ -46,7 +46,7 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 110 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 110 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.1 meters arrow radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.24 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 5";
@@ -76,7 +76,7 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-lunge";
         abilities[aCount].controllerButton = ControllerButton.A;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 15 meters per second (horizontal)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 15 mps (horizontal)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 7.85 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 5 seconds";
 
@@ -88,7 +88,7 @@ public class HanzoHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Arrow: 125\n             Dragons: 150 damage per second, per dragon\n              Up to 993.6 damage against a stationary target";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> Infinite travel distance";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1.5 seconds charging";
@@ -105,7 +105,7 @@ public class HanzoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 7.8 meters per second (vertical)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 7.8 mps (vertical)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> Up to 4 meter vertical climb";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 1 second";
 

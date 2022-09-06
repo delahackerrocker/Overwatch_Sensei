@@ -28,7 +28,7 @@ public class JunkratHD : HeroData
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 120\n               Splash: 10 - 80";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters (projectile size)\n                      2 meters(splash radius)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.64 seconds\n                    extra delay while using meleee";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 5";
@@ -45,7 +45,7 @@ public class JunkratHD : HeroData
         abilities[aCount].abilityDetails = new string[13];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 25";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 30-120";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 3 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 2 charges";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.128 second for throw + 0.112 s. recovery for detonation";
@@ -66,7 +66,7 @@ public class JunkratHD : HeroData
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 100";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 80";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 10 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 10 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 1 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.33 s recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 3 seconds root";
@@ -85,7 +85,7 @@ public class JunkratHD : HeroData
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 100";
         abilities[aCount].abilityDetails[++bCount] = "<b>Damage:</b> 50 - 600";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> Junkrat: Immobilized\n           Tire: 12 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> Junkrat: Immobilized\n           Tire: 12 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 10 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 1.536 seconds + recovery 0.08 s.";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 10 seconds + recovery 0.9 s.";

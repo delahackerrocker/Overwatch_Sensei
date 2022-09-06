@@ -28,7 +28,7 @@ public class PharahHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 120\n              Explosion: ~24.6 - 80\n              Self: ~12.3 - 40";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 35 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 35 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2.5 meter radius (explosion)\n             0.2 meter radius(projectile)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.85 seconds\n             extra delay while using meleee";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 6";
@@ -43,7 +43,7 @@ public class PharahHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.A;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> +20% buff\n          4.27 meters per second (vertically)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> +20% buff\n          4.27 mps (vertically)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 2 seconds";
         abilities[aCount].abilityDetails[++bCount] = "\nActivated by holding jump button while in the air, or alt-fire button.";
         abilities[aCount].abilityDetails[++bCount] = "\nAllows Pharah to gain height when held. When held for 2 seconds, Pharah gains more than 8 meters vertical height.";
@@ -59,7 +59,7 @@ public class PharahHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Knockback";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 8 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.16 seconds for throw + 0.5 seconds recovery for shoot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 9 seconds";
@@ -94,7 +94,7 @@ public class PharahHD : HeroData
         abilities[aCount].abilityDetails = new string[13];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Direct hit: 40\n       Splash: 9 - 30\n       Self: 4.5 - 15";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> Caster immobilized";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 45 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 45 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2 meter explosion radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 30 rockets per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 2.5 seconds";

@@ -42,7 +42,7 @@ public class ZaryaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Enemy: 9.4-47 (at 0%)\n        Enemy: 19 - 95(at 100 %)\n        Self: 4.7 - 23.5(at 0 %)\n        Self: 9.5 - 47.5(at 100 %)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2.5 meter radius (explosion)\n              0.2 meter radius(projectile)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 100";
@@ -64,7 +64,7 @@ public class ZaryaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 2 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 8 seconds";
         abilities[aCount].abilityDetails[++bCount] = "\nProjected Barrier behaves identically to Particle Barrier. For more ability details, see Particle Barrier.";
-        abilities[aCount].abilityDetails[++bCount] = "\nAlthough the barrier prevents the target from being Ability Sombra Hack.png hacked, slept, or stunned in the first place, it does not interrupt those effects once already applied.";
+        abilities[aCount].abilityDetails[++bCount] = "\nAlthough the barrier prevents the target from being hacked, slept, or stunned in the first place, it does not interrupt those effects once already applied.";
         abilities[aCount].abilityDetails[++bCount] = "\nProjected Barrier unfreezes frozen targets.";
 
         abilities[++aCount] = new AbilityData();
@@ -80,7 +80,7 @@ public class ZaryaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 10 seconds";
         abilities[aCount].abilityDetails[++bCount] = "\nZarya gains 0.2% Energy per damage blocked by the barrier, or 1% Energy per 5 damage blocked.";
         abilities[aCount].abilityDetails[++bCount] = "\nThe barrier cleanses Zarya of most status and damage over time effects.";
-        abilities[aCount].abilityDetails[++bCount] = "\nWhile the barrier is up, Zarya is immune to all damage and most Crowd Control effects, even if the attack pierces barriers such as Rocket punch.png Rocket Punch.";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhile the barrier is up, Zarya is immune to all damage and most Crowd Control effects, even if the attack pierces barriers such as Rocket Punch.";
         abilities[aCount].abilityDetails[++bCount] = "\nDoes not protect Zarya from knockback.";
         abilities[aCount].abilityDetails[++bCount] = "\nEven if the barrier is destroyed, it will protect Zarya from the attack.";
 
@@ -92,12 +92,12 @@ public class ZaryaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Impact: 5\n        Damage over time: 5 per second, up to 18.72";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 25 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 6 meter radius (gravity)\n              0.2 meter radius(projectile)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.4 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 4 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ultimate Cost:</b> 2100 points";
-        abilities[aCount].abilityDetails[++bCount] = "\nMost movement abilities are disabled within the effect of Graviton Surge.\n - Exceptions: Reaper's Ability-reaper2.png Wraith Form and Moira's Ability Moira Fade.png Fade.";
+        abilities[aCount].abilityDetails[++bCount] = "\nMost movement abilities are disabled within the effect of Graviton Surge.\n - Exceptions: Reaper's Wraith Form and Moira's Fade.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "ENERGY";

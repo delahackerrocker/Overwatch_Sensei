@@ -30,7 +30,7 @@ public class DoomfistHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "           19.8 - 66 per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 15 meters to 30 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Constant: 2.15 degrees";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 11 per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.32 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 4";
@@ -47,7 +47,7 @@ public class DoomfistHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 25 - 125";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 25 meters per second (diagonal)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 25 mps (diagonal)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 15 meters (travel distance)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 8 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
@@ -63,7 +63,7 @@ public class DoomfistHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 50";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 10 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 10 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 5 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.35 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.6 seconds (air lock)";
@@ -82,7 +82,7 @@ public class DoomfistHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 50 - 100 (punch)";
         abilities[aCount].abilityDetails[++bCount] = "          50 - 150 (wall impact)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -50% penalty (charging)";
-        abilities[aCount].abilityDetails[++bCount] = "            45 meters per second (punch)";
+        abilities[aCount].abilityDetails[++bCount] = "            45 mps (punch)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> ~6.4 to 20 meters (depending on charge)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.192 min. charge time";
         abilities[aCount].abilityDetails[++bCount] = "               1.4 seconds to fully charge";
@@ -106,7 +106,7 @@ public class DoomfistHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Inner ring: 300";
         abilities[aCount].abilityDetails[++bCount] = "                      Outer ring: 15-200";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 2-8 meters";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 16.5 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 16.5 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> Inner ring: 2 meters";
         abilities[aCount].abilityDetails[++bCount] = "               Outer ring: 6 meters";
         abilities[aCount].abilityDetails[++bCount] = "               Overall radius: 8 meters";

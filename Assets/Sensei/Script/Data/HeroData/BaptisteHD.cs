@@ -44,7 +44,7 @@ public class BaptisteHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftTrigger;
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 70 (direct hit) 50(explosion)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 3 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.9 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 10";
@@ -80,7 +80,7 @@ public class BaptisteHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 150";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> Any deficit from 10% HP";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 6.5 meter radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.8 second cast animation";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 5 seconds (generator)";

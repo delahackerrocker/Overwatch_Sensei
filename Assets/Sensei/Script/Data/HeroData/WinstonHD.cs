@@ -55,7 +55,7 @@ public class WinstonHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[6];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Jumping: 1\n        Landing: 1 - 50";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 30 meters per second (initial)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 30 mps (initial)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 18 - 22 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 5 meter radius (landing damage)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds\n         2 seconds during Primal Rage";
@@ -63,7 +63,7 @@ public class WinstonHD : HeroData
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "PRIMAL RAGE";
-        abilities[aCount].abilityDescription = "Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Ability-winston2.png Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.";
+        abilities[aCount].abilityDescription = "Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.";
         abilities[aCount].abilityIcon = "Heroes/AbilityIcons/" + hero + "/PrimalRage";
         abilities[aCount].abilityVideo = hero + "/ability-primal-rage";
         abilities[aCount].controllerButton = ControllerButton.Y;

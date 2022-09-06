@@ -45,7 +45,7 @@ public class MercyHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 20";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.25 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 5 rounds per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
@@ -112,7 +112,7 @@ public class MercyHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nCaduceus Staff's beam branches out from the beam target to nearby allies within line of sight (of the beam target).";
         abilities[aCount].abilityDetails[++bCount] = "\nMercy gains vision of enemy health bars if they have taken damage (even if Mercy did not deal the damage herself).";
         abilities[aCount].abilityDetails[++bCount] = "\nHolding Jump causes Mercy to rise while holding Crouch causes her to descend.";
-        abilities[aCount].abilityDetails[++bCount] = "\nVertical and horizontal speed are related. You can't have 9.0 meters per second of horizontal and vertical speed in same time.";
+        abilities[aCount].abilityDetails[++bCount] = "\nVertical and horizontal speed are related. You can't have 9.0 mps of horizontal and vertical speed in same time.";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "REGENERATION";

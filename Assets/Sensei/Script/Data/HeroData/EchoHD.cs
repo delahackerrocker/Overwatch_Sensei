@@ -28,7 +28,7 @@ public class EchoHD : HeroData
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 17 per pellet";
         abilities[aCount].abilityDetails[++bCount] = "          51 per shot";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 75 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 75 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 3";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 0.3 second recovery";
         abilities[aCount].abilityDetails[++bCount] = "             (3 shots per second)";
@@ -47,7 +47,7 @@ public class EchoHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "          Impact: 5";
         abilities[aCount].abilityDetails[++bCount] = "          Explosion: 25";
         abilities[aCount].abilityDetails[++bCount] = "          Self: 12.5";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2 meter explosion radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 bomb per 0.064 seconds + 0.3 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 1 second (after stick)";
@@ -79,13 +79,13 @@ public class EchoHD : HeroData
         abilities[aCount].abilityVideo = hero + "/ability-flight";
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[7];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 8 meters per second";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 8 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.2 seconds min. duration";
         abilities[aCount].abilityDetails[++bCount] = "         3 seconds max. duration";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 6 seconds";
         abilities[aCount].abilityDetails[++bCount] = "\nCan be manually cancelled by pressing the button again.";
         abilities[aCount].abilityDetails[++bCount] = "\nHolding jump causes Echo to rise, while holding crouch causes her to descend.";
-        abilities[aCount].abilityDetails[++bCount] = "\nWhen used, it adds to the speed of ~27 meters per second, after which it begins to sharply reduce the speed until it drops to 8 (~0.5 second).";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhen used, it adds to the speed of ~27 mps, after which it begins to sharply reduce the speed until it drops to 8 (~0.5 second).";
 
         abilities[++aCount] = new AbilityData();
         abilities[aCount].abilityName = "DUPLICATE";

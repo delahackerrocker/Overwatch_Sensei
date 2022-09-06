@@ -29,7 +29,7 @@ public class AnaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 70 over 0.576 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move Speed:</b> -65% penalty (scoped)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 125 meters per second (unscoped)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 125 mps (unscoped)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot every 0.8 seconds 1.25 shots per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 12";
@@ -49,7 +49,7 @@ public class AnaHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 70 over 0.576 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move Speed:</b> -65% penalty (scoped)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 125 meters per second (unscoped)";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 125 mps (unscoped)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot every 0.8 seconds 1.25 shots per second";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 12";
@@ -68,7 +68,7 @@ public class AnaHD : HeroData
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 5";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.2 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.308 seconds for throw + 0.67 second recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 1.5 - 5 seconds";
@@ -85,7 +85,7 @@ public class AnaHD : HeroData
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 60";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 100";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 30 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 30 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.67 second recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 4 seconds";

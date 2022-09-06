@@ -69,7 +69,7 @@ public class BrigitteHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[6];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Healing:</b> 110 over 2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 45 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 45 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 30 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 3";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 2 seconds";
@@ -84,7 +84,7 @@ public class BrigitteHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -50% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 20 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.5 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.2 seconds startup";

@@ -28,7 +28,7 @@ public class MeiHD : HeroData
         abilities[aCount].abilityDetails = new string[12];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 55 per second\n               2.75 per round";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -20% at first, then -2.85% per tick (max. -70%)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 10 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 120";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo Usage:</b> 20 rounds per second";
@@ -48,7 +48,7 @@ public class MeiHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 75";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 115 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 115 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 shot per 0.8 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 120";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo Usage:</b> 10 per shot";
@@ -98,7 +98,7 @@ public class MeiHD : HeroData
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 20 per second\n               Up to 85 over the duration";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -50% at first, then -20% per second (max. -70%)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 10 meters radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.5 seconds (throw)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 4.25 seconds";

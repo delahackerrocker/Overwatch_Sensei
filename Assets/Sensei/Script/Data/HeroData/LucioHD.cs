@@ -28,7 +28,7 @@ public class LucioHD : HeroData
         abilities[aCount].abilityDetails = new string[7];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 4-round-burst\n               20 per round";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 1 burst per 0.92 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 20";
         abilities[aCount].abilityDetails[++bCount] = "<b>Reload Time:</b> 1.5 seconds animation";
@@ -104,7 +104,7 @@ public class LucioHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.A;
         abilities[aCount].abilityDetails = new string[8];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> +30% buff +2.5 meters per second (wall leap)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> +30% buff +2.5 mps (wall leap)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.5 s. recovery for reuse";
         abilities[aCount].abilityDetails[++bCount] = "\nIf Wall Jump On Release is enabled, then while on a wall, you can press crouch to fall off it without making a jump.";
         abilities[aCount].abilityDetails[++bCount] = "\nTo start a Wall Ride, jump at a nearby wall and hold the Jump key. L?cio will Wall Ride as long as it is held.";

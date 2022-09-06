@@ -28,7 +28,7 @@ public class GenjiHD : HeroData
         abilities[aCount].abilityDetails = new string[9];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 29";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Pinpoint";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.1 meters shiruken radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 3 shurikens per 0.88 seconds";
         abilities[aCount].abilityDetails[++bCount] = "             extra delay while using meleee";
@@ -45,7 +45,7 @@ public class GenjiHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 29";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> 9";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 60 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.1 meters shiruken radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 3 shurikens per 0.68 second";
         abilities[aCount].abilityDetails[++bCount] = "             extra delay while using meleee";
@@ -77,7 +77,7 @@ public class GenjiHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.LeftBumper;
         abilities[aCount].abilityDetails = new string[8];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 50";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 15 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 0.4 seconds";
         abilities[aCount].abilityDetails[++bCount] = "<b>Cooldown:</b> 8 seconds";
@@ -110,7 +110,7 @@ public class GenjiHD : HeroData
         abilities[aCount].abilityVideo = hero + "/intro-video";
         abilities[aCount].controllerButton = ControllerButton.Passive;
         abilities[aCount].abilityDetails = new string[3];
-        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 7.8 meters per second (vertical)";
+        abilities[aCount].abilityDetails[bCount = 0] = "<b>Move. Speed:</b> 7.8 mps (vertical)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> Up to 1 second";
         abilities[aCount].abilityDetails[++bCount] = "\nDouble jumping doesn't reset on wall climbing.";
 

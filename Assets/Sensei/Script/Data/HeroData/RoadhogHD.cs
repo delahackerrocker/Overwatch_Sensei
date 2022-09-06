@@ -29,7 +29,7 @@ public class RoadhogHD : HeroData
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 1.98 - 6.6 per pellet\n        49.5 - 165 per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 15 to 30 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Spread Angle:</b> Constant: 20.1 degrees";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> 25 pellets per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 0.85 second recovery\n          ~1.18 shots per second\n          extra 0.5 if used melee";
         abilities[aCount].abilityDetails[++bCount] = "<b>Ammo:</b> 5";
@@ -45,7 +45,7 @@ public class RoadhogHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> Pre-detonation: 50\n        Post - detonation: 1.98 - 6.6 per pellet\n                49.5 - 165 per shot";
         abilities[aCount].abilityDetails[++bCount] = "<b>Falloff Range:</b> 23 to 38 meters";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 80 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 8 meters (pre-detonation)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Pellets:</b> Post-detonation: 25 pellets";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> ~1.18 shots per second";
@@ -62,7 +62,7 @@ public class RoadhogHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightBumper;
         abilities[aCount].abilityDetails = new string[14];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 30";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 40 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 40 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 20 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 0.5 meter radius (vs enemy)\n          as hitscan shoot(vs wall or shield)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.16 seconds";
@@ -108,7 +108,7 @@ public class RoadhogHD : HeroData
         abilities[aCount].abilityDetails[++bCount] = "\nRoadhog cannot control his firerate or use any other abilities during the ultimate; the Scrap Gun simply fires even without a button being pressed.";
         abilities[aCount].abilityDetails[++bCount] = "\nRestores Scrap Gun ammo after the ability ends, provided the ability wasn't canceled prematurely.";
         abilities[aCount].abilityDetails[++bCount] = "\nWhile the ultimate is in use, Roadhog's bullets will have red tracer lines on enemy vision.";
-        abilities[aCount].abilityDetails[++bCount] = "\nWhole Hog knocks back enemies at a rate of up to 14 meters per second.";
+        abilities[aCount].abilityDetails[++bCount] = "\nWhole Hog knocks back enemies at a rate of up to 14 mps.";
 
         strongAgainst = new HERO_ID[8];
         strongAgainst[0] = HERO_ID.Genji;

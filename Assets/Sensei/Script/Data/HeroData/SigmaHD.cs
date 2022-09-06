@@ -27,7 +27,7 @@ public class SigmaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.RightTrigger;
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 2 charges per burst, each:\n        55 direct damage\n        9 - 30 splash damage\n        2.25 - 7.5 self damage";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 50 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 22 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 3 meter implosion radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Rate of Fire:</b> 2 shoots per 1.48 seconds";
@@ -47,7 +47,7 @@ public class SigmaHD : HeroData
         abilities[aCount].abilityDetails = new string[10];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Health:</b> 700";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> Regenerates 80 barrier health per second, after being down for 2 seconds";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 16.5 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 16.5 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> ?";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 4.5 meters height; 5 meters width at the poles, curves to 7 meters in the middle";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.064 seconds.";
@@ -65,7 +65,7 @@ public class SigmaHD : HeroData
         abilities[aCount].abilityDetails = new string[11];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 70 direct damage\n        2 - 40 splash damage\n        6 - 20 self damage";
         abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> -75% penalty";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 37.5 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 37.5 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 4 meters knockback (direct)\n            1 - 2 meters knockback(splash)\n            2 meters knockback(self)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 2.5 meter explosion radius";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> 0.640 seconds for throw + 0.48 s. recovery";
@@ -98,7 +98,7 @@ public class SigmaHD : HeroData
         abilities[aCount].controllerButton = ControllerButton.Y;
         abilities[aCount].abilityDetails = new string[15];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 50 damage (lift)\n        50 % max HP(slam)";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 7.15 meters per second";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Move. Speed:</b> 7.15 mps";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 35 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Area of Effect:</b> 7 meter radius\n               lifts enemies up to 10.3 meters";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.6 s. before can select the area & duration starts";

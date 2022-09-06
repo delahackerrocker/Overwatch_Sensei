@@ -78,7 +78,7 @@ public class MoiraHD : HeroData
         abilities[aCount].abilityDetails = new string[12];
         abilities[aCount].abilityDetails[bCount = 0] = "<b>Damage:</b> 50 per second, up to 200";
         abilities[aCount].abilityDetails[++bCount] = "<b>Healing:</b> 65 per second, up to 300";
-        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 meters per second\n              5.5 meters per second while tethered";
+        abilities[aCount].abilityDetails[++bCount] = "<b>Projectile Speed:</b> 20 mps\n              5.5 mps while tethered";
         abilities[aCount].abilityDetails[++bCount] = "<b>Max Range:</b> 4 meters (damage orb)\n           5 meters(healing orb)";
         abilities[aCount].abilityDetails[++bCount] = "<b>Casting Time:</b> instantly + 0.4 s. recovery";
         abilities[aCount].abilityDetails[++bCount] = "<b>Duration:</b> 7 seconds, or until depleted";
