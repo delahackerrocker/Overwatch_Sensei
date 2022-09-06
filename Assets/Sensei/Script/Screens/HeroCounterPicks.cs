@@ -21,6 +21,9 @@ public class HeroCounterPicks : MonoBehaviour
     }
     // ----
 
+
+    public HERO_ID nowShowing = HERO_ID.None;
+
     public TextMeshProUGUI title;
 
     public PickHeroButton[] strongAgainst = new PickHeroButton[8];
@@ -28,12 +31,37 @@ public class HeroCounterPicks : MonoBehaviour
 
     private void Update()
     {
-        title.text = Main.Instance.selectedHero+": Counter Picks";
+        if ((nowShowing != Main.Instance.selectedHero) && (Main.Instance.selectedHero != HERO_ID.None))
+        {
+            title.text = Main.Instance.selectedHero + ": counter Picks";
+
+            int countA = 0;
+            int countB = 0;
+            // Setup Strong Against Buttons
+            for (countA=0; countA < Main.Instance.heroes[(int)Main.Instance.selectedHero].strongAgainst.Length; countA++)
+            {
+                strongAgainst[countA].heroID = Main.Instance.heroes[(int)Main.Instance.selectedHero].strongAgainst[countA];
+            }
+            for (countB = countA; countB < strongAgainst.Length; countB++)
+            {
+                strongAgainst[countB].heroID = HERO_ID.None;
+            }
+
+            // Setup Weak Against Buttons
+            for (countA = 0; countA < Main.Instance.heroes[(int)Main.Instance.selectedHero].weakAgainst.Length; countA++)
+            {
+                weakAgainst[countA].heroID = Main.Instance.heroes[(int)Main.Instance.selectedHero].weakAgainst[countA];
+            }
+            for (countB = countA; countB < weakAgainst.Length; countB++)
+            {
+                weakAgainst[countB  ].heroID = HERO_ID.None;
+            }
+        }
     }
 
     public void Picked(HERO_ID hero)
     {
-        DebugOverlay.Output("Counter Picked: " + hero);
+        DebugOverlay.Output("countAer Picked: " + hero);
         Main.Instance.counterPick = hero;
         PanelNavigation.Instance.GOTO_HeroVersusHero();
     }

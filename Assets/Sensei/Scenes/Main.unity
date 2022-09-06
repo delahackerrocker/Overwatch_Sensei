@@ -6557,23 +6557,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 1439866304}
   strongAgainst:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1717438264}
+  - {fileID: 667144686}
+  - {fileID: 1726484458}
+  - {fileID: 1663882448}
+  - {fileID: 2018780469}
+  - {fileID: 1453948970}
+  - {fileID: 1805695677}
+  - {fileID: 390200258}
   weakAgainst:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1766366996}
+  - {fileID: 976242574}
+  - {fileID: 1830117018}
+  - {fileID: 1950582426}
+  - {fileID: 1320846426}
+  - {fileID: 1995511603}
+  - {fileID: 544708143}
+  - {fileID: 1881339008}
 --- !u!1 &1034884909
 GameObject:
   m_ObjectHideFlags: 0
