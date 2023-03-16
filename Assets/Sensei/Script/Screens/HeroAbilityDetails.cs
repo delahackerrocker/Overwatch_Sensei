@@ -16,7 +16,7 @@ public class HeroAbilityDetails : MonoBehaviour
 
     public VideoPlayer videoPlayer;
 
-    protected string path = "file://E:/Developer/Overwatch_App/GIT/Overwatch_Sensei/Assets/Sensei/Resources/Heroes/Videos/";
+    protected string path = "file://F:/Developer/Overwatch_App/GIT/Overwatch_Sensei/Assets/Sensei/Resources/Heroes/Videos/";
 
     private void Update()
     {
@@ -43,10 +43,11 @@ public class HeroAbilityDetails : MonoBehaviour
 
             //We want to play from url
             videoPlayer.source = VideoSource.Url;
-            videoPlayer.url = path + Main.Instance.selectedAbility.abilityVideo + ".mp4";
+            //videoPlayer.url = path + Main.Instance.selectedAbility.abilityVideo + ".mp4";
+            videoPlayer.url = "file://" + Application.streamingAssetsPath + "/" + Main.Instance.selectedAbility.abilityVideo + ".mp4";
 
-            //Debug.Log("Trying to load video: "+ path + Main.Instance.selectedAbility.abilityVideo + ".mp4");
-            //Debug.Log("path: " + path);
+            Debug.Log("Trying to load video: "+ path + Main.Instance.selectedAbility.abilityVideo + ".mp4");
+            Debug.Log("path: " + path);
             //Debug.Log("dataset: "+Main.Instance.selectedAbility.abilityVideo + ".mp4");
 
             videoPlayer.Prepare();
