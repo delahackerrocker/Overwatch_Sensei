@@ -837,8 +837,12 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Build: 1
+    Build: 0
     Collab: 0
+    Game Performance: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -852,11 +856,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 99cda9af-e379-47c7-ab6e-e496baadc7a0
+  cloudProjectId: 2faa0a58-f237-424f-b51c-aa32c0339b2b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Overwatch Sensei
-  organizationId: steve-de-la-torre
+  projectName: Sensei
+  organizationId: rebel-future
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
