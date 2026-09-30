@@ -16,7 +16,10 @@ public class AbilityButton : MonoBehaviour
 
     public void Select()
     {
+        if (abilityData == null || Main.Instance.selectedHero == HERO_ID.None) return;
         Main.Instance.selectedAbility = abilityData;
+        Main.Instance.abilityIndex = System.Array.IndexOf(
+            Main.Instance.heroes[(int)Main.Instance.selectedHero].abilities, abilityData);
         PanelNavigation.Instance.GOTO_HeroAbilityDetails();
     }
 

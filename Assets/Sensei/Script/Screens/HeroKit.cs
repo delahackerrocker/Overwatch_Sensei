@@ -141,9 +141,6 @@ public class HeroKit : MonoBehaviour
                     YBTN.ClearButton();
                 }
             }
-        } else
-        {
-            Main.Instance.selectedAbility = null;
         }
 
     }

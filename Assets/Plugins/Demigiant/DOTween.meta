@@ -1,8 +1,21 @@
 fileFormatVersion: 2
 guid: 8fa685d63793fc141b63fb054fd55600
+labels:
+- Tween
+- Tweening
+- Animation
+- HOTween
+- Paths
+- iTween
+- DFTween
+- LeanTween
+- Ease
+- Easing
+- Shake
+- Punch
+- 2DToolkit
+- TextMeshPro
+- Text
 folderAsset: yes
 DefaultImporter:
-  externalObjects: {}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

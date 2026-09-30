@@ -1,34 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using DG.Tweening;
 
-public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
+[RequireComponent(typeof(RectTransform))]
+public class PanelNavigation : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    // Singleton
     public static PanelNavigation Instance { get; private set; }
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
-    }
-    // ----
-    private PointerEventData _lastPointerData;
 
+    // Kept for scene compatibility; now a canvas-local destination.
     public Vector3 panelLocation;
+    [Tooltip("Fraction of the viewport required to change panels. The original scene uses zero.")]
     public float percentThreshold = 25f;
-
-    Vector3 panelSize = new Vector3(2340f, 1080f, 0f);
-
-    public PanelNode currentlySelected = null;
-
+    public PanelNode currentlySelected;
     public PanelNode PickHero;
     public PanelNode HeroTasks;
     public PanelNode HeroKit;
@@ -39,215 +22,191 @@ public class PanelNavigation : MonoBehaviour, IDragHandler, IEndDragHandler
     public PanelNode HeroVersusHero_Next;
     public PanelNode NextHeroAbilityDetails;
 
-    void Start()
+    private RectTransform _rect;
+    private RectTransform _viewport;
+    private Vector2 _panelSize;
+    private Vector2 _dragOrigin;
+    private PointerEventData _lastPointerData;
+    private Tween _transition;
+    private bool _cancelledDrag;
+
+    private void Awake()
     {
-        panelLocation = transform.position;
+        if (Instance != null && Instance != this) { Destroy(this); return; }
+        Instance = this;
+        _rect = (RectTransform)transform;
     }
-    void Update()
+
+    private void Start()
     {
+        var canvas = GetComponentInParent<Canvas>();
+        if (canvas != null)
+        {
+            var layout = canvas.GetComponent<LandscapeLayout>();
+            if (layout == null) layout = canvas.gameObject.AddComponent<LandscapeLayout>();
+            layout.Initialize(_rect);
+        }
+        _viewport = (RectTransform)_rect.parent;
+        RefreshLayout();
+    }
+
+    private void Update()
+    {
+        if (_viewport != null && _viewport.rect.size != _panelSize) RefreshLayout();
+        if (Main.Instance == null) return;
         if (currentlySelected == PickHero)
         {
             Main.Instance.selectedHero = HERO_ID.None;
             Main.Instance.counterPick = HERO_ID.None;
+            Main.Instance.selectedAbility = null;
         }
-        if (currentlySelected == HeroTasks)
-        {
-            Main.Instance.counterPick = HERO_ID.None;
-        }
-        if (currentlySelected == HeroVersusHero)
-        {
-            if (Main.Instance.counterPick == HERO_ID.None)
-            {
-                Main.Instance.counterPick = HERO_ID.Ana;
-            }
-        }
+        if (currentlySelected == HeroTasks) Main.Instance.counterPick = HERO_ID.None;
+        if (currentlySelected == HeroVersusHero && Main.Instance.counterPick == HERO_ID.None)
+            Main.Instance.counterPick = HERO_ID.Ana;
     }
 
-    public void GOTO_PickHero()
+    public void RefreshLayout()
     {
+        if (_viewport == null) return;
+        var size = _viewport.rect.size;
+        if (size.x <= 0 || size.y <= 0) return;
         CancelDrag();
-        currentlySelected = PickHero;
-        Transition(new Vector3(1170, 540, 0));
+        _transition?.Kill();
+        _panelSize = size;
+        _rect.anchorMin = _rect.anchorMax = _rect.pivot = new Vector2(0.5f, 0.5f);
+        _rect.sizeDelta = size;
+        // Preserve the authored arrangement, independent of viewport pixels.
+        Place(PickHero, 0, 0);
+        Place(HeroTasks, 0, -1);
+        Place(HeroKit, -1, -1);
+        Place(HeroAbilityDetails, -2, -1);
+        Place(HeroCounterPicks, 1, -1);
+        Place(HeroVersusHero, 0, -2);
+        Place(HeroVersusHero_Previous, -1, -2);
+        Place(HeroVersusHero_Next, 1, -2);
+        Place(NextHeroAbilityDetails, -3, -1);
+        var splash = _rect.Find("StartSplash") as RectTransform;
+        if (splash != null) { splash.sizeDelta = size; splash.anchoredPosition = Vector2.zero; }
+        if (currentlySelected == null) currentlySelected = PickHero;
+        panelLocation = Destination(currentlySelected);
+        _rect.anchoredPosition = panelLocation;
     }
 
-    public void GOTO_HeroTasks()
+    private void Place(PanelNode node, int x, int y)
     {
-        CancelDrag();
-        currentlySelected = HeroTasks;
-        Transition(new Vector3(1170, 1620, 0));
+        if (node == null) return;
+        var rect = (RectTransform)node.transform;
+        rect.anchorMin = rect.anchorMax = rect.pivot = new Vector2(0.5f, 0.5f);
+        rect.sizeDelta = _panelSize;
+        rect.anchoredPosition = new Vector2(x * _panelSize.x, y * _panelSize.y);
     }
-    public void GOTO_HeroKit()
+
+    private Vector2 Destination(PanelNode node)
     {
-        CancelDrag();
-        currentlySelected = HeroKit;
-        Transition(new Vector3(3510, 1620, 0));
+        return node == null ? Vector2.zero : -((RectTransform)node.transform).anchoredPosition;
     }
-    public void GOTO_HeroAbilityDetails()
+
+    public void GOTO_PickHero() => GoTo(PickHero);
+    public void GOTO_HeroTasks() => GoTo(HeroTasks);
+    public void GOTO_HeroKit() => GoTo(HeroKit);
+    public void GOTO_HeroAbilityDetails() => GoTo(HeroAbilityDetails);
+    public void GOTO_HeroVersusHero() => GoTo(HeroVersusHero);
+    public void GOTO_HeroCounterPicks() => GoTo(HeroCounterPicks);
+
+    private void GoTo(PanelNode node)
     {
+        if (node == null) return;
         CancelDrag();
-        currentlySelected = HeroAbilityDetails;
-        Transition(new Vector3(5850, 1620, 0));
-    }
-    public void GOTO_HeroVersusHero()
-    {
-        CancelDrag();
-        currentlySelected = HeroVersusHero;
-        Transition(new Vector3(1170, 2700, 0));
-    }
-    public void GOTO_HeroCounterPicks()
-    {
-        CancelDrag();
-        currentlySelected = HeroCounterPicks;
-        Transition(new Vector3(-1170, 1620, 0));
+        currentlySelected = node;
+        Transition(Destination(node));
     }
 
     protected void Transition(Vector3 newLocation)
     {
+        _transition?.Kill();
         panelLocation = newLocation;
-        transform.DOMove(new Vector3(newLocation.x, newLocation.y, newLocation.z), 0.5f)
-                  .SetOptions(true)
-                  .SetEase(Ease.OutQuint);
+        _transition = _rect.DOAnchorPos(newLocation, 0.5f, true).SetEase(Ease.OutQuint);
     }
 
     public void CancelDrag()
     {
-        if (_lastPointerData != null)
-        {
-            _lastPointerData.pointerDrag = null;
-
-            // Reset position here
-        }
+        if (_lastPointerData == null) return;
+        _lastPointerData.pointerDrag = null;
+        _lastPointerData = null;
+        _cancelledDrag = true;
     }
-    
+
+    public void OnBeginDrag(PointerEventData data)
+    {
+        if (currentlySelected == null) return;
+        _transition?.Kill();
+        _lastPointerData = data;
+        _cancelledDrag = false;
+        _dragOrigin = _rect.anchoredPosition;
+    }
+
+    private Vector2 Displacement(PointerEventData data)
+    {
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(_viewport, data.pressPosition, data.pressEventCamera, out var start);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(_viewport, data.position, data.pressEventCamera, out var end);
+        return start - end;
+    }
+
     public void OnDrag(PointerEventData data)
     {
-        // Debug.Log(data.pressPosition - data.position);
-
-        float xDifference = 0;
-        if (currentlySelected.HasLeft() || currentlySelected.HasRight()) 
-        {
-            xDifference = data.pressPosition.x - data.position.x;
-        }
-        float yDifference = 0;
-        if (currentlySelected.HasAbove() || currentlySelected.HasBelow())
-        {
-            yDifference = data.pressPosition.y - data.position.y;
-        }
-        
-        transform.position = panelLocation - new Vector3(xDifference, yDifference, 0);
-
-        DebugOverlay.Output("xDifference: " + xDifference+ ", yDifference: " + yDifference);
+        if (currentlySelected == null || _viewport == null) return;
+        if (_lastPointerData != data) OnBeginDrag(data);
+        var difference = Displacement(data);
+        if (!currentlySelected.HasLeft() && !currentlySelected.HasRight()) difference.x = 0;
+        if (!currentlySelected.HasAbove() && !currentlySelected.HasBelow()) difference.y = 0;
+        _rect.anchoredPosition = _dragOrigin - difference;
     }
+
     public void OnEndDrag(PointerEventData data)
     {
-        float xPercentage = (data.pressPosition.x - data.position.x) / panelSize.x;
-        float yPercentage = (data.pressPosition.y - data.position.y) / panelSize.y;
+        if (_cancelledDrag || currentlySelected == null || _viewport == null) return;
+        _lastPointerData = null;
+        var difference = Displacement(data);
+        float x = difference.x / _panelSize.x;
+        float y = difference.y / _panelSize.y;
+        PanelNode next = null;
+        bool horizontal = Mathf.Abs(x) > Mathf.Abs(y);
+        if (Mathf.Abs(y) > Mathf.Abs(x) && Mathf.Abs(y) >= percentThreshold)
+            next = y > 0 ? currentlySelected.above : currentlySelected.below;
+        else if (horizontal && Mathf.Abs(x) >= percentThreshold)
+            next = x > 0 ? currentlySelected.right : currentlySelected.left;
 
-        if (Mathf.Abs(yPercentage) > Mathf.Abs(xPercentage))
+        if (next != null)
         {
-            // A Vertical Swipe Occurred
-            if (Mathf.Abs(yPercentage) >= percentThreshold)
-            {
-                Vector3 newLocation = panelLocation;
-                if (yPercentage > 0)
-                {
-                    // upward swipe; is there a panel above?
-                    if (currentlySelected.HasAbove())
-                    {
-                        DebugOverlay.Output("Vertical swipe down");
-                        // go to panel above
-                        newLocation += new Vector3(0, -panelSize.y, 0);
-
-                        currentlySelected = currentlySelected.above;
-                    }
-                }
-                else if (yPercentage < 0)
-                {
-                    // downward swipe; is there a panel below?
-                    if (currentlySelected.HasBelow())
-                    {
-                        DebugOverlay.Output("Vertical swipe up");
-                        // go to panel below
-                        newLocation += new Vector3(0, panelSize.y, 0);
-
-                        currentlySelected = currentlySelected.below;
-                    }
-                } else
-                {
-                    // not a valid move reset position
-                    newLocation = panelLocation;
-                }
-
-                if (currentlySelected == PickHero)
-                {
-                    // go straight to PickHero
-                    GOTO_PickHero();
-                } else
-                {
-                    // go to calculated position
-                    Transition(newLocation);
-                }
-            }
-            else
-            {
-                transform.position = panelLocation;
-            }
-        } else if (Mathf.Abs(xPercentage) > Mathf.Abs(yPercentage))
-        {
-            // A Horizontal Swipe Occurred
-            if (Mathf.Abs(xPercentage) >= percentThreshold)
-            {
-                Vector3 newLocation = panelLocation;
-                if (xPercentage > 0)
-                {
-                    // Left swipe; is there a panel to the right?
-                    if (currentlySelected.HasRight())
-                    {
-                        DebugOverlay.Output("Horizontal swipe left: " + currentlySelected.right.name);
-                        // go to panel to the right
-                        newLocation += new Vector3(-panelSize.x, 0, 0);
-
-                        currentlySelected = currentlySelected.right;
-                    }
-                }
-                else if (xPercentage < 0)
-                {
-                    // Right swipe; is there a panel to the left?
-                    if (currentlySelected.HasLeft())
-                    {
-                        DebugOverlay.Output("Horizontal swipe right: " + currentlySelected.left.name);
-                        // go to panel to the left
-                        newLocation += new Vector3(panelSize.x, 0, 0);
-
-                        currentlySelected = currentlySelected.left;
-                    } else
-                    {
-                        // not a valid move reset position
-                        newLocation = panelLocation;
-                    }
-                }
-
-                Transition(newLocation);
-
-                if (currentlySelected == HeroVersusHero_Next)
-                {
-                    currentlySelected.GetComponent<HeroVersusHero>().GoToHero();
-                } else if (currentlySelected == HeroVersusHero_Previous)
-                {
-                    currentlySelected.GetComponent<HeroVersusHero>().GoToHero();
-                }
-                if (currentlySelected == NextHeroAbilityDetails)
-                {
-                    currentlySelected.GetComponent<NextHeroAbility>().GoToNext();
-                }
-            }
-            else
-            {
-                transform.position = panelLocation;
-            }
-        } else
-        {
-            transform.position = panelLocation;
+            GoTo(next);
+            if (horizontal && (next == HeroVersusHero_Next || next == HeroVersusHero_Previous))
+                next.GetComponent<HeroVersusHero>().GoToHero();
+            if (horizontal && next == NextHeroAbilityDetails)
+                next.GetComponent<NextHeroAbility>().GoToNext();
         }
+        else
+        {
+            bool committed = (horizontal && Mathf.Abs(x) >= percentThreshold) ||
+                (Mathf.Abs(y) > Mathf.Abs(x) && Mathf.Abs(y) >= percentThreshold);
+            if (committed) Transition(Destination(currentlySelected));
+            else
+            {
+                _transition?.Kill();
+                _rect.anchoredPosition = Destination(currentlySelected);
+                panelLocation = _rect.anchoredPosition;
+            }
+        }
+    }
+
+    private void OnDisable()
+    {
+        CancelDrag();
+        _transition?.Kill();
+        if (_rect != null) _rect.anchoredPosition = panelLocation;
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this) Instance = null;
     }
 }

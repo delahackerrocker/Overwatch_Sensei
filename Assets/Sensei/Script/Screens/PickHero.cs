@@ -46,6 +46,8 @@ public class PickHero : MonoBehaviour
         DebugOverlay.Output("Hero Picked: "+ hero);
         Main.Instance.selectedHero = hero;
         Main.Instance.counterPick = HERO_ID.None;
+        Main.Instance.selectedAbility = null;
+        Main.Instance.abilityIndex = 0;
         PanelNavigation.Instance.GOTO_HeroTasks();
     }
 
